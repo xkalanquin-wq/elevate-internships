@@ -1,0 +1,89 @@
+# Render Blueprint — New > Blueprint on render.com, pick this repo, and it
+# creates the service, the health check and the domains in one go.
+# You are prompted for the values marked `sync: false`.
+#
+# This runs on Render's FREE plan, which has no persistent disk: the
+# filesystem is wiped on every restart, redeploy and wake-from-sleep. The
+# database survives because server/cloudsave.js copies it to Cloudflare KV
+# (the three CF_* values below) and restores it on boot. Leave those unset and
+# every account disappears the first time the server sleeps.
+#
+# Free-plan trade-offs: the service sleeps after 15 minutes with no visitors,
+# and the next visit waits roughly a minute while it wakes. Writes made in the
+# last two minutes before a redeploy can be lost.
+#
+# To move to a paid plan with a disk instead: set `plan: starter`, add
+#     disk: { name: data, mountPath: /opt/render/project/src/data, sizeGB: 1 }
+# and BACKUP_EVERY_HOURS=24, then remove the CF_* values. See DEPLOY.md.
+#
+# One detail that fails quietly: the build installs devDependencies explicitly
+# (--include=dev). NODE_ENV is already `production` at build time, and under
+# that `npm ci` skips devDependencies — so Vite would be missing and the build
+# would fail, even though it works on your own machine.
+
+services:
+  - type: web
+    name: career-launchpad
+    runtime: node
+    plan: free
+    region: virginia
+    # One instance: SQLite wants one writer, the rate limiter counts in memory,
+    # and two copies would overwrite each other's saves in Cloudflare.
+    numInstances: 1
+
+    buildCommand: npm ci --include=dev && npm run build
+    startCommand: npm run serve
+    healthCheckPath: /api/health
+    autoDeploy: true
+
+    domains:
+      - elevateinternships.com
+      - www.elevateinternships.com
+
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: NODE_ENV
+        value: production
+      - key: TRUST_PROXY
+        value: "1"
+      - key: MAIL_FROM
+        value: Elevate Internships <noreply@elevateinternships.com>
+      # The address put in password-reset and confirmation links. Unset, the
+      # server falls back to the local dev address and every link is broken.
+      - key: SITE_URL
+        value: https://elevateinternships.com
+
+      # Render generates this one; nobody ever needs to type it.
+      - key: OWNER_SECRET
+        generateValue: true
+
+      # You are asked for these when the Blueprint is created.
+      - key: OWNER_PASSCODE
+        sync: false
+      - key: CONTACT_EMAIL
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+
+      # Payments (Premium and sponsored listings). Both off until set.
+      # sk_test_... to try it out, sk_live_... to take real money. See DEPLOY.md.
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+
+      # Google AdSense: ADSENSE_CLIENT (ca-pub-...) alone only verifies the site;
+      # ADSENSE_ADS=on also shows ads on the guide pages, once Google approves.
+      - key: ADSENSE_CLIENT
+        sync: false
+      - key: ADSENSE_ADS
+        sync: false
+
+      # Cloudflare KV, where the database is kept between restarts.
+      - key: CF_ACCOUNT_ID
+        sync: false
+      - key: CF_KV_NAMESPACE_ID
+        sync: false
+      - key: CF_API_TOKEN
+        sync: false

@@ -1,0 +1,2442 @@
+/* Components and pages. Every color, size, space, corner, shadow and timing
+   comes from tokens.css, which main.jsx loads first. The app shell (top bar,
+   section tabs, More sheet) lives in components/ui/ui.css. */
+
+/* Keyboard focus: one visible ring for every interactive element, in both
+   themes. */
+:where(a, button, input, select, textarea, summary, [role='checkbox'], [role='tab'], [role='radio']):focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+:where(a, button, input, select, textarea, summary):focus:not(:focus-visible) {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background-color: var(--bg);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  /* Garamond runs lighter than a grotesque at the same weight, so headings
+     take 600–700 and no negative tracking to hold their own. */
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-tight);
+  letter-spacing: 0;
+  margin: 0;
+  color: var(--ink);
+}
+
+h1 {
+  font-weight: var(--weight-bold);
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.15em;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* Nav-heavy page: give keyboard users a way past the header and tabs. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: var(--z-skip);
+  background: var(--accent);
+  color: var(--surface);
+  padding: var(--sp-3) var(--sp-4);
+  border-radius: 0 0 var(--radius-md) 0;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+/* A short label above a heading: the one place small capitals remain. */
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--faint);
+  margin-bottom: var(--sp-2);
+}
+
+/* ---- Cards, sections ---- */
+
+.card {
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-5);
+  box-shadow: var(--shadow-1);
+}
+
+.section {
+  margin-top: var(--sp-6);
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  padding-bottom: var(--sp-2);
+  margin-bottom: var(--sp-2);
+}
+
+/* h2 is what Ledger and Stats render — their section headings are the top
+   level inside the panel. h3 stays for nested sections that want the look. */
+.section-head h2,
+.section-head h3 {
+  font-size: var(--text-lg);
+  line-height: var(--leading-tight);
+}
+
+.section-note {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-1);
+}
+
+.section-count {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+/* ---- Progress meter ---- */
+
+.meter {
+  margin-top: var(--sp-5);
+  padding: var(--sp-5);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+}
+
+.meter-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+}
+
+.meter-count {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-2xl);
+  line-height: 1;
+}
+
+.meter-count span {
+  color: var(--faint);
+  font-size: var(--text-md);
+}
+
+.meter-hours {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--muted);
+  text-align: right;
+}
+
+.ticks {
+  display: flex;
+  gap: var(--sp-1);
+  margin-top: var(--sp-4);
+}
+
+.tick {
+  height: var(--sp-2);
+  flex: 1;
+  min-width: var(--sp-1);
+  background: var(--rule);
+  border-radius: var(--radius-pill);
+  transition: background-color var(--k-base) var(--ease);
+}
+
+.tick.on {
+  background: var(--accent);
+}
+
+/* ---- Rows: certifications in the Ledger, the Finder and a major page ---- */
+
+.row {
+  display: flex;
+  gap: var(--sp-3);
+  padding: var(--sp-4);
+  margin-top: var(--sp-3);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+}
+
+.row.done .row-title {
+  color: var(--muted);
+  text-decoration: line-through;
+  text-decoration-color: var(--faint);
+}
+
+/* The checkbox: a 44px target with a 24px box drawn inside it. */
+.check {
+  flex-shrink: 0;
+  width: var(--tap);
+  height: var(--tap);
+  margin: calc(-1 * var(--sp-2)) 0 0 calc(-1 * var(--sp-2));
+  border: 0;
+  border-radius: var(--radius-md);
+  background: none;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+
+.check::before {
+  content: '';
+  grid-area: 1 / 1;
+  width: var(--sp-5);
+  height: var(--sp-5);
+  border: 2px solid var(--field-border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  transition:
+    border-color var(--k-fast) var(--ease),
+    background-color var(--k-fast) var(--ease);
+}
+
+.check[aria-checked='true']::before {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.check svg {
+  grid-area: 1 / 1;
+  position: relative;
+  width: var(--sp-3);
+  height: var(--sp-3);
+  stroke: var(--surface);
+  stroke-width: 2.5;
+  fill: none;
+  opacity: 0;
+}
+
+.check[aria-checked='true'] svg {
+  opacity: 1;
+}
+
+@media (hover: hover) {
+  .check:hover::before {
+    border-color: var(--accent);
+  }
+}
+
+.row-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.row-title {
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-md);
+  line-height: var(--leading-snug);
+}
+
+.row-provider {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin-top: var(--sp-1);
+}
+
+.row-desc {
+  color: var(--ink);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-2);
+}
+
+.row-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+
+/* A secondary action inside a card: Open, Add, Save, Note… */
+.link-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-1);
+  min-height: var(--tap);
+  padding: 0 var(--sp-4);
+  border: var(--border) solid var(--field-border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  cursor: pointer;
+}
+
+.link-btn:disabled {
+  cursor: default;
+}
+
+@media (hover: hover) {
+  .link-btn:hover:not(:disabled) {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+}
+
+.row-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--faint);
+}
+
+/* Small labels: cost, source, status. Mono for the figures they often hold. */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-pill);
+  border: var(--border) solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  line-height: var(--leading-tight);
+}
+
+.tag.free {
+  color: var(--accent);
+  border-color: transparent;
+  background: var(--accent-soft);
+}
+
+.tag.audit,
+.tag.check {
+  color: var(--amber);
+  border-color: var(--amber);
+}
+
+.tag.ref {
+  color: var(--faint);
+}
+
+.tag.paid {
+  color: var(--ink);
+  border-color: var(--field-border);
+}
+
+/* Honest pricing sits with the item, not buried in a tooltip. */
+.price-note {
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+  color: var(--muted);
+  margin-top: var(--sp-2);
+  padding-left: var(--sp-3);
+  border-left: 2px solid var(--rule);
+}
+
+.stamp {
+  color: var(--accent);
+}
+
+/* Remove (×): a 44px round target. */
+.row-remove {
+  flex-shrink: 0;
+  align-self: flex-start;
+  width: var(--tap);
+  height: var(--tap);
+  margin: calc(-1 * var(--sp-2)) calc(-1 * var(--sp-2)) 0 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: none;
+  color: var(--faint);
+  cursor: pointer;
+  line-height: 1;
+  font-size: var(--text-lg);
+  padding: 0;
+}
+
+@media (hover: hover) {
+  .row-remove:hover {
+    background: var(--bg);
+    color: var(--amber);
+  }
+}
+
+/* ---- Forms ---- */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-4);
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+  min-width: 0;
+}
+
+.field.full {
+  grid-column: 1 / -1;
+}
+
+label {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--ink);
+}
+
+/* Control boundaries use --field-border, which clears WCAG 1.4.11's 3:1.
+   The decorative --rule hairline does not, and is not used here. */
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='url'],
+input[type='date'],
+input[type='datetime-local'],
+select,
+textarea {
+  background: var(--surface);
+  border: var(--border) solid var(--field-border);
+  border-radius: var(--radius-md);
+  min-height: var(--control-h);
+  padding: var(--sp-2) var(--sp-4);
+  width: 100%;
+  font-size: var(--text-base);
+  transition:
+    border-color var(--k-fast) var(--ease),
+    box-shadow var(--k-fast) var(--ease);
+}
+
+textarea {
+  padding: var(--sp-3) var(--sp-4);
+  line-height: var(--leading-body);
+}
+
+@media (hover: hover) {
+  input[type='text']:hover,
+  input[type='password']:hover,
+  input[type='email']:hover,
+  input[type='url']:hover,
+  input[type='date']:hover,
+  input[type='datetime-local']:hover,
+  select:hover,
+  textarea:hover {
+    border-color: var(--accent);
+  }
+}
+
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='date']:focus,
+input[type='datetime-local']:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: var(--ring);
+}
+
+::placeholder {
+  color: var(--faint);
+  opacity: 1;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-2);
+}
+
+/* An added interest: a filled pill with its own remove button. */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  min-height: var(--chip-h);
+  padding: 0 var(--sp-1) 0 var(--sp-3);
+  /* A long interest or provider name must wrap, not push the page sideways. */
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  border: var(--border) solid transparent;
+  background: var(--accent);
+  color: var(--surface);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+}
+
+/* Chips that only display (patterns, tags on a guide) have no button. */
+.chip:not(:has(button)) {
+  padding-right: var(--sp-3);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.chip button {
+  display: grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  margin: calc((var(--chip-h) - var(--tap)) / 2) calc(-1 * var(--sp-2)) calc((var(--chip-h) - var(--tap)) / 2) 0;
+  background: none;
+  border: none;
+  border-radius: var(--radius-pill);
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  font-size: var(--text-md);
+}
+
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-2);
+}
+
+/* A quick pick (a major, an interest idea): an outlined pill. */
+.suggestion {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  padding: 0 var(--sp-4);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+}
+
+@media (hover: hover) {
+  .suggestion:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+}
+
+/* Primary action. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: var(--control-h);
+  padding: 0 var(--sp-5);
+  border: var(--border) solid var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  text-align: center;
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .btn:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Secondary action: outlined in the accent color. */
+.btn.ghost {
+  background: var(--surface);
+  color: var(--accent);
+  border-color: var(--field-border);
+}
+
+@media (hover: hover) {
+  .btn.ghost:hover:not(:disabled) {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    opacity: 1;
+  }
+}
+
+.btn.small {
+  min-height: var(--control-h-sm);
+  padding: 0 var(--sp-4);
+  font-size: var(--text-sm);
+}
+
+.form-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-top: var(--sp-5);
+  flex-wrap: wrap;
+}
+
+/* ---- Job listings ---- */
+
+.job {
+  padding: var(--sp-4);
+  margin-top: var(--sp-3);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-1);
+}
+
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  align-items: flex-start;
+}
+
+.job-title {
+  font-weight: var(--weight-bold);
+  font-size: var(--text-md);
+  line-height: var(--leading-snug);
+}
+
+.job-company {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin-top: var(--sp-1);
+}
+
+.job-desc {
+  color: var(--ink);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-2);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  line-height: var(--leading-tight);
+  padding: var(--sp-1) var(--sp-2);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.badge.underclass {
+  color: var(--amber);
+  border-color: var(--amber);
+}
+
+.dist {
+  color: var(--accent);
+}
+
+.field-help {
+  font-size: var(--text-sm);
+  color: var(--faint);
+}
+
+/* Errors sit next to their field, not in a summary at the top. */
+.field-error {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--amber);
+}
+
+input[aria-invalid='true'],
+select[aria-invalid='true'],
+textarea[aria-invalid='true'] {
+  border-color: var(--amber);
+}
+
+/* Honeypot: off-screen rather than display:none, since some bots skip
+   hidden inputs. aria-hidden and tabindex keep it away from real users. */
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ---- Accounts ---- */
+
+.auth {
+  padding: var(--sp-6) 0 var(--sp-4);
+  max-width: var(--prose-max);
+}
+
+.auth h2 {
+  font-size: var(--text-title);
+  margin-top: var(--sp-1);
+}
+
+.auth-lede {
+  color: var(--muted);
+  margin: var(--sp-3) 0 var(--sp-6);
+  font-size: var(--text-base);
+}
+
+.auth .field {
+  margin-bottom: var(--sp-4);
+}
+
+.auth-switch {
+  margin-top: var(--sp-5);
+  padding-top: var(--sp-4);
+  border-top: var(--border) solid var(--rule);
+  color: var(--muted);
+  font-size: var(--text-base);
+}
+
+.auth-forgot {
+  /* .field is a flex column, which would stretch this to full width and
+     centre the text under the password box. */
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  margin-top: var(--sp-1);
+  font-size: var(--text-sm);
+}
+
+.auth-note {
+  color: var(--faint);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-4);
+  max-width: var(--prose-max);
+}
+
+.auth-gate {
+  padding: var(--sp-7) var(--sp-5);
+  text-align: center;
+}
+
+.auth-gate p {
+  color: var(--muted);
+  max-width: var(--prose-max);
+  margin: var(--sp-3) auto var(--sp-5);
+}
+
+.auth-gate .form-actions {
+  justify-content: center;
+}
+
+/* Guest mode: state the limitation plainly rather than nagging. */
+.guest-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  flex-wrap: wrap;
+  margin-top: var(--sp-5);
+  padding: var(--sp-4);
+  border: var(--border) solid var(--amber);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.guest-bar strong {
+  color: var(--ink);
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-4);
+  margin-top: var(--sp-4);
+  padding: var(--sp-3) var(--sp-4);
+  border: var(--border) solid var(--accent);
+  border-radius: var(--radius-lg);
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-size: var(--text-base);
+}
+
+.badge-edu {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-pill);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* ---- 404 ---- */
+
+.notfound {
+  padding: var(--sp-7) 0 var(--sp-2);
+  max-width: var(--prose-max);
+}
+
+.notfound h1,
+.notfound h2 {
+  font-size: var(--text-title);
+  margin-top: var(--sp-1);
+}
+
+.notfound p {
+  color: var(--muted);
+  font-size: var(--text-base);
+  margin: var(--sp-3) 0 0;
+}
+
+.notfound code {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: var(--sp-1) var(--sp-2);
+  border-radius: var(--radius-sm);
+  word-break: break-all;
+}
+
+.notfound-links {
+  margin-top: var(--sp-6);
+  padding-top: var(--sp-4);
+  border-top: var(--border) solid var(--rule);
+}
+
+.notfound-links ul {
+  list-style: none;
+  padding: 0;
+  margin: var(--sp-2) 0 0;
+}
+
+.notfound-links li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+}
+
+.notes {
+  margin-top: var(--sp-4);
+  padding: var(--sp-3) var(--sp-4);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.notes div + div {
+  margin-top: var(--sp-1);
+}
+
+.empty {
+  color: var(--muted);
+  font-size: var(--text-base);
+  padding: var(--sp-5) 0;
+}
+
+/* The starter track offered after a search. */
+.track-card {
+  margin-top: var(--sp-5);
+  padding: var(--sp-5);
+  background: var(--accent-soft);
+  border: var(--border) solid transparent;
+  border-radius: var(--radius-lg);
+}
+
+.track-card h2,
+.track-card h3 {
+  font-size: var(--text-lg);
+  margin-top: var(--sp-1);
+}
+
+.track-card p {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin: var(--sp-2) 0 0;
+  max-width: var(--prose-max);
+}
+
+.why {
+  color: var(--accent);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-2);
+}
+
+.error {
+  color: var(--amber);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  margin-top: var(--sp-3);
+}
+
+/* ---- Direct-search fallback: a compact grid of sites ---- */
+
+.sites {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+
+@media (min-width: 768px) {
+  .sites {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  }
+}
+
+.site {
+  display: block;
+  min-height: var(--tap);
+  padding: var(--sp-3) var(--sp-4);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+@media (hover: hover) {
+  .site:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+}
+
+.site-name {
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-sm);
+}
+
+.site-note {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-1);
+}
+
+.site-group {
+  margin-top: var(--sp-4);
+}
+
+details.fallback > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: var(--sp-3) 0;
+  min-height: var(--tap);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  border-bottom: var(--border) solid var(--rule);
+}
+
+details.fallback > summary::-webkit-details-marker {
+  display: none;
+}
+
+.fallback-title {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-md);
+}
+
+.fallback-sub {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-1);
+}
+
+.chev {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+details.fallback[open] .chev span::after {
+  content: 'hide';
+}
+
+details.fallback:not([open]) .chev span::after {
+  content: 'show';
+}
+
+/* ---- Skeletons: searching hits several sources, so reserve the space.
+   Each placeholder is shaped like the job card it stands in for; the
+   shimmer is in motion.css. ---- */
+
+.skel-row {
+  padding: var(--sp-4);
+  margin-top: var(--sp-3);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+}
+
+.skel {
+  height: var(--sp-3);
+  border-radius: var(--radius-pill);
+  background: var(--rule);
+  opacity: 0.55;
+}
+
+.skel + .skel {
+  margin-top: var(--sp-2);
+}
+
+/* Smallest phones still in use. */
+@media (max-width: 380px) {
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pattern-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .heat {
+    max-width: 100%;
+  }
+}
+
+/* ---- Consent banner ---- */
+
+.consent {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-banner);
+  background: var(--surface);
+  border-top: var(--border) solid var(--rule);
+  box-shadow: var(--shadow-3);
+  padding: var(--sp-4);
+  /* Clear the home indicator on notched phones. */
+  padding-bottom: calc(var(--sp-4) + var(--safe-bottom));
+}
+
+.consent-inner {
+  max-width: var(--read-max);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-4);
+}
+
+@media (min-width: 768px) {
+  .consent-inner {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--sp-5);
+  }
+}
+
+.consent-title {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-md);
+}
+
+.consent-body {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin: var(--sp-1) 0 0;
+  max-width: var(--prose-max);
+}
+
+.consent-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  text-decoration: underline;
+}
+
+.consent-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-2);
+  flex-shrink: 0;
+}
+
+/* ---- Footer ---- */
+
+.footer {
+  margin-top: var(--sp-8);
+  padding-top: var(--sp-5);
+  border-top: var(--border) solid var(--rule);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: var(--sp-3);
+  color: var(--faint);
+  font-size: var(--text-sm);
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap);
+  min-width: var(--tap);
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 0.2em;
+}
+
+@media (hover: hover) {
+  .footer-link:hover {
+    color: var(--accent);
+    text-decoration-color: currentColor;
+  }
+}
+
+.footer-note {
+  color: var(--faint);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-2);
+}
+
+/* ---- Legal pages ---- */
+
+.legal {
+  padding-top: var(--sp-2);
+  max-width: var(--prose-max);
+}
+
+.legal h1,
+.legal h2 {
+  font-size: var(--text-xl);
+  margin-top: var(--sp-5);
+}
+
+/* Section headings are h2 for a correct outline, styled as the h3s they replaced. */
+.legal h3,
+.legal h2.legal-section {
+  font-size: var(--text-md);
+  margin-top: var(--sp-6);
+}
+
+.legal p,
+.legal li {
+  color: var(--muted);
+  font-size: var(--text-base);
+}
+
+.legal p {
+  margin: var(--sp-3) 0;
+}
+
+.legal ul {
+  padding-left: var(--sp-5);
+  margin: var(--sp-3) 0;
+}
+
+.legal li {
+  margin: var(--sp-2) 0;
+}
+
+.legal code {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 0 var(--sp-1);
+  border-radius: var(--radius-sm);
+}
+
+.legal-date {
+  font-size: var(--text-sm);
+  color: var(--faint) !important;
+}
+
+.legal-callout {
+  margin: var(--sp-5) 0;
+  padding: var(--sp-4) var(--sp-5);
+  background: var(--accent-soft);
+  border: var(--border) solid transparent;
+  border-radius: var(--radius-lg);
+  font-size: var(--text-base);
+  color: var(--ink);
+}
+
+.legal-note {
+  margin: var(--sp-6) 0 0;
+  padding: var(--sp-4) var(--sp-5);
+  border: var(--border) solid var(--amber);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-sm);
+  color: var(--ink);
+}
+
+/* ---- Stats ---- */
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--sp-3);
+  margin-top: var(--sp-5);
+}
+
+@media (min-width: 768px) {
+  .stat-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  }
+}
+
+.stat-card {
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-4);
+  box-shadow: var(--shadow-1);
+}
+
+.stat-num {
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-2xl);
+  line-height: 1;
+  color: var(--accent);
+}
+
+.stat-label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--ink);
+  margin-top: var(--sp-2);
+}
+
+.stat-sub {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-1);
+}
+
+.stat-bar {
+  margin-bottom: var(--sp-4);
+}
+
+.stat-bar-head {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--sp-3);
+  align-items: baseline;
+}
+
+.stat-bar-label {
+  font-weight: var(--weight-semibold);
+  font-size: var(--text-base);
+}
+
+.stat-bar-num {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--faint);
+  white-space: nowrap;
+}
+
+.stat-track {
+  height: var(--sp-2);
+  background: var(--rule);
+  border-radius: var(--radius-pill);
+  margin-top: var(--sp-2);
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--radius-pill);
+}
+
+.heat {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 1fr;
+  gap: var(--sp-1);
+  margin-top: var(--sp-4);
+  max-width: var(--prose-max);
+}
+
+.heat-cell {
+  aspect-ratio: 1;
+  background: var(--accent);
+  border-radius: var(--radius-xs);
+}
+
+.pattern-cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+  gap: var(--sp-5);
+  margin-top: var(--sp-4);
+}
+
+.stat-foot {
+  color: var(--faint);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-6);
+  padding-top: var(--sp-4);
+  border-top: var(--border) solid var(--rule);
+}
+
+/* ---- Small layout helpers used by several screens ---- */
+
+.muted {
+  color: var(--muted);
+}
+
+.form-actions.tight {
+  margin-top: var(--sp-3);
+}
+
+.field.spaced {
+  margin-top: var(--sp-3);
+}
+
+.section.flush {
+  margin-top: 0;
+}
+
+.stack-top {
+  margin-top: var(--sp-3);
+}
+
+.narrow-card {
+  max-width: var(--prose-max);
+  padding: var(--sp-6);
+}
+
+/* A job card's title block and its badges. */
+.job-head {
+  min-width: 0;
+}
+
+.job-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+}
+
+.link-warning {
+  color: var(--amber);
+}
+
+/* Skeleton lines shaped like a job card: title, company line, description. */
+.skel-title {
+  width: 58%;
+  height: var(--sp-4);
+}
+
+.skel-meta {
+  width: 34%;
+}
+
+.skel-line {
+  width: 86%;
+}
+
+/* ---- Visually hidden, still read aloud ---- */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* ---- Finder layout ----
+   Before a search the form keeps a reading width. On a desktop with results,
+   the form becomes a sticky column beside them, so a refined search is one
+   glance away while scrolling the list. */
+
+.finder {
+  max-width: var(--read-max);
+}
+
+.finder.has-results {
+  max-width: none;
+}
+
+@media (min-width: 1024px) {
+  .finder.has-results {
+    display: grid;
+    grid-template-columns: minmax(0, 22rem) minmax(0, 1fr);
+    gap: var(--sp-6);
+    align-items: start;
+  }
+
+  .finder.has-results .finder-search {
+    position: sticky;
+    top: calc(var(--topnav-h) + var(--sp-4));
+    max-height: calc(100dvh - var(--topnav-h) - var(--sp-6));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .finder.has-results .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* The first block in the results column lines up with the top of the form. */
+  .finder.has-results .finder-results > :first-child {
+    margin-top: 0;
+  }
+}
+
+/* ---- Finder: filters over the results, and the job-card actions ---- */
+
+.filter-bar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-3);
+  margin: var(--sp-2) 0 var(--sp-1);
+  padding: var(--sp-4);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+}
+
+@media (min-width: 768px) {
+  .filter-bar {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* The cost and time filters on a certifications-by-major page. */
+  .filter-bar-two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.filter-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-3);
+  margin: var(--sp-3) 0 0;
+}
+
+.link-btn.primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--surface);
+}
+
+@media (hover: hover) {
+  .link-btn.primary:hover:not(:disabled) {
+    background: var(--accent);
+    opacity: 0.9;
+  }
+}
+
+.link-btn.saved {
+  border-color: transparent;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.link-btn.linkedin {
+  color: var(--accent);
+}
+
+.link-btn:disabled {
+  opacity: 0.75;
+}
+
+/* The LinkedIn / Handshake / Indeed row above the results. */
+.also-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  margin: var(--sp-2) 0 var(--sp-1);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--accent-soft);
+  border: var(--border) solid transparent;
+  border-radius: var(--radius-lg);
+}
+
+.also-label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--accent);
+  margin-right: var(--sp-1);
+}
+
+.link-btn.also {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.also-note {
+  flex-basis: 100%;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.source-credit {
+  margin-top: var(--sp-3);
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+.source-credit a {
+  color: var(--accent);
+}
+
+/* ---- Recent searches, "new" badge ---- */
+
+.recent-searches {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2);
+  margin: 0 0 var(--sp-4);
+}
+
+.badge.new {
+  color: var(--accent);
+  border-color: transparent;
+  background: var(--accent-soft);
+}
+
+/* ---- Tracker dates ---- */
+
+.date-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-top: var(--sp-2);
+}
+
+.date-chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  padding: var(--sp-1) var(--sp-2);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+}
+
+.date-chip.soon {
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+.date-chip.overdue {
+  border-color: var(--amber);
+  background: var(--amber);
+  color: var(--surface);
+}
+
+.date-chip.interview {
+  border-color: transparent;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.dates-editor {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-3);
+  margin-top: var(--sp-3);
+}
+
+@media (min-width: 768px) {
+  .dates-editor {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.dates-editor .row-links {
+  grid-column: 1 / -1;
+  margin-top: 0;
+}
+
+input[type='date'],
+input[type='datetime-local'] {
+  color-scheme: light dark;
+}
+
+.coming-list {
+  list-style: none;
+  margin: var(--sp-3) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.coming-list li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1) var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-left: var(--sp-1) solid var(--accent);
+  border-radius: var(--radius-md);
+}
+
+.coming-list li.soon {
+  border-left-color: var(--amber);
+}
+
+.coming-list li.overdue {
+  border-left-color: var(--amber);
+  background: var(--accent-soft);
+}
+
+.coming-when {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+  min-width: 12rem;
+}
+
+.coming-list li.soon .coming-when,
+.coming-list li.overdue .coming-when {
+  color: var(--amber);
+}
+
+.coming-what {
+  font-size: var(--text-base);
+}
+
+.reminder-toggle {
+  margin-top: var(--sp-4);
+  padding: var(--sp-3) var(--sp-4);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+
+/* A checkbox with its sentence: the whole line is the 44px target. */
+.toggle-line {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: var(--weight-regular);
+  color: var(--ink);
+  cursor: pointer;
+  min-height: var(--tap);
+}
+
+.toggle-line input {
+  flex: none;
+  width: var(--sp-5);
+  height: var(--sp-5);
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.reminder-note {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--sp-3);
+}
+
+/* The affiliate disclosure, shown only when a listed link is one. */
+.affiliate-note {
+  margin: 0 0 var(--sp-3);
+}
+
+/* Under the results heading, before "Also search". */
+.weekly-email {
+  margin: 0 0 var(--sp-4);
+}
+
+p.reminder-note.weekly-email {
+  margin: 0 0 var(--sp-4);
+}
+
+.add-internship {
+  margin-top: var(--sp-5);
+}
+
+.add-internship h2 {
+  font-size: var(--text-lg);
+}
+
+.add-internship .section-note {
+  margin: var(--sp-1) 0 var(--sp-4);
+}
+
+/* ---- Recruiting timeline ---- */
+
+.timeline h3 {
+  font-size: var(--text-md);
+  margin-bottom: var(--sp-2);
+}
+
+.timeline ol {
+  list-style: none;
+  margin: var(--sp-3) 0 0;
+  padding: 0 0 0 var(--sp-4);
+  border-left: 2px solid var(--accent-soft);
+}
+
+.timeline li {
+  position: relative;
+  padding: 0 0 var(--sp-4) var(--sp-1);
+}
+
+/* The dot sits centered on the line: half the dot's width plus the line. */
+.timeline li::before {
+  content: '';
+  position: absolute;
+  left: calc(-1 * (var(--sp-4) + var(--sp-2) / 2 + 1px));
+  top: var(--sp-1);
+  width: var(--sp-3);
+  height: var(--sp-3);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  border: 2px solid var(--accent);
+}
+
+.timeline-when {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+}
+
+.timeline-what {
+  color: var(--ink);
+  font-size: var(--text-base);
+  margin-top: var(--sp-1);
+  max-width: var(--prose-max);
+}
+
+.timeline-foot {
+  color: var(--faint);
+  font-size: var(--text-sm);
+}
+
+.timeline-toggle {
+  margin-top: var(--sp-3);
+}
+
+.timeline-toggle summary {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--accent);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  min-height: var(--tap);
+}
+
+/* ---- Application tracker ---- */
+
+.stage-strip {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--sp-2);
+  margin: var(--sp-4) 0 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .stage-strip {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.stage-strip li {
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-md);
+  padding: var(--sp-2);
+  text-align: center;
+  background: var(--surface);
+}
+
+.stage-strip li.on {
+  border-color: transparent;
+  background: var(--accent-soft);
+}
+
+.stage-num {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  line-height: var(--leading-tight);
+  color: var(--ink);
+}
+
+.stage-label {
+  display: block;
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  color: var(--muted);
+  margin-top: var(--sp-1);
+}
+
+.tracker-actions {
+  align-items: center;
+}
+
+.stage-select {
+  width: auto;
+  min-height: var(--tap);
+  padding: 0 var(--sp-3);
+  font-size: var(--text-sm);
+}
+
+.tracked-note {
+  white-space: pre-wrap;
+  border-left: 2px solid var(--rule);
+  padding-left: var(--sp-3);
+}
+
+/* ---- Major pages ---- */
+
+.major-head {
+  margin-top: var(--sp-5);
+}
+
+.major-head h1,
+.major-head h2 {
+  font-size: var(--text-xl);
+  margin-top: var(--sp-1);
+}
+
+.major-head p {
+  color: var(--muted);
+  max-width: var(--prose-max);
+  margin-top: var(--sp-2);
+}
+
+.major-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-3);
+  margin-top: var(--sp-4);
+}
+
+@media (min-width: 768px) {
+  .major-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+  }
+}
+
+.crumbs {
+  margin-top: var(--sp-4);
+}
+
+/* ---- Server-rendered pages (/internships, /career-guides, /premium…) ----
+   They share the app's top bar and tab bar (components/ui/ui.css). The plain
+   header below is what the owner and utility pages still use. */
+
+.static-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2) var(--sp-5);
+  padding: var(--sp-4) 0;
+  border-bottom: var(--border) solid var(--rule);
+}
+
+.static-brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.static-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--sp-4);
+}
+
+.static-nav a {
+  color: var(--muted);
+  font-size: var(--text-base);
+  text-decoration: none;
+  min-height: var(--tap);
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (hover: hover) {
+  .static-nav a:hover {
+    color: var(--accent);
+  }
+}
+
+.static-page .crumbs {
+  margin-top: var(--sp-4);
+  font-size: var(--text-sm);
+  color: var(--faint);
+}
+
+.static-page .crumbs a {
+  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap);
+  min-width: var(--tap);
+}
+
+.static-page h1 {
+  font-size: var(--text-title);
+  line-height: var(--leading-tight);
+  margin-top: var(--sp-1);
+}
+
+.static-page .major-head p,
+.guide p {
+  max-width: var(--prose-max);
+  line-height: var(--leading-body);
+}
+
+.static-list {
+  margin: var(--sp-3) 0 0;
+  padding-left: var(--sp-5);
+  line-height: var(--leading-body);
+  max-width: var(--prose-max);
+}
+
+.static-list li + li {
+  margin-top: var(--sp-2);
+}
+
+.static-cta {
+  margin: var(--sp-5) 0 var(--sp-2);
+}
+
+.static-cta .btn {
+  text-decoration: none;
+}
+
+.listing-mini {
+  list-style: none;
+  margin: var(--sp-3) 0 var(--sp-2);
+  padding: 0;
+  display: grid;
+  gap: var(--sp-2);
+}
+
+.listing-mini li {
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-md);
+}
+
+.listing-mini a {
+  font-weight: var(--weight-semibold);
+  color: var(--ink);
+}
+
+.listing-meta {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin-top: var(--sp-1);
+}
+
+.faq {
+  margin-top: var(--sp-4);
+  max-width: var(--prose-max);
+}
+
+/* Explanatory sections under the app and on the content pages. */
+.seo-guide {
+  max-width: var(--prose-max);
+}
+
+.seo-guide p {
+  line-height: var(--leading-body);
+  margin-top: var(--sp-3);
+}
+
+.seo-guide h2 {
+  margin-top: var(--sp-6);
+}
+
+.seo-guide h3,
+.seo-guide h2.as-h3 {
+  margin-top: var(--sp-5);
+}
+
+/* An h2 that keeps an h3's size (the browser default for h3), where the
+   outline needs the higher level but the design wants the smaller heading. */
+.as-h3 {
+  font-size: 1.17em;
+}
+
+.major-index-heading {
+  margin-top: var(--sp-6);
+}
+
+.page-figure {
+  margin: var(--sp-5) 0;
+}
+
+.page-figure img {
+  display: block;
+  width: 100%;
+  max-width: var(--read-max);
+  height: auto;
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+}
+
+.faq h3 {
+  font-size: var(--text-md);
+}
+
+.faq p {
+  color: var(--muted);
+  margin-top: var(--sp-1);
+  line-height: var(--leading-body);
+}
+
+.guide {
+  margin-top: var(--sp-5);
+  max-width: var(--prose-max);
+}
+
+.guide h2 {
+  font-size: var(--text-lg);
+  margin-top: var(--sp-6);
+}
+
+.guide h3 {
+  font-size: var(--text-md);
+  margin-top: var(--sp-4);
+}
+
+/* A heading that is itself a link gets the full touch height. */
+.guide h2 > a,
+.guide h3 > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+}
+
+.guide .chips {
+  margin-top: var(--sp-2);
+}
+
+.other-links {
+  line-height: 2;
+}
+
+.other-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+}
+
+/* "Add as a preferred source on Google" badge in every footer. */
+.pref-source {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  margin: var(--sp-4) var(--sp-2) var(--sp-1) 0;
+  padding: 0 var(--sp-4);
+  min-height: var(--tap);
+  border: var(--border) solid var(--field-border);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .pref-source:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+}
+
+.pref-source strong {
+  color: var(--accent);
+}
+
+.pref-star {
+  color: var(--amber);
+  font-size: var(--text-base);
+  line-height: 1;
+}
+
+/* "Install the app" uses the same pill, as a button. */
+button.pref-source {
+  cursor: pointer;
+  text-align: left;
+}
+
+.install-app .pref-star {
+  color: var(--accent);
+}
+
+.install-ios {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.install-how {
+  max-width: var(--prose-max);
+  margin: var(--sp-1) 0 var(--sp-2);
+  color: var(--muted);
+  font-size: var(--text-sm);
+  line-height: var(--leading-body);
+}
+
+.link-btn.quiet {
+  border-color: var(--rule);
+  color: var(--muted);
+}
+
+/* The server-rendered copy a crawler reads, shown for the instant before the
+   app loads (and to anyone without JavaScript). */
+.ssr-major {
+  max-width: var(--read-max);
+  margin: 0 auto;
+  padding: var(--sp-6) var(--sp-4);
+  line-height: var(--leading-body);
+}
+
+.ssr-major h1 {
+  font-size: var(--text-xl);
+}
+
+.ssr-major h2 {
+  font-size: var(--text-lg);
+  margin-top: var(--sp-5);
+}
+
+.ssr-major li + li {
+  margin-top: var(--sp-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* ---- Phones ----
+   The base rules above are already the phone layout; these few adjust
+   content that reads better stacked on a narrow screen. */
+@media (max-width: 767.98px) {
+  .job-top {
+    flex-direction: column;
+    gap: var(--sp-2);
+  }
+
+  .coming-when {
+    min-width: 0;
+  }
+
+  .section-head {
+    /* Count under the heading rather than squeezed beside it. */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--sp-1);
+  }
+
+  .card,
+  .meter {
+    padding: var(--sp-4);
+  }
+
+  .meter-top {
+    gap: var(--sp-2);
+  }
+
+  .meter-hours {
+    text-align: left;
+  }
+
+  .notfound {
+    padding-top: var(--sp-6);
+  }
+
+  .row-links .link-btn,
+  .form-actions .btn {
+    flex: 1 1 auto;
+  }
+}
+
+/* ---- Premium, account, sponsored listings, interview questions ---- */
+
+.badge.sponsored,
+.badge.premium {
+  color: var(--amber);
+  border-color: var(--amber);
+}
+
+.job.sponsored-job {
+  border-left: var(--sp-1) solid var(--amber);
+}
+
+.sponsored-mini {
+  margin-bottom: var(--sp-3);
+}
+
+.account-link {
+  text-decoration: none;
+}
+
+@media (hover: hover) {
+  .account-link:hover {
+    text-decoration: underline;
+  }
+}
+
+.account-page .account-card {
+  margin-top: var(--sp-5);
+}
+
+.account-card h2 {
+  margin-bottom: var(--sp-2);
+}
+
+.account-card h3 {
+  margin-top: var(--sp-4);
+}
+
+.premium-on {
+  border-left: var(--sp-1) solid var(--accent);
+}
+
+.alert-list {
+  list-style: none;
+  margin: var(--sp-2) 0 0;
+  padding: 0;
+}
+
+.alert-list li {
+  padding: var(--sp-2) 0;
+  border-bottom: var(--border) solid var(--rule);
+}
+
+.danger-zone {
+  margin-top: var(--sp-5);
+  border-top: var(--border) solid var(--rule);
+  padding-top: var(--sp-3);
+}
+
+.danger-zone summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  cursor: pointer;
+  color: var(--amber);
+  font-weight: var(--weight-semibold);
+}
+
+.danger-zone .field {
+  max-width: var(--prose-max);
+  margin-top: var(--sp-3);
+}
+
+.btn.danger {
+  background: var(--amber);
+  border-color: var(--amber);
+  color: var(--surface);
+}
+
+.premium-points {
+  list-style: none;
+  padding: 0;
+  margin: var(--sp-5) 0;
+  display: grid;
+  gap: var(--sp-3);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr));
+}
+
+.premium-points li {
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-1);
+  padding: var(--sp-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-2);
+}
+
+.premium-note {
+  border-left: var(--sp-1) solid var(--accent);
+  padding-left: var(--sp-3);
+}
+
+.iq {
+  margin-top: var(--sp-6);
+}
+
+.iq h2 {
+  font-size: var(--text-lg);
+}
+
+.sample-answer {
+  border: var(--border) solid transparent;
+  border-left: var(--sp-1) solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--accent-soft);
+  padding: var(--sp-3) var(--sp-4);
+  margin-top: var(--sp-3);
+}
+
+.sample-answer.locked {
+  background: var(--surface);
+  border-color: var(--rule);
+  border-left-color: var(--amber);
+}
+
+.sample-answer p {
+  margin: var(--sp-1) 0 0;
+}
+
+.sample-label {
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.sponsor-form {
+  margin: var(--sp-4) 0 var(--sp-6);
+}
+
+.field-label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--ink);
+}
+
+.check-grid {
+  display: grid;
+  gap: 0 var(--sp-4);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+}
+
+/* A checkbox with its words: reads as body text, not as a label. */
+label.check-line {
+  font-family: inherit;
+  font-size: var(--text-base);
+  font-weight: var(--weight-regular);
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: var(--tap);
+}
+
+label.check-line input {
+  width: var(--sp-5);
+  height: var(--sp-5);
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.show-more {
+  align-items: center;
+  margin-top: var(--sp-4);
+}

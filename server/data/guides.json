@@ -1,0 +1,703 @@
+{
+  "_note": "Career guides at /career-guides/<slug>. Sections are rendered in order. `generated` sections are built from live site data (the catalog, the recruiting timelines, the per-major copy) so they cannot drift from the rest of the site. Update `updated` whenever a guide's text changes. Optional per guide: metaTitle (the <title>, 60 characters or less, built around keyword) and keyword (the one search phrase this page targets; no two pages share one). A {faq:[{q,a}]} section renders questions with FAQPage markup.",
+  "guides": [
+    {
+      "slug": "free-certifications-for-business-students",
+      "title": "Free Certifications for Business Students",
+      "description": "Every free and free-to-audit certification in our catalog, grouped by business major, with what each one teaches and how long it takes.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "A certification will not get you an internship on its own, but the right free one shows a recruiter two things: that you already have a skill they need, and that you went and got it without being asked. This list is every certification in our catalog that you can complete for free, or audit for free and pay only if you want the certificate."
+        },
+        {
+          "p": "Free means free: the course and the certificate cost nothing. Free to audit means the course is free and the certificate is optional and paid. Prices and terms change, so confirm on the provider's site before you enroll."
+        },
+        {
+          "generated": "free-certs"
+        },
+        {
+          "h2": "How to use a free certification on your resume"
+        },
+        {
+          "ul": [
+            "List it under a Certifications section with the provider and the month you finished it.",
+            "Pick ones that match the internship you want, not the most impressive-sounding ones.",
+            "Be ready to talk about one thing you learned or built while doing it.",
+            "Add finished certifications to your LinkedIn profile — recruiters search for them."
+          ]
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "What free certifications should business students get?",
+              "a": "Start with one that matches your target role: Google Analytics or HubSpot for marketing, an Excel or financial modeling course for finance, SQL for analytics, QuickBooks or IRS VITA for accounting. A free job simulation on Forage is useful for any major."
+            },
+            {
+              "q": "Do free certifications look good on a resume?",
+              "a": "Yes, when they are relevant and you can talk about what you learned. List them under a Certifications section with the provider and the month you finished."
+            },
+            {
+              "q": "What does free to audit mean?",
+              "a": "The course material is free, but the certificate costs money. Auditing is a good way to learn the skill; pay for the certificate only if you want the credential on your resume."
+            }
+          ]
+        },
+        {
+          "cta": "Find certifications and internships for your major"
+        }
+      ],
+      "metaTitle": "Free Certifications for Business Students, by Major",
+      "keyword": "free certifications for business students"
+    },
+    {
+      "slug": "when-to-apply-for-business-internships",
+      "title": "When to Apply for Business Internships, by Major",
+      "description": "Recruiting timelines for 23 business majors — when accounting, finance, marketing and other internships typically open, and what to do each year.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "The most common way business students miss good internships is applying too late. Different fields recruit on very different calendars: investment banking can open more than a year before the summer, while many marketing and startup roles are posted only weeks before they start."
+        },
+        {
+          "p": "These are typical patterns. Firms set their own dates, and they shift a little every year, so check each firm's own deadline once you have a shortlist."
+        },
+        {
+          "generated": "timelines"
+        },
+        {
+          "h2": "A simple plan that works for any major"
+        },
+        {
+          "ol": [
+            "Freshman and sophomore year: look for early-insight and sophomore programs, and build one or two skills employers ask for.",
+            "The summer before junior year: make a list of target employers and note when each one recruits.",
+            "Junior fall: apply to the structured programs that recruit early.",
+            "Junior spring: keep applying — many mid-size companies and startups hire now."
+          ]
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "When should I apply for a summer internship?",
+              "a": "For finance, accounting and large corporate programs, apply in the fall of the year before, sometimes earlier. For marketing, startups and smaller companies, applications often open in the spring."
+            },
+            {
+              "q": "Is it too late to apply for summer internships in March?",
+              "a": "No. Many mid-size companies, startups and nonprofits hire in March and April. The structured programs at large firms will likely be closed, so focus on employers that hire on a rolling basis."
+            },
+            {
+              "q": "How early do investment banking internships recruit?",
+              "a": "Often more than a year ahead, with some applications opening in the spring of sophomore year for the summer after junior year."
+            }
+          ]
+        },
+        {
+          "cta": "Search internships near you"
+        }
+      ],
+      "metaTitle": "When to Apply for Business Internships, by Major",
+      "keyword": "when to apply for business internships"
+    },
+    {
+      "slug": "business-internship-resume",
+      "title": "How to Write a Business Internship Resume",
+      "description": "A one-page resume structure for business students, with resume keywords for 23 majors and examples of bullets that show results.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "Most internship resumes are read for well under a minute, often after software has already filtered them. A clear, one-page resume that uses the words from the job posting gets past both."
+        },
+        {
+          "h2": "The structure"
+        },
+        {
+          "ol": [
+            "Name and contact details: email, phone, city, and a LinkedIn URL.",
+            "Education: school, degree, major, expected graduation date, and GPA if it helps you. Relevant coursework is optional.",
+            "Experience: jobs, internships, leadership roles and significant projects, newest first.",
+            "Skills and certifications: tools you can actually use (Excel, SQL, Tableau) and certifications with dates.",
+            "Activities: clubs, competitions and volunteering, especially with a leadership role."
+          ]
+        },
+        {
+          "h2": "Write bullets that show results"
+        },
+        {
+          "p": "Start each bullet with a verb, say what you did, and end with a number or an outcome where you can."
+        },
+        {
+          "ul": [
+            "Weak: Responsible for social media for a student club.",
+            "Better: Grew a student club's Instagram from 400 to 1,100 followers in one semester by planning a weekly content calendar.",
+            "Weak: Helped with bookkeeping at a family business.",
+            "Better: Reconciled monthly bank statements for a family business in QuickBooks, catching $2,300 in duplicate charges."
+          ]
+        },
+        {
+          "h2": "Use the posting's own words"
+        },
+        {
+          "p": "Copy the important nouns from the job description — tools, skills, tasks — into your resume where they are true. Here are the words employers most often look for, by major."
+        },
+        {
+          "generated": "resume-keywords"
+        },
+        {
+          "h2": "Common mistakes"
+        },
+        {
+          "ul": [
+            "Going past one page.",
+            "Listing duties instead of what you achieved.",
+            "Claiming skills you could not use in an interview.",
+            "Sending the same resume to every posting without adjusting the keywords."
+          ]
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "How long should an internship resume be?",
+              "a": "One page. Recruiters spend well under a minute on a first read, and students rarely have enough relevant experience to need more."
+            },
+            {
+              "q": "Should I include my GPA on an internship resume?",
+              "a": "Include it if it is strong or if the posting asks for it; many finance and accounting firms expect it. If you leave it off, some recruiters will assume it is low."
+            },
+            {
+              "q": "What should I put on a resume with no work experience?",
+              "a": "Class projects, leadership roles in student organizations, volunteering, job simulations and certifications. Describe them with the same action-and-result bullets you would use for a job."
+            }
+          ]
+        },
+        {
+          "cta": "Find internships to apply to"
+        }
+      ],
+      "metaTitle": "How to Write a Business Internship Resume",
+      "keyword": "how to write a business internship resume"
+    },
+    {
+      "slug": "internship-with-no-experience",
+      "title": "How to Get a Business Internship With No Experience",
+      "description": "Seven practical ways business students build experience before their first internship — most of them free.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "Every first internship is given to someone without internship experience. What recruiters look for instead is evidence: that you can learn quickly, that you finish things, and that you care about the field."
+        },
+        {
+          "h2": "Seven ways to build that evidence"
+        },
+        {
+          "ol": [
+            "Do a free job simulation. Companies such as J.P. Morgan, Deloitte and BCG publish free virtual work experiences on Forage that end with a certificate.",
+            "Earn one certification that matches your target role, such as Google Analytics for marketing or an Excel certification for finance.",
+            "Volunteer your skills. The IRS VITA program trains students to prepare real tax returns; clubs and nonprofits need help with social media, budgets and events.",
+            "Take a leadership role in a student organization and do something measurable with it.",
+            "Build a small project: a stock pitch, a dashboard from public data, or a marketing plan for a local business.",
+            "Apply to sophomore and early-insight programs, which are designed for students with no experience.",
+            "Use your campus career center and alumni network — referrals reach recruiters that online applications often do not."
+          ]
+        },
+        {
+          "h2": "Where to look"
+        },
+        {
+          "p": "Start with programs built for underclassmen, smaller companies that hire on a rolling basis, and your own school's listings on Handshake. Our Finder marks postings aimed at freshmen and sophomores."
+        },
+        {
+          "h2": "What recruiters look for instead of experience"
+        },
+        {
+          "ul": [
+            "Curiosity about the field: you can explain why you want this kind of work and what you have done to learn about it.",
+            "Evidence you finish things: a completed certification, a project with a result, or a role you held for a full year.",
+            "Basic tools: Excel for nearly every business role, plus the one tool your field uses most, such as SQL, Google Analytics or QuickBooks.",
+            "Communication: clear, short answers in interviews and a resume without errors."
+          ]
+        },
+        {
+          "h2": "How to describe it on your resume"
+        },
+        {
+          "p": "Put projects, simulations and leadership roles under an Experience or Projects heading, and write them like jobs: start with a verb, say what you did, and end with a result. \"Built a three-statement model of a public company for a finance club stock pitch\" tells a recruiter far more than \"member, finance club\"."
+        },
+        {
+          "h2": "A four-week plan"
+        },
+        {
+          "ol": [
+            "Week 1: pick your target role and finish one free job simulation for it.",
+            "Week 2: complete one short certification that matches the role, and add both to your resume.",
+            "Week 3: build one small project — a stock pitch, a dashboard or a marketing plan — and write it up in three bullets.",
+            "Week 4: apply to ten internships that fit, including sophomore and early-insight programs, and message two alumni in the field."
+          ]
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "Can you get an internship with no experience?",
+              "a": "Yes. Every first internship goes to someone without internship experience. Recruiters look for evidence of interest and ability instead: projects, certifications, simulations and leadership roles."
+            },
+            {
+              "q": "What internships are easiest to get with no experience?",
+              "a": "Sophomore and early-insight programs at large firms, and internships at smaller companies and nonprofits that hire on a rolling basis. Your school's listings on Handshake are also aimed at students like you."
+            },
+            {
+              "q": "Do job simulations count as experience?",
+              "a": "They are not jobs, but they are real evidence of skills. List them under Projects with what you did and what you produced, and be ready to talk about them."
+            }
+          ]
+        },
+        {
+          "cta": "Search internships near you"
+        }
+      ],
+      "metaTitle": "How to Get a Business Internship With No Experience",
+      "keyword": "how to get a business internship with no experience"
+    },
+    {
+      "slug": "business-internship-interview-questions",
+      "title": "Business Internship Interview Questions and How to Prepare",
+      "description": "The questions business internship interviews usually ask — behavioral, motivational and technical — and a simple way to prepare your answers.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "Most business internship interviews mix three kinds of questions: why you want the role, how you have handled situations before, and — for some fields — basic technical knowledge. Preparing a handful of stories covers most of it."
+        },
+        {
+          "h2": "Questions you should expect"
+        },
+        {
+          "ul": [
+            "Tell me about yourself.",
+            "Why this company, and why this role?",
+            "Tell me about a time you worked on a team that disagreed.",
+            "Tell me about a time you made a mistake and what you did about it.",
+            "Describe a project you are proud of.",
+            "Where do you see yourself after graduation?",
+            "What questions do you have for us?"
+          ]
+        },
+        {
+          "h2": "Answer behavioral questions with STAR"
+        },
+        {
+          "p": "Situation, Task, Action, Result: set the scene in a sentence, say what you needed to do, spend most of the answer on what you did, and finish with what happened. Prepare four or five stories that you can adapt to different questions."
+        },
+        {
+          "h2": "Technical questions by field"
+        },
+        {
+          "ul": [
+            "Accounting: how the three financial statements connect, and debits and credits.",
+            "Finance: walking through a DCF, what drives a company's value, and a recent market event.",
+            "Marketing: a campaign you admired and why, and how you would measure success.",
+            "Business analytics: a SQL query, a chart you would use for a question, and how you checked your data.",
+            "Consulting and management: a short case — sizing a market or explaining a drop in profit."
+          ]
+        },
+        {
+          "h2": "After the interview"
+        },
+        {
+          "p": "Send a short thank-you email within a day, mentioning something specific from the conversation. Then record the interview in your applications tracker so you do not lose track of next steps."
+        },
+        {
+          "h2": "Sample answers"
+        },
+        {
+          "p": "Tell me about yourself: \"I'm a junior finance major at [school]. I got interested in corporate finance when I built a budget model for our student government, which helped us cut event costs by 12 percent. Since then I've completed a financial modeling course and led our investment club's research team. I'm applying here because your rotational program would let me see planning and treasury work, which is exactly what I want to learn next.\""
+        },
+        {
+          "p": "Why this company: name something specific — a product, a client, a recent announcement or a person you spoke with — and connect it to what you want to learn. \"When I spoke with [name] at the career fair, she described how interns present to the CFO at the end of the summer. I want that kind of responsibility, and your focus on [industry] matches the projects I have done in class.\""
+        },
+        {
+          "h2": "Questions to ask the interviewer"
+        },
+        {
+          "ul": [
+            "What does a successful intern accomplish by the end of the summer?",
+            "What kind of projects did last year's interns work on?",
+            "How do interns get feedback during the program?",
+            "What do you enjoy most about working on this team?"
+          ]
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "What are the most common internship interview questions?",
+              "a": "Tell me about yourself, why this company and role, a time you worked in a team, a time you made a mistake, and what questions you have for them. Business roles add a few technical questions for the field."
+            },
+            {
+              "q": "How should I prepare for a business internship interview?",
+              "a": "Prepare four or five STAR stories, research the company and the role, practice the technical basics for your field, and prepare two or three questions of your own."
+            },
+            {
+              "q": "How long should my answer to tell me about yourself be?",
+              "a": "About one minute: your year and major, one or two experiences that led you to this field, and why this role is your next step."
+            }
+          ]
+        },
+        {
+          "cta": "Track your applications and interviews"
+        }
+      ],
+      "metaTitle": "Business Internship Interview Questions and Answers",
+      "keyword": "business internship interview questions"
+    },
+    {
+      "slug": "networking-for-internships",
+      "title": "How to Network for a Business Internship",
+      "description": "How business students find people to talk to, what to write to them, and how an informational interview turns into a referral.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "Many internships are filled with help from someone inside the company: a referral moves your application to a recruiter who actually reads it. Networking is how you meet those people, and for a student it mostly means short, polite conversations about someone's job."
+        },
+        {
+          "h2": "Who to contact"
+        },
+        {
+          "ul": [
+            "Alumni of your school who work at companies you like. LinkedIn's alumni tool lets you filter your school's graduates by employer, city and job title.",
+            "People one or two years into the job you want. They remember recruiting clearly and are usually the most willing to help.",
+            "Recruiters and speakers you meet at career fairs and company information sessions. Ask for their card or connect the same day.",
+            "Professors, club advisors and past managers, who often know people in the industry and are rarely asked."
+          ]
+        },
+        {
+          "h2": "What to write"
+        },
+        {
+          "p": "Keep the first message short, specific and easy to say yes to. Ask for fifteen minutes of their time, not for a job."
+        },
+        {
+          "ol": [
+            "Say who you are in one line: your school, your year and your major.",
+            "Say why them: the shared school, their role, or something they wrote or worked on.",
+            "Ask one clear thing: a 15-minute call about how they got into their role.",
+            "Make it easy: offer two or three times, or say you will work around their schedule."
+          ]
+        },
+        {
+          "p": "Example: \"Hi Jordan, I'm a sophomore finance major at [school] and saw you went from our program to the analyst team at [company]. I'm starting to prepare for internship recruiting and would really value 15 minutes to hear how you approached it. Would any time next week work for a quick call?\""
+        },
+        {
+          "h2": "The informational interview"
+        },
+        {
+          "ul": [
+            "Prepare three or four questions: what a typical week looks like, what they wish they had known as a student, and what the team values in interns.",
+            "Keep to the time you asked for. Offer to end at 15 minutes, even if the conversation is going well.",
+            "Do not ask for a referral in the first conversation. If it goes well, they will often offer; if not, ask later, once you have applied.",
+            "Ask at the end: \"Is there anyone else you think I should talk to?\" One conversation often leads to two more."
+          ]
+        },
+        {
+          "h2": "Follow up"
+        },
+        {
+          "p": "Send a thank-you message the same day that mentions one thing you learned. When you apply to their company, let them know, and include the job ID so a referral is easy. A short update a few months later — you took their advice, or you got an offer — keeps the connection alive."
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "How do I network for an internship with no connections?",
+              "a": "Start with alumni from your school: LinkedIn's alumni tool lets you filter by employer and role. A short, specific message asking for fifteen minutes gets a surprising number of replies."
+            },
+            {
+              "q": "Is it okay to ask for a referral?",
+              "a": "Yes, after a conversation has gone well and you have applied. Make it easy: send the job ID and a one-line summary of why you fit."
+            },
+            {
+              "q": "How many people should I reach out to?",
+              "a": "A few each week is plenty. Consistent, well-written messages to people in roles you want work better than mass outreach."
+            }
+          ]
+        },
+        {
+          "cta": "Find internships to apply to"
+        }
+      ],
+      "metaTitle": "How to Network for a Business Internship",
+      "keyword": "how to network for a business internship"
+    },
+    {
+      "slug": "internship-cover-letter",
+      "title": "Internship Cover Letter for Business Students, With an Example",
+      "description": "A simple four-paragraph structure for a business internship cover letter, with what to put in each part and the mistakes that get letters skipped.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "Not every internship asks for a cover letter, and some recruiters never read them. When one is requested, though, a short, specific letter is a chance to explain what your resume cannot: why this company, and why you are a good bet with little experience."
+        },
+        {
+          "h2": "Keep it to one page, four paragraphs"
+        },
+        {
+          "ol": [
+            "Opening: the role you are applying for, your school, year and major, and one sentence on why this company in particular. If someone referred you, name them here.",
+            "Why you fit: pick two things from the posting and show evidence for each — a class project, a club role, a job, a certification. Use numbers where you can.",
+            "Why them: something specific about the company or team — a product, a client, a recent announcement — and how it connects to what you want to learn.",
+            "Close: thank them, say you would welcome the chance to talk, and give your email and phone number."
+          ]
+        },
+        {
+          "h2": "What makes a letter stand out"
+        },
+        {
+          "ul": [
+            "It is written for this posting. Repeat two or three of the posting's own words where they honestly describe you.",
+            "It shows rather than claims. \"I rebuilt our club's budget in Excel and cut event costs by 15%\" beats \"I am detail-oriented.\"",
+            "It is short. Three to four paragraphs, under 350 words, is plenty.",
+            "It uses the hiring manager's name if you can find it, and \"Dear Hiring Team\" if you cannot."
+          ]
+        },
+        {
+          "h2": "Common mistakes"
+        },
+        {
+          "ul": [
+            "Leaving another company's name in a reused letter. Check every name before sending.",
+            "Repeating the resume line by line instead of adding context to it.",
+            "Spending the letter on what the internship will do for you rather than what you will bring to the team.",
+            "Typos. Read it aloud once, and send it as a PDF unless the posting asks otherwise."
+          ]
+        },
+        {
+          "h2": "Example cover letter"
+        },
+        {
+          "p": "Dear Hiring Team,"
+        },
+        {
+          "p": "I'm applying for the Summer Marketing Analytics Internship at [company]. I'm a junior marketing major at [school], and your team's work on [product or campaign] is the kind of data-driven marketing I want to learn."
+        },
+        {
+          "p": "The posting asks for comfort with data and clear communication. As social media chair for our business club, I set up a weekly content calendar and used Instagram Insights to track what worked; our following grew from 400 to 1,100 in one semester. I also completed Google Analytics certification and used it to audit a local bakery's website, recommending three changes they have since made."
+        },
+        {
+          "p": "I'm especially interested in [company] because [specific reason — a campaign, a product, a conversation with an employee]. I'd bring the same habit of measuring results to your team, and I'm eager to learn how you test and report on campaigns."
+        },
+        {
+          "p": "Thank you for your time. I'd welcome the chance to talk, and I can be reached at [email] or [phone]."
+        },
+        {
+          "p": "Sincerely, [Your name]"
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "Do internships require a cover letter?",
+              "a": "Many do not. Write one when the posting asks for it or offers an optional upload, especially at smaller companies where a person reads every application."
+            },
+            {
+              "q": "How long should an internship cover letter be?",
+              "a": "Three or four short paragraphs, under 350 words, on one page."
+            },
+            {
+              "q": "What do I write in a cover letter with no experience?",
+              "a": "Use class projects, club roles, volunteering, certifications and part-time jobs as evidence. Pick two things from the posting and show one example of each."
+            }
+          ]
+        },
+        {
+          "cta": "Find internships to apply to"
+        }
+      ],
+      "metaTitle": "Internship Cover Letter for Business Students (Example)",
+      "keyword": "internship cover letter for business students"
+    },
+    {
+      "slug": "internship-to-full-time-offer",
+      "title": "How to Get a Return Offer From Your Internship",
+      "description": "What managers look for when deciding on return offers, and what to do in the first week, the middle and the last week of your internship.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "For many employers, the summer internship is the main way they hire graduates, and the decision on a return offer is made during those weeks. Managers are rarely looking for brilliance. They want someone reliable, curious and easy to work with, who gets better over the summer."
+        },
+        {
+          "h2": "The first week"
+        },
+        {
+          "ul": [
+            "Ask your manager what a successful summer looks like and how you will be evaluated. Write it down.",
+            "Learn how your team prefers to communicate — chat, email or a quick question at the desk — and match it.",
+            "Set up a short recurring check-in with your manager if one does not exist."
+          ]
+        },
+        {
+          "h2": "The middle of the summer"
+        },
+        {
+          "ul": [
+            "Finish what you are given, on time, and say early if a deadline is at risk.",
+            "Check your work before sending it. Small errors in numbers or names cost more trust than a late question.",
+            "Ask for feedback at the midpoint, then visibly act on it.",
+            "Meet people outside your team: fellow interns, other groups, and anyone who hires graduates. Ask what they work on.",
+            "Keep a simple log of what you did and the result. You will need it for your final presentation and your resume."
+          ]
+        },
+        {
+          "h2": "The last weeks"
+        },
+        {
+          "ul": [
+            "Leave your work in good shape: notes, files and next steps someone else could pick up.",
+            "If there is a final presentation, lead with results and what you learned, and rehearse it with a teammate.",
+            "Tell your manager plainly that you would like to return, and ask what the timeline for decisions is.",
+            "Thank the people who helped you, and connect with them on LinkedIn before you leave."
+          ]
+        },
+        {
+          "h2": "If an offer does not come"
+        },
+        {
+          "p": "Ask for honest feedback, and stay in touch with the people you worked with. Summer experience still counts: it strengthens your full-time applications elsewhere, and your manager can be a strong reference."
+        },
+        {
+          "h2": "Questions to ask your manager"
+        },
+        {
+          "ul": [
+            "At the start: What would make this a great summer from your point of view?",
+            "At the midpoint: What should I keep doing, and what should I do differently in the second half?",
+            "Near the end: How are return-offer decisions made, and when will I hear?",
+            "Before you leave: Is there anything you would want me to work on before I come back?"
+          ]
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "How do I get a return offer from my internship?",
+              "a": "Be reliable, check your work, ask for feedback at the midpoint and act on it, meet people beyond your team, and tell your manager clearly that you would like to return."
+            },
+            {
+              "q": "When do companies give return offers?",
+              "a": "Often at the end of the internship or within a few weeks after it, though timing varies by company. Ask your manager or recruiter about the timeline."
+            },
+            {
+              "q": "What if I do not get a return offer?",
+              "a": "Ask for honest feedback and stay in touch. Your internship experience and your manager as a reference still strengthen your full-time applications elsewhere."
+            }
+          ]
+        },
+        {
+          "cta": "Track your applications and interviews"
+        }
+      ],
+      "metaTitle": "How to Get a Return Offer From Your Internship",
+      "keyword": "how to get a return offer from an internship"
+    },
+    {
+      "slug": "paid-vs-unpaid-internships",
+      "title": "Paid vs. Unpaid Internships: What Business Students Should Know",
+      "description": "When an unpaid internship is legal in the US, the questions to ask before accepting one, and how to find paid business internships.",
+      "updated": "2026-09-24",
+      "sections": [
+        {
+          "p": "Most business internships at companies are paid, and many are paid well. Unpaid ones still exist, especially at small companies, startups, nonprofits and in some creative fields. Knowing the rules helps you judge an offer."
+        },
+        {
+          "h2": "When an unpaid internship is legal"
+        },
+        {
+          "p": "For a for-profit employer in the United States, the Department of Labor uses the \"primary beneficiary\" test: an internship can be unpaid only if the intern, rather than the company, is the main beneficiary. The factors it looks at include:"
+        },
+        {
+          "ul": [
+            "Both sides understand there is no expectation of pay.",
+            "The training is similar to what you would get in school.",
+            "The internship is tied to your education, such as academic credit.",
+            "It fits around your academic calendar.",
+            "It lasts only as long as it provides real learning.",
+            "Your work complements, rather than replaces, paid employees.",
+            "Both sides understand the internship does not promise a job at the end."
+          ]
+        },
+        {
+          "p": "No single factor decides it. The Department of Labor's Fact Sheet #71 explains the test in full. Rules for nonprofits and government offices differ, and some states have their own. This is general information, not legal advice."
+        },
+        {
+          "h2": "Questions to ask before accepting an unpaid role"
+        },
+        {
+          "ul": [
+            "What will I learn, and who will train me?",
+            "Will I do real projects, or mainly errands and admin?",
+            "Can I receive academic credit, and does my school charge tuition for those credits?",
+            "Is there a stipend, or help with transport or housing?",
+            "Can I afford it? A paid part-time job plus a project of your own can be worth more than an unpaid internship."
+          ]
+        },
+        {
+          "h2": "Finding paid internships"
+        },
+        {
+          "ul": [
+            "Look at large and mid-sized companies' own careers pages, where internships are almost always paid.",
+            "Search federal internships on USAJOBS through the Pathways program; many are paid.",
+            "Ask your career center about funding: many schools offer grants for students taking unpaid or low-paid summer roles."
+          ]
+        },
+        {
+          "h2": "Stipends, hourly pay and academic credit"
+        },
+        {
+          "p": "Paid internships usually pay by the hour, like a part-time job, and many large employers pay business interns well. Some organizations pay a fixed stipend instead, which can work out to less per hour. Academic credit is not pay: your school may charge tuition for the credit, so ask what it costs before you accept a credit-only role."
+        },
+        {
+          "h2": "Questions students ask"
+        },
+        {
+          "faq": [
+            {
+              "q": "Are unpaid internships legal?",
+              "a": "At U.S. for-profit companies, only when the intern is the primary beneficiary under the Department of Labor's test. Rules differ for nonprofits and government offices, and some states have their own. This is general information, not legal advice."
+            },
+            {
+              "q": "Are most business internships paid?",
+              "a": "Yes. Most business internships at companies are paid, especially at large and mid-size employers."
+            },
+            {
+              "q": "Should I take an unpaid internship?",
+              "a": "Only if the learning is real, you can afford it, and there is no paid option that teaches the same skills. Ask what you will do and who will train you before accepting."
+            }
+          ]
+        },
+        {
+          "cta": "Search internships near you"
+        }
+      ],
+      "metaTitle": "Paid vs. Unpaid Internships for Business Students",
+      "keyword": "paid vs unpaid internships"
+    }
+  ]
+}

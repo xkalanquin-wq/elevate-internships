@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Elevate Internships">
+  <rect width="32" height="32" rx="4" fill="#1e3a5f" />
+  <!-- Ledger ticks, part-filled: the progress meter in miniature. -->
+  <rect x="6" y="24" width="20" height="2.5" rx="1.25" fill="#0b1b2e" />
+  <rect x="6" y="24" width="14" height="2.5" rx="1.25" fill="#8fbcec" />
+  <!-- Launch mark -->
+  <path d="M16 6.5c2.6 2.1 4 5 4 8.1 0 1.3-.25 2.5-.7 3.6h-6.6a9.4 9.4 0 0 1-.7-3.6c0-3.1 1.4-6 4-8.1z" fill="#eaf1f8" />
+  <circle cx="16" cy="13.4" r="1.7" fill="#1e3a5f" />
+</svg>

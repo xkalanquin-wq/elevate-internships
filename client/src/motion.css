@@ -1,0 +1,690 @@
+/* The motion layer. Every duration, curve and distance comes from the motion
+   tokens in tokens.css, so the single switch there (--motion-on) stops all
+   movement for visitors who ask for reduced motion. Only transform and
+   opacity are animated, which keeps every effect smooth and lets a native
+   build reproduce it. The React wrappers that drive these classes are in
+   client/src/motion/.
+
+   html.motion-ready is set by the app's script on start. Anything that starts
+   hidden waits for it, so pages without JavaScript are never left blank. */
+
+/* ==== Feedback on press ================================================== */
+
+.tab,
+.btn,
+.link-btn,
+.theme-toggle,
+.check,
+.suggestion {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn,
+.link-btn,
+.theme-toggle,
+.check,
+.suggestion,
+.chip button,
+.icon-button,
+.segmented-option {
+  transition:
+    transform var(--duration-fast) var(--ease-out),
+    border-color var(--duration-base) var(--ease-out),
+    background-color var(--duration-base) var(--ease-out),
+    color var(--duration-base) var(--ease-out),
+    opacity var(--duration-base) var(--ease-out),
+    box-shadow var(--duration-base) var(--ease-out);
+}
+
+.btn:active:not(:disabled),
+.link-btn:active:not(:disabled),
+.theme-toggle:active,
+.suggestion:active,
+.icon-button:active,
+.segmented-option:active,
+.sheet-item:active,
+.page-link:active {
+  transform: scale(var(--press-scale));
+}
+
+.check:active {
+  transform: scale(calc(var(--press-scale) - 0.06 * var(--motion-on)));
+}
+
+/* A ripple from the point pressed (added by motion.js). */
+.ripple {
+  position: absolute;
+  border-radius: var(--radius-pill);
+  pointer-events: none;
+  background: currentColor;
+  opacity: 0.22;
+  transform: scale(0);
+  animation: ripple var(--duration-ripple) var(--ease-out) forwards;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/* ==== Hover: a small lift, only where there is a pointer that hovers ===== */
+
+@media (hover: hover) {
+  .btn:hover:not(:disabled),
+  .link-btn:hover:not(:disabled) {
+    transform: translateY(calc(-1 * var(--distance-xs) / 2));
+  }
+}
+
+/* ==== Cards: lift and deepen on hover, settle on press ===================
+   The deeper shadow sits on a pseudo-element whose opacity changes, so the
+   effect animates opacity and transform only. */
+
+.job,
+.row,
+.site,
+.stat-card,
+.premium-points li,
+.listing-mini li {
+  position: relative;
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.job::after,
+.row::after,
+.site::after,
+.stat-card::after,
+.premium-points li::after,
+.listing-mini li::after {
+  content: '';
+  position: absolute;
+  inset: calc(-1 * var(--border));
+  border-radius: inherit;
+  box-shadow: var(--shadow-2);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration-base) var(--ease-out);
+}
+
+@media (hover: hover) {
+  .job:hover,
+  .row:hover,
+  .site:hover,
+  .premium-points li:hover,
+  .listing-mini li:hover {
+    transform: translateY(calc(-1 * var(--distance-xs)));
+  }
+
+  .job:hover::after,
+  .row:hover::after,
+  .site:hover::after,
+  .stat-card:hover::after,
+  .premium-points li:hover::after,
+  .listing-mini li:hover::after {
+    opacity: 1;
+  }
+}
+
+/* Touch: the card gives a little under the finger. */
+@media (hover: none) {
+  .job:active,
+  .row:active,
+  .site:active,
+  .listing-mini li:active {
+    transform: scale(var(--press-scale-card));
+  }
+}
+
+/* ==== Screens: a short fade and rise when the screen changes ============= */
+
+.page-transition {
+  animation: page-in var(--duration-base) var(--ease-out) both;
+}
+
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--distance-sm));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ==== Scroll reveal (Reveal, Stagger) ==================================== */
+
+.motion-ready .reveal:not([data-revealed]),
+.motion-ready .stagger:not([data-revealed]) > * {
+  opacity: 0;
+  transform: translateY(var(--distance-md));
+}
+
+.reveal,
+.stagger > * {
+  transition:
+    opacity var(--duration-slow) var(--ease-out),
+    transform var(--duration-slow) var(--ease-out);
+}
+
+/* Each item waits one step longer than the last, up to --stagger-max (6). */
+.stagger > :nth-child(2) {
+  transition-delay: calc(1 * var(--stagger));
+}
+.stagger > :nth-child(3) {
+  transition-delay: calc(2 * var(--stagger));
+}
+.stagger > :nth-child(4) {
+  transition-delay: calc(3 * var(--stagger));
+}
+.stagger > :nth-child(5) {
+  transition-delay: calc(4 * var(--stagger));
+}
+.stagger > :nth-child(6) {
+  transition-delay: calc(5 * var(--stagger));
+}
+.stagger > :nth-child(n + 7) {
+  transition-delay: calc(6 * var(--stagger));
+}
+
+/* ==== The page heading: entrance and background ========================== */
+
+.masthead {
+  position: relative;
+  isolation: isolate;
+}
+
+.motion-ready .masthead > :not(.backdrop) {
+  animation: rise var(--duration-slow) var(--ease-out) both;
+}
+
+/* Title, then the line under it, then the page links. */
+.motion-ready .masthead > :nth-child(2) {
+  animation-delay: calc(2 * var(--stagger));
+}
+
+.motion-ready .masthead > :nth-child(3) {
+  animation-delay: calc(4 * var(--stagger));
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(var(--distance-sm));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* A slow drift of the palette's own tints behind the heading. Paused unless
+   on screen ([data-active]), and stopped under reduced motion. */
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.backdrop-shape {
+  position: absolute;
+  border-radius: var(--radius-pill);
+  animation: drift var(--duration-drift) var(--ease-in-out) infinite alternate;
+  animation-play-state: paused;
+  will-change: transform;
+}
+
+.backdrop[data-active] .backdrop-shape {
+  animation-play-state: running;
+}
+
+.backdrop-shape-a {
+  width: 70%;
+  aspect-ratio: 1;
+  top: -60%;
+  left: -20%;
+  background: radial-gradient(closest-side, var(--accent-soft), transparent);
+}
+
+.backdrop-shape-b {
+  width: 60%;
+  aspect-ratio: 1;
+  top: -10%;
+  right: -25%;
+  background: radial-gradient(closest-side, var(--accent-soft), transparent);
+  animation-direction: alternate-reverse;
+}
+
+.backdrop-shape-c {
+  width: 40%;
+  aspect-ratio: 1;
+  bottom: -50%;
+  left: 30%;
+  background: radial-gradient(closest-side, var(--accent), transparent);
+  opacity: 0.08;
+  animation-duration: calc(var(--duration-drift) * 0.75);
+}
+
+@keyframes drift {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(calc(var(--distance-lg) * 3), var(--distance-lg), 0) scale(calc(1 + 0.08 * var(--motion-on)));
+  }
+}
+
+/* ==== Navigation: the active-section indicator =========================== */
+
+/* Phones: a pill behind the active icon that slides between tabs.
+   Wider: a short bar under the active tab, sized to it. Positioned by
+   PrimaryNav from the active tab's measured box (--ix, --iy, --iw). */
+.primary-tabs {
+  position: relative;
+}
+
+.tab-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--tab-icon-w);
+  height: var(--tab-icon-h);
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  transform: translate(var(--ix, 0), var(--iy, 0));
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tab-indicator.ready {
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+/* The indicator does the highlighting; the icon sits above it. */
+.primary-tabs.has-indicator .tab[aria-selected='true'] .tab-icon {
+  background: none;
+}
+
+.primary-tabs .tab {
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .tab-indicator {
+    width: 1px;
+    height: 2px;
+    background: var(--accent);
+    transform-origin: left center;
+    transform: translate(var(--ix, 0), var(--iy, 0)) scaleX(var(--iw, 0));
+  }
+
+  .primary-tabs.has-indicator .tab[aria-selected='true'] {
+    background: var(--accent-soft);
+  }
+}
+
+/* The icon of a newly chosen tab gives a small bounce. */
+.tab[aria-selected='true'] .tab-icon .icon {
+  animation: icon-pop var(--duration-base) var(--ease-spring);
+}
+
+@keyframes icon-pop {
+  from {
+    transform: scale(calc(1 - 0.15 * var(--motion-on)));
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* ==== The More sheet: rises from the bottom, or scales in on wide screens == */
+
+.sheet-layer[data-state='open'] .sheet-backdrop {
+  animation: fade-in var(--duration-base) var(--ease-out) both;
+}
+
+.sheet-layer[data-state='open'] .sheet {
+  animation: sheet-in var(--duration-slow) var(--ease-out) both;
+}
+
+/* Closing: no longer clickable while it goes. */
+.sheet-layer[data-state='closing'] {
+  pointer-events: none;
+}
+
+.sheet-layer[data-state='closing'] .sheet-backdrop {
+  animation: fade-out var(--duration-base) var(--ease-out) both;
+}
+
+.sheet-layer[data-state='closing'] .sheet {
+  animation: sheet-out var(--duration-base) var(--ease-out) both;
+}
+
+@keyframes sheet-in {
+  from {
+    transform: translateY(var(--distance-sheet));
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes sheet-out {
+  to {
+    transform: translateY(var(--distance-sheet));
+  }
+}
+
+@media (min-width: 768px) {
+  .sheet-layer[data-state='open'] .sheet {
+    animation-name: dialog-in;
+  }
+
+  .sheet-layer[data-state='closing'] .sheet {
+    animation-name: dialog-out;
+  }
+}
+
+@keyframes dialog-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--distance-sm)) scale(calc(1 - 0.04 * var(--motion-on)));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes dialog-out {
+  to {
+    opacity: 0;
+    transform: scale(calc(1 - 0.04 * var(--motion-on)));
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+/* ==== Things that appear: notices, editors, cards ======================== */
+
+.notice,
+.add-internship,
+.dates-editor,
+.sample-answer,
+.account-card,
+.filter-summary,
+.field.spaced {
+  animation: rise var(--duration-base) var(--ease-out) both;
+}
+
+/* Saved, stage and "new" labels pop in when they change. */
+.link-btn.saved,
+.badge.new,
+.badge.sponsored,
+.badge.premium,
+.stamp {
+  animation: pop var(--duration-base) var(--ease-spring) both;
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(calc(1 - 0.2 * var(--motion-on)));
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ==== Search and filters ================================================= */
+
+/* An added interest pops in; a removed one shrinks away (Finder holds it for
+   --duration-fast before removing it). Display-only chips stay still. */
+.chip:has(button) {
+  animation: pop var(--duration-base) var(--ease-spring) both;
+}
+
+.chip.leaving {
+  animation: chip-out var(--duration-fast) var(--ease-out) both;
+}
+
+@keyframes chip-out {
+  to {
+    opacity: 0;
+    transform: scale(calc(1 - 0.2 * var(--motion-on)));
+  }
+}
+
+/* Loading placeholders breathe while a search runs. */
+.skel {
+  animation: shimmer var(--duration-shimmer) var(--ease-in-out) infinite alternate;
+}
+
+@keyframes shimmer {
+  from {
+    opacity: 0.35;
+  }
+  to {
+    opacity: 0.75;
+  }
+}
+
+/* A busy button shows a small spinner beside its label. */
+.btn[aria-busy='true']::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  flex: none;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: var(--radius-pill);
+  animation: spin var(--duration-spin) linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==== Form validation ==================================================== */
+
+/* A field that turns invalid gives a short sideways nudge; its message
+   slides in beneath it. */
+input[aria-invalid='true'],
+select[aria-invalid='true'],
+textarea[aria-invalid='true'] {
+  animation: nudge var(--duration-slow) var(--ease-out);
+}
+
+.field-error {
+  animation: rise var(--duration-base) var(--ease-out) both;
+}
+
+@keyframes nudge {
+  20% {
+    transform: translateX(calc(-1 * var(--distance-sm)));
+  }
+  45% {
+    transform: translateX(var(--distance-sm));
+  }
+  70% {
+    transform: translateX(calc(-1 * var(--distance-xs)));
+  }
+  to {
+    transform: none;
+  }
+}
+
+/* ==== Progress: bars and the tick strip fill as they come into view ======= */
+
+.stat-fill,
+.tick.on {
+  transform-origin: left center;
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+
+.motion-ready .reveal:not([data-revealed]) .stat-fill,
+.motion-ready .reveal:not([data-revealed]) .tick.on {
+  transform: scaleX(0);
+}
+
+/* ==== Completing a certification: the box pops, the tick draws, a soft ring
+   spreads from the card. A small celebration, not confetti. ============== */
+
+.check[aria-checked='true'] {
+  animation: check-pop var(--duration-slow) var(--ease-spring);
+}
+
+.check svg polyline {
+  stroke-dasharray: 16;
+  stroke-dashoffset: 0;
+}
+
+.check[aria-checked='true'] svg polyline {
+  animation: tick-draw var(--duration-base) var(--ease-out) var(--duration-fast) both;
+}
+
+@keyframes check-pop {
+  from {
+    transform: scale(calc(1 - 0.15 * var(--motion-on)));
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes tick-draw {
+  from {
+    stroke-dashoffset: 16;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.row.celebrate::before {
+  content: '';
+  position: absolute;
+  inset: calc(-1 * var(--border));
+  border-radius: inherit;
+  border: 2px solid var(--accent);
+  pointer-events: none;
+  animation: celebrate var(--duration-celebrate) var(--ease-out) both;
+}
+
+@keyframes celebrate {
+  from {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(calc(1 + 0.04 * var(--motion-on)));
+  }
+}
+
+/* ==== Empty and error states: a drawing that floats gently =============== */
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--sp-4);
+}
+
+.illustration svg {
+  width: var(--illustration-size);
+  height: var(--illustration-size);
+  animation: float var(--duration-float) var(--ease-in-out) infinite alternate;
+  animation-play-state: paused;
+}
+
+.illustration[data-active] svg {
+  animation-play-state: running;
+}
+
+.ill-fill {
+  fill: var(--accent-soft);
+}
+
+.ill-line {
+  stroke: var(--muted);
+}
+
+.ill-accent {
+  stroke: var(--accent);
+}
+
+.ill-dot {
+  fill: var(--accent);
+}
+
+@keyframes float {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-1 * var(--distance-sm)));
+  }
+}
+
+/* ==== Confetti (an application sent, an offer) ============================ */
+
+.confetti-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: var(--z-confetti);
+}
+
+/* ==== Reduced motion ======================================================
+   The tokens already make every duration and distance 0. These rules also
+   stop the loops, and show anything that would have waited to reveal. */
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .stagger > *,
+  .masthead > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .backdrop-shape,
+  .illustration svg,
+  .skel,
+  .btn[aria-busy='true']::before {
+    animation: none !important;
+  }
+}
+
+:root[data-motion='reduce'] .reveal,
+:root[data-motion='reduce'] .stagger > *,
+:root[data-motion='reduce'] .masthead > * {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+:root[data-motion='reduce'] *,
+:root[data-motion='reduce'] *::before,
+:root[data-motion='reduce'] *::after {
+  animation: none !important;
+  transition: none !important;
+}

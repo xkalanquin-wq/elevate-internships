@@ -1,0 +1,12 @@
+# Keep secrets, state and local build output out of the image.
+# Unlike .gitignore, a bare name here matches the context root only, so
+# `data` excludes the runtime database without touching server/data.
+node_modules
+dist
+data
+.env
+.env.*
+!.env.example
+.git
+.claude
+*.log

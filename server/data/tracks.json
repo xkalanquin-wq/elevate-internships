@@ -1,0 +1,1400 @@
+{
+  "accounting": {
+    "name": "Accounting",
+    "note": "Statements first, then the license that defines the profession.",
+    "match": [
+      "accounting",
+      "accountancy",
+      "accounting and finance",
+      "audit",
+      "auditing",
+      "tax",
+      "taxation",
+      "forensic accounting",
+      "managerial accounting",
+      "public accounting"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Read the statements before you model them"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "What you will actually be doing all day"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "cfi-accounting-free",
+      "wharton-accounting",
+      "aicpa-student",
+      "ms-excel-training",
+      "cpa-exam",
+      "cma-cert",
+      "forage-deloitte-sims",
+      "forage-pwc-sims",
+      "irs-vita",
+      "quickbooks-proadvisor"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Big Four and regional firms run sophomore leadership and discovery programs, with applications from late summer into the fall. Go to Meet the Firms and Beta Alpha Psi events."
+      },
+      {
+        "when": "Junior fall (Aug–Oct)",
+        "what": "The main recruiting window, for internships the following winter (busy season) or summer. Most offers go to students the firms met at fall events."
+      },
+      {
+        "when": "Junior winter or summer",
+        "what": "The internship itself. Strong interns usually receive a full-time offer before senior year begins."
+      },
+      {
+        "when": "From day one",
+        "what": "Plan the 150 credit hours the CPA requires — it shapes your course load, not just your final year."
+      }
+    ]
+  },
+  "finance": {
+    "name": "Finance",
+    "note": "The vocabulary interviewers assume, the modeling they test, and the charters that follow.",
+    "match": [
+      "finance",
+      "financial",
+      "investment",
+      "investment banking",
+      "banking",
+      "corporate finance",
+      "capital markets",
+      "private equity",
+      "asset management",
+      "fintech"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Read the statements before you model them"
+      },
+      {
+        "id": "biz-markets",
+        "name": "Markets fluency",
+        "note": "The vocabulary interviewers assume you have"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "What you will actually be doing all day"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "cfi-accounting-free",
+      "wharton-corp-finance",
+      "bloomberg-bmc",
+      "yale-financial-markets",
+      "ms-excel-training",
+      "cfi-fmva",
+      "cfa-l1",
+      "forage-jpm-sims",
+      "forage-gs-sims",
+      "finra-sie"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Early-insight, diversity and sophomore programs at banks and investment firms. Some deadlines fall in the autumn of sophomore year or earlier."
+      },
+      {
+        "when": "Sophomore spring–summer",
+        "what": "Applications for junior-summer investment banking and markets roles can open more than a year ahead. Network before they open, not after."
+      },
+      {
+        "when": "Junior fall",
+        "what": "Remaining junior-summer roles — corporate finance, asset management, commercial banking and smaller banks — plus interviews."
+      },
+      {
+        "when": "Junior summer",
+        "what": "The summer analyst internship. Return offers from it fill most full-time analyst classes."
+      }
+    ]
+  },
+  "business-analytics": {
+    "name": "Business Analytics",
+    "note": "Excel, SQL, and a BI tool — then a credential that proves it.",
+    "match": [
+      "business analytics",
+      "data analytics",
+      "analytics",
+      "business intelligence",
+      "data science",
+      "quantitative analysis",
+      "statistics",
+      "decision science"
+    ],
+    "groups": [
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "What you will actually be doing all day"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "ms-excel-training",
+      "kaggle-sql",
+      "kaggle-pandas",
+      "kaggle-datavis",
+      "google-data-analytics",
+      "pl300",
+      "alteryx-foundational",
+      "forage-bcg-sims",
+      "kaggle-advanced-sql"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Build SQL, Excel and Tableau skills and one portfolio project. Apply to sophomore programs at consulting and technology firms."
+      },
+      {
+        "when": "Junior fall (Aug–Nov)",
+        "what": "Main recruiting at large companies, consultancies and banks."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Mid-size companies and startups hire for the summer on a rolling basis."
+      },
+      {
+        "when": "Junior summer",
+        "what": "The internship; return offers are common in analytics roles."
+      }
+    ]
+  },
+  "marketing": {
+    "name": "Marketing",
+    "note": "Free platform certifications carry real weight here — collect them early.",
+    "match": [
+      "marketing",
+      "digital marketing",
+      "advertising",
+      "brand management",
+      "public relations",
+      "communications",
+      "market research",
+      "social media marketing",
+      "consumer behavior"
+    ],
+    "groups": [
+      {
+        "id": "biz-tooling",
+        "name": "Platform certifications",
+        "note": "Named credentials recruiters search for"
+      },
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "The funnel, and how money moves through it"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "hubspot-inbound-cert",
+      "google-analytics-cert",
+      "google-ads-cert",
+      "semrush-academy",
+      "meta-marketing-cert",
+      "hubspot-sales-cert",
+      "hubspot-content-marketing"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Build a portfolio: run social media for a campus group and earn the free HubSpot and Google certificates."
+      },
+      {
+        "when": "Junior fall (Sep–Nov)",
+        "what": "Large consumer-goods brand management programs and agencies with structured internships recruit early."
+      },
+      {
+        "when": "Junior spring (Jan–Apr)",
+        "what": "Most agencies, startups and mid-size companies hire — often only weeks before the start date."
+      },
+      {
+        "when": "Keep going",
+        "what": "Marketing hires later than finance, so keep applying through the spring."
+      }
+    ]
+  },
+  "management": {
+    "name": "Management",
+    "note": "Project delivery and people, which is most of what a manager actually does.",
+    "match": [
+      "management",
+      "business management",
+      "organizational leadership",
+      "leadership",
+      "strategy",
+      "consulting"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "How work actually gets delivered"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "capm-cert",
+      "psm-i",
+      "umn-hr",
+      "ms-excel-training",
+      "forage-bcg-sims",
+      "forage-accenture-sims"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Lead something on campus — managers are hired for evidence they have led people."
+      },
+      {
+        "when": "Junior fall (Aug–Oct)",
+        "what": "Rotational and leadership-development programs, and consulting firms, recruit."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Operations and general business internships at mid-size companies."
+      },
+      {
+        "when": "Senior fall",
+        "what": "Full-time rotational programs open, often to their own former interns first."
+      }
+    ]
+  },
+  "supply-chain": {
+    "name": "Supply Chain & Operations",
+    "note": "Inventory, logistics, and the spreadsheet work underneath both.",
+    "match": [
+      "supply chain",
+      "operations",
+      "operations management",
+      "procurement",
+      "manufacturing",
+      "production management"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Inventory, forecasting, and network design"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel runs the warehouse, whatever the ERP says"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "gatech-supply-chain",
+      "ms-excel-training",
+      "apics-cpim",
+      "sixsigma-yellow",
+      "forage-accenture-sims",
+      "mitx-scm"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Join the ASCM or APICS student chapter, and ask the career center about co-op programs."
+      },
+      {
+        "when": "Junior fall (Sep–Oct)",
+        "what": "Manufacturers, retailers and logistics companies recruit at fall career fairs."
+      },
+      {
+        "when": "About six months ahead",
+        "what": "Co-ops for fall or spring terms recruit roughly half a year before they start."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Remaining summer roles at mid-size firms."
+      }
+    ]
+  },
+  "human-resources": {
+    "name": "Human Resources",
+    "note": "The employee lifecycle, then the credential that gates senior HR roles.",
+    "match": [
+      "human resources",
+      "hr",
+      "people operations",
+      "talent acquisition",
+      "recruiting",
+      "organizational behavior",
+      "industrial relations",
+      "compensation"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "The full employee lifecycle, once"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "The systems HR actually runs on"
+      }
+    ],
+    "source": [
+      "umn-hr",
+      "saylor-bus301-hr",
+      "shrm-cp",
+      "ms-excel-training",
+      "linkedin-learning-biz",
+      "hrci-aphr",
+      "wharton-people-analytics"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Join the SHRM student chapter and look for campus recruiting or residence-life roles."
+      },
+      {
+        "when": "Junior fall (Sep–Nov)",
+        "what": "HR leadership-development programs at large employers recruit."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Most HR, recruiting and people-operations internships at mid-size companies."
+      },
+      {
+        "when": "Any time",
+        "what": "The aPHR needs no experience and can be taken before you graduate."
+      }
+    ]
+  },
+  "mis": {
+    "name": "Management Information Systems",
+    "note": "The business-technology bridge — and the most hireable certifications in the school.",
+    "match": [
+      "management information systems",
+      "mis",
+      "information systems",
+      "business technology",
+      "information technology management",
+      "business systems",
+      "erp",
+      "systems analysis"
+    ],
+    "groups": [
+      {
+        "id": "biz-tooling",
+        "name": "Platform skills",
+        "note": "The systems businesses actually run on"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "trailhead-admin-trail",
+      "kaggle-sql",
+      "salesforce-admin-cert",
+      "aws-cloud-practitioner",
+      "forage-deloitte-sims",
+      "az-900"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Sophomore programs at consulting firms and Big Four technology practices. Earn a cloud or Salesforce credential."
+      },
+      {
+        "when": "Junior fall (Aug–Oct)",
+        "what": "Technology consulting, Big Four risk and technology advisory, and IT rotational programs recruit."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Company IT departments and startups hire on a rolling basis."
+      },
+      {
+        "when": "Junior summer",
+        "what": "The internship; return offers are common in consulting."
+      }
+    ]
+  },
+  "economics": {
+    "name": "Economics",
+    "note": "Macro and markets, with the quantitative tooling employers expect alongside.",
+    "match": [
+      "economics",
+      "econometrics",
+      "political economy",
+      "applied economics",
+      "economic policy",
+      "development economics"
+    ],
+    "groups": [
+      {
+        "id": "biz-markets",
+        "name": "Markets and policy",
+        "note": "Where the theory meets a trading floor"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Econometrics is worth nothing without the data skills"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      }
+    ],
+    "source": [
+      "yale-financial-markets",
+      "imf-training",
+      "bloomberg-bmc",
+      "kaggle-sql",
+      "cfa-l1",
+      "khan-macro",
+      "jhu-r-programming"
+    ],
+    "timeline": [
+      {
+        "when": "It depends on the path",
+        "what": "Headed to finance or consulting? Follow their earlier timelines — see Finance and Management."
+      },
+      {
+        "when": "Junior fall",
+        "what": "Consulting, economic consulting and bank roles recruit."
+      },
+      {
+        "when": "Winter–spring",
+        "what": "Government, Federal Reserve and think-tank summer internships usually open."
+      },
+      {
+        "when": "Senior fall",
+        "what": "Research-assistant roles for after graduation, including at the Federal Reserve, typically open."
+      }
+    ]
+  },
+  "entrepreneurship": {
+    "name": "Entrepreneurship",
+    "note": "You will be doing the finance and the marketing yourself, so learn both.",
+    "match": [
+      "entrepreneurship",
+      "startup",
+      "small business",
+      "innovation",
+      "new venture",
+      "venture capital",
+      "family business",
+      "business development",
+      "search fund",
+      "entrepreneurship through acquisition"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Build the thing, then price it properly"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "The free tools a founder actually needs"
+      },
+      {
+        "id": "biz-markets",
+        "name": "Raising money",
+        "note": "How investors will value what you built"
+      }
+    ],
+    "source": [
+      "mit-entrepreneurship",
+      "cfi-accounting-free",
+      "hubspot-inbound-cert",
+      "michigan-valuation",
+      "google-analytics-cert",
+      "yc-startup-school",
+      "sba-counseling",
+      "quickbooks-proadvisor"
+    ],
+    "timeline": [
+      {
+        "when": "Any time",
+        "what": "Startups hire on a rolling basis, often four to eight weeks before the start date."
+      },
+      {
+        "when": "Junior fall–winter",
+        "what": "Venture capital and startup fellowships and accelerator programs set their deadlines."
+      },
+      {
+        "when": "Spring",
+        "what": "Most startup summer internships are posted."
+      },
+      {
+        "when": "Summer",
+        "what": "Or build your own project — it counts as experience if you can show what you did."
+      }
+    ]
+  },
+  "international-business": {
+    "name": "International Business",
+    "note": "Trade, macro, and the institutions that set the rules.",
+    "match": [
+      "international business",
+      "international trade",
+      "global business",
+      "international relations",
+      "international finance",
+      "global supply chain",
+      "import export"
+    ],
+    "groups": [
+      {
+        "id": "biz-markets",
+        "name": "Global markets",
+        "note": "The institutions behind the headlines"
+      },
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Trade does not work without operations"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "imf-training",
+      "gatech-supply-chain",
+      "yale-financial-markets",
+      "forage-accenture-sims",
+      "trade-gov-exporting",
+      "nasbite-cgbp",
+      "khan-macro"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Plan study abroad and keep a language going; both are screened for."
+      },
+      {
+        "when": "Junior fall",
+        "what": "Multinational rotational programs and global consulting firms recruit."
+      },
+      {
+        "when": "Six months or more ahead",
+        "what": "Internships abroad often need visas, so apply well before a domestic role would open."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Trade, logistics and export roles at mid-size companies."
+      }
+    ]
+  },
+  "risk": {
+    "name": "Risk Management & Insurance",
+    "note": "A small major with unusually strong placement, and employers who pay for your credentials.",
+    "match": [
+      "risk management",
+      "insurance",
+      "underwriting",
+      "claims",
+      "enterprise risk",
+      "risk and insurance"
+    ],
+    "groups": [
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "Usually employer-funded once you are hired"
+      },
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Risk is priced, not guessed"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "What you will actually be doing all day"
+      }
+    ],
+    "source": [
+      "cpcu-cert",
+      "openlearn-risk-management",
+      "frm-cert",
+      "yale-financial-markets",
+      "ms-excel-training",
+      "soa-exam-p",
+      "rims-crmp",
+      "cisa-cert"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Headed for actuarial work? Pass Exam P early — actuarial internships screen for it. Join Gamma Iota Sigma."
+      },
+      {
+        "when": "Junior fall (Sep–Oct)",
+        "what": "Insurers and brokers recruit at fall career fairs and the Gamma Iota Sigma conference."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Remaining underwriting, claims and risk internships."
+      },
+      {
+        "when": "Junior summer",
+        "what": "The internship; insurers convert a large share of interns to full-time."
+      }
+    ]
+  },
+  "hospitality": {
+    "name": "Hospitality & Tourism Management",
+    "note": "The operations side, and the revenue analytics that turn it into a career.",
+    "match": [
+      "hospitality",
+      "tourism",
+      "hotel management",
+      "event management",
+      "restaurant management",
+      "food service management",
+      "recreation management"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Where the margin in a property comes from"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel runs the floor"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "cornell-hotel-rev",
+      "ms-excel-training",
+      "hubspot-sales-cert",
+      "servsafe-manager",
+      "ahlei",
+      "tips-cert"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Hotel and restaurant operations experience counts — even part-time."
+      },
+      {
+        "when": "Junior fall (Sep–Dec)",
+        "what": "Management-training and leadership programs at the large hotel groups recruit."
+      },
+      {
+        "when": "Spring (Feb–Apr)",
+        "what": "Most hotels, resorts, event companies and tourism operators hire for the summer season."
+      },
+      {
+        "when": "Seasonal roles",
+        "what": "These fill quickly — apply as soon as they are posted."
+      }
+    ]
+  },
+  "real-estate": {
+    "name": "Real Estate",
+    "note": "Valuation and financing, which is finance wearing a different hat.",
+    "match": [
+      "real estate",
+      "property",
+      "real estate finance",
+      "property management",
+      "commercial real estate",
+      "appraisal",
+      "real estate development"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Property is a cash-flow model with a roof"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel, and a lot of it"
+      },
+      {
+        "id": "biz-markets",
+        "name": "Markets",
+        "note": "Rates move property before anything else does"
+      }
+    ],
+    "source": [
+      "wharton-corp-finance",
+      "ms-excel-training",
+      "cfi-fmva",
+      "yale-financial-markets",
+      "arello-licence",
+      "damodaran-valuation",
+      "ccim"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Learn real estate modeling in Excel; it is the test at most internships."
+      },
+      {
+        "when": "Sophomore spring–junior fall",
+        "what": "Real estate private equity and investment banking follow the early finance timeline."
+      },
+      {
+        "when": "Junior fall",
+        "what": "Brokerages, REITs and large developers recruit."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Smaller developers, property managers and brokerages hire on a rolling basis."
+      }
+    ]
+  },
+  "business-administration": {
+    "name": "Business Administration",
+    "note": "The generalist degree: a little of every function, and the tools that let you join any team.",
+    "match": [
+      "business administration",
+      "general business",
+      "business",
+      "bba",
+      "business studies",
+      "commerce"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "The parts of every business, once"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel and the software your first team will use"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "cfi-accounting-free",
+      "ms-excel-training",
+      "hubspot-inbound-cert",
+      "forage-accenture-sims",
+      "forage-bcg-sims",
+      "capm-cert",
+      "mos-excel"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Try a club role in finance, marketing or operations, and look for sophomore programs at large companies."
+      },
+      {
+        "when": "Junior fall (Sep–Oct)",
+        "what": "Large companies recruit summer interns, including for rotational programs, at fall career fairs."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Mid-size and local companies hire through the spring."
+      },
+      {
+        "when": "Junior summer",
+        "what": "The internship. A strong one often turns into a full-time offer."
+      }
+    ]
+  },
+  "sport-management": {
+    "name": "Sport Management",
+    "note": "Ticket sales, partnerships and events — the business side of teams, leagues and college athletics.",
+    "match": [
+      "sport management",
+      "sports management",
+      "sport business",
+      "sports business",
+      "sport business management",
+      "sports business management",
+      "sport administration",
+      "sports administration",
+      "sport marketing",
+      "sports marketing",
+      "sports analytics",
+      "athletic administration",
+      "athletics",
+      "sports",
+      "sport"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "How sports organizations make money"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Sales, CRM and the numbers behind the seats"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "northwestern-sports-marketing",
+      "hubspot-inbound-sales",
+      "hubspot-sales-cert",
+      "ms-excel-training",
+      "google-analytics-cert",
+      "michigan-sports-analytics"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Work game days or events for your athletic department or a local minor-league team. Event experience counts with every sports employer."
+      },
+      {
+        "when": "Fall (Sep–Dec)",
+        "what": "League offices, agencies and sports-media companies open many of their summer internships."
+      },
+      {
+        "when": "Spring (Jan–Apr)",
+        "what": "Most teams, college athletic departments and event companies hire for the summer."
+      },
+      {
+        "when": "Season by season",
+        "what": "Teams also hire interns for their own season — spring for baseball, late summer for football, basketball and hockey — so check TeamWork Online year-round."
+      }
+    ]
+  },
+  "logistics": {
+    "name": "Logistics & Transportation",
+    "note": "Freight, warehouses and the routes between them — and the sales desks that fill the trucks.",
+    "match": [
+      "logistics",
+      "transportation",
+      "logistics management",
+      "transportation and logistics",
+      "global logistics",
+      "global logistics management",
+      "freight",
+      "freight brokerage",
+      "distribution",
+      "warehousing",
+      "shipping"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "How goods actually move, and what it costs"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel and the systems that track every shipment"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "trade-gov-exporting",
+      "ms-excel-training",
+      "sap-learning",
+      "forage-accenture-sims",
+      "cbp-customs-broker-exam",
+      "ascm-cltd",
+      "cscmp-scpro-fundamentals"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Join your school’s supply chain or logistics club, often an ASCM student chapter, and ask the career center about co-ops."
+      },
+      {
+        "when": "Junior fall (Sep–Oct)",
+        "what": "Carriers, freight forwarders, 3PLs and retailers’ distribution teams recruit at fall career fairs."
+      },
+      {
+        "when": "Year-round",
+        "what": "Freight brokerages and 3PLs often hire sales and operations interns on a rolling basis."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Remaining summer roles, including warehouse and transportation operations at mid-size firms."
+      }
+    ]
+  },
+  "healthcare-management": {
+    "name": "Healthcare Management",
+    "note": "Running hospitals, clinics and health plans: operations, finance and the rules they work under.",
+    "match": [
+      "healthcare management",
+      "health care management",
+      "healthcare administration",
+      "health care administration",
+      "health administration",
+      "health services administration",
+      "health services management",
+      "health management",
+      "health policy and management",
+      "hospital administration",
+      "healthcare",
+      "health care"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "How care is organized and paid for"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel and the data behind operations"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Getting in the door",
+        "note": "The professional body and its local chapters"
+      }
+    ],
+    "source": [
+      "michigan-healthcare-management",
+      "openlearn-healthcare-change",
+      "ms-excel-training",
+      "hfma-crcr",
+      "ache-student",
+      "capm-cert",
+      "kaggle-sql"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Volunteer or work in a hospital, clinic or health plan. Any time around patient care helps in interviews."
+      },
+      {
+        "when": "Junior fall–winter",
+        "what": "Health systems, insurers and healthcare consulting firms post summer internships."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Hospitals, physician groups and public health agencies fill remaining summer roles."
+      },
+      {
+        "when": "Senior fall",
+        "what": "Apply for postgraduate administrative fellowships at hospitals and health systems; ACHE lists them."
+      }
+    ]
+  },
+  "sales": {
+    "name": "Professional Sales",
+    "note": "Prospecting, discovery and closing, plus the CRM every sales team runs on.",
+    "match": [
+      "professional sales",
+      "sales",
+      "professional selling",
+      "selling",
+      "sales management"
+    ],
+    "groups": [
+      {
+        "id": "biz-tooling",
+        "name": "Platform certifications",
+        "note": "The CRM and the method, both free"
+      },
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Prospecting, discovery and the pipeline"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Desk experience",
+        "note": "Resume lines with a verifiable certificate"
+      }
+    ],
+    "source": [
+      "hubspot-inbound-sales",
+      "hubspot-sales-cert",
+      "trailhead-admin-trail",
+      "ms-excel-training",
+      "salesforce-platform-foundations",
+      "linkedin-learning-biz"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Join your school’s sales program or club and enter a sales role-play competition; recruiters attend them."
+      },
+      {
+        "when": "Junior fall (Sep–Oct)",
+        "what": "Large B2B companies recruit sales interns at fall career fairs and sales program events."
+      },
+      {
+        "when": "Spring",
+        "what": "Many companies hire inside-sales and business development interns on a rolling basis."
+      },
+      {
+        "when": "Senior fall",
+        "what": "Full-time sales development and sales training programs recruit."
+      }
+    ]
+  },
+  "actuarial-science": {
+    "name": "Actuarial Science",
+    "note": "Exams decide this career: pass the first two early, and internships follow.",
+    "match": [
+      "actuarial science",
+      "actuarial",
+      "actuarial mathematics",
+      "actuarial studies"
+    ],
+    "groups": [
+      {
+        "id": "biz-credential",
+        "name": "The exams",
+        "note": "One exam at a time, starting in college"
+      },
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Plan your degree around the requirements"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel, then a programming language"
+      }
+    ],
+    "source": [
+      "beanactuary-students",
+      "soa-exam-p",
+      "soa-exam-fm",
+      "soa-vee",
+      "ms-excel-training",
+      "sas-students",
+      "py4e"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Pass Exam P, then FM, and take VEE-approved courses as part of your degree."
+      },
+      {
+        "when": "Sophomore summer–junior fall",
+        "what": "Insurers and actuarial consulting firms recruit interns; many postings ask for at least one passed exam."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Remaining summer internships at insurers, consulting firms and benefits teams."
+      },
+      {
+        "when": "After you are hired",
+        "what": "Employers commonly pay exam fees and give paid study time."
+      }
+    ]
+  },
+  "financial-planning": {
+    "name": "Financial Planning",
+    "note": "Advising households on money: the CFP path, the licensing exams, and real client work.",
+    "match": [
+      "financial planning",
+      "personal financial planning",
+      "personal finance",
+      "wealth management",
+      "financial advising",
+      "financial advisor",
+      "financial counseling",
+      "wealth advisory"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "How households save, borrow, invest and insure"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel before planning software"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      },
+      {
+        "id": "biz-floor",
+        "name": "Client experience",
+        "note": "Real people, real tax returns"
+      }
+    ],
+    "source": [
+      "khan-finance",
+      "ms-excel-training",
+      "finra-sie",
+      "finra-series65",
+      "cfp-cert",
+      "irs-vita",
+      "kaplan-fpqp"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Find out whether your program is CFP Board-registered; if it is, your degree covers the CFP coursework."
+      },
+      {
+        "when": "Junior fall",
+        "what": "Wealth management and advisory firms recruit summer interns."
+      },
+      {
+        "when": "Twice a year",
+        "what": "CFP Board’s virtual career fair lists jobs and internships with planning firms."
+      },
+      {
+        "when": "Before you graduate",
+        "what": "Pass the SIE — it needs no employer sponsor — and consider the Series 65."
+      }
+    ]
+  },
+  "retail-management": {
+    "name": "Retail Management & Merchandising",
+    "note": "Buying, merchandising and store operations, and the margin math under all three.",
+    "match": [
+      "retail management",
+      "retail",
+      "retailing",
+      "merchandising",
+      "fashion merchandising",
+      "apparel merchandising",
+      "retail merchandising",
+      "fashion business",
+      "e-commerce",
+      "ecommerce"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "How a store makes its margin"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel and the analytics behind e-commerce"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      }
+    ],
+    "source": [
+      "nrf-retail-fundamentals",
+      "nrf-business-of-retail",
+      "ms-excel-training",
+      "google-analytics-cert",
+      "wharton-omnichannel-retail",
+      "google-digital-marketing"
+    ],
+    "timeline": [
+      {
+        "when": "Sophomore year",
+        "what": "Part-time store or e-commerce work counts; note what you sold, stocked or fixed."
+      },
+      {
+        "when": "Junior fall (Aug–Oct)",
+        "what": "Large retailers’ buying, merchandising and planning programs recruit early in the fall."
+      },
+      {
+        "when": "Junior spring",
+        "what": "Store management internships and smaller brands hire for the summer."
+      },
+      {
+        "when": "Holiday season (Oct–Dec)",
+        "what": "Seasonal store roles add retail experience before your internship."
+      }
+    ]
+  },
+  "agribusiness": {
+    "name": "Agribusiness",
+    "note": "Seed, grain, equipment and food companies, with commodity markets underneath.",
+    "match": [
+      "agribusiness",
+      "agricultural business",
+      "agriculture business",
+      "agricultural economics",
+      "agricultural and applied economics",
+      "food and agribusiness",
+      "food industry management",
+      "agricultural management",
+      "farm management",
+      "agriculture",
+      "agricultural"
+    ],
+    "groups": [
+      {
+        "id": "biz-foundation",
+        "name": "Foundations",
+        "note": "Supply, demand and the farm economy"
+      },
+      {
+        "id": "biz-markets",
+        "name": "Commodity markets",
+        "note": "How grain and livestock prices are set and hedged"
+      },
+      {
+        "id": "biz-tooling",
+        "name": "Tooling",
+        "note": "Excel and the sales skills ag companies hire for"
+      },
+      {
+        "id": "biz-credential",
+        "name": "The credential path",
+        "note": "What it really costs, and when to start"
+      }
+    ],
+    "source": [
+      "khan-micro",
+      "cme-institute",
+      "ms-excel-training",
+      "hubspot-inbound-sales",
+      "finra-series3",
+      "trade-gov-exporting",
+      "bloomberg-bmc"
+    ],
+    "timeline": [
+      {
+        "when": "Freshman–sophomore year",
+        "what": "Join your agribusiness club or NAMA student chapter, and spend a summer on a farm, at a co-op or at a grain elevator."
+      },
+      {
+        "when": "Junior fall (Sep–Oct)",
+        "what": "Seed, crop protection, equipment and food companies recruit at fall career fairs, often for sales and agronomy internships."
+      },
+      {
+        "when": "Spring",
+        "what": "Co-ops, grain companies and ag lenders fill remaining summer roles."
+      },
+      {
+        "when": "Summer",
+        "what": "Many ag internships follow the growing season, roughly May to August."
+      }
+    ]
+  }
+}

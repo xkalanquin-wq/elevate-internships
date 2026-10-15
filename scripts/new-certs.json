@@ -1,0 +1,802 @@
+[
+ {
+  "id": "learning-how-to-learn",
+  "title": "Learning How to Learn",
+  "provider": "McMaster · Coursera",
+  "url": "https://www.coursera.org/learn/learning-how-to-learn",
+  "hours": 15,
+  "cost": "audit",
+  "group": "edu-craft",
+  "field": "education",
+  "fields": [
+   "education",
+   "psychology"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "learning science",
+   "psychology",
+   "study skills"
+  ],
+  "desc": "The cognitive science of how people actually learn. The single best first course for anyone who will stand in front of a class."
+ },
+ {
+  "id": "disability-inclusion-edu",
+  "title": "Disability Inclusion in Education: Building Systems of Support",
+  "provider": "Cape Town · Coursera",
+  "url": "https://www.coursera.org/learn/disability-inclusion-education",
+  "hours": 18,
+  "cost": "audit",
+  "group": "edu-craft",
+  "field": "education",
+  "fields": [
+   "education"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "special education",
+   "inclusion",
+   "disability",
+   "classroom strategies"
+  ],
+  "desc": "Concrete classroom strategies for learners with hearing, vision, and intellectual disabilities. Inclusion is the part of teacher training most short courses skip."
+ },
+ {
+  "id": "google-edu-fundamentals",
+  "title": "Google for Education Learning Center",
+  "provider": "Google",
+  "url": "https://edu.google.com/learning-center/",
+  "hours": 12,
+  "cost": "free",
+  "group": "edu-tools",
+  "field": "education",
+  "fields": [
+   "education"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "classroom tools",
+   "google classroom",
+   "edtech"
+  ],
+  "desc": "Free training on Classroom, Docs, and Drive. Many districts accept the completion certificates as professional development."
+ },
+ {
+  "id": "microsoft-educator",
+  "title": "Microsoft Learn Educator Center",
+  "provider": "Microsoft",
+  "url": "https://learn.microsoft.com/en-us/training/educator-center/",
+  "hours": 10,
+  "cost": "free",
+  "group": "edu-tools",
+  "field": "education",
+  "fields": [
+   "education"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "edtech",
+   "classroom tools",
+   "teams"
+  ],
+  "desc": "Free modules and badges on Teams for Education, OneNote, and inclusive classroom design."
+ },
+ {
+  "id": "apple-teacher",
+  "title": "Apple Teacher",
+  "provider": "Apple Education",
+  "url": "https://education.apple.com/learn",
+  "hours": 8,
+  "cost": "free",
+  "group": "edu-tools",
+  "field": "education",
+  "fields": [
+   "education"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "edtech",
+   "classroom tools",
+   "ipad"
+  ],
+  "desc": "Self-paced badges for iPad and Mac in the classroom, ending in a free Apple Teacher recognition."
+ },
+ {
+  "id": "coursera-tesol",
+  "title": "Teach English Now! (TESOL)",
+  "provider": "Arizona State · Coursera",
+  "url": "https://www.coursera.org/specializations/tesol",
+  "hours": 60,
+  "cost": "audit",
+  "group": "edu-floor",
+  "field": "education",
+  "fields": [
+   "education"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "tesol",
+   "tefl",
+   "esl",
+   "english"
+  ],
+  "desc": "The best-known free-to-audit TESOL sequence. Pairs with a paid certificate only if you want the credential itself."
+ },
+ {
+  "id": "fema-school-safety",
+  "title": "Multi-Hazard Emergency Planning for Schools (IS-362)",
+  "provider": "FEMA Emergency Management Institute",
+  "url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-362.A",
+  "hours": 4,
+  "cost": "free",
+  "group": "edu-floor",
+  "field": "education",
+  "fields": [
+   "education",
+   "government"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "school safety",
+   "emergency management",
+   "government/policy"
+  ],
+  "desc": "A genuinely free federal certificate. Schools value it, and it takes an afternoon."
+ },
+ {
+  "id": "jhu-epidemiology",
+  "title": "Epidemiology: The Basic Science of Public Health",
+  "provider": "UNC · Coursera",
+  "url": "https://www.coursera.org/learn/epidemiology",
+  "hours": 20,
+  "cost": "audit",
+  "group": "hc-pop",
+  "field": "healthcare",
+  "fields": [
+   "healthcare"
+  ],
+  "tags": [
+   "healthcare",
+   "public health",
+   "epidemiology",
+   "nursing",
+   "pre-med",
+   "biology"
+  ],
+  "desc": "Study design, rates, and risk — the reasoning every public health role assumes you have."
+ },
+ {
+  "id": "jhu-psych-first-aid",
+  "title": "Psychological First Aid",
+  "provider": "Johns Hopkins · Coursera",
+  "url": "https://www.coursera.org/learn/psychological-first-aid",
+  "hours": 6,
+  "cost": "audit",
+  "group": "hc-found",
+  "field": "healthcare",
+  "fields": [
+   "healthcare",
+   "psychology",
+   "education"
+  ],
+  "tags": [
+   "healthcare",
+   "psychology",
+   "counseling",
+   "crisis",
+   "public health",
+   "social work"
+  ],
+  "desc": "The RAPID model for supporting people in crisis. Short, respected, and useful in clinical and school placements alike."
+ },
+ {
+  "id": "stanford-food-health",
+  "title": "Introduction to Food and Health",
+  "provider": "Stanford · Coursera",
+  "url": "https://www.coursera.org/learn/food-and-health",
+  "hours": 10,
+  "cost": "audit",
+  "group": "hc-pop",
+  "field": "healthcare",
+  "fields": [
+   "healthcare"
+  ],
+  "tags": [
+   "healthcare",
+   "nutrition",
+   "public health",
+   "wellness",
+   "pre-med"
+  ],
+  "desc": "Nutrition science without the fad diets. A good fit for nutrition, kinesiology, and pre-med tracks."
+ },
+ {
+  "id": "cdc-train",
+  "title": "CDC TRAIN public health courses",
+  "provider": "CDC",
+  "url": "https://www.train.org/cdctrain/welcome",
+  "hours": 15,
+  "cost": "free",
+  "group": "hc-pop",
+  "field": "healthcare",
+  "fields": [
+   "healthcare",
+   "government"
+  ],
+  "tags": [
+   "healthcare",
+   "public health",
+   "epidemiology",
+   "government/policy",
+   "nursing"
+  ],
+  "desc": "The CDC's own free course catalog, with certificates. Filter by your specialty and take what a placement asks for."
+ },
+ {
+  "id": "umich-anatomy",
+  "title": "Musculoskeletal Anatomy",
+  "provider": "Michigan · Coursera",
+  "url": "https://www.coursera.org/learn/anatomy403-1x",
+  "hours": 14,
+  "cost": "audit",
+  "group": "hc-found",
+  "field": "healthcare",
+  "fields": [
+   "healthcare"
+  ],
+  "tags": [
+   "healthcare",
+   "anatomy",
+   "pre-med",
+   "nursing",
+   "kinesiology",
+   "athletic training"
+  ],
+  "desc": "Rigorous undergraduate anatomy, free to audit. Useful before a clinical or athletic training placement."
+ },
+ {
+  "id": "hhs-hipaa",
+  "title": "HIPAA training for health professionals",
+  "provider": "U.S. Dept. of Health & Human Services",
+  "url": "https://www.hhs.gov/hipaa/for-professionals/training/index.html",
+  "hours": 2,
+  "cost": "ref",
+  "group": "hc-floor",
+  "field": "healthcare",
+  "fields": [
+   "healthcare"
+  ],
+  "tags": [
+   "healthcare",
+   "compliance",
+   "hipaa",
+   "privacy",
+   "nursing"
+  ],
+  "desc": "The official HHS materials. Every clinical placement will ask whether you have done HIPAA training — do it before they ask."
+ },
+ {
+  "id": "fema-is100",
+  "title": "Introduction to the Incident Command System (IS-100)",
+  "provider": "FEMA Emergency Management Institute",
+  "url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-100.c",
+  "hours": 3,
+  "cost": "free",
+  "group": "gov-train",
+  "field": "government",
+  "fields": [
+   "government",
+   "healthcare"
+  ],
+  "tags": [
+   "government/policy",
+   "emergency management",
+   "public administration",
+   "criminal justice",
+   "public health"
+  ],
+  "desc": "A real federal certificate, free, in an afternoon. Widely listed as a preferred qualification in government postings."
+ },
+ {
+  "id": "fema-is700",
+  "title": "National Incident Management System (IS-700)",
+  "provider": "FEMA Emergency Management Institute",
+  "url": "https://training.fema.gov/is/courseoverview.aspx?code=IS-700.b",
+  "hours": 3,
+  "cost": "free",
+  "group": "gov-train",
+  "field": "government",
+  "fields": [
+   "government"
+  ],
+  "tags": [
+   "government/policy",
+   "emergency management",
+   "public administration",
+   "criminal justice",
+   "national security"
+  ],
+  "desc": "The companion to IS-100. The pair is the standard free credential for anyone applying into emergency management."
+ },
+ {
+  "id": "upenn-american-law",
+  "title": "Introduction to American Law",
+  "provider": "Penn · Coursera",
+  "url": "https://www.coursera.org/learn/american-law",
+  "hours": 12,
+  "cost": "audit",
+  "group": "gov-found",
+  "field": "government",
+  "fields": [
+   "government"
+  ],
+  "tags": [
+   "law",
+   "government/policy",
+   "criminal justice",
+   "political science",
+   "pre-law"
+  ],
+  "desc": "Six areas of law taught by Penn Law faculty. The standard free starting point for a pre-law track."
+ },
+ {
+  "id": "google-news-initiative",
+  "title": "Google News Initiative training",
+  "provider": "Google",
+  "url": "https://newsinitiative.withgoogle.com/training/",
+  "hours": 8,
+  "cost": "free",
+  "group": "mkt-floor",
+  "field": "marketing",
+  "fields": [
+   "marketing"
+  ],
+  "tags": [
+   "journalism",
+   "media",
+   "communications",
+   "marketing",
+   "fact-checking",
+   "data journalism"
+  ],
+  "desc": "Verification, data journalism, and digital tools, with free certification for the journalism track."
+ },
+ {
+  "id": "google-ux",
+  "title": "Google UX Design Professional Certificate",
+  "provider": "Google · Coursera",
+  "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+  "hours": 180,
+  "cost": "audit",
+  "group": "design-craft",
+  "field": "design",
+  "fields": [
+   "design",
+   "technology"
+  ],
+  "tags": [
+   "design",
+   "ux",
+   "ui",
+   "product design",
+   "user research",
+   "portfolio"
+  ],
+  "desc": "Seven courses ending in three portfolio projects. Audit free; pay only if you want the certificate itself."
+ },
+ {
+  "id": "figma-learn",
+  "title": "Figma learning resources",
+  "provider": "Figma",
+  "url": "https://help.figma.com/hc/en-us/categories/360002051613-Getting-started",
+  "hours": 5,
+  "cost": "free",
+  "group": "design-tools",
+  "field": "design",
+  "fields": [
+   "design"
+  ],
+  "tags": [
+   "design",
+   "ux",
+   "ui",
+   "prototyping",
+   "figma",
+   "product design"
+  ],
+  "desc": "The tool every design internship expects. Free to learn and free to use on a student plan."
+ },
+ {
+  "id": "matlab-onramp",
+  "title": "MATLAB Onramp",
+  "provider": "MathWorks",
+  "url": "https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted",
+  "hours": 2,
+  "cost": "free",
+  "group": "eng-tools",
+  "field": "engineering",
+  "fields": [
+   "engineering",
+   "technology"
+  ],
+  "tags": [
+   "engineering",
+   "matlab",
+   "mechanical engineering",
+   "electrical engineering",
+   "programming",
+   "simulation"
+  ],
+  "desc": "Free, interactive, and ends in a certificate. Nearly every engineering internship assumes some MATLAB."
+ },
+ {
+  "id": "autodesk-learning",
+  "title": "Autodesk free learning paths",
+  "provider": "Autodesk",
+  "url": "https://www.autodesk.com/learning",
+  "hours": 10,
+  "cost": "free",
+  "group": "eng-tools",
+  "field": "engineering",
+  "fields": [
+   "engineering",
+   "architecture"
+  ],
+  "tags": [
+   "engineering",
+   "cad",
+   "fusion 360",
+   "autocad",
+   "revit",
+   "mechanical engineering",
+   "architecture"
+  ],
+  "desc": "CAD training straight from the vendor, free, with student licences for the software itself."
+ },
+ {
+  "id": "osha-worker-training",
+  "title": "OSHA worker safety training materials",
+  "provider": "U.S. Dept. of Labor · OSHA",
+  "url": "https://www.osha.gov/training",
+  "hours": 4,
+  "cost": "ref",
+  "group": "eng-quality",
+  "field": "engineering",
+  "fields": [
+   "engineering",
+   "architecture"
+  ],
+  "tags": [
+   "engineering",
+   "safety",
+   "osha",
+   "construction",
+   "manufacturing",
+   "architecture"
+  ],
+  "desc": "The official OSHA training hub. The 10-hour card costs money, but the underlying materials are free and site placements expect the vocabulary."
+ },
+ {
+  "id": "yale-wellbeing",
+  "title": "The Science of Well-Being",
+  "provider": "Yale · Coursera",
+  "url": "https://www.coursera.org/learn/the-science-of-well-being",
+  "hours": 19,
+  "cost": "audit",
+  "group": "psy-found",
+  "field": "psychology",
+  "fields": [
+   "psychology",
+   "healthcare"
+  ],
+  "tags": [
+   "psychology",
+   "counseling",
+   "social work",
+   "wellbeing",
+   "behavioral science"
+  ],
+  "desc": "Laurie Santos on the evidence behind happiness. Yale's most-taken course, free to audit."
+ },
+ {
+  "id": "yale-intro-psych",
+  "title": "Introduction to Psychology",
+  "provider": "Yale · Coursera",
+  "url": "https://www.coursera.org/learn/introduction-psychology",
+  "hours": 15,
+  "cost": "audit",
+  "group": "psy-found",
+  "field": "psychology",
+  "fields": [
+   "psychology"
+  ],
+  "tags": [
+   "psychology",
+   "counseling",
+   "social work",
+   "cognition",
+   "behavioral science",
+   "research"
+  ],
+  "desc": "Paul Bloom's full survey course. The cleanest free foundation for a psychology or social work track."
+ },
+ {
+  "id": "coursera-social-work",
+  "title": "Social Work Practice: Advocating Social Justice and Change",
+  "provider": "Michigan · Coursera",
+  "url": "https://www.coursera.org/learn/social-work-practice-advocating-social-justice-and-change",
+  "hours": 12,
+  "cost": "audit",
+  "group": "psy-practice",
+  "field": "psychology",
+  "fields": [
+   "psychology",
+   "government"
+  ],
+  "tags": [
+   "social work",
+   "psychology",
+   "advocacy",
+   "community",
+   "public policy",
+   "counseling"
+  ],
+  "desc": "What social work practice actually involves, from Michigan's school of social work. Useful before a field placement."
+ },
+ {
+  "id": "umn-hr-management",
+  "title": "Human Resource Management Specialization",
+  "provider": "Minnesota · Coursera",
+  "url": "https://www.coursera.org/specializations/human-resource-management",
+  "hours": 45,
+  "cost": "audit",
+  "group": "hr-found",
+  "field": "hr",
+  "fields": [
+   "hr",
+   "finance"
+  ],
+  "tags": [
+   "human resources",
+   "hr",
+   "recruiting",
+   "compensation",
+   "management",
+   "business"
+  ],
+  "desc": "Hiring, performance, and compensation across four courses. Audit free; the closest thing to a free HR foundation."
+ },
+ {
+  "id": "shrm-student-resources",
+  "title": "SHRM student resources",
+  "provider": "SHRM",
+  "url": "https://www.shrm.org/credentials/certification",
+  "hours": 0,
+  "cost": "ref",
+  "group": "hr-floor",
+  "field": "hr",
+  "fields": [
+   "hr"
+  ],
+  "tags": [
+   "human resources",
+   "hr",
+   "certification",
+   "recruiting",
+   "business"
+  ],
+  "desc": "Not free to certify, but the eligibility rules and student chapter route are worth reading before you plan a credential."
+ },
+ {
+  "id": "uchicago-climate",
+  "title": "Global Warming I: The Science and Modeling of Climate Change",
+  "provider": "Chicago · Coursera",
+  "url": "https://www.coursera.org/learn/global-warming",
+  "hours": 20,
+  "cost": "audit",
+  "group": "env-found",
+  "field": "environment",
+  "fields": [
+   "environment",
+   "government"
+  ],
+  "tags": [
+   "environmental science",
+   "sustainability",
+   "climate",
+   "policy",
+   "earth science"
+  ],
+  "desc": "Actual climate physics rather than a summary. Free to audit, and rigorous enough to cite in an application."
+ },
+ {
+  "id": "epa-resources",
+  "title": "EPA environmental education and internships",
+  "provider": "U.S. Environmental Protection Agency",
+  "url": "https://www.epa.gov/careers/students",
+  "hours": 0,
+  "cost": "ref",
+  "group": "env-floor",
+  "field": "environment",
+  "fields": [
+   "environment",
+   "government"
+  ],
+  "tags": [
+   "environmental science",
+   "sustainability",
+   "government/policy",
+   "internships",
+   "policy"
+  ],
+  "desc": "The federal route into environmental work, including paid student programs. Deadlines are seasonal, so check early."
+ },
+ {
+  "id": "duke-genetics",
+  "title": "Introduction to Genetics and Evolution",
+  "provider": "Duke · Coursera",
+  "url": "https://www.coursera.org/learn/genetics-evolution",
+  "hours": 25,
+  "cost": "audit",
+  "group": "sci-found",
+  "field": "science",
+  "fields": [
+   "science",
+   "healthcare"
+  ],
+  "tags": [
+   "biology",
+   "genetics",
+   "life sciences",
+   "research",
+   "pre-med",
+   "laboratory"
+  ],
+  "desc": "Undergraduate genetics free to audit. A sensible prerequisite before applying to a research lab or REU."
+ },
+ {
+  "id": "nih-research-ethics",
+  "title": "NIH research ethics and training resources",
+  "provider": "National Institutes of Health",
+  "url": "https://grants.nih.gov/policy-and-compliance/policy-topics/human-subjects/training-and-resources",
+  "hours": 3,
+  "cost": "free",
+  "group": "sci-floor",
+  "field": "science",
+  "fields": [
+   "science",
+   "healthcare"
+  ],
+  "tags": [
+   "research",
+   "life sciences",
+   "ethics",
+   "laboratory",
+   "clinical research",
+   "biology"
+  ],
+  "desc": "Human-subjects training is the gate on most research placements. Do it before the lab asks for it."
+ },
+ {
+  "id": "cornell-hotel",
+  "title": "Hotel Management: Distribution, Revenue and Demand Management",
+  "provider": "Cornell · Coursera",
+  "url": "https://www.coursera.org/specializations/hotel-management",
+  "hours": 30,
+  "cost": "audit",
+  "group": "hosp-found",
+  "field": "hospitality",
+  "fields": [
+   "hospitality",
+   "finance"
+  ],
+  "tags": [
+   "hospitality",
+   "hotel management",
+   "tourism",
+   "revenue management",
+   "event management",
+   "business"
+  ],
+  "desc": "Cornell's hospitality school, free to audit. Revenue management is the part that turns a hospitality resume into an analytics one."
+ },
+ {
+  "id": "coursera-construction",
+  "title": "Construction Management Specialization",
+  "provider": "Columbia · Coursera",
+  "url": "https://www.coursera.org/specializations/construction-management",
+  "hours": 40,
+  "cost": "audit",
+  "group": "arch-found",
+  "field": "architecture",
+  "fields": [
+   "architecture",
+   "engineering"
+  ],
+  "tags": [
+   "construction management",
+   "architecture",
+   "civil engineering",
+   "project management",
+   "scheduling",
+   "cost estimating"
+  ],
+  "desc": "Scheduling, cost control, and project delivery from Columbia. Audit free — the standard free route into construction management."
+ },
+ {
+  "id": "philanthropy-u",
+  "title": "Philanthropy University free courses",
+  "provider": "Philanthropy University",
+  "url": "https://www.philanthropyu.org/",
+  "hours": 12,
+  "cost": "free",
+  "group": "np-found",
+  "field": "nonprofit",
+  "fields": [
+   "nonprofit",
+   "government"
+  ],
+  "tags": [
+   "nonprofit",
+   "fundraising",
+   "social impact",
+   "ngo",
+   "community development",
+   "grant writing"
+  ],
+  "desc": "Free courses and certificates in fundraising and organisational capacity, aimed at people working in nonprofits."
+ },
+ {
+  "id": "google-nonprofits",
+  "title": "Google for Nonprofits resources",
+  "provider": "Google",
+  "url": "https://www.google.com/nonprofits/",
+  "hours": 4,
+  "cost": "free",
+  "group": "np-tools",
+  "field": "nonprofit",
+  "fields": [
+   "nonprofit",
+   "marketing"
+  ],
+  "tags": [
+   "nonprofit",
+   "marketing",
+   "ad grants",
+   "social impact",
+   "fundraising",
+   "digital"
+  ],
+  "desc": "Ad Grants and the tooling nonprofits actually run on. Knowing this is a differentiator in a small development office."
+ },
+ {
+  "id": "colorado-sped-services",
+  "title": "Providing Social, Emotional, Behavioral and Special Education Services",
+  "provider": "Colorado · Coursera",
+  "url": "https://www.coursera.org/learn/providing-social-emotional-behavioral-and-special-education-services-in-school",
+  "hours": 16,
+  "cost": "audit",
+  "group": "edu-craft",
+  "field": "education",
+  "fields": [
+   "education",
+   "psychology"
+  ],
+  "tags": [
+   "education",
+   "teaching",
+   "special education",
+   "school counseling",
+   "behavior",
+   "social emotional learning"
+  ],
+  "desc": "How schools actually deliver SEL and special education services, including the IEP process."
+ }
+]

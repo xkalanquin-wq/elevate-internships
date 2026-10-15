@@ -1,0 +1,225 @@
+/* ---------------------------------------------------------------------------
+   The kinetic layer.
+
+   styles.css owns the palette, the type scale and the spacing rhythm, and it
+   keeps owning them — this file does not redeclare a single colour. What lives
+   here is the part styles.css has no opinion about: motion.
+
+   Load order matters. main.jsx imports styles.css first, then this file, so
+   the utilities below can override component CSS when a kinetic component
+   needs them to. Tailwind's preflight is disabled in tailwind.config.js, so
+   nothing here resets anything the rest of the app depends on.
+   --------------------------------------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- A note on borders ----------------------------------------------------
+   Preflight is off, so Tailwind's `border` utilities do not work on their own.
+   They set border-WIDTH and nothing else, relying on preflight to have already
+   declared `border-style: solid` globally. Without that, border-style stays
+   `none`, the computed width collapses to 0px, and `border border-rule` draws
+   nothing at all — while the browser's own default control border shows
+   through on inputs, in a colour belonging to no token in this system.
+
+   The obvious fix — restoring that slice of preflight under a .k-scope
+   selector — does not work here. Tailwind v3 consumes `@layer base` itself
+   and re-emits the contents as ordinary unlayered CSS, so the rule does not
+   sit in a real cascade layer and cannot lose to styles.css on layer order.
+   Being later in source order, it would instead win, and zero out the borders
+   that `.btn`, `.btn.ghost` and the inputs already set for themselves.
+
+   So the kinetic components pair `border-solid` with every border utility
+   explicitly. It is more verbose, and it is the only version that leaves the
+   existing stylesheet untouched.
+   -------------------------------------------------------------------------- */
+
+/* The kinetic layer's tokens (--k-fast, --k-base, --k-slow, --k-stagger,
+   --ticker-duration, --k-scrim, --k-veil) live in tokens.css with the rest. */
+
+/* --- Reveal ---------------------------------------------------------------
+   Sections start hidden and are revealed by an IntersectionObserver adding
+   [data-revealed]. The initial state is defined here rather than in JS so
+   there is no flash of unstyled content before hydration.
+
+   The .no-js fallback matters: if the observer never runs — script error,
+   very old browser — content must still be readable rather than permanently
+   invisible. App-level JS sets data-k-js on <html>; without it, everything
+   below renders in its final state.
+   -------------------------------------------------------------------------- */
+
+[data-k-js] .k-reveal {
+  opacity: 0;
+  transform: translateY(12px);
+}
+
+[data-k-js] .k-reveal[data-revealed] {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity var(--k-slow) var(--ease),
+    transform var(--k-slow) var(--ease);
+  transition-delay: calc(var(--k-stagger) * var(--k-step, 0));
+}
+
+/* --- Masked headline ------------------------------------------------------
+   Each word sits in an overflow-hidden span and rises into it. The mask is
+   the parent; the animated element is the inner span. Splitting on words and
+   not characters keeps the text selectable and keeps screen readers reading
+   a sentence rather than a column of letters.
+   -------------------------------------------------------------------------- */
+
+.k-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  /* Descenders (g, y, p) get clipped by overflow:hidden on a tight line box.
+     The padding gives them room; the equal negative margin keeps the visual
+     baseline where the type scale put it. */
+  padding-bottom: 0.14em;
+  margin-bottom: -0.14em;
+}
+
+.k-mask > span {
+  display: inline-block;
+  will-change: transform;
+}
+
+[data-k-js] .k-mask > span {
+  transform: translateY(105%);
+}
+
+[data-k-js] .k-mask[data-revealed] > span {
+  transform: translateY(0);
+  transition: transform var(--k-slow) var(--ease);
+  transition-delay: calc(var(--k-stagger) * var(--k-step, 0));
+}
+
+/* --- Ticker ---------------------------------------------------------------
+   The track holds two identical copies of the content and translates by -50%,
+   so the seam lands exactly where the second copy begins and the loop is
+   invisible. Pausing on hover and on focus-within is not decoration: without
+   it, a keyboard user tabbing to a link inside the ticker would be chasing a
+   moving target, and anyone reading slowly has no way to stop it.
+   -------------------------------------------------------------------------- */
+
+.k-ticker-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.k-ticker:hover .k-ticker-track,
+.k-ticker:focus-within .k-ticker-track {
+  animation-play-state: paused;
+}
+
+/* --- Hairline sweep -------------------------------------------------------
+   A rule that draws itself in from the leading edge as its section arrives.
+   Used to separate kinetic sections without adding another border colour.
+   -------------------------------------------------------------------------- */
+
+.k-rule {
+  height: 1px;
+  background: var(--rule);
+  transform-origin: left center;
+}
+
+[data-k-js] .k-rule {
+  transform: scaleX(0);
+}
+
+[data-k-js] .k-rule[data-revealed] {
+  transform: scaleX(1);
+  transition: transform var(--k-slow) var(--ease);
+  transition-delay: calc(var(--k-stagger) * var(--k-step, 0));
+}
+
+/* --- Lift -----------------------------------------------------------------
+   Card hover. 2px and a slightly stronger rule — enough to register as
+   responsive, not enough to shift the page's rhythm. Bound to hover:hover so
+   it never fires on touch, where there is no hover state to leave.
+   -------------------------------------------------------------------------- */
+
+@media (hover: hover) {
+  .k-lift {
+    transition:
+      transform var(--k-base) var(--ease),
+      border-color var(--k-base) var(--ease);
+  }
+
+  .k-lift:hover {
+    transform: translateY(-2px);
+    border-color: var(--field-border);
+  }
+}
+
+/* Focus must be as obvious as hover, and must not depend on it. */
+.k-lift:focus-within {
+  border-color: var(--focus);
+}
+
+/* --- Reduced motion -------------------------------------------------------
+   Everything above collapses to its end state. This is a hard stop, not a
+   softening: no transform, no transition, no infinite marquee. The ticker
+   keeps its content and simply stops scrolling, which is why its markup has
+   to be readable when static.
+   -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  [data-k-js] .k-reveal,
+  [data-k-js] .k-mask > span,
+  [data-k-js] .k-rule {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .k-ticker-track {
+    animation: none !important;
+    transform: none !important;
+    /* With the animation off the doubled content would just overflow, so the
+       track wraps and shows one static row instead. */
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .k-ticker-dupe {
+    display: none;
+  }
+
+  .k-lift {
+    transition: none !important;
+  }
+
+  .k-lift:hover {
+    transform: none !important;
+  }
+
+  /* Belt and braces for any Tailwind animate-* utility used in this layer. */
+  [class*='animate-'] {
+    animation: none !important;
+  }
+}
+
+/* --- Token-based surfaces for the /home components ----------------------- */
+
+.k-glass {
+  background: var(--veil);
+  -webkit-backdrop-filter: var(--glass);
+  backdrop-filter: var(--glass);
+}
+
+.k-skeleton-card {
+  height: calc(var(--sp-8) + var(--sp-6) + var(--sp-2));
+}
+
+.k-sheen {
+  background: linear-gradient(90deg, transparent, var(--scrim), transparent);
+}
+
+/* Lines a button up with an input that has a label above it. */
+.k-field-offset {
+  margin-top: calc(var(--text-sm) * var(--leading-body) + var(--sp-2));
+}

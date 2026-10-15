@@ -1,0 +1,14 @@
+us-zips.csv and us-cities.csv are derived from the GeoNames postal code
+export for the United States:
+
+    https://download.geonames.org/export/zip/US.zip
+
+GeoNames data is licensed under Creative Commons Attribution 4.0:
+
+    https://creativecommons.org/licenses/by/4.0/
+
+This work is derived from it (ZIP centroids kept as-is; city coordinates
+averaged across each city's ZIPs). Attribution must be preserved if this
+application or these files are redistributed.
+
+Regenerate with: node scripts/build-geodata.js <path-to-US.txt>

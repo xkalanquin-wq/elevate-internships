@@ -1,0 +1,1521 @@
+{
+  "_note": "Copy for the /internships/<major> pages. Kept general and conservative on purpose: typical roles and skills, not promises. `keywords` pick recent listings for the page by whole words in the job title; a trailing * matches any ending (\"underwrit*\" matches underwriter and underwriting).",
+  "accounting": {
+    "intro": "Accounting internships put you inside audit, tax or corporate accounting teams, usually at public accounting firms or in a company's finance department. Most are paid, and many turn into full-time offers.",
+    "roles": [
+      {
+        "title": "Audit intern",
+        "what": "Tests a client's financial records and controls alongside an audit team."
+      },
+      {
+        "title": "Tax intern",
+        "what": "Prepares returns and researches tax questions for individuals or businesses."
+      },
+      {
+        "title": "Corporate accounting intern",
+        "what": "Helps with month-end close, reconciliations and reporting inside a company."
+      },
+      {
+        "title": "Advisory or risk intern",
+        "what": "Reviews internal controls, processes or IT systems for clients."
+      }
+    ],
+    "skills": [
+      "Excel (lookups, pivot tables)",
+      "Journal entries and the three financial statements",
+      "Attention to detail",
+      "Reconciliations",
+      "Clear written communication",
+      "QuickBooks or an ERP such as SAP"
+    ],
+    "resumeKeywords": [
+      "GAAP",
+      "reconciliation",
+      "month-end close",
+      "audit",
+      "tax preparation",
+      "financial statements",
+      "Excel",
+      "internal controls",
+      "QuickBooks",
+      "variance analysis"
+    ],
+    "keywords": [
+      "accounting",
+      "accountant",
+      "audit",
+      "tax",
+      "assurance",
+      "controller",
+      "bookkeep*",
+      "reconcil*"
+    ],
+    "faqs": [
+      {
+        "q": "When should accounting majors apply for internships?",
+        "a": "Most large firms recruit in the fall of junior year for internships the following winter or summer, and many run sophomore programs a year earlier. Smaller firms hire later and on a rolling basis."
+      },
+      {
+        "q": "Do I need to be on the CPA track to get an accounting internship?",
+        "a": "No, but firms like to see you planning for it. Knowing how you will reach 150 credit hours shows you have thought about the career."
+      },
+      {
+        "q": "Are winter accounting internships a thing?",
+        "a": "Yes. Audit and tax are busiest from January to April, so many public accounting internships run during that season."
+      }
+    ]
+  },
+  "finance": {
+    "intro": "Finance internships range from investment banking and trading to corporate finance, wealth management and commercial banking. The most competitive ones recruit early, often a year before the summer they start.",
+    "roles": [
+      {
+        "title": "Investment banking summer analyst",
+        "what": "Builds financial models and pitch materials for mergers, acquisitions and capital raises."
+      },
+      {
+        "title": "Corporate finance (FP&A) intern",
+        "what": "Supports budgeting, forecasting and performance analysis inside a company."
+      },
+      {
+        "title": "Sales and trading or markets intern",
+        "what": "Supports traders and salespeople, analyzing markets and client flows."
+      },
+      {
+        "title": "Wealth or asset management intern",
+        "what": "Researches investments and supports portfolio and client teams."
+      },
+      {
+        "title": "Commercial banking or credit intern",
+        "what": "Analyzes businesses applying for loans and monitors existing credit."
+      }
+    ],
+    "skills": [
+      "Excel financial modeling",
+      "Accounting and the three statements",
+      "Valuation (DCF, comparables)",
+      "PowerPoint",
+      "Market awareness",
+      "Attention to detail under deadlines"
+    ],
+    "resumeKeywords": [
+      "financial modeling",
+      "DCF",
+      "valuation",
+      "Excel",
+      "forecasting",
+      "financial analysis",
+      "PowerPoint",
+      "Bloomberg",
+      "due diligence",
+      "variance analysis"
+    ],
+    "keywords": [
+      "finance",
+      "financial",
+      "investment",
+      "investments",
+      "banking",
+      "summer analyst",
+      "treasury",
+      "equity",
+      "trading",
+      "capital markets",
+      "wealth",
+      "asset management",
+      "credit",
+      "fp&a",
+      "quant*",
+      "m&a"
+    ],
+    "faqs": [
+      {
+        "q": "How early do finance internships recruit?",
+        "a": "Investment banking and markets roles for junior summer can open more than a year ahead, sometimes in the spring of sophomore year. Corporate finance and commercial banking usually recruit in the fall of junior year."
+      },
+      {
+        "q": "Which certification helps most for a finance internship?",
+        "a": "None is required. Free options such as Bloomberg Market Concepts (through your school) and financial modeling courses show interest; the FINRA SIE exam is one of the few licenses a student can take without an employer."
+      },
+      {
+        "q": "Can I get a finance internship without a target school?",
+        "a": "Yes. Networking, early applications, strong Excel skills and job simulations all help, and commercial banks, corporate finance teams and smaller firms hire widely."
+      }
+    ]
+  },
+  "business-analytics": {
+    "intro": "Business analytics internships use data to answer business questions: which customers to target, where costs are leaking, what to forecast. They sit in marketing, finance, operations and consulting teams.",
+    "roles": [
+      {
+        "title": "Data or business analyst intern",
+        "what": "Pulls and cleans data, then builds reports that answer business questions."
+      },
+      {
+        "title": "Business intelligence intern",
+        "what": "Builds dashboards in tools such as Power BI or Tableau."
+      },
+      {
+        "title": "Analytics consulting intern",
+        "what": "Supports client projects with data analysis and presentations."
+      },
+      {
+        "title": "Marketing or pricing analytics intern",
+        "what": "Measures campaigns, customer behavior or pricing decisions."
+      }
+    ],
+    "skills": [
+      "SQL",
+      "Excel",
+      "Power BI or Tableau",
+      "Python or R basics",
+      "Statistics",
+      "Explaining findings to non-technical people"
+    ],
+    "resumeKeywords": [
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "Python",
+      "data visualization",
+      "dashboard",
+      "A/B testing",
+      "regression",
+      "Excel",
+      "KPI reporting"
+    ],
+    "keywords": [
+      "analytics",
+      "data analyst",
+      "business analyst",
+      "business intelligence",
+      "insights",
+      "reporting",
+      "bi",
+      "data science"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need to code for a business analytics internship?",
+        "a": "SQL is close to essential, and basic Python or R helps. Many roles lean more on Excel, dashboards and communication than on programming."
+      },
+      {
+        "q": "How do I show analytics skills without experience?",
+        "a": "One portfolio project with real data — a cleaned dataset, a dashboard and a short write-up — is often more convincing than a list of courses."
+      },
+      {
+        "q": "When do analytics internships recruit?",
+        "a": "Large companies and consultancies recruit in the fall of junior year; mid-size companies and startups hire through the spring."
+      }
+    ]
+  },
+  "marketing": {
+    "intro": "Marketing internships cover brand management, digital and social media, content, market research and sales support. They are offered by consumer brands, agencies, startups and almost every mid-size company.",
+    "roles": [
+      {
+        "title": "Brand or product marketing intern",
+        "what": "Supports a product's positioning, launches and campaigns."
+      },
+      {
+        "title": "Digital or social media intern",
+        "what": "Plans, posts and reports on social and paid digital campaigns."
+      },
+      {
+        "title": "Content marketing intern",
+        "what": "Writes blogs, emails and web copy, and helps with SEO."
+      },
+      {
+        "title": "Market research intern",
+        "what": "Runs surveys and analyzes customer and competitor data."
+      }
+    ],
+    "skills": [
+      "Writing",
+      "Google Analytics",
+      "Social media platforms",
+      "Basic design (Canva)",
+      "Excel",
+      "Presenting ideas"
+    ],
+    "resumeKeywords": [
+      "campaign",
+      "social media",
+      "content creation",
+      "Google Analytics",
+      "SEO",
+      "email marketing",
+      "market research",
+      "brand",
+      "engagement",
+      "HubSpot"
+    ],
+    "keywords": [
+      "marketing",
+      "brand",
+      "social media",
+      "content marketing",
+      "digital marketing",
+      "communications",
+      "growth",
+      "seo",
+      "advertising",
+      "public relations",
+      "pr"
+    ],
+    "faqs": [
+      {
+        "q": "When do marketing internships open?",
+        "a": "Large consumer-goods brand programs recruit in the fall of junior year, but most agencies, startups and mid-size companies hire in the spring, often only weeks before the start date."
+      },
+      {
+        "q": "What should a marketing student put in a portfolio?",
+        "a": "Real work: social accounts you ran, campaigns you measured, writing samples, or a small project with results. Free HubSpot and Google certificates are a good add-on."
+      },
+      {
+        "q": "Are there paid marketing internships?",
+        "a": "Yes, and most listings from established companies are paid. Be cautious with unpaid roles that are not tied to academic credit."
+      }
+    ]
+  },
+  "management": {
+    "intro": "Management internships put you in operations, project management, rotational and general business roles, where the work is coordinating people and processes. Many lead into leadership development programs.",
+    "roles": [
+      {
+        "title": "Operations intern",
+        "what": "Improves how work gets done — scheduling, processes, reporting."
+      },
+      {
+        "title": "Project coordinator intern",
+        "what": "Tracks timelines, tasks and communication for a project team."
+      },
+      {
+        "title": "Leadership or rotational program intern",
+        "what": "Rotates through several departments over the summer."
+      },
+      {
+        "title": "Management consulting intern",
+        "what": "Supports client projects with research, analysis and slides."
+      }
+    ],
+    "skills": [
+      "Organization",
+      "Communication",
+      "Excel",
+      "Project management tools",
+      "Problem solving",
+      "Presenting"
+    ],
+    "resumeKeywords": [
+      "project management",
+      "process improvement",
+      "operations",
+      "stakeholder",
+      "coordination",
+      "leadership",
+      "Agile",
+      "scheduling",
+      "KPI",
+      "cross-functional"
+    ],
+    "keywords": [
+      "management",
+      "operations",
+      "project",
+      "leadership",
+      "rotational",
+      "consult*",
+      "strategy",
+      "business operations"
+    ],
+    "faqs": [
+      {
+        "q": "What internship should a management major look for?",
+        "a": "Operations, project coordination and rotational programs are the most common fits. Consulting is competitive but open to management majors."
+      },
+      {
+        "q": "Does a project management certification help?",
+        "a": "An entry-level credential such as the CAPM or the Google Project Management certificate shows structure and vocabulary, though experience leading something counts for more."
+      },
+      {
+        "q": "When do rotational programs recruit?",
+        "a": "Most recruit in the fall of junior year for internships, and in the fall of senior year for full-time roles."
+      }
+    ]
+  },
+  "supply-chain": {
+    "intro": "Supply chain and operations internships deal with how products are bought, made, stored and delivered. Manufacturers, retailers, logistics companies and e-commerce firms all hire for them, often as paid co-ops.",
+    "roles": [
+      {
+        "title": "Procurement or sourcing intern",
+        "what": "Supports buying decisions, supplier comparisons and contracts."
+      },
+      {
+        "title": "Logistics or transportation intern",
+        "what": "Tracks shipments and looks for faster or cheaper routes."
+      },
+      {
+        "title": "Inventory or demand planning intern",
+        "what": "Forecasts demand and keeps stock at the right level."
+      },
+      {
+        "title": "Operations or manufacturing intern",
+        "what": "Improves processes on a production or warehouse floor."
+      }
+    ],
+    "skills": [
+      "Excel",
+      "Data analysis",
+      "ERP systems such as SAP",
+      "Process improvement (Lean, Six Sigma)",
+      "Negotiation basics",
+      "Communication"
+    ],
+    "resumeKeywords": [
+      "supply chain",
+      "procurement",
+      "logistics",
+      "inventory",
+      "demand planning",
+      "SAP",
+      "Lean",
+      "Six Sigma",
+      "vendor management",
+      "forecasting"
+    ],
+    "keywords": [
+      "supply chain",
+      "logistics",
+      "procurement",
+      "sourcing",
+      "inventory",
+      "demand planning",
+      "purchasing",
+      "warehouse",
+      "transportation",
+      "operations"
+    ],
+    "faqs": [
+      {
+        "q": "When do supply chain internships recruit?",
+        "a": "Many manufacturers, retailers and logistics companies recruit at fall career fairs in September and October, and co-ops recruit about six months before they start."
+      },
+      {
+        "q": "Is Six Sigma worth it as a student?",
+        "a": "A free or low-cost introduction shows process thinking. A full Green Belt is more often paid for by an employer later."
+      },
+      {
+        "q": "Are supply chain internships paid?",
+        "a": "Most are, and co-ops in particular are usually paid full-time roles for a semester."
+      }
+    ]
+  },
+  "human-resources": {
+    "intro": "Human resources internships cover recruiting, onboarding, benefits, HR analytics and employee experience. Almost every mid-size and large employer has an HR team that takes interns.",
+    "roles": [
+      {
+        "title": "Recruiting or talent acquisition intern",
+        "what": "Screens candidates, schedules interviews and supports campus recruiting."
+      },
+      {
+        "title": "HR generalist intern",
+        "what": "Supports onboarding, policies, records and employee questions."
+      },
+      {
+        "title": "People analytics intern",
+        "what": "Analyzes hiring, turnover and engagement data."
+      },
+      {
+        "title": "Learning and development intern",
+        "what": "Helps build and run training programs."
+      }
+    ],
+    "skills": [
+      "Communication",
+      "Discretion with confidential information",
+      "Excel",
+      "Organization",
+      "HR systems (Workday, ADP)",
+      "Basic employment law awareness"
+    ],
+    "resumeKeywords": [
+      "recruiting",
+      "onboarding",
+      "talent acquisition",
+      "HRIS",
+      "Workday",
+      "employee engagement",
+      "benefits",
+      "compliance",
+      "scheduling",
+      "people analytics"
+    ],
+    "keywords": [
+      "human resources",
+      "hr",
+      "recruit*",
+      "talent",
+      "people operations",
+      "onboarding",
+      "benefits",
+      "workforce"
+    ],
+    "faqs": [
+      {
+        "q": "When do HR internships recruit?",
+        "a": "Leadership programs at large employers recruit in the fall of junior year; most other HR internships hire in the spring."
+      },
+      {
+        "q": "Which HR certification can a student get?",
+        "a": "The aPHR is designed for people with no HR experience yet. The SHRM-CP usually comes later, once you work in HR."
+      },
+      {
+        "q": "Is recruiting a good first HR internship?",
+        "a": "Yes. Recruiting teams take many interns, and the work touches most of HR."
+      }
+    ]
+  },
+  "mis": {
+    "intro": "Management information systems internships sit between business and technology: IT consulting, systems analysis, ERP and CRM work, and IT audit. Consulting firms, banks and large companies all hire MIS students.",
+    "roles": [
+      {
+        "title": "Technology consulting intern",
+        "what": "Helps clients choose and implement business systems."
+      },
+      {
+        "title": "IT or systems analyst intern",
+        "what": "Gathers requirements and supports internal systems."
+      },
+      {
+        "title": "IT audit or risk intern",
+        "what": "Reviews systems and controls for security and compliance."
+      },
+      {
+        "title": "CRM or ERP intern",
+        "what": "Supports Salesforce, SAP or similar platforms."
+      }
+    ],
+    "skills": [
+      "SQL",
+      "Business process mapping",
+      "Salesforce or SAP basics",
+      "Cloud fundamentals",
+      "Excel",
+      "Explaining technology to business users"
+    ],
+    "resumeKeywords": [
+      "requirements gathering",
+      "SQL",
+      "Salesforce",
+      "SAP",
+      "ERP",
+      "cloud",
+      "IT audit",
+      "process mapping",
+      "Agile",
+      "system implementation"
+    ],
+    "keywords": [
+      "information systems",
+      "it",
+      "technology",
+      "systems analyst",
+      "salesforce",
+      "erp",
+      "sap",
+      "cyber*",
+      "technology consulting",
+      "business analyst",
+      "it audit"
+    ],
+    "faqs": [
+      {
+        "q": "What internships fit an MIS major?",
+        "a": "Technology consulting, IT audit, business systems analysis and CRM or ERP roles are the most common. Many are at consulting firms and the Big Four."
+      },
+      {
+        "q": "Which certifications help MIS students?",
+        "a": "Entry-level cloud certificates (AWS Cloud Practitioner or Azure Fundamentals) and the free Salesforce Trailhead paths are quick, recognized starting points."
+      },
+      {
+        "q": "When do MIS internships recruit?",
+        "a": "Consulting and Big Four programs recruit in the fall of junior year, with sophomore programs a year earlier."
+      }
+    ]
+  },
+  "economics": {
+    "intro": "Economics majors land internships in finance, consulting, economic consulting, government, research and policy. The right timeline depends on which of those paths you take.",
+    "roles": [
+      {
+        "title": "Research or economic analyst intern",
+        "what": "Collects and analyzes data for research reports or policy work."
+      },
+      {
+        "title": "Economic consulting intern",
+        "what": "Supports analysis for legal and regulatory cases."
+      },
+      {
+        "title": "Government or policy intern",
+        "what": "Works in a public agency, central bank or think tank."
+      },
+      {
+        "title": "Finance or banking intern",
+        "what": "Follows the finance path — see finance internships."
+      }
+    ],
+    "skills": [
+      "Statistics and econometrics",
+      "Excel",
+      "R, Stata or Python",
+      "Writing",
+      "Data collection",
+      "Clear charts and summaries"
+    ],
+    "resumeKeywords": [
+      "econometrics",
+      "regression",
+      "Stata",
+      "R",
+      "data analysis",
+      "research",
+      "policy analysis",
+      "forecasting",
+      "Excel",
+      "report writing"
+    ],
+    "keywords": [
+      "economic*",
+      "economist",
+      "research analyst",
+      "policy",
+      "public finance"
+    ],
+    "faqs": [
+      {
+        "q": "What internships can an economics major get?",
+        "a": "Finance, consulting, economic consulting, government and research roles all hire economics majors. Your electives and skills decide which is the closest fit."
+      },
+      {
+        "q": "When do government and research internships recruit?",
+        "a": "Many summer government and think-tank internships open in winter and early spring. Research-assistant roles for after graduation typically open in the fall of senior year."
+      },
+      {
+        "q": "Should economics students learn to code?",
+        "a": "Yes, at least one of R, Stata or Python. Most research and analyst roles expect it."
+      }
+    ]
+  },
+  "entrepreneurship": {
+    "intro": "Entrepreneurship students do well in startup, venture capital and small-business internships, where you do a bit of everything. Many also build their own project alongside.",
+    "roles": [
+      {
+        "title": "Startup business operations intern",
+        "what": "Handles whatever the company needs: operations, sales, research."
+      },
+      {
+        "title": "Growth or marketing intern",
+        "what": "Runs experiments to bring in and keep customers."
+      },
+      {
+        "title": "Venture capital intern",
+        "what": "Researches markets and startups for investors."
+      },
+      {
+        "title": "Small business or accelerator intern",
+        "what": "Supports founders in an incubator or accelerator program."
+      }
+    ],
+    "skills": [
+      "Initiative",
+      "Sales and customer conversations",
+      "Basic financial modeling",
+      "Marketing",
+      "Research",
+      "Comfort with ambiguity"
+    ],
+    "resumeKeywords": [
+      "startup",
+      "business development",
+      "growth",
+      "customer discovery",
+      "go-to-market",
+      "market research",
+      "financial model",
+      "pitch",
+      "operations",
+      "sales"
+    ],
+    "keywords": [
+      "startup",
+      "venture",
+      "founder",
+      "business development",
+      "growth",
+      "entrepreneur*",
+      "strategy"
+    ],
+    "faqs": [
+      {
+        "q": "When do startups hire interns?",
+        "a": "Often on a rolling basis, four to eight weeks before the start date — so keep looking through the spring."
+      },
+      {
+        "q": "Does running my own project count as experience?",
+        "a": "Yes, if you can show what you did and what happened: customers, revenue, users or lessons learned."
+      },
+      {
+        "q": "How do I find startup internships?",
+        "a": "Startup job boards, university incubators, and reaching out to founders directly all work. Many never post a listing at all."
+      }
+    ]
+  },
+  "international-business": {
+    "intro": "International business internships are with multinationals, trade and logistics firms, global consultancies and development organizations. Language skills and time abroad make a real difference here.",
+    "roles": [
+      {
+        "title": "Global operations or trade intern",
+        "what": "Supports imports, exports and cross-border logistics."
+      },
+      {
+        "title": "International marketing intern",
+        "what": "Adapts campaigns and research for other markets."
+      },
+      {
+        "title": "Rotational program intern at a multinational",
+        "what": "Rotates across functions, sometimes across countries."
+      },
+      {
+        "title": "Development or policy intern",
+        "what": "Works with trade, development or economic organizations."
+      }
+    ],
+    "skills": [
+      "A second language",
+      "Cross-cultural communication",
+      "Excel",
+      "Trade and logistics basics",
+      "Research",
+      "Adaptability"
+    ],
+    "resumeKeywords": [
+      "international",
+      "global",
+      "export",
+      "import",
+      "trade compliance",
+      "cross-cultural",
+      "bilingual",
+      "market entry",
+      "logistics",
+      "research"
+    ],
+    "keywords": [
+      "international",
+      "global",
+      "trade",
+      "export",
+      "import",
+      "emea",
+      "latam",
+      "apac",
+      "cross-border"
+    ],
+    "faqs": [
+      {
+        "q": "How early should I apply for an internship abroad?",
+        "a": "Six months or more ahead, because visas and housing take time."
+      },
+      {
+        "q": "Does a second language matter?",
+        "a": "Yes. It is one of the clearest ways to stand out for international roles, even at a conversational level."
+      },
+      {
+        "q": "When do multinationals recruit?",
+        "a": "Most rotational programs at large multinationals recruit in the fall of junior year."
+      }
+    ]
+  },
+  "risk": {
+    "intro": "Risk management and insurance internships are with insurers, brokers, banks and large companies' risk teams, including actuarial, underwriting and claims roles. Insurers convert a large share of interns to full-time.",
+    "roles": [
+      {
+        "title": "Underwriting intern",
+        "what": "Evaluates risks and helps price insurance policies."
+      },
+      {
+        "title": "Actuarial intern",
+        "what": "Uses statistics to price products and estimate future claims."
+      },
+      {
+        "title": "Claims intern",
+        "what": "Investigates and processes insurance claims."
+      },
+      {
+        "title": "Risk analyst or broker intern",
+        "what": "Analyzes business risk or helps clients choose coverage."
+      }
+    ],
+    "skills": [
+      "Excel",
+      "Probability and statistics",
+      "Analytical thinking",
+      "Communication",
+      "Attention to detail",
+      "SQL or SAS for analytical roles"
+    ],
+    "resumeKeywords": [
+      "risk assessment",
+      "underwriting",
+      "actuarial",
+      "claims",
+      "insurance",
+      "Excel",
+      "statistics",
+      "SAS",
+      "exposure analysis",
+      "compliance"
+    ],
+    "keywords": [
+      "risk",
+      "insurance",
+      "underwrit*",
+      "actuar*",
+      "claims",
+      "broker*",
+      "compliance"
+    ],
+    "faqs": [
+      {
+        "q": "Do actuarial internships require an exam?",
+        "a": "Most expect at least one passed exam — usually Exam P — so plan to take it early."
+      },
+      {
+        "q": "When do insurance internships recruit?",
+        "a": "Largely at fall career fairs in September and October of junior year, including the Gamma Iota Sigma conference."
+      },
+      {
+        "q": "Is the CPCU useful for students?",
+        "a": "It is a career credential usually paid for by an employer, but knowing it exists signals interest in the field."
+      }
+    ]
+  },
+  "hospitality": {
+    "intro": "Hospitality and tourism internships are with hotels, resorts, restaurant groups, event companies and travel businesses, in operations, revenue management, events and sales.",
+    "roles": [
+      {
+        "title": "Hotel operations or front office intern",
+        "what": "Works across guest services and daily hotel operations."
+      },
+      {
+        "title": "Revenue management intern",
+        "what": "Analyzes pricing and demand to set room rates."
+      },
+      {
+        "title": "Events or catering intern",
+        "what": "Plans and runs events and group bookings."
+      },
+      {
+        "title": "Food and beverage intern",
+        "what": "Supports restaurant and bar operations."
+      }
+    ],
+    "skills": [
+      "Guest service",
+      "Excel",
+      "Working under pressure",
+      "Teamwork",
+      "Scheduling",
+      "Basic revenue and pricing concepts"
+    ],
+    "resumeKeywords": [
+      "guest experience",
+      "hospitality",
+      "revenue management",
+      "event planning",
+      "front office",
+      "food and beverage",
+      "customer service",
+      "scheduling",
+      "Opera PMS",
+      "operations"
+    ],
+    "keywords": [
+      "hospitality",
+      "hotel",
+      "resort",
+      "events",
+      "event",
+      "tourism",
+      "travel",
+      "food and beverage",
+      "guest",
+      "restaurant"
+    ],
+    "faqs": [
+      {
+        "q": "When do hospitality internships recruit?",
+        "a": "Management-training programs at large hotel groups recruit in the fall; most hotels, resorts and event companies hire for summer in February to April."
+      },
+      {
+        "q": "Which certifications help in hospitality?",
+        "a": "ServSafe for food and beverage roles, and the industry's own AHLEI certifications for hotel operations."
+      },
+      {
+        "q": "Does part-time restaurant or hotel work count?",
+        "a": "Yes. Operations experience of any kind is valued, so list it with the responsibilities you had."
+      },
+      {
+        "q": "What do hospitality management interns do?",
+        "a": "Most rotate through departments such as front office, food and beverage, events and sales, or work on revenue and guest-experience projects. Rotational programs at large hotel companies let you try several areas before choosing one."
+      }
+    ]
+  },
+  "real-estate": {
+    "intro": "Real estate internships are with brokerages, developers, investment firms, REITs and property managers. The investment side follows the early finance timeline; brokerage and development hire later.",
+    "roles": [
+      {
+        "title": "Acquisitions or investment analyst intern",
+        "what": "Models property deals and researches markets."
+      },
+      {
+        "title": "Development intern",
+        "what": "Supports new projects from site research to construction."
+      },
+      {
+        "title": "Commercial brokerage intern",
+        "what": "Researches properties and prepares materials for brokers."
+      },
+      {
+        "title": "Property or asset management intern",
+        "what": "Tracks property performance, leasing and budgets."
+      }
+    ],
+    "skills": [
+      "Excel real estate modeling",
+      "Market research",
+      "Valuation basics",
+      "Communication",
+      "ARGUS (a plus)",
+      "Attention to detail"
+    ],
+    "resumeKeywords": [
+      "underwriting",
+      "pro forma",
+      "cash flow",
+      "market research",
+      "Excel",
+      "ARGUS",
+      "leasing",
+      "acquisitions",
+      "comparables",
+      "due diligence"
+    ],
+    "keywords": [
+      "real estate",
+      "property",
+      "properties",
+      "leasing",
+      "acquisitions",
+      "reit",
+      "brokerage",
+      "land development"
+    ],
+    "faqs": [
+      {
+        "q": "When do real estate internships recruit?",
+        "a": "Real estate private equity and investment roles follow the early finance timeline. Brokerages, REITs and large developers recruit in the fall of junior year, and smaller firms hire on a rolling basis in the spring."
+      },
+      {
+        "q": "Do I need a real estate license for an internship?",
+        "a": "Usually not. A license matters if you want to broker deals yourself, and the rules vary by state."
+      },
+      {
+        "q": "What is the real estate modeling test?",
+        "a": "Many internships ask you to build a simple property cash-flow model in Excel. Free practice models are a good way to prepare."
+      }
+    ]
+  },
+  "business-administration": {
+    "intro": "Business administration internships span every function: operations, sales, finance, marketing and HR. Large companies’ rotational programs and small and mid-size firms alike hire generalists who learn quickly.",
+    "roles": [
+      {
+        "title": "Operations intern",
+        "what": "Improves a process, tracks metrics and supports the day-to-day running of a team."
+      },
+      {
+        "title": "Business analyst intern",
+        "what": "Gathers data and turns it into recommendations for managers."
+      },
+      {
+        "title": "Rotational program intern",
+        "what": "Spends the summer in two or more departments before choosing one."
+      },
+      {
+        "title": "Sales or account management intern",
+        "what": "Supports clients and the sales pipeline."
+      }
+    ],
+    "skills": [
+      "Excel",
+      "Written and spoken communication",
+      "Project management",
+      "Basic accounting",
+      "Data analysis",
+      "Teamwork"
+    ],
+    "resumeKeywords": [
+      "operations",
+      "project management",
+      "business analysis",
+      "process improvement",
+      "Excel",
+      "stakeholder communication",
+      "reporting",
+      "customer service",
+      "budgeting",
+      "cross-functional"
+    ],
+    "keywords": [
+      "business",
+      "operations",
+      "administrat*",
+      "rotational",
+      "project",
+      "strategy",
+      "general management"
+    ],
+    "faqs": [
+      {
+        "q": "What internships can a business administration major get?",
+        "a": "Almost any business internship: operations, sales, marketing, finance and HR roles all hire business administration majors. Pick one or two areas so your resume tells a clear story."
+      },
+      {
+        "q": "Is a business administration degree too general?",
+        "a": "Not if you pair it with proof of a skill. Excel, a project management credential or a sales certification shows an employer where you fit."
+      },
+      {
+        "q": "When do business administration internships recruit?",
+        "a": "Large companies recruit at fall career fairs for the following summer; smaller firms hire through the spring."
+      }
+    ]
+  },
+  "sport-management": {
+    "intro": "Sport management internships are with professional teams, leagues, college athletic departments, agencies and sports-tech companies, mostly in ticket sales, partnerships, marketing and event operations. Pay varies, so ask before you accept.",
+    "roles": [
+      {
+        "title": "Ticket sales or inside sales intern",
+        "what": "Calls fans and businesses to sell season tickets, group outings and premium seating."
+      },
+      {
+        "title": "Partnerships or sponsorship intern",
+        "what": "Supports sponsor deals, activations and the reports sent to partners."
+      },
+      {
+        "title": "Game-day and event operations intern",
+        "what": "Sets up and runs games and events, from staffing to guest experience."
+      },
+      {
+        "title": "Marketing, social or community relations intern",
+        "what": "Creates content, runs promotions and supports community programs."
+      }
+    ],
+    "skills": [
+      "Sales and phone confidence",
+      "Event operations",
+      "Social media and content",
+      "CRM software",
+      "Excel",
+      "Working nights, weekends and game days"
+    ],
+    "resumeKeywords": [
+      "ticket sales",
+      "sponsorship",
+      "partnership activation",
+      "event operations",
+      "game day",
+      "fan engagement",
+      "CRM",
+      "social media",
+      "community relations",
+      "customer service"
+    ],
+    "keywords": [
+      "sport*",
+      "athletic*",
+      "ticket*",
+      "game day",
+      "stadium",
+      "arena",
+      "league",
+      "esports",
+      "fan experience"
+    ],
+    "faqs": [
+      {
+        "q": "Are sport management internships paid?",
+        "a": "Many teams and leagues pay hourly; college athletic departments and smaller organizations sometimes offer academic credit instead. Ask before you accept."
+      },
+      {
+        "q": "Where do sports teams post internships?",
+        "a": "Many pro teams, leagues and college athletic departments post on TeamWork Online, the sports industry’s job board, as well as on their own career pages. Search there alongside the general boards."
+      },
+      {
+        "q": "What is the best way into the sports business?",
+        "a": "Ticket sales and event operations are common first jobs in sports, so sales skills and game-day experience carry the most weight early on."
+      }
+    ]
+  },
+  "logistics": {
+    "intro": "Logistics and transportation internships are with carriers, freight brokers and forwarders, third-party logistics (3PL) firms, and the distribution teams of manufacturers and retailers. Most are paid.",
+    "roles": [
+      {
+        "title": "Logistics or transportation analyst intern",
+        "what": "Tracks shipments, carrier costs and on-time performance, and looks for cheaper routes."
+      },
+      {
+        "title": "Freight broker or carrier sales intern",
+        "what": "Matches shippers’ loads with trucking companies and negotiates rates."
+      },
+      {
+        "title": "Warehouse or distribution center intern",
+        "what": "Improves receiving, picking, packing and shipping on the floor."
+      },
+      {
+        "title": "Import/export or customs intern",
+        "what": "Prepares shipping documents and helps goods clear customs."
+      }
+    ],
+    "skills": [
+      "Excel",
+      "Negotiation",
+      "Transportation management systems (TMS)",
+      "Problem solving under time pressure",
+      "Data analysis",
+      "Communication with carriers and customers"
+    ],
+    "resumeKeywords": [
+      "logistics",
+      "transportation",
+      "freight",
+      "carrier management",
+      "shipment tracking",
+      "warehouse operations",
+      "TMS",
+      "route optimization",
+      "import/export",
+      "on-time delivery"
+    ],
+    "keywords": [
+      "logistic*",
+      "transportation",
+      "freight",
+      "shipping",
+      "warehouse",
+      "distribution",
+      "fleet",
+      "carrier",
+      "customs",
+      "dispatch",
+      "fulfillment"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between logistics and supply chain?",
+        "a": "Supply chain management covers the whole chain, from buying materials to delivering the product. Logistics is the part that moves and stores goods: transportation, warehousing and distribution."
+      },
+      {
+        "q": "Can a student take the customs broker exam?",
+        "a": "Yes. CBP’s Customs Broker License Exam is open to U.S. citizens 18 or older and is given in April and October. The license itself is issued after you pass and complete CBP’s application and background check."
+      },
+      {
+        "q": "Are logistics internships paid?",
+        "a": "Most are, and co-ops are usually paid full-time roles for a semester."
+      }
+    ]
+  },
+  "healthcare-management": {
+    "intro": "Healthcare management internships are with hospitals and health systems, physician groups, insurers and health plans, and healthcare consulting firms. Interns work on operations, finance, quality and patient experience — the business side of care.",
+    "roles": [
+      {
+        "title": "Hospital administration or operations intern",
+        "what": "Supports department leaders with projects on patient flow, staffing or scheduling."
+      },
+      {
+        "title": "Revenue cycle or healthcare finance intern",
+        "what": "Works on billing, claims and the reports that track how the organization is paid."
+      },
+      {
+        "title": "Quality and patient experience intern",
+        "what": "Analyzes patient survey and quality data and helps with improvement projects."
+      },
+      {
+        "title": "Health plan or healthcare consulting intern",
+        "what": "Analyzes costs, provider networks or member data for an insurer or consulting firm."
+      }
+    ],
+    "skills": [
+      "Excel",
+      "Data analysis",
+      "Project management",
+      "Insurance and billing basics",
+      "Communication with clinical staff",
+      "Patient privacy (HIPAA)"
+    ],
+    "resumeKeywords": [
+      "healthcare operations",
+      "patient experience",
+      "revenue cycle",
+      "quality improvement",
+      "HIPAA",
+      "process improvement",
+      "Excel",
+      "data analysis",
+      "project management",
+      "health policy"
+    ],
+    "keywords": [
+      "healthcare",
+      "health care",
+      "health plan*",
+      "health system*",
+      "hospital",
+      "clinic*",
+      "patient",
+      "medical",
+      "pharma*",
+      "revenue cycle",
+      "payer"
+    ],
+    "faqs": [
+      {
+        "q": "What do healthcare management interns do?",
+        "a": "Most support a manager on projects: improving patient flow, analyzing costs or quality data, or helping with billing and scheduling. Clinical experience is not required."
+      },
+      {
+        "q": "When do healthcare management internships recruit?",
+        "a": "Large health systems, insurers and consulting firms post summer internships from fall through winter; hospitals and clinics also hire in the spring. After graduation, many students apply for administrative fellowships."
+      },
+      {
+        "q": "Do I need a certification for a healthcare internship?",
+        "a": "No, but a revenue-cycle credential such as HFMA’s CRCR, or strong Excel and data skills, helps you stand out for finance and operations roles."
+      }
+    ]
+  },
+  "sales": {
+    "intro": "Sales internships are with software companies, manufacturers, distributors, logistics firms and consumer brands. Interns prospect, qualify leads and support account managers. Pay is usually hourly, and some programs add commission or bonuses.",
+    "roles": [
+      {
+        "title": "Sales development or inside sales intern",
+        "what": "Researches prospects, makes first contact and books meetings for account executives."
+      },
+      {
+        "title": "Account management intern",
+        "what": "Supports existing customers and looks for chances to grow the account."
+      },
+      {
+        "title": "Business development intern",
+        "what": "Finds and qualifies new partners or markets."
+      },
+      {
+        "title": "Sales operations intern",
+        "what": "Keeps the CRM clean and builds the reports a sales team runs on."
+      }
+    ],
+    "skills": [
+      "Prospecting and outreach",
+      "Active listening",
+      "CRM software such as Salesforce or HubSpot",
+      "Handling objections",
+      "Excel",
+      "Resilience"
+    ],
+    "resumeKeywords": [
+      "prospecting",
+      "lead generation",
+      "pipeline",
+      "CRM",
+      "Salesforce",
+      "HubSpot",
+      "cold outreach",
+      "quota",
+      "account management",
+      "negotiation"
+    ],
+    "keywords": [
+      "sales",
+      "account executive",
+      "account manag*",
+      "business development",
+      "customer success",
+      "sdr",
+      "bdr",
+      "inside sales"
+    ],
+    "faqs": [
+      {
+        "q": "What is a professional sales major?",
+        "a": "A business major built around selling: prospecting, negotiation, sales management and CRM tools, usually with role-play labs and sales competitions. Schools offer it as a major, minor or certificate."
+      },
+      {
+        "q": "Are sales internships paid?",
+        "a": "Most are, usually hourly, and some add commission or a bonus for meetings booked or deals closed."
+      },
+      {
+        "q": "Which certification helps most for a sales internship?",
+        "a": "A free one that proves you know the tools: HubSpot’s Inbound Sales certification or the Salesforce Admin Beginner trail on Trailhead."
+      }
+    ]
+  },
+  "actuarial-science": {
+    "intro": "Actuarial internships are with insurers, actuarial consulting firms, and the benefits and risk teams of large companies. Interns price policies, estimate future claims and build models, and most employers expect at least one passed actuarial exam.",
+    "roles": [
+      {
+        "title": "Life or health actuarial intern",
+        "what": "Prices insurance products and projects future claims and reserves."
+      },
+      {
+        "title": "Property and casualty actuarial intern",
+        "what": "Analyzes losses to help set rates for auto, home and business insurance."
+      },
+      {
+        "title": "Retirement or pension consulting intern",
+        "what": "Values pension plans and benefit costs for clients."
+      },
+      {
+        "title": "Actuarial data intern",
+        "what": "Cleans data and builds models in Excel, SQL, R or Python."
+      }
+    ],
+    "skills": [
+      "Probability and statistics",
+      "Financial mathematics",
+      "Excel",
+      "SQL",
+      "R or Python",
+      "Explaining numbers in plain words"
+    ],
+    "resumeKeywords": [
+      "actuarial",
+      "Exam P",
+      "Exam FM",
+      "pricing",
+      "reserving",
+      "loss analysis",
+      "Excel",
+      "SQL",
+      "R",
+      "Python"
+    ],
+    "keywords": [
+      "actuar*",
+      "reserving",
+      "pension",
+      "insurance analyst"
+    ],
+    "faqs": [
+      {
+        "q": "How many actuarial exams should I pass before an internship?",
+        "a": "Aim for at least one, usually Exam P; two (P and FM) makes you a strong candidate. Put passed exams at the top of your resume."
+      },
+      {
+        "q": "What is VEE?",
+        "a": "Validation by Educational Experience: credit toward the ASA for college courses in economics, accounting and finance, and mathematical statistics. You apply once you have passed two exams, so plan approved courses into your degree."
+      },
+      {
+        "q": "Is actuarial science the same as risk management and insurance?",
+        "a": "They overlap. Actuarial science is the mathematical side — pricing and reserving — and is built around the exams. Risk management and insurance also covers underwriting, claims, brokerage and corporate risk."
+      }
+    ]
+  },
+  "financial-planning": {
+    "intro": "Financial planning internships are with wealth management firms, independent advisory practices, banks’ private client groups and insurers. Interns prepare client meetings, help build plans and handle account paperwork, and internship hours can count toward the experience needed for the CFP.",
+    "roles": [
+      {
+        "title": "Financial planning or paraplanning intern",
+        "what": "Gathers client data and helps build financial plans in planning software."
+      },
+      {
+        "title": "Client service intern",
+        "what": "Prepares meeting materials, opens accounts and handles paperwork."
+      },
+      {
+        "title": "Wealth management intern",
+        "what": "Supports advisors with portfolio research and client reviews."
+      },
+      {
+        "title": "Insurance and retirement planning intern",
+        "what": "Helps compare insurance, retirement and estate options for clients."
+      }
+    ],
+    "skills": [
+      "Communication with clients",
+      "Excel",
+      "Tax, retirement and insurance basics",
+      "Attention to detail",
+      "Planning software such as eMoney or MoneyGuide",
+      "Discretion with confidential information"
+    ],
+    "resumeKeywords": [
+      "financial planning",
+      "client service",
+      "wealth management",
+      "retirement planning",
+      "SIE",
+      "paraplanning",
+      "CRM",
+      "portfolio review",
+      "Excel",
+      "compliance"
+    ],
+    "keywords": [
+      "financial plan*",
+      "wealth",
+      "financial advis*",
+      "paraplann*",
+      "private client",
+      "retirement"
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a license for a financial planning internship?",
+        "a": "Usually not to start. Passing the SIE, which needs no employer sponsor, shows commitment; firms typically sponsor the Series 7 after you join, and the Series 65 or 66 often follows."
+      },
+      {
+        "q": "What is a CFP Board-registered program?",
+        "a": "A degree or certificate whose courses meet the education requirement for the CFP. If your major is one, you will not need to pay for separate CFP coursework later."
+      },
+      {
+        "q": "When do financial planning internships recruit?",
+        "a": "Larger wealth management firms recruit in the fall for the summer; independent advisory firms often hire in the spring. CFP Board’s virtual career fair, held twice a year, lists internships too."
+      }
+    ]
+  },
+  "retail-management": {
+    "intro": "Retail management and merchandising internships are with department stores, specialty chains, e-commerce brands and grocers, in buying, merchandise planning, store management and e-commerce. Large retailers run structured summer programs that can lead to full-time offers.",
+    "roles": [
+      {
+        "title": "Buying or merchandising intern",
+        "what": "Helps choose products, prepare for vendor meetings and track how each item sells."
+      },
+      {
+        "title": "Merchandise planning or allocation intern",
+        "what": "Forecasts sales and decides how much stock goes to each store or channel."
+      },
+      {
+        "title": "Store management intern",
+        "what": "Leads a team on the floor and works on sales, staffing and inventory."
+      },
+      {
+        "title": "E-commerce intern",
+        "what": "Manages product listings, promotions and online sales reports."
+      }
+    ],
+    "skills": [
+      "Retail math: margin, markup and sell-through",
+      "Excel",
+      "Trend and customer awareness",
+      "Negotiation",
+      "Leading a team",
+      "Data analysis"
+    ],
+    "resumeKeywords": [
+      "merchandising",
+      "buying",
+      "sell-through",
+      "inventory",
+      "allocation",
+      "assortment planning",
+      "e-commerce",
+      "store operations",
+      "vendor management",
+      "Excel"
+    ],
+    "keywords": [
+      "retail",
+      "merchandis*",
+      "buying",
+      "buyer",
+      "allocation",
+      "store",
+      "e-commerce",
+      "ecommerce",
+      "assortment"
+    ],
+    "faqs": [
+      {
+        "q": "What do retail buying interns do?",
+        "a": "They support a buyer: analyzing sales by item, preparing for vendor meetings and helping plan what to order for the next season."
+      },
+      {
+        "q": "When do retail internships recruit?",
+        "a": "Large retailers recruit for their buying and planning programs early in the fall for the next summer. Store management and smaller brands hire through the spring."
+      },
+      {
+        "q": "Does working in a store help?",
+        "a": "Yes. Floor experience shows you understand customers and how products sell, so list it with what you sold, stocked or fixed and any numbers you hit."
+      }
+    ]
+  },
+  "agribusiness": {
+    "intro": "Agribusiness internships are with seed and crop protection companies, equipment makers, grain and food companies, cooperatives and agricultural lenders. Many are in sales, agronomy, grain merchandising or lending, and a lot of them run through the growing season.",
+    "roles": [
+      {
+        "title": "Ag sales or agronomy sales intern",
+        "what": "Visits growers and dealers, learns the products and supports a sales territory."
+      },
+      {
+        "title": "Grain merchandising intern",
+        "what": "Buys and sells grain, tracks cash and futures prices, and helps manage price risk."
+      },
+      {
+        "title": "Ag lending or credit intern",
+        "what": "Analyzes farm financial statements for a lender such as a Farm Credit association."
+      },
+      {
+        "title": "Food and supply chain intern",
+        "what": "Works on sourcing, processing or distribution at a food company."
+      }
+    ],
+    "skills": [
+      "Excel",
+      "Sales and relationship building",
+      "Commodity markets and hedging basics",
+      "Farm financial analysis",
+      "Comfort with travel and fieldwork",
+      "Communication with growers"
+    ],
+    "resumeKeywords": [
+      "agribusiness",
+      "ag sales",
+      "agronomy",
+      "grain merchandising",
+      "commodities",
+      "hedging",
+      "farm management",
+      "crop inputs",
+      "ag lending",
+      "customer relationships"
+    ],
+    "keywords": [
+      "agri*",
+      "agronom*",
+      "grain",
+      "farm*",
+      "crop*",
+      "seed",
+      "commodit*",
+      "livestock"
+    ],
+    "faqs": [
+      {
+        "q": "What jobs can an agribusiness major get?",
+        "a": "Ag sales, grain merchandising, agricultural lending, food company supply chain roles and farm management, among others. Sales is a common starting point."
+      },
+      {
+        "q": "When do agribusiness internships recruit?",
+        "a": "Large seed, crop protection, equipment and food companies recruit at fall career fairs; co-ops, grain companies and lenders often hire in the spring for the summer."
+      },
+      {
+        "q": "Where are agriculture internships posted?",
+        "a": "AgCareers.com specializes in agriculture and food jobs and has an internship section, alongside companies’ own career pages and the general job boards."
+      }
+    ]
+  }
+}

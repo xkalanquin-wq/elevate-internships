@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Save to Elevate Internships",
+  "short_name": "Save to Elevate",
+  "version": "1.0.0",
+  "description": "Save the internship you are looking at to your Elevate Internships application tracker in one click.",
+  "homepage_url": "https://elevateinternships.com/",
+  "action": {
+    "default_title": "Save this internship to Elevate",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "save@elevateinternships.com",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": { "required": ["none"] }
+    }
+  }
+}

@@ -1,0 +1,779 @@
+/* The app shell and the shared presentational components in this folder:
+   top bar, section navigation (top on wide screens, bottom on phones), page
+   links, account controls, the More sheet and the empty-state card.
+
+   Mobile first: the base rules are the phone layout; wider layouts are added
+   at 768px (tablet) and 1024px (desktop). Every value is a token. */
+
+/* ---- Page frame -------------------------------------------------------- */
+
+/* The frame is full width so the top bar can run edge to edge; its content
+   columns are centered at the reading width, or the wider app width on the
+   Finder (wrap-wide) where search and results sit side by side. */
+.wrap {
+  --frame: var(--read-max);
+  padding-bottom: calc(var(--tabbar-h) + var(--safe-bottom) + var(--sp-6));
+}
+
+.wrap.wrap-wide {
+  --frame: var(--page-max);
+}
+
+.wrap > .masthead,
+.wrap > main,
+.wrap > .notice,
+.wrap > .footer,
+.wrap > .crumbs,
+.wrap > .site-links {
+  max-width: var(--frame);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc(var(--gutter) + var(--safe-left));
+  padding-right: calc(var(--gutter) + var(--safe-right));
+  box-sizing: border-box;
+}
+
+/* The notice keeps its own card padding; only its outer width is set here. */
+.wrap > .notice {
+  width: calc(100% - 2 * var(--gutter));
+  padding-left: var(--sp-4);
+  padding-right: var(--sp-4);
+}
+
+@media (min-width: 768px) {
+  .wrap {
+    padding-bottom: var(--sp-7);
+  }
+
+  .wrap > .masthead,
+  .wrap > main,
+  .wrap > .footer,
+  .wrap > .crumbs,
+  .wrap > .site-links {
+    padding-left: var(--sp-5);
+    padding-right: var(--sp-5);
+  }
+}
+
+/* ---- Top bar ------------------------------------------------------------ */
+
+/* Solid on phones: a backdrop-filter would make the bar the containing block
+   for the fixed bottom tab bar inside it, pinning that bar to the top. */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-nav);
+  background: var(--surface);
+  border-bottom: var(--border) solid var(--rule);
+  padding-top: var(--safe-top);
+}
+
+@media (min-width: 768px) {
+  .topbar {
+    background: var(--veil);
+    -webkit-backdrop-filter: var(--glass);
+    backdrop-filter: var(--glass);
+  }
+}
+
+.topbar-inner {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  min-height: var(--appbar-h);
+  padding: 0 calc(var(--gutter) + var(--safe-right)) 0 calc(var(--gutter) + var(--safe-left));
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: 'brand actions';
+  align-items: center;
+  column-gap: var(--sp-4);
+}
+
+.brand {
+  grid-area: brand;
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* ---- Section navigation -------------------------------------------------- */
+
+/* Phone: a tab bar fixed to the bottom of the screen, within thumb reach,
+   clear of the home indicator. */
+.primary-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: var(--z-nav);
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background: var(--surface);
+  border-top: var(--border) solid var(--rule);
+  padding: var(--sp-1) calc(var(--sp-1) + var(--safe-right)) calc(var(--sp-1) + var(--safe-bottom))
+    calc(var(--sp-1) + var(--safe-left));
+  box-shadow: var(--shadow-2);
+}
+
+.primary-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tab {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--sp-1) / 2);
+  min-height: var(--tabbar-h);
+  min-width: var(--tap);
+  padding: var(--sp-1) calc(var(--sp-1) / 2);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: none;
+  color: var(--faint);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  line-height: var(--leading-tight);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tab-icon {
+  display: grid;
+  place-items: center;
+  width: var(--tab-icon-w);
+  height: var(--tab-icon-h);
+  border-radius: var(--radius-pill);
+  transition:
+    background-color var(--k-fast) var(--ease),
+    color var(--k-fast) var(--ease);
+}
+
+.tab-label {
+  white-space: nowrap;
+}
+
+.tab[aria-selected='true'] {
+  color: var(--accent);
+}
+
+.tab[aria-selected='true'] .tab-icon {
+  background: var(--accent-soft);
+}
+
+/* Counts sit as a small badge on the icon on phones, beside the label wider. */
+.tab-count {
+  position: absolute;
+  top: var(--sp-1);
+  left: calc(50% + var(--sp-2));
+  min-width: var(--badge-h);
+  padding: 0 var(--sp-1);
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: var(--surface);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  line-height: var(--badge-h);
+  text-align: center;
+}
+
+@media (hover: hover) {
+  .tab:hover {
+    color: var(--ink);
+  }
+}
+
+/* Tablet and up: the same buttons move into the top bar as a pill row. */
+@media (min-width: 768px) {
+  .topbar-inner {
+    min-height: var(--topnav-h);
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'brand actions'
+      'nav nav';
+    padding: 0 var(--sp-5);
+  }
+
+  .primary-nav {
+    grid-area: nav;
+    position: static;
+    display: block;
+    padding: 0 0 var(--sp-2);
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .primary-tabs {
+    display: flex;
+    gap: var(--sp-1);
+  }
+
+  .tab {
+    flex-direction: row;
+    gap: var(--sp-2);
+    min-height: var(--tap);
+    padding: 0 var(--sp-4) 0 var(--sp-3);
+    border-radius: var(--radius-pill);
+    color: var(--muted);
+    font-size: var(--text-sm);
+  }
+
+  .tab-icon {
+    width: auto;
+    height: auto;
+    background: none;
+  }
+
+  .tab[aria-selected='true'] {
+    background: var(--accent-soft);
+  }
+
+  .tab[aria-selected='true'] .tab-icon {
+    background: none;
+  }
+
+  .tab-count {
+    position: static;
+    background: var(--surface);
+    color: var(--accent);
+    border: var(--border) solid var(--rule);
+  }
+
+  .tab-more {
+    display: none;
+  }
+}
+
+/* Desktop: one row — brand, sections, account. Text-only tabs
+   and an icon-only theme button keep the row from crowding. */
+@media (min-width: 1024px) {
+  .topbar-inner {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 'brand nav actions';
+    column-gap: var(--sp-5);
+  }
+
+  .primary-nav {
+    padding: 0;
+  }
+
+  .tab .tab-icon {
+    display: none;
+  }
+
+  .tab {
+    padding: 0 var(--sp-4);
+  }
+
+  .theme-button {
+    width: var(--tap);
+    padding: 0;
+  }
+
+  .theme-name {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+}
+
+/* ---- Page links ---------------------------------------------------------- */
+
+.page-links {
+  display: flex;
+  gap: var(--sp-2);
+}
+
+.page-link {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-height: var(--tap);
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+}
+
+/* Under the page title: a sideways-scrolling row of pills. */
+.page-links-pills {
+  margin: var(--sp-4) calc(-1 * var(--gutter)) 0;
+  padding: 0 var(--gutter);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(to right, var(--ink) 88%, transparent);
+  mask-image: linear-gradient(to right, var(--ink) 88%, transparent);
+}
+
+.page-links-pills::-webkit-scrollbar {
+  display: none;
+}
+
+.page-links-pills .page-link {
+  padding: 0 var(--sp-4);
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+@media (min-width: 768px) {
+  .page-links-pills {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    -webkit-mask-image: none;
+    mask-image: none;
+    flex-wrap: wrap;
+  }
+}
+
+/* In the More sheet: a list. */
+.page-links-list {
+  flex-direction: column;
+  gap: 0;
+}
+
+.page-links-list .page-link {
+  min-height: var(--control-h);
+  padding: 0 var(--sp-2);
+  border-radius: var(--radius-md);
+  color: var(--ink);
+  font-size: var(--text-base);
+}
+
+/* ---- Account controls ----------------------------------------------------- */
+
+.account-controls {
+  grid-area: actions;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--sp-2);
+}
+
+.account {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+
+.account-name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: var(--tap);
+  min-width: var(--tap);
+  justify-content: center;
+  padding: 0 var(--sp-2);
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* On a phone only the icon shows; the name stays for screen readers. */
+.account-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.account-controls .wide-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .account-label {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    clip: auto;
+    max-width: 18ch;
+    text-overflow: ellipsis;
+  }
+
+  .account-controls .wide-only {
+    display: inline-flex;
+  }
+}
+
+/* Small outlined buttons in the bars: Sign in, Sign out, the theme. Also used
+   by the /home navigation. */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: var(--tap);
+  padding: 0 var(--sp-4);
+  border: var(--border) solid var(--field-border);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition:
+    border-color var(--k-fast) var(--ease),
+    color var(--k-fast) var(--ease);
+}
+
+.theme-name {
+  text-transform: capitalize;
+}
+
+@media (hover: hover) {
+  .theme-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .account-name:hover {
+    background: var(--accent-soft);
+  }
+}
+
+/* ---- Page title ------------------------------------------------------------ */
+
+.masthead {
+  padding-top: var(--sp-6);
+  padding-bottom: var(--sp-5);
+}
+
+.masthead-title {
+  font-family: var(--font-display);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-display);
+  line-height: var(--leading-tight);
+  letter-spacing: 0;
+  margin: 0;
+  color: var(--ink);
+  overflow-wrap: break-word;
+  font-feature-settings: 'liga' 1, 'kern' 1;
+}
+
+.masthead p {
+  color: var(--muted);
+  margin: var(--sp-3) 0 0;
+  max-width: 56ch;
+  font-size: var(--text-base);
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    padding-top: var(--sp-7);
+    padding-bottom: var(--sp-6);
+  }
+
+  .masthead p {
+    font-size: var(--text-md);
+  }
+}
+
+/* ---- More sheet --------------------------------------------------------------- */
+
+.sheet-layer {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.sheet-backdrop {
+  position: absolute;
+  inset: 0;
+  background: var(--backdrop);
+}
+
+.sheet {
+  position: relative;
+  width: 100%;
+  max-height: calc(100dvh - var(--sp-7));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--surface);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  box-shadow: var(--shadow-3);
+  padding: var(--sp-2) calc(var(--sp-4) + var(--safe-right)) calc(var(--sp-5) + var(--safe-bottom))
+    calc(var(--sp-4) + var(--safe-left));
+}
+
+.sheet-grip {
+  width: var(--grip-w);
+  height: var(--grip-h);
+  margin: 0 auto var(--sp-2);
+  border-radius: var(--radius-pill);
+  background: var(--rule);
+}
+
+.sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-3);
+}
+
+.sheet-title {
+  font-size: var(--text-lg);
+}
+
+.sheet-section {
+  padding: var(--sp-3) 0;
+  border-top: var(--border) solid var(--rule);
+}
+
+.sheet-head + .sheet-section {
+  border-top: 0;
+}
+
+.sheet-section:empty {
+  display: none;
+}
+
+.sheet-label {
+  margin: 0 0 var(--sp-2);
+  font-family: var(--font-body);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.sheet-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  min-height: var(--control-h);
+  padding: var(--sp-2);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: none;
+  color: var(--ink);
+  font-size: var(--text-base);
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sheet-item .icon {
+  flex: none;
+  color: var(--muted);
+}
+
+.sheet-item-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.sheet-item-title {
+  font-weight: var(--weight-semibold);
+}
+
+.sheet-item-note {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (hover: hover) {
+  .sheet-item:hover,
+  .page-links-list .page-link:hover {
+    background: var(--accent-soft);
+  }
+}
+
+/* Wider screens: a centered panel rather than a bottom sheet. */
+@media (min-width: 768px) {
+  .sheet-layer {
+    align-items: center;
+  }
+
+  .sheet {
+    width: min(var(--sheet-w), calc(100% - 2 * var(--sp-5)));
+    border-radius: var(--radius-lg);
+    padding-bottom: var(--sp-5);
+  }
+
+  .sheet-grip {
+    display: none;
+  }
+}
+
+/* While a sheet is open the page behind it does not scroll. */
+.sheet-open,
+.sheet-open body {
+  overflow: hidden;
+}
+
+/* A round, icon-only button (the sheet's Close). */
+.icon-button {
+  display: inline-grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  border: var(--border) solid var(--rule);
+  border-radius: var(--radius-pill);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+/* Segmented control (System / Light / Dark). */
+.segmented {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: var(--sp-1);
+  padding: var(--sp-1);
+  border-radius: var(--radius-pill);
+  background: var(--bg);
+  border: var(--border) solid var(--rule);
+}
+
+.segmented-option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: var(--tap);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: none;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  cursor: pointer;
+}
+
+.segmented-option[aria-checked='true'] {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: var(--shadow-1);
+}
+
+/* ---- Empty states ---------------------------------------------------------------- */
+
+.empty-state {
+  margin-top: var(--sp-4);
+  text-align: center;
+  padding: var(--sp-7) var(--sp-5);
+}
+
+.empty-state-title {
+  margin-bottom: var(--sp-2);
+}
+
+.empty-state-text {
+  color: var(--muted);
+  max-width: 50ch;
+  margin: 0 auto var(--sp-5);
+}
+
+/* The error screen's card stands alone in the frame. */
+.wrap > main.empty-state {
+  margin-top: var(--sp-7);
+}
+
+/* ---- Fixed layers that share the bottom of a phone screen ------------------------------- */
+
+/* The font-consent banner sits above the tab bar so the tabs stay usable. */
+@media (max-width: 767.98px) {
+  .wrap .consent {
+    bottom: calc(var(--tabbar-h) + var(--sp-2) + var(--safe-bottom));
+    padding-bottom: var(--sp-4);
+    border-bottom: var(--border) solid var(--rule);
+  }
+}
+
+.icon {
+  display: block;
+  flex: none;
+}
+
+/* ---- Server-rendered pages: link tabs and a no-JavaScript More menu ---- */
+
+a.tab,
+a.theme-toggle {
+  text-decoration: none;
+}
+
+.site-links {
+  margin-top: var(--sp-4);
+}
+
+.more-menu > summary {
+  list-style: none;
+}
+
+.more-menu > summary::-webkit-details-marker {
+  display: none;
+}
+
+.more-menu[open] > summary {
+  color: var(--accent);
+}
+
+.more-menu[open] > summary .tab-icon {
+  background: var(--accent-soft);
+}
+
+/* Opens as a panel resting on top of the phone's tab bar. */
+.more-menu-panel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: calc(var(--tabbar-h) + var(--sp-2) + var(--safe-bottom));
+  display: grid;
+  padding: var(--sp-2) calc(var(--sp-4) + var(--safe-right)) var(--sp-3) calc(var(--sp-4) + var(--safe-left));
+  background: var(--surface);
+  border-top: var(--border) solid var(--rule);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  box-shadow: var(--shadow-3);
+}
+
+.more-menu-panel .page-link {
+  min-height: var(--control-h);
+  padding: 0 var(--sp-2);
+  border-radius: var(--radius-md);
+  color: var(--ink);
+  font-size: var(--text-base);
+}
+
+@media (min-width: 768px) {
+  .more-menu {
+    display: none;
+  }
+}

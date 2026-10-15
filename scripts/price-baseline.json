@@ -1,0 +1,456 @@
+{
+  "ache-student": {
+    "price": "$75 a year, prorated by the month you join.",
+    "url": "https://www.ache.org/Membership/Student-Associates",
+    "amounts": [
+      "75"
+    ]
+  },
+  "american-college-clu": {
+    "price": "Four required courses at $985 each (two for CFP professionals and ChFC holders).",
+    "url": "https://www.theamericancollege.edu/learn/professional-designations-certifications/clu",
+    "amounts": [
+      "985"
+    ]
+  },
+  "asq-cssbb": {
+    "price": "$585 for the exam; ASQ members pay $100 less.",
+    "url": "https://www.asq.org/cert/six-sigma-black-belt",
+    "amounts": [
+      "585",
+      "100"
+    ]
+  },
+  "aws-ai-practitioner": {
+    "price": "$100 exam fee.",
+    "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+    "amounts": [
+      "100"
+    ]
+  },
+  "aws-cloud-practitioner": {
+    "price": "Exam ~$100. All AWS Skill Builder training for it is free.",
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "amounts": [
+      "100"
+    ]
+  },
+  "chfc": {
+    "price": "Eight courses from about $985 each; packages start at $6,545.",
+    "url": "https://www.theamericancollege.edu/designations-degrees/ChFC",
+    "amounts": [
+      "985",
+      "6545"
+    ]
+  },
+  "cisa-cert": {
+    "price": "~$575 for members, ~$760 for non-members. Student membership is cheap.",
+    "url": "https://www.isaca.org/credentialing/cisa",
+    "amounts": [
+      "575",
+      "760"
+    ]
+  },
+  "cscmp-scpro-fundamentals": {
+    "price": "$300 per course ($360 for non-members), or $1,800 for all eight ($2,160 for non-members).",
+    "url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro_Fundamentals_Certification.aspx",
+    "amounts": [
+      "300",
+      "360",
+      "1800",
+      "2160"
+    ]
+  },
+  "csm-cert": {
+    "price": "$250–$2,495 depending on the trainer; the price covers the 16-hour course and the test. Renew every two years.",
+    "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster",
+    "amounts": [
+      "250",
+      "2495"
+    ]
+  },
+  "finra-series14": {
+    "price": "$350 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series14",
+    "amounts": [
+      "350"
+    ]
+  },
+  "finra-series16": {
+    "price": "$325 exam fee (Parts 1 and 2). A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series16",
+    "amounts": [
+      "325"
+    ]
+  },
+  "finra-series22": {
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series22",
+    "amounts": [
+      "100"
+    ]
+  },
+  "finra-series23": {
+    "price": "$135 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series23",
+    "amounts": [
+      "135"
+    ]
+  },
+  "finra-series24": {
+    "price": "$235 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series24",
+    "amounts": [
+      "235"
+    ]
+  },
+  "finra-series26": {
+    "price": "$200 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series26",
+    "amounts": [
+      "200"
+    ]
+  },
+  "finra-series27": {
+    "price": "$235 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series27",
+    "amounts": [
+      "235"
+    ]
+  },
+  "finra-series28": {
+    "price": "$195 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series28",
+    "amounts": [
+      "195"
+    ]
+  },
+  "finra-series3": {
+    "price": "$140 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series3",
+    "amounts": [
+      "140"
+    ]
+  },
+  "finra-series30": {
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series30",
+    "amounts": [
+      "90"
+    ]
+  },
+  "finra-series31": {
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series31",
+    "amounts": [
+      "90"
+    ]
+  },
+  "finra-series32": {
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series32",
+    "amounts": [
+      "90"
+    ]
+  },
+  "finra-series34": {
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series34",
+    "amounts": [
+      "90"
+    ]
+  },
+  "finra-series39": {
+    "price": "$200 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series39",
+    "amounts": [
+      "200"
+    ]
+  },
+  "finra-series4": {
+    "price": "$200 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series4",
+    "amounts": [
+      "200"
+    ]
+  },
+  "finra-series50": {
+    "price": "$265 exam fee.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series50",
+    "amounts": [
+      "265"
+    ]
+  },
+  "finra-series51": {
+    "price": "$255 exam fee.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series51",
+    "amounts": [
+      "255"
+    ]
+  },
+  "finra-series52": {
+    "price": "$260 exam fee.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series52",
+    "amounts": [
+      "260"
+    ]
+  },
+  "finra-series53": {
+    "price": "$265 exam fee.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series53",
+    "amounts": [
+      "265"
+    ]
+  },
+  "finra-series54": {
+    "price": "$265 exam fee.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series54",
+    "amounts": [
+      "265"
+    ]
+  },
+  "finra-series57": {
+    "price": "$105 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series57",
+    "amounts": [
+      "105"
+    ]
+  },
+  "finra-series6": {
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series6",
+    "amounts": [
+      "100"
+    ]
+  },
+  "finra-series63": {
+    "price": "$147 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series63",
+    "amounts": [
+      "147"
+    ]
+  },
+  "finra-series65": {
+    "price": "$187 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series65",
+    "amounts": [
+      "187"
+    ]
+  },
+  "finra-series66": {
+    "price": "$177 exam fee. No firm sponsorship needed.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series66",
+    "amounts": [
+      "177"
+    ]
+  },
+  "finra-series7": {
+    "price": "$395 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series7",
+    "amounts": [
+      "395"
+    ]
+  },
+  "finra-series79": {
+    "price": "$395 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series79",
+    "amounts": [
+      "395"
+    ]
+  },
+  "finra-series82": {
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series82",
+    "amounts": [
+      "100"
+    ]
+  },
+  "finra-series86-87": {
+    "price": "$295 (Series 86) and $195 (Series 87) exam fees. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series86-87",
+    "amounts": [
+      "295",
+      "195"
+    ]
+  },
+  "finra-series9-10": {
+    "price": "$175 (Series 9) and $235 (Series 10) exam fees. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series9-10",
+    "amounts": [
+      "175",
+      "235"
+    ]
+  },
+  "finra-series99": {
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series99",
+    "amounts": [
+      "100"
+    ]
+  },
+  "finra-sie": {
+    "price": "$100 exam fee. No firm sponsorship needed; you must be 18 or older.",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/securities-industry-essentials-exam",
+    "amounts": [
+      "100"
+    ]
+  },
+  "google-advanced-data-analytics": {
+    "price": "Coursera subscription, ~$49/month; financial aid available.",
+    "url": "https://www.coursera.org/professional-certificates/google-advanced-data-analytics",
+    "amounts": [
+      "49"
+    ]
+  },
+  "google-ai-essentials": {
+    "price": "Coursera subscription, $49/month after a 7-day free trial; financial aid available.",
+    "url": "https://www.coursera.org/specializations/ai-essentials-google",
+    "amounts": [
+      "49"
+    ]
+  },
+  "google-business-intelligence": {
+    "price": "Coursera subscription, ~$49/month; financial aid available.",
+    "url": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+    "amounts": [
+      "49"
+    ]
+  },
+  "google-cloud-genai-leader": {
+    "price": "$99 exam fee; the learning path is free.",
+    "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+    "amounts": [
+      "99"
+    ]
+  },
+  "google-data-analytics": {
+    "price": "Audit free; certificate ~$49/month (most finish in 3–6 months).",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "amounts": [
+      "49"
+    ]
+  },
+  "google-digital-marketing": {
+    "price": "Coursera subscription, ~$49/month; financial aid available.",
+    "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+    "amounts": [
+      "49"
+    ]
+  },
+  "google-project-management": {
+    "price": "Coursera subscription, ~$49/month; counts toward the hours needed for the CAPM.",
+    "url": "https://www.coursera.org/professional-certificates/google-project-management",
+    "amounts": [
+      "49"
+    ]
+  },
+  "hfma-crcr": {
+    "price": "Free for HFMA members (student membership is $50 for full-time students); $399 otherwise.",
+    "url": "https://www.hfma.org/course/certified-revenue-cycle-representative-crcr/",
+    "amounts": [
+      "399"
+    ]
+  },
+  "hrci-phr": {
+    "price": "$395 exam fee plus a $100 application fee.",
+    "url": "https://www.hrci.org/certifications/individual-certifications/phr",
+    "amounts": [
+      "395",
+      "100"
+    ]
+  },
+  "hrci-sphr": {
+    "price": "$495 exam fee plus a $100 application fee.",
+    "url": "https://www.hrci.org/certifications/individual-certifications/sphr",
+    "amounts": [
+      "495",
+      "100"
+    ]
+  },
+  "iiba-cbap": {
+    "price": "$145 application fee plus a $350 exam for IIBA members or $450 for non-members.",
+    "url": "https://www.iiba.org/business-analysis-certifications/cbap/",
+    "amounts": [
+      "145",
+      "350",
+      "450"
+    ]
+  },
+  "iiba-ecba": {
+    "price": "$395 or less for IIBA’s package (membership, exam and a practice exam); students pay $315 or less depending on region.",
+    "url": "https://www.iiba.org/business-analysis-certifications/ecba/",
+    "amounts": [
+      "395",
+      "315"
+    ]
+  },
+  "isaca-cism": {
+    "price": "$575 for ISACA members or $760 for non-members.",
+    "url": "https://www.isaca.org/credentialing/cism",
+    "amounts": [
+      "575",
+      "760"
+    ]
+  },
+  "isaca-crisc": {
+    "price": "$575 for ISACA members or $760 for non-members.",
+    "url": "https://www.isaca.org/credentialing/crisc",
+    "amounts": [
+      "575",
+      "760"
+    ]
+  },
+  "kaplan-fpqp": {
+    "price": "$1,495–$1,695 for the program, which takes about 120 days.",
+    "url": "https://www.kaplanfinancial.com/wealth-management/fpqp",
+    "amounts": [
+      "1495",
+      "1695"
+    ]
+  },
+  "nrf-business-of-retail": {
+    "price": "Exams from $80; course and exam bundles from $140.",
+    "url": "https://nrffoundation.org/rise-up/credentials/business-of-retail",
+    "amounts": [
+      "80",
+      "140"
+    ]
+  },
+  "nrf-retail-fundamentals": {
+    "price": "Exams from $40; course and exam bundles from $104.",
+    "url": "https://nrffoundation.org/rise-up/credentials/retail-industry-fundamentals",
+    "amounts": [
+      "40",
+      "104"
+    ]
+  },
+  "python-institute-pcap": {
+    "price": "Exam from $295 ($345 with a retake).",
+    "url": "https://pythoninstitute.org/pcap",
+    "amounts": [
+      "295",
+      "345"
+    ]
+  },
+  "python-institute-pcep": {
+    "price": "Exam from $69.",
+    "url": "https://pythoninstitute.org/pcep",
+    "amounts": [
+      "69"
+    ]
+  },
+  "soa-exam-fm": {
+    "price": "$275 exam fee in the U.S. and Canada.",
+    "url": "https://www.soa.org/education/exam-req/edu-exam-fm-detail/",
+    "amounts": [
+      "275"
+    ]
+  },
+  "soa-exam-p": {
+    "price": "Exam ~$275; check SOA for the current fee.",
+    "url": "https://www.soa.org/education/exam-req/edu-exam-p-detail/",
+    "amounts": [
+      "275"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Save to Elevate Internships</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon-32.png" alt="" width="20" height="20" />
+      <span>Save to Elevate Internships</span>
+    </header>
+    <form id="form" novalidate>
+      <p id="status" class="note">Reading this page…</p>
+      <label for="title">Internship title</label>
+      <input id="title" type="text" maxlength="200" />
+      <label for="company">Company</label>
+      <input id="company" type="text" maxlength="160" />
+      <label for="location">Location</label>
+      <input id="location" type="text" maxlength="200" placeholder="City, ST or Remote" />
+      <button id="save" type="submit" disabled>Open in my tracker</button>
+      <p class="note">Opens Elevate Internships with the details filled in. Nothing is saved until you press Add there.</p>
+    </form>
+    <script src="popup.js"></script>
+  </body>
+</html>

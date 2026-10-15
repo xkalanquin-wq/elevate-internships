@@ -1,0 +1,152 @@
+{
+  "_note": "Copy for the search page (/), the landing page (/home) and the hub pages. The server writes it into the HTML and the app shows the same text, so crawlers and people read the same page. Keep every claim true to what the site actually does.",
+  "home": {
+    "heading": "How to find business internships by ZIP code",
+    "paragraphs": [
+      "Enter your ZIP code, choose how far you are willing to travel, and add your major. Elevate Internships then searches real internship listings and ranks them by how well they fit your field and how close they are to you. Remote internships are included too, but they never crowd out the ones you can actually commute to.",
+      "Most internship search sites only show roles that employers paid to post. We also read companies' own career pages — the job boards they run on Greenhouse, Lever, Ashby and SmartRecruiters — plus public feeds such as The Muse and Simplify's internship list. That covers about 300 employers directly, so you will often see internships here that never reach the big job boards.",
+      "Every listing shows how far away it is, when it was posted and where it came from. Listings older than nine months, roles outside the United States and duplicates posted in several places are removed before you see them, so the list stays short enough to read.",
+      "Next to your results you will find the free certifications that fit your major, and the recruiting timeline for your field: when firms open applications, when interviews happen and when offers go out. For the big boards we cannot search directly, such as LinkedIn and Handshake, we give you the same search prefilled, one click away.",
+      "You do not need an account to search. Create a free one if you want to save internships, track your applications through each stage, get a reminder the day before a deadline, or receive a weekly email when new internships match your search."
+    ],
+    "steps": [
+      "Type your ZIP code and pick a distance, from 10 to 200 miles.",
+      "Add your major and a few interests, such as audit, marketing analytics or supply chain.",
+      "Filter by season or remote, sort by best match, newest or closest, then open the listings you like.",
+      "Save the ones you apply to under Applications and track them to an offer."
+    ],
+    "faqs": [
+      {
+        "q": "How do I find business internships near me?",
+        "a": "Enter your ZIP code and a distance on Elevate Internships, add your major, and search. Results are ranked by fit and distance, and you can sort by closest to see the nearest internships first."
+      },
+      {
+        "q": "Is Elevate Internships free?",
+        "a": "Yes. Searching, the certification lists and the career guides are free, and you do not need an account to search. A free account adds application tracking, reminders and a weekly email of new matches."
+      },
+      {
+        "q": "Where do the internship listings come from?",
+        "a": "From employers' own career pages on Greenhouse, Lever, Ashby and SmartRecruiters, and from public listing feeds such as The Muse, Simplify and Himalayas. Always confirm the details on the employer's site before applying."
+      },
+      {
+        "q": "Which majors does Elevate Internships cover?",
+        "a": "Fourteen business majors: accounting, finance, business analytics, marketing, management, supply chain, human resources, management information systems, economics, entrepreneurship, international business, risk management and insurance, hospitality, and real estate."
+      }
+    ],
+    "image": {
+      "name": "find-business-internships-by-zip-code",
+      "alt": "How to find business internships by ZIP code: enter your ZIP and distance, add your major, filter, then track applications"
+    }
+  },
+  "landing": {
+    "heading": "An internship tracker built for business majors",
+    "paragraphs": [
+      "Applying for internships as a business student means juggling dozens of companies, each with its own deadline, interview rounds and portal. Elevate Internships keeps it in one place: find internships near you, save the ones you apply to, and move each one from saved to applied, interviewing and offer as recruiting goes on.",
+      "Each saved internship can hold its application deadline, your interview date and time, and your own notes. Add everything to your phone's calendar in one tap, or turn on an email reminder the day before a deadline or interview. The stats view shows how many applications you have sent, your response rate and what is due this week.",
+      "Recruiting is not only about applications. The certification ledger lists the free and paid certifications that fit your major, labelled honestly with what they cost, so you can plan what to finish before recruiting season and check them off as you go.",
+      "It is built around how business recruiting actually works. Finance and accounting firms open applications up to a year ahead, while marketing teams and startups hire in the spring, so every major gets its own recruiting timeline showing when to research, apply and interview. Pair that with your tracker and you always know which applications are due next and which firms are about to open.",
+      "Everything works in the browser on a phone or a laptop, and you can install it like an app. You can search without an account; a free account keeps your tracker and ledger in sync across your devices, and you can export or delete your data at any time."
+    ],
+    "steps": [
+      "Search internships near your ZIP code, or add one you found on LinkedIn, Handshake or a company site.",
+      "Track each application through saved, applied, interviewing, offer and closed.",
+      "Add deadlines and interview times, then send them to your calendar or get an email reminder.",
+      "Plan certifications for your major in the ledger and see your progress in stats."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best way to track internship applications?",
+        "a": "Keep every application in one list with its stage, deadline and interview date, and review it weekly. Elevate Internships does this for free, with calendar export and optional reminder emails."
+      },
+      {
+        "q": "Can I track internships I found on other sites?",
+        "a": "Yes. Add any internship by hand — from LinkedIn, Handshake, a career fair or a company's site — and track it alongside the ones you found here."
+      },
+      {
+        "q": "Do I need an account to use the tracker?",
+        "a": "You can search and plan without one. A free account saves your tracker and ledger so they follow you across devices and can send reminder emails."
+      },
+      {
+        "q": "Is Elevate Internships free for students?",
+        "a": "Yes. Searching, tracking applications, the certification ledger, recruiting timelines and career guides are all free. There is no paid plan."
+      }
+    ],
+    "image": {
+      "name": "internship-tracker-for-business-majors",
+      "alt": "Internship tracker for business majors: search, track each application, add deadlines and reminders, plan certifications"
+    }
+  },
+  "internships": {
+    "paragraphs": [
+      "Business internships look different in every major. An accounting intern might spend the summer on audit or tax work at a public accounting firm, while a marketing intern runs campaigns and a supply chain intern works on inventory and logistics. Knowing what your field's internships involve — and when those employers recruit — is the first step to landing one.",
+      "Each guide below covers one major: the internships it leads to, the skills employers look for, the recruiting timeline, the resume keywords that match real postings, and the certifications worth adding. Every page also shows a sample of recent real listings for that field.",
+      "When you are ready to apply, search by ZIP code to see internships near you, sorted by fit and distance, including listings from companies' own career pages that do not always appear on the big job boards."
+    ],
+    "faqs": [
+      {
+        "q": "When should business students apply for summer internships?",
+        "a": "It depends on the field. Finance and accounting firms often recruit a year ahead, in the fall of junior year or earlier, while marketing, human resources and smaller companies often hire in the spring. Each major's page shows its typical timeline."
+      },
+      {
+        "q": "Can freshmen and sophomores get business internships?",
+        "a": "Yes. Many large firms run early-insight or sophomore programs, and smaller companies hire students of any year. Job simulations, a relevant certification and campus leadership roles help you stand out early."
+      },
+      {
+        "q": "Are business internships paid?",
+        "a": "Most business internships at companies are paid. Unpaid internships at for-profit companies must meet the U.S. Department of Labor's primary beneficiary test; our guide to paid and unpaid internships explains it."
+      }
+    ]
+  },
+  "certifications": {
+    "paragraphs": [
+      "A certification will not get you an internship on its own, but the right one proves you already have a skill a team needs, and it gives you something concrete to talk about in an interview. The trick is picking the few that matter for your major instead of collecting badges.",
+      "For each business major we list the certifications worth your time, starting with a short starter set in the order we would do them. Every certification is labelled honestly: free, free to audit, check your campus, or paid with its real price, so you can see the cost before you click.",
+      "Most students only need one or two: a free, practical certification to put on your resume before recruiting starts, and perhaps one industry credential once you know which direction you are heading. Pick your major below to see the list, the recruiting timeline and answers to the questions students ask most."
+    ],
+    "faqs": [
+      {
+        "q": "Do business students need certifications?",
+        "a": "No internship requires one, but a relevant certification helps you stand out, especially for technical skills such as Excel, SQL, analytics tools or accounting software."
+      },
+      {
+        "q": "What are the best free certifications for business majors?",
+        "a": "Google Analytics, HubSpot, Excel and SQL courses, job simulations on Forage, and IRS VITA training are all free and widely recognized. Our free certifications guide lists them by major."
+      },
+      {
+        "q": "Are paid certifications worth it for college students?",
+        "a": "Sometimes. Pay for one when it is a recognized entry-level credential in your field, such as an actuarial exam or a cloud fundamentals exam, or when a target employer asks for it. Otherwise, free options cover most of what interns need."
+      }
+    ],
+    "image": {
+      "name": "certifications-for-business-majors",
+      "alt": "Certifications for business majors: how to pick one or two that fit your field, labelled free, audit or paid"
+    },
+    "steps": [
+      "Pick your major and look at its starter set, in order.",
+      "Finish one free, practical certification before recruiting starts.",
+      "Add it to your resume with the provider and the month you finished.",
+      "Consider a paid industry credential once you know your direction."
+    ]
+  },
+  "careerGuides": {
+    "paragraphs": [
+      "These guides answer the questions business students ask most during internship recruiting: when to apply, how to write a resume and cover letter with little experience, how to prepare for interviews, how to network, and how to turn a summer internship into a full-time offer.",
+      "Each guide is short and practical and ends with something you can do today. They are written for undergraduates in business majors — accounting, finance, marketing, analytics and the rest — and link to the internships and certifications for your field when that helps.",
+      "New to recruiting? Start with when to apply, then the resume guide, then search internships near you."
+    ],
+    "faqs": [
+      {
+        "q": "How do I get a business internship with no experience?",
+        "a": "Build evidence instead: a free job simulation, one certification that matches your target role, a leadership role in a student organization, and a small project you can explain. Our no-experience guide lists seven ways."
+      },
+      {
+        "q": "How many internships should I apply to?",
+        "a": "There is no magic number, but students commonly apply to dozens over a season. Focus on roles that fit your major and start early; applications sent in the first weeks a posting is open usually do better."
+      },
+      {
+        "q": "Do I need a cover letter for an internship?",
+        "a": "Only when the posting asks for one or allows it. When it does, a short, specific letter helps. Our cover letter guide has a structure and an example."
+      }
+    ]
+  }
+}

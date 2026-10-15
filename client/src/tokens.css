@@ -1,0 +1,262 @@
+/* Design tokens: the one place every color, type size, space, corner, shadow,
+   control size and timing for the site is defined. Components and pages read
+   these through var(--…) and set no raw values of their own.
+
+   Colors are the brand's institutional navy with an amber accent. They are
+   unchanged from before the remodel, and every pair is verified by
+   `npm run contrast` — edit the palette in scripts/check-contrast.js and
+   re-run it before changing a color here.
+
+   Breakpoints cannot be read by @media through var(), so they are written out
+   in the media queries; the values to use are listed in the Layout section and
+   nowhere else. */
+
+:root {
+  /* ---- Color: light ---------------------------------------------------- */
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --ink: #0f172a;
+  --muted: #475569;
+  /* --faint sets small meta text, so it must clear 4.5:1 on --surface. */
+  --faint: #5b6b80;
+  /* Decorative hairline between rows. */
+  --rule: #d6dee8;
+  /* Input and control boundaries — WCAG 1.4.11 needs 3:1, --rule does not reach it. */
+  --field-border: #7c8ba0;
+  --accent: #1e3a5f;
+  --accent-soft: #eaf1f8;
+  --amber: #8a5308;
+  --focus: #1e3a5f;
+
+  /* Transparent tints of the palette, for scrims, glass bars and shadows.
+     (Tailwind's `/50` modifier cannot apply to a var(), so these are spelled
+     out.) */
+  --scrim: rgb(15 23 42 / 0.06);
+  --veil: rgb(255 255 255 / 0.72);
+  --shadow-color: 15 23 42;
+  /* Dims the page behind a sheet or dialog. */
+  --backdrop: rgb(var(--shadow-color) / 0.4);
+  /* Frosted glass behind the sticky top bar. */
+  --glass: saturate(1.2) blur(10px);
+
+  /* ---- Type ------------------------------------------------------------- */
+  /* EB Garamond carries the institutional register in headings; Source Sans 3
+     keeps body copy legible; Plex Mono is for numbers — distances, hours,
+     prices — because tabular figures are easier to scan. Each has a system
+     fallback, so declining the font consent costs nothing structural. */
+  --font-display: 'EB Garamond', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --font-body: 'Source Sans 3', -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'Cascadia Mono', Consolas, monospace;
+
+  /* One scale. 12px is the floor: nothing on the site is set smaller. */
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 15px;
+  --text-md: 17px;
+  --text-lg: 22px;
+  --text-xl: 28px;
+  --text-2xl: 36px;
+  /* Page titles grow with the screen between the phone and desktop sizes. */
+  --text-display: clamp(30px, 5.6vw, 44px);
+  /* Section and page headings below the display size. */
+  --text-title: clamp(26px, 5vw, 36px);
+  /* The /home headline. */
+  --text-hero: clamp(36px, 6vw, 60px);
+
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-body: 1.55;
+  --leading-display: 1.08;
+
+  /* Letter-spacing for the few small uppercase labels that remain (eyebrows). */
+  --tracking-label: 0.12em;
+  /* Large Garamond headlines sit a touch tighter. */
+  --tracking-display: -0.015em;
+
+  /* ---- Space (4px grid) ------------------------------------------------- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+
+  /* ---- Shape ------------------------------------------------------------ */
+  --radius-xs: 2px; /* progress bars, tick marks */
+  --radius-sm: 8px; /* small controls, tags */
+  --radius-md: 12px; /* inputs, buttons */
+  --radius-lg: 16px; /* cards, panels, sheets */
+  --radius-pill: 999px; /* chips, tab highlights, segmented controls */
+  /* Kept for code that still asks for the old single radius. */
+  --radius: var(--radius-sm);
+
+  --border: 1px;
+
+  /* ---- Depth ------------------------------------------------------------ */
+  --shadow-1: 0 1px 2px rgb(var(--shadow-color) / 0.06), 0 1px 1px rgb(var(--shadow-color) / 0.04);
+  --shadow-2: 0 4px 16px rgb(var(--shadow-color) / 0.08), 0 1px 3px rgb(var(--shadow-color) / 0.06);
+  --shadow-3: 0 12px 32px rgb(var(--shadow-color) / 0.14), 0 2px 6px rgb(var(--shadow-color) / 0.08);
+  /* Soft halo around a focused field, in addition to the focus outline. */
+  --ring: 0 0 0 3px var(--accent-soft);
+
+  /* ---- Controls --------------------------------------------------------- */
+  --tap: 44px; /* minimum touch target, WCAG 2.5.5 */
+  --control-h: 48px; /* inputs and primary buttons */
+  --control-h-sm: 44px; /* secondary buttons, chips that act as buttons */
+  --field-zip: 8.5rem; /* a five-digit ZIP field */
+  --chip-h: 36px; /* chip face; its hit area is padded to --tap on touch */
+  --badge-h: 18px; /* count badges */
+  --tab-icon-w: 52px; /* the pill behind a bottom-tab icon */
+  --tab-icon-h: 28px;
+  --sheet-w: 440px; /* the More panel on wide screens */
+  --grip-w: 40px; /* the bottom sheet's handle */
+  --grip-h: 4px;
+  --hairline: 0.5px;
+  --illustration-size: 96px; /* empty-state drawings */
+
+  /* ---- Layout ----------------------------------------------------------- */
+  /* Breakpoints (mobile first): 375 phone base · 768 tablet · 1024 desktop · 1440 wide.
+     Use them as written in @media: (min-width: 768px), (min-width: 1024px), (min-width: 1440px). */
+  --page-max: 1200px; /* app screens on desktop */
+  --read-max: 880px; /* single-column reading pages */
+  --prose-max: 62ch;
+  --gutter: var(--sp-4);
+  --appbar-h: 56px;
+  --topnav-h: 64px;
+  --tabbar-h: 64px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+
+  /* Stacking order. */
+  --z-sticky: 20;
+  --z-nav: 30;
+  --z-overlay: 40;
+  --z-banner: 50;
+  --z-skip: 100;
+  --z-confetti: 200;
+
+  /* ---- Motion ----------------------------------------------------------- */
+  /* The single switch. Every duration and distance below is multiplied by
+     it, so at 0 nothing moves anywhere on the site: transitions finish
+     instantly and elements appear in place. It is set to 0 for visitors who
+     ask their device for reduced motion (below) and can be forced with
+     data-motion="reduce" on <html>. JavaScript animations read it through
+     client/src/motion/tokens.js. */
+  --motion-on: 1;
+
+  /* Durations. Interface feedback uses fast and base; entrances use slow,
+     which is also the most any animation may delay content. */
+  --duration-fast: calc(120ms * var(--motion-on));
+  --duration-base: calc(200ms * var(--motion-on));
+  --duration-slow: calc(400ms * var(--motion-on));
+  --duration-ripple: calc(550ms * var(--motion-on));
+  /* The short celebration when a certification is completed, and the
+     confetti for an application sent or an offer. */
+  --duration-celebrate: calc(700ms * var(--motion-on));
+  --duration-confetti: calc(1500ms * var(--motion-on));
+  --duration-confetti-big: calc(2600ms * var(--motion-on));
+  /* The only continuous loops: the hero background and the empty-state
+     drawings (both pause off screen), and loading placeholders while a
+     search runs. */
+  --duration-drift: 24s;
+  --duration-float: 6s;
+  --duration-shimmer: 1.2s;
+  /* A busy button's spinner turns once per this. */
+  --duration-spin: 0.8s;
+
+  /* Curves: one standard ease-out, one with a slight overshoot for things
+     that pop into place. */
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
+  --ease: var(--ease-out);
+
+  /* Distances, also scaled by the switch. */
+  --distance-xs: calc(2px * var(--motion-on));
+  --distance-sm: calc(6px * var(--motion-on));
+  --distance-md: calc(12px * var(--motion-on));
+  --distance-lg: calc(24px * var(--motion-on));
+  --distance-sheet: calc(100% * var(--motion-on));
+  /* How far a pressed control shrinks, and a pressed card. */
+  --press-scale: calc(1 - 0.04 * var(--motion-on));
+  --press-scale-card: calc(1 - 0.01 * var(--motion-on));
+  --pop-scale: calc(1 + 0.12 * var(--motion-on));
+
+  /* Stagger step between siblings in a group, and the item after which the
+     stagger stops growing (so a long list never waits on its last row). */
+  --stagger: calc(40ms * var(--motion-on));
+  --stagger-max: 6;
+
+  /* /home: one full ticker pass. Ticker.jsx sets it from its content, at
+     --ticker-speed pixels per second and never shorter than --ticker-min
+     seconds. */
+  --ticker-duration: 42s;
+  --ticker-speed: 80;
+  --ticker-min: 24;
+
+  /* Older names, still used by the /home components. */
+  --k-fast: var(--duration-fast);
+  --k-base: var(--duration-base);
+  --k-slow: var(--duration-slow);
+  --k-stagger: var(--stagger);
+  --k-scrim: var(--scrim);
+  --k-veil: var(--veil);
+}
+
+/* ---- Reduced motion: flips the switch ----------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-on: 0;
+  }
+}
+
+:root[data-motion='reduce'] {
+  --motion-on: 0;
+}
+
+/* ---- Color: dark --------------------------------------------------------
+   Follows the system setting unless the visitor picked Light, and always
+   applies when they picked Dark. The two blocks must stay identical. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #0b1220;
+    --surface: #111b2e;
+    --ink: #e9eef6;
+    --muted: #afbdd0;
+    --faint: #94a5ba;
+    --rule: #24334c;
+    --field-border: #61748f;
+    --accent: #8fbcec;
+    --accent-soft: #17253c;
+    --amber: #e0ac55;
+    --focus: #8fbcec;
+    --scrim: rgb(0 0 0 / 0.32);
+    --veil: rgb(17 27 46 / 0.72);
+    --shadow-color: 0 0 0;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #0b1220;
+  --surface: #111b2e;
+  --ink: #e9eef6;
+  --muted: #afbdd0;
+  --faint: #94a5ba;
+  --rule: #24334c;
+  --field-border: #61748f;
+  --accent: #8fbcec;
+  --accent-soft: #17253c;
+  --amber: #e0ac55;
+  --focus: #8fbcec;
+  --scrim: rgb(0 0 0 / 0.32);
+  --veil: rgb(17 27 46 / 0.72);
+  --shadow-color: 0 0 0;
+}

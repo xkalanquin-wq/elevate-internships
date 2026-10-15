@@ -1,0 +1,63 @@
+# Once a month, checks that every certification link still opens and that the
+# watched prices still match the providers' pages (scripts/verify-catalog.js
+# and scripts/check-prices.js). When something needs a look it opens a GitHub
+# issue, which emails the repository owner; a later run adds to that issue
+# instead of opening another. It only reads: nothing on the site changes.
+#
+# Run it by hand from the Actions tab: Catalog check → Run workflow.
+name: Catalog check
+
+on:
+  schedule:
+    - cron: '0 14 1 * *' # the 1st of each month, 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      # Neither script needs the project's packages, so there is no install.
+      - name: Links
+        id: links
+        continue-on-error: true
+        run: node scripts/verify-catalog.js --dead-only | tee links.txt
+        shell: bash -o pipefail {0}
+      - name: Prices
+        id: prices
+        continue-on-error: true
+        run: node scripts/check-prices.js | tee prices.txt
+        shell: bash -o pipefail {0}
+      - name: Report
+        if: steps.links.outcome == 'failure' || steps.prices.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            echo "The monthly catalog check found something to look at. Nothing on the site was changed."
+            echo
+            echo "@${{ github.repository_owner }}: only links that are really gone (page not found, or the site no longer exists) are listed here. Open each one in a browser before editing the catalog."
+            if grep -q "Needs a look" links.txt; then
+              echo; echo "### Links"; echo '```'; sed -n '/Needs a look/,$p' links.txt; echo '```'
+            fi
+            if [ "${{ steps.prices.outcome }}" = "failure" ]; then
+              echo; echo "### Prices"; echo '```'; sed -n '/^$/,$p' prices.txt; echo '```'
+            fi
+            echo; echo "Full log: $RUN_URL"
+          } > report.md
+          title="Catalog check: links or prices need a look"
+          existing=$(gh issue list --state open --search "\"$title\" in:title" --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file report.md
+          else
+            gh issue create --title "$title" --body-file report.md
+          fi

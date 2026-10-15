@@ -1,0 +1,354 @@
+{
+  "_note": "The interview question bank at /interview-questions. Questions, what the interviewer is looking for and how to answer are public; the sample answers are for Premium members. Placeholders in [brackets] are for the student to fill in.",
+  "updated": "2026-09-25",
+  "categories": [
+    {
+      "slug": "behavioral",
+      "name": "Behavioral",
+      "title": "Behavioral Internship Interview Questions",
+      "description": "The behavioral questions every business internship interview asks, what the interviewer is really looking for, and how to answer each one.",
+      "intro": "Almost every internship interview, in every field, starts here. These questions test how you communicate, how you work with people and whether you have thought about why you want the role. Prepare four or five true stories and you can adapt them to nearly all of these.",
+      "majors": ["management", "human-resources", "entrepreneurship", "international-business", "hospitality", "supply-chain", "risk", "business-administration", "sport-management", "logistics", "healthcare-management", "sales", "actuarial-science", "financial-planning", "retail-management", "agribusiness"],
+      "questions": [
+        {
+          "q": "Tell me about yourself.",
+          "why": "Whether you can give a short, organized summary that explains why you are in this room for this role.",
+          "how": "Keep it to about a minute: your year and major, one or two experiences that led you to this field, and why this internship is your next step. Leave out your life story.",
+          "sample": "I'm a junior at [school] studying [major]. I got interested in business operations when I ran logistics for our campus food drive and we collected 40 percent more than the year before by changing how we scheduled volunteers. Since then I've worked part-time as a shift lead at [employer], where I train new hires, and I've taken [relevant course]. I'm applying for this internship because it would let me work on real process problems with a team, which is the part of my experience I've enjoyed most."
+        },
+        {
+          "q": "Why do you want to work here?",
+          "why": "Whether you researched the company and whether your reasons would still hold if they gave the internship to someone else.",
+          "how": "Name something specific — a product, a client, a program detail or a person you spoke with — and connect it to what you want to learn. Generic praise ('great culture') does not count.",
+          "sample": "Two reasons. First, when I talked with [name] at the career fair, she described how interns own a project from start to finish and present it to leadership in August. I want that level of responsibility. Second, your expansion into [market or product] is exactly the kind of growth problem I studied in my [course] project, where our team built a launch plan for a regional brand. I'd like to see how a real company makes those decisions."
+        },
+        {
+          "q": "Tell me about a time you worked on a team that disagreed.",
+          "why": "How you handle conflict: whether you listen, how you move a group to a decision, and whether you can talk about it without blaming anyone.",
+          "how": "Use STAR — Situation, Task, Action, Result — and spend most of the answer on what you did. End with the result and what you would repeat.",
+          "sample": "In my marketing class, our group of four split on whether to target first-year students or seniors for a campus coffee shop campaign. Two of us had survey data and two had strong opinions, and we were a week from the deadline. I suggested we each spend 15 minutes making the best case for the other side, then look at the data together. It turned out first-years were visiting more often but spending less, so we built the campaign around them with a loyalty offer to raise spending. We got an A, and I still use that 'argue the other side' step when a group gets stuck."
+        },
+        {
+          "q": "Tell me about a mistake you made.",
+          "why": "Honesty and self-awareness. They want a real mistake, ownership of it, and what you changed afterward.",
+          "how": "Pick a genuine but recoverable mistake. Say briefly what went wrong, spend more time on how you fixed it, and finish with the habit you built so it does not happen again.",
+          "sample": "At my part-time job at [employer], I once scheduled two people for the same shift and left Saturday morning uncovered. I noticed on Friday night, called the team, and found someone to cover, so the store opened on time. The real fix was changing how I worked: I started checking the schedule against a simple coverage sheet before posting it. I haven't double-booked anyone since, and my manager asked me to show the other leads the sheet."
+        },
+        {
+          "q": "What is your greatest weakness?",
+          "why": "Self-awareness and whether you are actively working on something, not a disguised strength.",
+          "how": "Choose a real weakness that will not disqualify you for this role, then describe the specific steps you are taking and the progress so far.",
+          "sample": "I used to say yes to too many things. Last fall I was in three clubs, working 15 hours a week and taking 17 credits, and the quality of my work slipped on a group project. Since then I block my week in a calendar before agreeing to anything new, and I dropped to two commitments I care about. This semester I've kept a 3.6 while leading our club's events, so it's working, but it's still something I watch."
+        },
+        {
+          "q": "Tell me about a time you handled a heavy workload or pressure.",
+          "why": "Whether you can prioritize, communicate and still deliver when there is more work than time — a normal internship week.",
+          "how": "Describe the load honestly, then how you decided what came first, who you told, and the result. Show a method, not just long hours.",
+          "sample": "During midterms last spring I had two exams, a group presentation and extra shifts at work in the same week. On Sunday I listed everything with its deadline and how much it counted, and I asked my manager a week ahead to move one shift, which she did. I did the presentation work first because three other people depended on it, then studied in two-hour blocks. We presented on time and I got a B-plus and an A on the exams. Planning the week on Sunday is something I still do."
+        },
+        {
+          "q": "Where do you see yourself after graduation?",
+          "why": "Whether this internship fits a plan, and whether you are likely to be interested in a return offer.",
+          "how": "Be honest but connect it to this path: the kind of role you want to grow into, and how this internship builds toward it. It is fine not to have a five-year plan.",
+          "sample": "I'd like to start in a full-time [type of role] where I'm learning quickly and working with clients or data every day. Longer term I'm interested in managing a team, but first I want to be very good at the work itself. An internship here is the best test of whether this is the right fit, and if it is, I'd be excited about a full-time role after graduation."
+        },
+        {
+          "q": "What questions do you have for us?",
+          "why": "Curiosity and preparation. 'No questions' reads as low interest.",
+          "how": "Ask two or three questions you cannot answer from the website, about the work, the team or what success looks like. Save salary and time off for later conversations.",
+          "sample": "I have a few. What does a successful intern accomplish by the end of the summer? What kind of projects did last year's interns work on, and how did they get feedback along the way? And what do you enjoy most about working on this team?"
+        }
+      ]
+    },
+    {
+      "slug": "accounting",
+      "name": "Accounting",
+      "title": "Accounting Internship Interview Questions",
+      "description": "Accounting internship interview questions — the three statements, debits and credits, accruals — with what interviewers want and how to answer.",
+      "intro": "Audit and tax internships, including at the Big Four, usually ask a few technical basics next to the behavioral questions. Interviewers are not expecting a CPA's knowledge; they want to see that you understand the fundamentals from your classes and can explain them simply.",
+      "majors": ["accounting"],
+      "questions": [
+        {
+          "q": "Walk me through the three financial statements.",
+          "why": "Whether you understand what each statement shows and can explain it clearly.",
+          "how": "Describe each in a sentence: the income statement (revenue, expenses and profit over a period), the balance sheet (assets, liabilities and equity at a point in time) and the cash flow statement (cash in and out from operating, investing and financing).",
+          "sample": "The income statement shows a company's revenue and expenses over a period, like a quarter or a year, and ends with net income. The balance sheet is a snapshot at one moment: what the company owns in assets, what it owes in liabilities, and the owners' equity, and assets always equal liabilities plus equity. The cash flow statement starts with net income, adjusts for non-cash items like depreciation and for changes in working capital, then adds investing and financing activities to show how cash actually changed during the period."
+        },
+        {
+          "q": "How do the three financial statements connect?",
+          "why": "Whether you see the statements as one system rather than three separate reports.",
+          "how": "Follow net income: it flows to the top of the cash flow statement and into retained earnings on the balance sheet. The ending cash on the cash flow statement is the cash on the balance sheet.",
+          "sample": "Net income from the income statement is the starting line of the cash flow statement, and it's also added to retained earnings in the equity section of the balance sheet. The cash flow statement then adjusts for non-cash items and changes in balance sheet accounts like receivables and inventory. The net change in cash it calculates, added to the beginning cash balance, gives the ending cash that appears on the balance sheet — which is how the balance sheet stays in balance."
+        },
+        {
+          "q": "If depreciation goes up by $10, what happens to the three statements?",
+          "why": "Whether you can trace one change through all three statements, which is the most common technical follow-up.",
+          "how": "State a tax rate, then go statement by statement. Assuming a 25% tax rate: net income falls by $7.50, cash rises by $2.50, and the balance sheet still balances.",
+          "sample": "I'll assume a 25 percent tax rate. On the income statement, pre-tax income falls by $10 and taxes fall by $2.50, so net income drops by $7.50. On the cash flow statement, net income is down $7.50 but I add back the $10 of depreciation because it's non-cash, so cash from operations goes up by $2.50. On the balance sheet, cash is up $2.50 and PP&E is down $10, so assets fall by $7.50; on the other side, retained earnings fall by $7.50, so it balances."
+        },
+        {
+          "q": "What is the difference between accrual and cash accounting?",
+          "why": "Understanding of the matching principle, which audit and tax work depend on.",
+          "how": "Cash accounting records revenue and expenses when money changes hands; accrual accounting records them when they are earned or incurred. Give a quick example.",
+          "sample": "Under cash accounting you record revenue when you receive payment and expenses when you pay them. Under accrual accounting, which GAAP requires for most companies, you record revenue when it's earned and expenses when they're incurred, so they match the period they belong to. For example, if a company delivers a service in December but is paid in January, accrual accounting records December revenue and an accounts receivable, while cash accounting would record nothing until January."
+        },
+        {
+          "q": "Explain debits and credits.",
+          "why": "The basic language of bookkeeping, which you will use from the first day.",
+          "how": "Every transaction has equal debits and credits. Debits increase assets and expenses; credits increase liabilities, equity and revenue. Give one journal entry.",
+          "sample": "Every journal entry has debits equal to credits, which keeps the accounting equation in balance. Debits increase asset and expense accounts and decrease liabilities, equity and revenue; credits do the opposite. For example, if a company buys $500 of supplies on account, it debits supplies, an asset, for $500 and credits accounts payable, a liability, for $500."
+        },
+        {
+          "q": "What is working capital, and why does it matter?",
+          "why": "Whether you connect balance sheet accounts to a company's short-term health and cash.",
+          "how": "Working capital is current assets minus current liabilities. Explain that it shows whether a company can cover its short-term obligations and how changes in it affect cash.",
+          "sample": "Working capital is current assets minus current liabilities, so things like cash, receivables and inventory minus payables and other short-term obligations. It matters because it shows whether a company can pay what's due in the next year. It also affects cash flow: if receivables grow because customers are paying more slowly, that ties up cash even when the income statement looks healthy, which is why the cash flow statement subtracts increases in working capital."
+        },
+        {
+          "q": "What is the difference between audit, tax and advisory work?",
+          "why": "Whether you understand the service lines you are applying to and chose one on purpose.",
+          "how": "Audit gives an independent opinion on whether financial statements are fairly presented; tax covers compliance and planning; advisory helps clients with problems like risk, systems or deals. Say which you prefer and why.",
+          "sample": "Audit teams test a company's financial statements and controls so they can give an independent opinion that the statements are fairly presented, which investors and lenders rely on. Tax teams prepare returns and help clients plan around tax rules. Advisory, or consulting, helps clients with specific problems such as risk, technology or transactions. I'm applying to audit because I like seeing how a whole business works, and my [auditing course or experience] showed me I enjoy testing whether the numbers hold up."
+        },
+        {
+          "q": "Why accounting, and are you planning to pursue the CPA?",
+          "why": "Commitment to the career path. Firms invest in interns they expect to return and get licensed.",
+          "how": "Give a genuine reason you chose accounting and a realistic plan for the credit-hour requirement and the CPA exam in your state.",
+          "sample": "I chose accounting after my intro class because I liked that there's a right answer you can prove, and that every business depends on it. I'm on track to meet my state's education requirement for the CPA through [150-hour plan, master's program or the experience pathway], and I plan to start the exam [timing]. An internship here would show me which service line I want to build my career in before I commit to it full-time."
+        }
+      ]
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "title": "Finance Internship Interview Questions",
+      "description": "Finance internship interview questions — DCF, WACC, enterprise value, valuation and markets — with what interviewers look for and how to answer.",
+      "intro": "Investment banking, corporate finance and asset management internships add technical questions to the behavioral ones. For an internship, interviewers mainly want to see that you know the core concepts and can reason out loud. Know these cold, and follow the markets for a few weeks before your interviews.",
+      "majors": ["finance", "economics", "real-estate"],
+      "questions": [
+        {
+          "q": "Walk me through a DCF.",
+          "why": "Whether you understand how valuation works, not just the steps memorized.",
+          "how": "Project free cash flow for five to ten years, calculate a terminal value, discount both to today at the weighted average cost of capital, and sum them to get enterprise value. Then bridge to equity value if asked.",
+          "sample": "A discounted cash flow values a company on the cash it will generate. First I project unlevered free cash flow — operating profit after tax, plus depreciation, minus capital expenditures and increases in working capital — for about five years. Then I estimate a terminal value for the years after that, using either a perpetual growth rate or an exit multiple. I discount the yearly cash flows and the terminal value back to today at the weighted average cost of capital and add them up, which gives enterprise value. To get equity value, I subtract net debt."
+        },
+        {
+          "q": "What is WACC, and how do you calculate it?",
+          "why": "Understanding of the discount rate, which drives any DCF.",
+          "how": "It is the blended cost of a company's debt and equity, weighted by how much of each it uses. Cost of equity usually comes from CAPM; cost of debt is taken after tax because interest is deductible.",
+          "sample": "WACC is the weighted average cost of capital — the return a company needs to pay its lenders and shareholders. You weight the cost of equity and the after-tax cost of debt by their shares of the company's total capital. Cost of equity is usually estimated with CAPM: the risk-free rate plus beta times the equity risk premium. Debt is taken after tax because interest expense is tax-deductible, so its cost is the interest rate times one minus the tax rate."
+        },
+        {
+          "q": "What is the difference between enterprise value and equity value?",
+          "why": "A basic concept used in every valuation and deal discussion.",
+          "how": "Equity value is what the shareholders' stake is worth. Enterprise value is the value of the whole business to all investors: equity value plus debt, preferred stock and noncontrolling interest, minus cash.",
+          "sample": "Equity value is the value of the company to its shareholders — for a public company, share price times diluted shares outstanding. Enterprise value is the value of the core business to everyone with a claim on it, so you start from equity value, add debt, preferred stock and noncontrolling interests, and subtract cash. That's why two companies with the same equity value can have very different enterprise values if one carries a lot of debt."
+        },
+        {
+          "q": "How would you value a company?",
+          "why": "Whether you know the main methods and when each is useful.",
+          "how": "Name the three common approaches — comparable companies, precedent transactions and a DCF — and say that analysts use them together to get a range.",
+          "sample": "There are three main methods. Comparable companies looks at how the market values similar public companies, using multiples like EV to EBITDA. Precedent transactions looks at what buyers paid for similar companies in past acquisitions, which usually includes a control premium. And a DCF values the company on its own projected cash flows. I'd use all three to build a range, since each has weaknesses — comparables depend on the market's mood and a DCF depends heavily on its assumptions."
+        },
+        {
+          "q": "What happens to bond prices when interest rates rise?",
+          "why": "Understanding of the most basic relationship in fixed income, and by extension of discounting.",
+          "how": "Bond prices fall when rates rise, because existing bonds pay a fixed coupon that is now less attractive, so their price drops until their yield matches the market. Longer bonds fall more.",
+          "sample": "They fall. A bond pays fixed coupons, so when new bonds start paying higher rates, an existing bond is only worth buying at a lower price that brings its yield up to the market rate. Longer-maturity bonds are more sensitive because more of their cash flows are discounted at the higher rate for longer. The same logic affects stocks: higher rates raise the discount rate in a valuation, which lowers the present value of future cash flows."
+        },
+        {
+          "q": "Pitch me a stock.",
+          "why": "Whether you can form a view, back it with evidence and consider the risks — the core of investment work.",
+          "how": "Pick a company you actually follow. Give a one-line recommendation, two or three reasons with numbers, what the market is missing, the main risk and what would change your mind.",
+          "sample": "I'd buy [company]. First, [a specific driver — for example, revenue from a new product line that grew about 30 percent last year] is becoming a bigger share of sales and has higher margins. Second, it trades at [a multiple] compared with about [peer multiple] for its closest peers, even though it's growing faster. I think the market is focused on [a short-term concern] and missing [the longer-term driver]. The main risk is [a specific risk]; if [a measurable sign] happened, I'd change my view."
+        },
+        {
+          "q": "Why finance, and why this part of finance?",
+          "why": "Whether your interest is informed and will survive a demanding summer.",
+          "how": "Give a specific origin story, show you understand what the job involves day to day, and connect it to the role.",
+          "sample": "I got interested in finance when I managed our student investment club's small portfolio and saw how much research goes into a single decision. I chose [investment banking, corporate finance or asset management] because I want to [build models for real transactions, help one company make its financial decisions, or analyze companies over the long term]. I've talked with [a professional or alumnus] about what the day-to-day work is like, including the hours, and it's the kind of work I want to do."
+        },
+        {
+          "q": "Tell me about something happening in the markets.",
+          "why": "Whether you follow financial news and can explain why it matters.",
+          "how": "Pick one recent event you understand well — a rate decision, an earnings report or a deal — and explain what happened, why, and what it means for the firm or its clients.",
+          "sample": "I've been following [event — for example, the most recent Federal Reserve rate decision]. [What happened, with one number.] The reason was [the cause, in one sentence]. What I find interesting is what it means for [the firm's area — for example, companies planning to refinance debt this year, or deal activity]. I've been reading about it in [source]."
+        }
+      ]
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "title": "Marketing Internship Interview Questions",
+      "description": "Marketing internship interview questions — campaigns, metrics, social media and the 4 Ps — with what interviewers look for and how to answer.",
+      "intro": "Marketing interviews test creativity and judgment in equal measure. Expect to talk about campaigns you noticed, how you would reach an audience, and how you would know it worked. Bring numbers from your own projects wherever you can.",
+      "majors": ["marketing", "sport-management", "retail-management"],
+      "questions": [
+        {
+          "q": "Tell me about a campaign you admired and why.",
+          "why": "Whether you notice marketing critically and can explain why something worked, not just that you liked it.",
+          "how": "Pick a real campaign, describe the audience and the idea in two sentences, then explain why it worked — the insight, the channel and any result you know of.",
+          "sample": "I liked [brand]'s [campaign], which [what it did in one sentence]. It worked because it was built on a real insight about its audience: [the insight]. It also fit the channel — [why the format suited the platform]. And it gave people a reason to share it, which is why [a visible result, if you know one]. What I took from it is that the strongest campaigns start with a clear point about the customer, not with the format."
+        },
+        {
+          "q": "How would you market our product to college students?",
+          "why": "Your thinking process: audience, message, channels and measurement.",
+          "how": "Define the audience, pick one clear message, choose two or three channels that fit, and say how you would measure success and test it cheaply first.",
+          "sample": "I'd start by narrowing the audience, since first-years and seniors want different things; I'd focus on [segment] because [reason]. The message would be [one benefit in a sentence]. For channels I'd use [a social platform where that audience spends time] with short video, plus campus partners like clubs and student ambassadors, because peer recommendations matter a lot on campus. I'd run a small test at two or three schools first and measure sign-ups and cost per sign-up before spending more."
+        },
+        {
+          "q": "How do you measure whether a campaign worked?",
+          "why": "Whether you connect marketing to business results.",
+          "how": "Start with the goal, then pick metrics that match it: reach and engagement for awareness, click-through and conversion rate for action, and customer acquisition cost and return on ad spend for efficiency.",
+          "sample": "It depends on the goal, so I'd set that first. For awareness I'd look at reach, impressions and engagement rate. For action, like sign-ups or sales, I'd track click-through rate, conversion rate and cost per acquisition. And to know if it was worth the money, return on ad spend or the cost to acquire a customer compared with what that customer is worth. In a class project, we [example with a number — for example, raised event sign-ups by 25 percent and tracked it with a unique link]."
+        },
+        {
+          "q": "What is the difference between brand marketing and performance marketing?",
+          "why": "Understanding of how marketing teams are organized and measured.",
+          "how": "Brand marketing builds long-term awareness and preference; performance marketing drives measurable actions now, like clicks and purchases. Most companies need both.",
+          "sample": "Brand marketing builds how people think and feel about a company over time — awareness, trust and preference — and it's measured with things like awareness surveys and search volume. Performance marketing aims for a specific action now, like a click, a sign-up or a purchase, and it's measured directly with conversions and cost per acquisition. They support each other: a strong brand makes performance ads cheaper because people already recognize the name."
+        },
+        {
+          "q": "Explain the 4 Ps of marketing.",
+          "why": "Command of the basic framework from your coursework.",
+          "how": "Product, price, place and promotion — and a quick example of each for one real product shows you can apply it.",
+          "sample": "The 4 Ps are product, price, place and promotion — the main decisions in a marketing plan. Take a reusable water bottle brand: the product is the bottle and its design, the price is where it sits against competitors, place is where it's sold, like its own website and outdoor stores, and promotion is how it gets attention, such as influencer partnerships. The framework is useful because a change in one P usually affects the others."
+        },
+        {
+          "q": "A campaign underperformed. What do you do?",
+          "why": "How you respond to bad results: diagnosis before reaction.",
+          "how": "Check the data first, find where in the funnel people dropped off, form a hypothesis, test one change at a time, and share what you learned.",
+          "sample": "First I'd check that the tracking is right, because a broken link or tag can look like a failed campaign. Then I'd look at the funnel to find where people dropped off — if many saw it but few clicked, the creative or the targeting is the problem; if many clicked but few converted, it's more likely the landing page or the offer. I'd test one change at a time so I know what fixed it, and I'd write up what we learned for the next campaign."
+        },
+        {
+          "q": "Which social platforms do you use, and what do brands get right on them?",
+          "why": "Whether you understand platforms as a marketer, not only as a user.",
+          "how": "Name a platform you know well and give a specific brand example, explaining why its content fits that platform's format and audience.",
+          "sample": "I spend the most time on [platform]. Brands that do well there, like [brand], post content that looks native to the platform — [what they do, for example short, unpolished videos that follow current trends] — instead of repurposing TV ads. They also reply to comments, which makes the account feel like a person. What doesn't work is posting the same thing everywhere; each platform's audience expects something different."
+        },
+        {
+          "q": "Tell me about a time you used data to make a creative decision.",
+          "why": "Whether you can balance creativity with evidence — the everyday job in modern marketing.",
+          "how": "Use STAR. Show the data you had, the choice it led to, and the result.",
+          "sample": "I ran social media for [club]. We were posting event flyers that got very little engagement, so I looked at our last 30 posts and saw that photos of members got about three times the likes and comments of flyers. I switched to posting a photo from each event with the next event's details in the caption. Over the semester our average engagement roughly doubled and event attendance went up, and the club still uses that approach."
+        }
+      ]
+    },
+    {
+      "slug": "business-analytics",
+      "name": "Business Analytics",
+      "title": "Business Analytics Internship Interview Questions",
+      "description": "Business analytics and data internship interview questions — SQL joins, dirty data, A/B tests and explaining results — with how to answer.",
+      "intro": "Analytics interviews usually combine a few SQL or Excel questions, some statistics, and a question about explaining results to people who are not analysts. Clear thinking and honest checks on your own data matter as much as the right syntax.",
+      "majors": ["business-analytics", "mis", "actuarial-science"],
+      "questions": [
+        {
+          "q": "What is the difference between an INNER JOIN and a LEFT JOIN?",
+          "why": "Basic SQL fluency, which most analytics internships use daily.",
+          "how": "An inner join keeps only rows with a match in both tables; a left join keeps every row from the left table and fills columns from the right table with NULL where there is no match. Give an example.",
+          "sample": "An INNER JOIN returns only the rows that have a match in both tables. A LEFT JOIN returns every row from the left table and the matching rows from the right table, with NULLs where there's no match. For example, joining customers to orders with an inner join shows only customers who have ordered; a left join shows all customers, and the ones with NULL order columns are the customers who have never ordered, which is often exactly what the business wants to find."
+        },
+        {
+          "q": "What is the difference between WHERE and HAVING?",
+          "why": "Whether you understand how SQL processes aggregation.",
+          "how": "WHERE filters rows before grouping; HAVING filters groups after aggregation, so it can use functions like COUNT or SUM.",
+          "sample": "WHERE filters individual rows before any grouping happens, so it can't use aggregate functions. HAVING filters the groups after GROUP BY, so it can. For example, to find stores with more than 100 orders in 2025, I'd use WHERE to keep only 2025 orders, GROUP BY store, and then HAVING COUNT(*) > 100."
+        },
+        {
+          "q": "How do you handle missing or messy data?",
+          "why": "Judgment. Real data is messy, and silently mishandling it leads to wrong answers.",
+          "how": "Explain that you first find out why it is missing, then choose to remove, fill or flag it depending on the cause and how much there is — and that you document the choice.",
+          "sample": "First I try to understand why it's missing or messy, because the reason changes the fix. I check how much is affected and whether it's random or concentrated in one group. Then I decide: remove rows if it's a small, random share; fill values, for example with a median, if that's reasonable; or keep a flag so the gap is visible. I also standardize things like date formats and duplicate names. Whatever I do, I note it with the results so nobody is misled."
+        },
+        {
+          "q": "What is the difference between correlation and causation?",
+          "why": "Whether you will overclaim what the data shows — a common and costly analytics mistake.",
+          "how": "Correlation means two things move together; causation means one causes the other. Mention confounding variables and that controlled experiments are how you test cause.",
+          "sample": "Correlation means two variables move together; causation means a change in one actually produces a change in the other. Ice cream sales and sunburns are correlated, but both are caused by hot weather, which is a confounding variable. To show causation in business, the best tool is a controlled experiment like an A/B test, where the only difference between two groups is the change you're testing."
+        },
+        {
+          "q": "How would you test whether a new website feature worked?",
+          "why": "Understanding of experiment design and the metrics that matter.",
+          "how": "Describe an A/B test: pick one primary metric before starting, split users randomly, run it long enough to get a reliable result, and check the result is statistically significant before deciding.",
+          "sample": "I'd run an A/B test. Before starting, I'd agree on one main metric, like conversion rate, and how big a change would matter. Users would be randomly split so half see the new feature and half don't. I'd run it long enough to cover full weeks and reach the sample size we need, then check whether the difference is statistically significant rather than stopping as soon as it looks good. I'd also check a guardrail metric, like page load time, to make sure we didn't break something else."
+        },
+        {
+          "q": "Which chart would you use, and why?",
+          "why": "Whether you choose visuals to answer the question rather than to decorate.",
+          "how": "Match the chart to the question: lines for change over time, bars for comparing categories, scatter plots for relationships between two numbers. Avoid pie charts with many slices.",
+          "sample": "It depends on the question. For how something changed over time, like monthly revenue, I'd use a line chart. To compare categories, like sales by region, a sorted bar chart. To show the relationship between two numbers, like ad spend and sign-ups, a scatter plot. I'd keep labels clear and put the takeaway in the title, like 'Sign-ups rose 20 percent after the redesign', so the reader doesn't have to work it out."
+        },
+        {
+          "q": "How would you explain an analysis to a manager who is not technical?",
+          "why": "Communication — an analysis only matters if someone acts on it.",
+          "how": "Lead with the answer and the recommendation, support it with one or two key numbers and a simple chart, and keep the method brief unless they ask.",
+          "sample": "I'd start with the answer, not the method: 'Customers who use the mobile app spend about 20 percent more, so I'd recommend promoting it at checkout.' Then I'd show one simple chart and the one or two numbers that support it, and mention any important limitation in plain language. I'd keep the technical details in an appendix in case they want them. In my [course or project], presenting it that way is what got the team to act on the result."
+        },
+        {
+          "q": "Which tools do you use, and how have you used them?",
+          "why": "Whether your skills match the team's tools, and whether you can learn new ones.",
+          "how": "Be specific and honest: name each tool and one real thing you did with it. Say what you are learning now.",
+          "sample": "I'm strongest in Excel — I use pivot tables, XLOOKUP and charts regularly, and I built [a model or tracker] for [project]. I've used SQL in my [course] to query a sales database with joins and aggregations, and I've built dashboards in [Tableau or Power BI] for a class project. I'm currently learning Python with pandas through [course or certification]. If your team uses a different tool, I'm comfortable picking it up quickly."
+        }
+      ]
+    },
+    {
+      "slug": "consulting",
+      "name": "Consulting and Management",
+      "title": "Consulting Internship Interview Questions",
+      "description": "Consulting and management internship interview questions — market sizing, profitability cases and leadership stories — with how to answer.",
+      "intro": "Consulting and management programs test structured thinking with short cases, and leadership with behavioral questions. The answer matters less than how you get there: state your structure, make reasonable assumptions out loud, and do the math carefully.",
+      "majors": ["management", "entrepreneurship", "supply-chain", "international-business", "economics", "business-administration", "healthcare-management"],
+      "questions": [
+        {
+          "q": "How many cups of coffee are sold in a city each day?",
+          "why": "Market sizing: whether you can break a vague problem into logical steps with sensible assumptions.",
+          "how": "Say your structure first, state each assumption and why, do simple math out loud, and sanity-check the result at the end.",
+          "sample": "I'll size it by population. Say the city has one million people. Assume about 60 percent are adults who drink coffee, so 600,000, and the average coffee drinker has about two cups a day, which is 1.2 million cups. But most are made at home, so I'll assume about 25 percent are bought — cafés, offices, convenience stores — which gives around 300,000 cups sold per day. As a sanity check, if the city has 600 places selling coffee, that's about 500 cups each per day, which is plausible for busy shops but high for small ones, so the true number might be somewhat lower."
+        },
+        {
+          "q": "A client's profits have fallen. How would you figure out why?",
+          "why": "The classic profitability case: whether you structure the problem before guessing.",
+          "how": "Break profit into revenue (price times volume) and costs (fixed and variable), find which moved, then dig into why — the customer, the competition and the company.",
+          "sample": "Profit is revenue minus costs, so I'd first find out which one changed. For revenue, I'd split it into price and volume by product and customer segment. For costs, into fixed and variable, and look for any that grew faster than sales. Once I know where the drop is — say, volume fell in one product line — I'd ask why: did customers' needs change, did a competitor cut prices, or did something change inside the company, like quality or distribution? Then I'd recommend fixes tied to that cause."
+        },
+        {
+          "q": "Should a company enter a new market?",
+          "why": "Whether you can weigh attractiveness, competition and the company's ability to win.",
+          "how": "Look at the market (size, growth, profitability), the competition, the company's capabilities, and the entry options and their cost, then give a clear recommendation with risks.",
+          "sample": "I'd look at four things. First, the market: how big is it, is it growing, and do companies in it make money? Second, the competition: who's there and how strong are they? Third, the company: does it have an advantage, like a brand or a cost edge, that would help it win? Fourth, how to enter — build, partner or acquire — and what it would cost and how long it would take to break even. Then I'd make a clear yes or no and name the biggest risk."
+        },
+        {
+          "q": "Tell me about a time you led a team.",
+          "why": "Leadership potential: setting direction, involving people and delivering a result.",
+          "how": "Use STAR and focus on your specific actions: how you organized the work, handled a problem and kept people motivated.",
+          "sample": "As [role] of [organization], I led a team of six planning our biggest event of the year with a $2,000 budget. I split the work into three areas with an owner each and set a short weekly check-in. Halfway through, our venue cancelled, so I got the team together, we listed three alternatives within a day, and we moved the event without changing the date. We sold out 250 tickets and finished under budget, and two of the people I worked with ran it the next year."
+        },
+        {
+          "q": "How do you prioritize when everything is due at once?",
+          "why": "Organization and communication under pressure.",
+          "how": "Explain your method: rank by deadline and impact, tell people early when something will slip, and break big tasks into steps.",
+          "sample": "I list everything with its deadline and how much it matters, then do the high-impact, time-sensitive work first. If something truly can't be done on time, I tell the person depending on it early and suggest a new plan instead of waiting until the last minute. I also break large tasks into small steps so they don't get pushed aside by quick ones. That's how I [a concrete example]."
+        },
+        {
+          "q": "Tell me about a time you persuaded someone.",
+          "why": "Influence without authority, which consultants and managers need constantly.",
+          "how": "Show that you understood the other person's concerns and used evidence, rather than simply insisting.",
+          "sample": "At [job or club], I wanted to move our sign-up process from paper to an online form. My manager worried it would confuse regular customers. Instead of pushing, I asked what she was most concerned about, then ran a two-week trial at one location with a paper backup. Sign-ups went up and nobody asked for the paper form, so she rolled it out everywhere. I learned that a small test answers objections better than an argument."
+        },
+        {
+          "q": "Why consulting?",
+          "why": "Whether you understand the work and have a reason beyond prestige.",
+          "how": "Connect a real experience to what consultants do: solving different problems for different clients, working in teams, and presenting recommendations.",
+          "sample": "I like working on problems that are new each time. In my [case competition or project], I spent three weeks on [problem] with a team, and the part I enjoyed most was structuring a messy question and turning the analysis into a recommendation we presented to [audience]. Consulting would let me do that across different industries early in my career, and I'm especially interested in your work with [practice or industry] because [reason]."
+        },
+        {
+          "q": "Describe a process you improved.",
+          "why": "Operations thinking and initiative — valued in management, supply chain and consulting roles alike.",
+          "how": "Describe how things worked before, what you noticed, the change you made and a measurable result.",
+          "sample": "At [job], new hires learned by shadowing whoever was on shift, so training took about two weeks and everyone learned it differently. I wrote a one-page checklist of the core tasks and paired it with three short practice shifts. My manager tried it with the next two hires, and they were working independently in about a week. The checklist became the standard for new employees."
+        }
+      ]
+    }
+  ]
+}

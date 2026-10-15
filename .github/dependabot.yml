@@ -1,0 +1,36 @@
+# Update monitoring for the site's libraries (free, from GitHub).
+#
+# Once a week Dependabot checks npm for newer versions and opens one pull
+# request with the minor and patch updates grouped together; security fixes
+# get their own pull request as soon as they are published. Nothing is merged
+# or deployed automatically — merging a pull request into main is what
+# redeploys the site, so test it first.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: [minor, patch]
+    labels: [dependencies]
+    # Major versions that were tested and break this site. Closed on
+    # 2026-09-27; these rules keep Dependabot from reopening them with each
+    # new release. Minor and patch updates to them still come.
+    # Remove a rule once the site has been changed to support that version.
+    ignore:
+      # 13 does not build on Windows, and the server would quietly fall back
+      # to JSON storage instead of SQLite if the native build failed.
+      - dependency-name: better-sqlite3
+        update-types: [version-update:semver-major]
+      # React and React DOM must move together, and 19 needs code changes.
+      - dependency-name: react
+        update-types: [version-update:semver-major]
+      - dependency-name: react-dom
+        update-types: [version-update:semver-major]
+      # Tailwind 4 replaces the config file format this site uses.
+      - dependency-name: tailwindcss
+        update-types: [version-update:semver-major]

@@ -1,0 +1,4 @@
+{
+  "_note": "Site-wide on/off switches, read by the server (server/features.js) and the app (client/src/features.js). premium is the paid Premium tier: $9.99 a semester for daily new-internship alerts, the Recruiting Kit download, written sample interview answers and no ads. It was switched off on 2026-10-13 at the owner's request, with no members at the time; all of its code is kept. To bring it back, set premium to true, rebuild, and run the test suite. Sponsored listings for employers are separate and stay on.",
+  "premium": false
+}

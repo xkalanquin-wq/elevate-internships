@@ -1,0 +1,5339 @@
+[
+  {
+    "id": "cpa-exam",
+    "title": "CPA — Certified Public Accountant",
+    "provider": "AICPA / NASBA",
+    "url": "https://www.aicpa-cima.com/resources/landing/cpa-exam",
+    "hours": 400,
+    "cost": "paid",
+    "price": "~$1,400 in exam and application fees (varies by state), plus a review course ($1,500–$3,000). Most states require 150 credit hours to be licensed.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "finance"
+    ],
+    "tags": [
+      "accounting",
+      "audit",
+      "tax",
+      "cpa",
+      "public accounting",
+      "credential"
+    ],
+    "desc": "The license for public accounting. Start planning the 150-hour requirement in your sophomore year, not your senior year."
+  },
+  {
+    "id": "cma-cert",
+    "title": "CMA — Certified Management Accountant",
+    "provider": "IMA",
+    "url": "https://www.imanet.org/cma-certification",
+    "hours": 300,
+    "cost": "paid",
+    "price": "Student member ~$210/yr; exam ~$311 per part (2 parts), entrance fee ~$210.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "finance"
+    ],
+    "tags": [
+      "accounting",
+      "management accounting",
+      "cma",
+      "corporate finance",
+      "fp&a",
+      "credential"
+    ],
+    "desc": "The corporate-side counterpart to the CPA. Cheaper, faster, and aimed at FP&A and internal reporting."
+  },
+  {
+    "id": "cia-cert",
+    "title": "CIA — Certified Internal Auditor",
+    "provider": "The IIA",
+    "url": "https://www.theiia.org/en/certifications/cia/",
+    "hours": 250,
+    "cost": "paid",
+    "price": "Student rates available; roughly $1,000–$1,500 all in across three parts.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "risk"
+    ],
+    "tags": [
+      "accounting",
+      "internal audit",
+      "risk",
+      "controls",
+      "compliance",
+      "credential"
+    ],
+    "desc": "The global standard for internal audit. Big 4 internal-audit and risk practices know it by name."
+  },
+  {
+    "id": "cfa-l1",
+    "title": "CFA Level I",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/cfa-program",
+    "hours": 300,
+    "cost": "paid",
+    "price": "Exam ~$1,140 with early registration or ~$1,490 standard; the one-time enrollment fee was dropped in 2026. Scholarships exist for students.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "economics"
+    ],
+    "tags": [
+      "finance",
+      "investment",
+      "asset management",
+      "equity research",
+      "cfa",
+      "portfolio",
+      "credential"
+    ],
+    "desc": "The investment-management standard. Level I is sittable in your final year; ask about the Access Scholarship."
+  },
+  {
+    "id": "frm-cert",
+    "title": "FRM — Financial Risk Manager",
+    "provider": "GARP",
+    "url": "https://www.garp.org/frm",
+    "hours": 250,
+    "cost": "paid",
+    "price": "Enrollment ~$400 plus ~$600–$800 per part (2 parts).",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "risk"
+    ],
+    "tags": [
+      "finance",
+      "risk management",
+      "frm",
+      "banking",
+      "quantitative",
+      "credential"
+    ],
+    "desc": "Market, credit, and operational risk. The usual credential for bank risk and treasury roles."
+  },
+  {
+    "id": "cfp-cert",
+    "title": "CFP — Certified Financial Planner",
+    "provider": "CFP Board",
+    "url": "https://www.cfp.net/get-certified/certification-process",
+    "hours": 250,
+    "cost": "paid",
+    "price": "Exam ~$925; required coursework $3,000–$8,000 unless your degree is CFP-registered.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "financial planning",
+      "wealth management",
+      "cfp",
+      "advisory",
+      "credential"
+    ],
+    "desc": "For wealth management and advisory. Check whether your school's finance program is already CFP-registered — that removes the coursework cost."
+  },
+  {
+    "id": "caia-cert",
+    "title": "CAIA — Chartered Alternative Investment Analyst",
+    "provider": "CAIA Association",
+    "url": "https://caia.org/programs/caia-charter",
+    "hours": 200,
+    "cost": "paid",
+    "price": "Enrollment ~$400 plus ~$1,000 per level (2 levels).",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "alternative investments",
+      "private equity",
+      "hedge funds",
+      "real assets",
+      "credential"
+    ],
+    "desc": "Private equity, hedge funds, and real assets. Narrower than the CFA and well regarded in alternatives."
+  },
+  {
+    "id": "cfi-fmva",
+    "title": "FMVA — Financial Modeling & Valuation Analyst",
+    "provider": "Corporate Finance Institute",
+    "url": "https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/",
+    "hours": 120,
+    "cost": "paid",
+    "price": "~$497–$847/yr for full access, with about 50% off for students using a school email. Individual courses often free to audit.",
+    "group": "biz-tooling",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting",
+      "real-estate"
+    ],
+    "tags": [
+      "finance",
+      "financial modeling",
+      "valuation",
+      "excel",
+      "dcf",
+      "investment banking"
+    ],
+    "desc": "Build a three-statement model and a DCF from scratch. The most practical paid option for banking interviews."
+  },
+  {
+    "id": "wsp-modeling",
+    "title": "Wall Street Prep Financial Modeling",
+    "provider": "Wall Street Prep",
+    "url": "https://www.wallstreetprep.com/",
+    "hours": 80,
+    "cost": "paid",
+    "price": "~$500–$700 per package; heavy student discounts and campus site licenses.",
+    "group": "biz-tooling",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "financial modeling",
+      "lbo",
+      "m&a",
+      "investment banking",
+      "excel"
+    ],
+    "desc": "What many banks use for their own analyst training. Check whether your business school already has a license."
+  },
+  {
+    "id": "bloomberg-bmc",
+    "title": "Bloomberg Market Concepts",
+    "provider": "Bloomberg for Education",
+    "url": "https://portal.bloombergforeducation.com/courses?course_category_id=3",
+    "hours": 8,
+    "cost": "check",
+    "price": "Free through a school with Bloomberg terminals; otherwise ~$149.",
+    "group": "biz-markets",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "economics",
+      "agribusiness"
+    ],
+    "tags": [
+      "finance",
+      "markets",
+      "banking",
+      "economics",
+      "fixed income",
+      "equities",
+      "bloomberg"
+    ],
+    "desc": "Economic indicators, currencies, fixed income, and equities on live terminal data. Check your library before paying."
+  },
+  {
+    "id": "yale-financial-markets",
+    "title": "Financial Markets",
+    "provider": "Yale · Coursera · Shiller",
+    "url": "https://www.coursera.org/learn/financial-markets-global",
+    "hours": 33,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-markets",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "economics",
+      "real-estate",
+      "international-business"
+    ],
+    "tags": [
+      "finance",
+      "markets",
+      "behavioral finance",
+      "risk",
+      "insurance",
+      "banking"
+    ],
+    "desc": "Robert Shiller on risk, behavioral finance, and institutions. More than two million people have taken it."
+  },
+  {
+    "id": "wharton-accounting",
+    "title": "Introduction to Financial Accounting",
+    "provider": "Wharton · Coursera",
+    "url": "https://www.coursera.org/learn/wharton-accounting",
+    "hours": 12,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "finance"
+    ],
+    "tags": [
+      "accounting",
+      "financial statements",
+      "finance",
+      "bookkeeping",
+      "balance sheet"
+    ],
+    "desc": "Brian Bushee builds the three statements from transactions up. Do this before any modeling course."
+  },
+  {
+    "id": "cfi-accounting-free",
+    "title": "Accounting Fundamentals",
+    "provider": "Corporate Finance Institute",
+    "url": "https://www.coursera.org/learn/learn-accounting-fundamentals-corporate-finance",
+    "hours": 7,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "finance",
+      "business-administration"
+    ],
+    "tags": [
+      "accounting",
+      "debits",
+      "credits",
+      "financial statements",
+      "finance"
+    ],
+    "desc": "Debits, credits, and how the three statements link, in a short course."
+  },
+  {
+    "id": "wharton-corp-finance",
+    "title": "Introduction to Corporate Finance",
+    "provider": "Wharton · Coursera",
+    "url": "https://www.coursera.org/learn/wharton-finance",
+    "hours": 10,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting",
+      "real-estate"
+    ],
+    "tags": [
+      "finance",
+      "corporate finance",
+      "npv",
+      "time value of money",
+      "valuation"
+    ],
+    "desc": "Time value of money, NPV, and cost of capital. The vocabulary every finance interview assumes."
+  },
+  {
+    "id": "michigan-valuation",
+    "title": "Startup Valuation Methods",
+    "provider": "Michigan · Coursera",
+    "url": "https://www.coursera.org/learn/startup-valuation-methods",
+    "hours": 10,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-markets",
+    "field": "entrepreneurship",
+    "fields": [
+      "entrepreneurship",
+      "finance"
+    ],
+    "tags": [
+      "entrepreneurship",
+      "valuation",
+      "venture capital",
+      "startups",
+      "finance"
+    ],
+    "desc": "How early-stage companies are actually valued. Useful for VC and startup-finance interviews."
+  },
+  {
+    "id": "ms-excel-training",
+    "title": "Excel training paths",
+    "provider": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/en-us/training/browse/?terms=excel",
+    "hours": 8,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "finance",
+      "accounting",
+      "supply-chain",
+      "management",
+      "real-estate",
+      "business-administration",
+      "sport-management",
+      "logistics",
+      "healthcare-management",
+      "sales",
+      "actuarial-science",
+      "financial-planning",
+      "retail-management",
+      "agribusiness"
+    ],
+    "tags": [
+      "excel",
+      "business analytics",
+      "finance",
+      "accounting",
+      "spreadsheets",
+      "modeling"
+    ],
+    "desc": "Formulas, pivot tables, and Power Query. The single most assumed skill in any business internship."
+  },
+  {
+    "id": "mos-excel",
+    "title": "MOS: Excel Associate (MO-210)",
+    "provider": "Microsoft / Certiport",
+    "url": "https://certiport.pearsonvue.com/Certifications/Microsoft/MOS/Certify",
+    "hours": 30,
+    "cost": "paid",
+    "price": "Exam ~$100; often free or discounted through a campus testing center.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "accounting",
+      "finance",
+      "management",
+      "business-administration"
+    ],
+    "tags": [
+      "excel",
+      "microsoft office",
+      "certification",
+      "spreadsheets",
+      "business analytics"
+    ],
+    "desc": "A verifiable Excel credential rather than a line that says 'proficient in Excel'. Ask your career center about a voucher."
+  },
+  {
+    "id": "pl300",
+    "title": "PL-300: Power BI Data Analyst",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Training free; exam ~$165. Student discounts available.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "finance",
+      "marketing"
+    ],
+    "tags": [
+      "power bi",
+      "business analytics",
+      "data visualization",
+      "dax",
+      "reporting",
+      "dashboards"
+    ],
+    "desc": "The training is free and the exam is not. The most recognized BI credential in corporate roles."
+  },
+  {
+    "id": "tableau-specialist",
+    "title": "Salesforce Certified Tableau Desktop Foundations",
+    "provider": "Tableau / Salesforce",
+    "url": "https://trailheadacademy.salesforce.com/certificate/exam-tableau-desktop-found---Analytics-101",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$75 exam fee; retakes are free. Tableau is free for students through Tableau for Students.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "marketing"
+    ],
+    "tags": [
+      "tableau",
+      "business analytics",
+      "data visualization",
+      "dashboards",
+      "reporting"
+    ],
+    "desc": "Tableau’s entry-level certification (formerly the Desktop Specialist): 40 questions and no prerequisites."
+  },
+  {
+    "id": "google-data-analytics",
+    "title": "Google Data Analytics Professional Certificate",
+    "provider": "Google · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-data-analytics",
+    "hours": 180,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "marketing"
+    ],
+    "tags": [
+      "data analytics",
+      "sql",
+      "r",
+      "tableau",
+      "spreadsheets",
+      "business analytics"
+    ],
+    "desc": "Nine courses covering spreadsheets, SQL, R, and Tableau."
+  },
+  {
+    "id": "kaggle-sql",
+    "title": "Intro to SQL",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/intro-to-sql",
+    "hours": 3,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis",
+      "marketing",
+      "healthcare-management",
+      "actuarial-science"
+    ],
+    "tags": [
+      "sql",
+      "databases",
+      "business analytics",
+      "queries",
+      "data"
+    ],
+    "desc": "SELECT through GROUP BY on real tables. Nobody in analytics escapes SQL."
+  },
+  {
+    "id": "kaggle-pandas",
+    "title": "Pandas",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/pandas",
+    "hours": 4,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics"
+    ],
+    "tags": [
+      "python",
+      "pandas",
+      "data analysis",
+      "business analytics",
+      "data wrangling"
+    ],
+    "desc": "Group-by, joins, and indexing. What analytics internships actually test."
+  },
+  {
+    "id": "kaggle-python",
+    "title": "Python",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/python",
+    "hours": 5,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "python",
+      "programming",
+      "business analytics",
+      "automation"
+    ],
+    "desc": "Syntax to functions in a browser notebook. The on-ramp to everything else."
+  },
+  {
+    "id": "kaggle-datavis",
+    "title": "Data Visualization",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/data-visualization",
+    "hours": 4,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "marketing"
+    ],
+    "tags": [
+      "data visualization",
+      "charts",
+      "business analytics",
+      "reporting"
+    ],
+    "desc": "Which chart to reach for, and why. Pairs with Power BI or Tableau."
+  },
+  {
+    "id": "alteryx-foundational",
+    "title": "Alteryx SparkED (free student license + certification)",
+    "provider": "Alteryx",
+    "url": "https://www.alteryx.com/sparked",
+    "hours": 20,
+    "cost": "free",
+    "price": "Micro-credentials and Designer Core exam are free; Alteryx is free for students via SparkED.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "accounting",
+      "supply-chain"
+    ],
+    "tags": [
+      "alteryx",
+      "data preparation",
+      "business analytics",
+      "automation",
+      "etl",
+      "audit"
+    ],
+    "desc": "Big 4 audit and consulting teams use Alteryx heavily. Free exam, free student license — unusually good value."
+  },
+  {
+    "id": "google-analytics-cert",
+    "title": "Google Analytics Certification",
+    "provider": "Google Skillshop",
+    "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=6431-google-analytics-4",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing",
+      "business-analytics",
+      "sport-management",
+      "retail-management"
+    ],
+    "tags": [
+      "marketing",
+      "google analytics",
+      "ga4",
+      "web analytics",
+      "digital marketing",
+      "attribution"
+    ],
+    "desc": "GA4 setup, reporting, and attribution. The exam is free and renews annually."
+  },
+  {
+    "id": "google-ads-cert",
+    "title": "Google Ads Search Certification",
+    "provider": "Google Skillshop",
+    "url": "https://skillshop.exceedlms.com/student/catalog/list?category_ids=497-google-ads",
+    "hours": 5,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing",
+      "retail-management"
+    ],
+    "tags": [
+      "marketing",
+      "google ads",
+      "ppc",
+      "sem",
+      "digital marketing",
+      "advertising"
+    ],
+    "desc": "Campaign structure, bidding, and keywords. A named credential on a marketing resume."
+  },
+  {
+    "id": "hubspot-inbound-cert",
+    "title": "Inbound Marketing Certification",
+    "provider": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/courses/inbound-marketing",
+    "hours": 4,
+    "cost": "free",
+    "price": "Free, certificate included.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing",
+      "entrepreneurship",
+      "business-administration",
+      "sales"
+    ],
+    "tags": [
+      "marketing",
+      "inbound",
+      "content marketing",
+      "buyer personas",
+      "funnel",
+      "crm"
+    ],
+    "desc": "The inbound funnel and content strategy, free certificate and all."
+  },
+  {
+    "id": "hubspot-sales-cert",
+    "title": "Sales Enablement Certification",
+    "provider": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/courses/sales-enablement",
+    "hours": 3,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "marketing",
+    "fields": [
+      "marketing",
+      "management",
+      "business-administration",
+      "sport-management",
+      "sales"
+    ],
+    "tags": [
+      "sales",
+      "crm",
+      "pipeline",
+      "marketing",
+      "business development"
+    ],
+    "desc": "CRM hygiene and pipeline mechanics. Useful in any role touching a sales team."
+  },
+  {
+    "id": "meta-marketing-cert",
+    "title": "Meta Social Media Marketing Professional Certificate",
+    "provider": "Meta · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/facebook-social-media-marketing",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing"
+    ],
+    "tags": [
+      "marketing",
+      "social media",
+      "meta",
+      "advertising",
+      "content",
+      "digital marketing"
+    ],
+    "desc": "Paid social from the platform that sells it."
+  },
+  {
+    "id": "semrush-academy",
+    "title": "SEO and Content Marketing courses",
+    "provider": "Semrush Academy",
+    "url": "https://www.semrush.com/academy/",
+    "hours": 15,
+    "cost": "free",
+    "price": "Courses and exams are free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing"
+    ],
+    "tags": [
+      "seo",
+      "content marketing",
+      "keyword research",
+      "marketing",
+      "digital marketing"
+    ],
+    "desc": "Free SEO certifications from a tool agencies actually use."
+  },
+  {
+    "id": "salesforce-admin-cert",
+    "title": "Salesforce Certified Administrator",
+    "provider": "Salesforce",
+    "url": "https://trailhead.salesforce.com/en/credentials/administrator",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Exam ~$200 (retake ~$100). All training on Trailhead is free.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "marketing",
+      "management",
+      "sales"
+    ],
+    "tags": [
+      "salesforce",
+      "crm",
+      "administration",
+      "mis",
+      "sales operations",
+      "reports"
+    ],
+    "desc": "One of the most hireable business-tech credentials there is. The training costs nothing; only the exam does."
+  },
+  {
+    "id": "trailhead-admin-trail",
+    "title": "Salesforce Admin Beginner trail",
+    "provider": "Salesforce Trailhead",
+    "url": "https://trailhead.salesforce.com/en/content/learn/trails/force_com_admin_beginner",
+    "hours": 15,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "marketing",
+      "sales"
+    ],
+    "tags": [
+      "salesforce",
+      "crm",
+      "objects",
+      "reports",
+      "mis",
+      "business systems"
+    ],
+    "desc": "Objects, fields, and reports in a free developer org. Badges link straight to LinkedIn."
+  },
+  {
+    "id": "capm-cert",
+    "title": "CAPM — Certified Associate in Project Management",
+    "provider": "PMI",
+    "url": "https://www.pmi.org/certifications/certified-associate-capm",
+    "hours": 80,
+    "cost": "paid",
+    "price": "Exam ~$225 for PMI members (membership ~$32 for students), ~$300 otherwise.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "supply-chain",
+      "mis",
+      "business-administration",
+      "healthcare-management"
+    ],
+    "tags": [
+      "project management",
+      "capm",
+      "pmi",
+      "management",
+      "operations",
+      "credential"
+    ],
+    "desc": "The student-accessible PMI credential — no work experience required, unlike the PMP.",
+    "botBlocked": true,
+    "checkNote": "pmi.org returns 403 to all automated requests; URL confirmed 200 by hand on 2026-09-21."
+  },
+  {
+    "id": "psm-i",
+    "title": "PSM I — Professional Scrum Master",
+    "provider": "Scrum.org",
+    "url": "https://www.scrum.org/professional-scrum-certifications",
+    "hours": 25,
+    "cost": "paid",
+    "price": "Exam ~$200, no mandatory course. All Scrum.org learning material is free.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "mis"
+    ],
+    "tags": [
+      "scrum",
+      "agile",
+      "project management",
+      "product",
+      "mis",
+      "credential"
+    ],
+    "desc": "Cheaper and more rigorous than the weekend CSM course, and it never expires."
+  },
+  {
+    "id": "sixsigma-yellow",
+    "title": "Six Sigma Fundamentals",
+    "provider": "Kennesaw State · Coursera",
+    "url": "https://www.coursera.org/specializations/six-sigma-fundamentals",
+    "hours": 30,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available. ASQ belt exams are separate and paid.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "management"
+    ],
+    "tags": [
+      "six sigma",
+      "process improvement",
+      "operations",
+      "lean",
+      "quality",
+      "supply chain"
+    ],
+    "desc": "Process improvement for operations roles. Check whether your school runs its own belt first — it is usually much cheaper."
+  },
+  {
+    "id": "apics-cpim",
+    "title": "CPIM — Certified in Planning and Inventory Management",
+    "provider": "ASCM / APICS",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cpim/",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Exam $1,215 for ASCM members with the certification upgrade or $1,690 otherwise; the bundle with the learning system is $2,190 or $3,050.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "inventory",
+      "planning",
+      "operations",
+      "apics",
+      "manufacturing",
+      "credential"
+    ],
+    "desc": "The supply-chain credential employers name directly in job postings."
+  },
+  {
+    "id": "gatech-supply-chain",
+    "title": "Supply Chain Principles",
+    "provider": "Georgia Tech · Coursera",
+    "url": "https://www.coursera.org/learn/supply-chain-principles",
+    "hours": 20,
+    "cost": "paid",
+    "price": "Paid on Coursera; financial aid available.",
+    "group": "biz-foundation",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "management",
+      "international-business"
+    ],
+    "tags": [
+      "supply chain",
+      "logistics",
+      "operations",
+      "inventory",
+      "forecasting"
+    ],
+    "desc": "A proper introduction to the field from a top-ranked supply-chain school."
+  },
+  {
+    "id": "shrm-cp",
+    "title": "SHRM-CP",
+    "provider": "SHRM",
+    "url": "https://www.shrm.org/credentials/certification/shrm-cp",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Exam $350–$499 depending on SHRM membership and registration date; students pay $150–$299. Student eligibility rules apply.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "management"
+    ],
+    "tags": [
+      "human resources",
+      "shrm",
+      "hr",
+      "recruiting",
+      "compensation",
+      "credential"
+    ],
+    "desc": "The HR credential. Check the eligibility table early — it depends on your degree and experience."
+  },
+  {
+    "id": "umn-hr",
+    "title": "Human Resource Management Specialization",
+    "provider": "Minnesota · Coursera",
+    "url": "https://www.coursera.org/specializations/human-resource-management",
+    "hours": 45,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "management"
+    ],
+    "tags": [
+      "human resources",
+      "hiring",
+      "compensation",
+      "performance",
+      "management"
+    ],
+    "desc": "Hiring, performance, and pay across five courses."
+  },
+  {
+    "id": "cpcu-cert",
+    "title": "CPCU — Chartered Property Casualty Underwriter",
+    "provider": "The Institutes",
+    "url": "https://www.theinstitutes.org/",
+    "hours": 250,
+    "cost": "paid",
+    "price": "Roughly $3,500–$5,000 in total across 8 courses and exams; employers very often pay.",
+    "group": "biz-credential",
+    "field": "risk",
+    "fields": [
+      "risk",
+      "finance"
+    ],
+    "tags": [
+      "insurance",
+      "risk management",
+      "underwriting",
+      "claims",
+      "cpcu",
+      "credential"
+    ],
+    "desc": "The insurance industry's core designation. Almost always employer-funded once you are hired."
+  },
+  {
+    "id": "ctp-cert",
+    "title": "CTP — Certified Treasury Professional",
+    "provider": "AFP",
+    "url": "https://www.afponline.org/certification",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Exam ~$1,050 ($795 members). Usually taken after a couple of years in role.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting"
+    ],
+    "tags": [
+      "treasury",
+      "cash management",
+      "corporate finance",
+      "liquidity",
+      "credential"
+    ],
+    "desc": "Corporate treasury and cash management. Worth knowing about now, sitting later."
+  },
+  {
+    "id": "forage-jpm-sims",
+    "title": "J.P. Morgan job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=jpmorgan",
+    "hours": 10,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "business-analytics"
+    ],
+    "tags": [
+      "investment banking",
+      "quantitative research",
+      "finance",
+      "banking",
+      "job simulation"
+    ],
+    "desc": "Investment Banking and Quantitative Research are the usual pair for a finance or analytics track."
+  },
+  {
+    "id": "forage-gs-sims",
+    "title": "Goldman Sachs job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=goldman-sachs",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting"
+    ],
+    "tags": [
+      "operations",
+      "controllers",
+      "risk",
+      "banking",
+      "finance",
+      "job simulation"
+    ],
+    "desc": "Operations, Controllers, and Risk. Controllers pairs neatly with an accounting course."
+  },
+  {
+    "id": "forage-bcg-sims",
+    "title": "BCG job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=bcg",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "management",
+    "fields": [
+      "management",
+      "business-analytics",
+      "business-administration"
+    ],
+    "tags": [
+      "consulting",
+      "strategy",
+      "case",
+      "business analytics",
+      "job simulation"
+    ],
+    "desc": "Strategy and data-science tasks scored against a real BCG rubric."
+  },
+  {
+    "id": "forage-deloitte-sims",
+    "title": "Deloitte job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=deloitte",
+    "hours": 5,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "management",
+      "mis"
+    ],
+    "tags": [
+      "consulting",
+      "audit",
+      "technology",
+      "big 4",
+      "job simulation"
+    ],
+    "desc": "Technology, audit, and analytics tracks from one of the Big 4. Usually the shortest sims on the site."
+  },
+  {
+    "id": "forage-pwc-sims",
+    "title": "PwC job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=pwc",
+    "hours": 5,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "business-analytics"
+    ],
+    "tags": [
+      "consulting",
+      "audit",
+      "tax",
+      "power bi",
+      "big 4",
+      "job simulation"
+    ],
+    "desc": "Digital Intelligence and Audit tracks. The Power BI task pairs with the PL-300 path."
+  },
+  {
+    "id": "forage-kpmg-sims",
+    "title": "KPMG job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=kpmg",
+    "hours": 5,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "business-analytics"
+    ],
+    "tags": [
+      "audit",
+      "data analytics",
+      "consulting",
+      "big 4",
+      "job simulation"
+    ],
+    "desc": "Data analytics and audit tracks from the fourth of the Big 4."
+  },
+  {
+    "id": "forage-citi-sims",
+    "title": "Citi job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=citi",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "investment banking",
+      "markets",
+      "wealth management",
+      "banking",
+      "job simulation"
+    ],
+    "desc": "A second bank sim alongside J.P. Morgan reads as deliberate rather than accidental."
+  },
+  {
+    "id": "forage-accenture-sims",
+    "title": "Accenture job simulations",
+    "provider": "Forage",
+    "url": "https://www.theforage.com/simulations?companies=accenture",
+    "hours": 5,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-floor",
+    "field": "management",
+    "fields": [
+      "management",
+      "supply-chain",
+      "mis",
+      "international-business",
+      "business-administration",
+      "logistics"
+    ],
+    "tags": [
+      "consulting",
+      "strategy",
+      "technology",
+      "supply chain",
+      "job simulation"
+    ],
+    "desc": "Consulting, technology, and strategy tasks. Broad enough for most business majors."
+  },
+  {
+    "id": "wharton-acct-map",
+    "title": "Wharton Undergraduate Accounting Course Descriptions",
+    "provider": "Wharton · UPenn",
+    "url": "https://accounting.wharton.upenn.edu/programs/undergraduate/course-descriptions/",
+    "hours": 0,
+    "cost": "ref",
+    "price": "Free to read.",
+    "group": "biz-foundation",
+    "field": "accounting",
+    "fields": [
+      "accounting"
+    ],
+    "tags": [
+      "accounting",
+      "course planning",
+      "curriculum",
+      "degree planning"
+    ],
+    "desc": "Not a certificate — a syllabus map. Sanity-check your own course plan against it."
+  },
+  {
+    "id": "aicpa-student",
+    "title": "AICPA student resources and the 150-hour rule",
+    "provider": "AICPA",
+    "url": "https://www.aicpa-cima.com/membership/landing/students",
+    "hours": 0,
+    "cost": "ref",
+    "price": "Free; student membership is free.",
+    "group": "biz-foundation",
+    "field": "accounting",
+    "fields": [
+      "accounting"
+    ],
+    "tags": [
+      "accounting",
+      "cpa",
+      "licensure",
+      "degree planning",
+      "career planning"
+    ],
+    "desc": "Free student membership plus the state-by-state licensure rules. Read this before choosing your credit plan."
+  },
+  {
+    "id": "imf-training",
+    "title": "IMF free online courses",
+    "provider": "International Monetary Fund",
+    "url": "https://www.imf.org/en/Capacity-Development/Training/ICDTC",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-markets",
+    "field": "economics",
+    "fields": [
+      "economics",
+      "finance",
+      "international-business"
+    ],
+    "tags": [
+      "economics",
+      "macroeconomics",
+      "policy",
+      "international business",
+      "finance"
+    ],
+    "desc": "Macroeconomic policy taught by IMF staff. Strong for economics and international business tracks."
+  },
+  {
+    "id": "mit-entrepreneurship",
+    "title": "Entrepreneurship 101 and 102",
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/courses/15-390-new-enterprises-spring-2013/",
+    "hours": 40,
+    "cost": "free",
+    "price": "Free; no certificate.",
+    "group": "biz-foundation",
+    "field": "entrepreneurship",
+    "fields": [
+      "entrepreneurship",
+      "management"
+    ],
+    "tags": [
+      "entrepreneurship",
+      "startups",
+      "business model",
+      "venture",
+      "product market fit"
+    ],
+    "desc": "MIT's new-enterprises material in full. No certificate, but the content is the real thing."
+  },
+  {
+    "id": "cornell-hotel-rev",
+    "title": "Hotel Management: Distribution, Revenue and Demand",
+    "provider": "Cornell · Coursera",
+    "url": "https://www.coursera.org/specializations/hotel-management",
+    "hours": 30,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "hospitality",
+    "fields": [
+      "hospitality",
+      "business-analytics"
+    ],
+    "tags": [
+      "hospitality",
+      "revenue management",
+      "hotel",
+      "tourism",
+      "pricing",
+      "demand"
+    ],
+    "desc": "From Cornell's hospitality school. Revenue management is what turns a hospitality resume into an analytics one."
+  },
+  {
+    "id": "aws-cloud-practitioner",
+    "title": "AWS Certified Cloud Practitioner",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "hours": 40,
+    "cost": "paid",
+    "price": "Exam ~$100. All AWS Skill Builder training for it is free.",
+    "group": "biz-credential",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "management"
+    ],
+    "tags": [
+      "cloud",
+      "aws",
+      "mis",
+      "information systems",
+      "technology",
+      "credential"
+    ],
+    "desc": "The business-literate cloud credential. Common for MIS students heading into consulting or tech."
+  },
+  {
+    "id": "linkedin-learning-biz",
+    "title": "LinkedIn Learning via your library",
+    "provider": "LinkedIn Learning",
+    "url": "https://www.linkedin.com/learning/",
+    "hours": 0,
+    "cost": "check",
+    "price": "~$40/month retail, but free through most university and public libraries.",
+    "group": "biz-foundation",
+    "field": "management",
+    "fields": [
+      "management",
+      "marketing",
+      "finance",
+      "human-resources",
+      "business-administration",
+      "sales"
+    ],
+    "tags": [
+      "business",
+      "management",
+      "soft skills",
+      "excel",
+      "leadership",
+      "communication"
+    ],
+    "desc": "Rarely worth paying for — check your university and public library cards first, where it is usually free."
+  },
+  {
+    "id": "irs-vita",
+    "title": "VITA tax volunteer certification",
+    "provider": "IRS",
+    "url": "https://www.irs.gov/individuals/irs-tax-volunteers",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free. IRS Link & Learn training and the certification test cost nothing.",
+    "group": "biz-floor",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "financial-planning"
+    ],
+    "tags": [
+      "accounting",
+      "tax",
+      "taxation",
+      "volunteer",
+      "client experience"
+    ],
+    "desc": "Prepare real returns for real people at a campus or community site. One of the few accounting resume lines with genuine client work behind it."
+  },
+  {
+    "id": "enrolled-agent",
+    "title": "EA — Enrolled Agent",
+    "provider": "IRS",
+    "url": "https://www.irs.gov/tax-professionals/enrolled-agents",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Three exam parts at roughly $260–$270 each. No degree or experience requirement.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting"
+    ],
+    "tags": [
+      "accounting",
+      "tax",
+      "taxation",
+      "irs",
+      "credential"
+    ],
+    "desc": "The federal tax credential. Unlike the CPA it has no credit-hour rule, so it can be earned while still in school."
+  },
+  {
+    "id": "quickbooks-proadvisor",
+    "title": "QuickBooks Online Certification",
+    "provider": "Intuit ProAdvisor",
+    "url": "https://quickbooks.intuit.com/accountants/training-certification/certification/",
+    "hours": 12,
+    "cost": "free",
+    "price": "Free with a free QuickBooks Online Accountant account.",
+    "group": "biz-tooling",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "entrepreneurship"
+    ],
+    "tags": [
+      "accounting",
+      "bookkeeping",
+      "quickbooks",
+      "small business",
+      "software"
+    ],
+    "desc": "The software most small-business clients run their books on. The certification is free and recruiters for small firms look for it."
+  },
+  {
+    "id": "cfe-cert",
+    "title": "CFE — Certified Fraud Examiner",
+    "provider": "ACFE",
+    "url": "https://www.acfe.com/cfe-credential",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Several hundred dollars in exam and membership fees; ACFE has student discounts.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "risk"
+    ],
+    "tags": [
+      "accounting",
+      "audit",
+      "forensic accounting",
+      "fraud",
+      "risk",
+      "credential"
+    ],
+    "desc": "Forensic accounting and fraud investigation. The exam can be sat before you have the experience needed to hold the title."
+  },
+  {
+    "id": "cisa-cert",
+    "title": "CISA — Certified Information Systems Auditor",
+    "provider": "ISACA",
+    "url": "https://www.isaca.org/credentialing/cisa",
+    "hours": 150,
+    "cost": "paid",
+    "price": "~$575 for members, ~$760 for non-members. Student membership is cheap.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "mis",
+      "risk"
+    ],
+    "tags": [
+      "audit",
+      "it audit",
+      "information systems",
+      "risk",
+      "controls",
+      "credential"
+    ],
+    "desc": "Where accounting meets IT: auditing systems and controls. In demand at the Big Four for accounting and MIS majors alike."
+  },
+  {
+    "id": "finra-sie",
+    "title": "SIE — Securities Industry Essentials exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/securities-industry-essentials-exam",
+    "hours": 50,
+    "cost": "paid",
+    "price": "$100 exam fee. No firm sponsorship needed; you must be 18 or older.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "economics",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "investment banking",
+      "wealth management",
+      "finra",
+      "credential"
+    ],
+    "desc": "The one securities license exam a student can take without an employer. Passing it before recruiting signals commitment to banks and brokerages."
+  },
+  {
+    "id": "damodaran-valuation",
+    "title": "Aswath Damodaran’s valuation classes",
+    "provider": "NYU Stern",
+    "url": "https://pages.stern.nyu.edu/~adamodar/",
+    "hours": 30,
+    "cost": "free",
+    "price": "Free — lectures, spreadsheets and data sets.",
+    "group": "biz-foundation",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "real-estate",
+      "entrepreneurship"
+    ],
+    "tags": [
+      "finance",
+      "valuation",
+      "corporate finance",
+      "dcf",
+      "investing"
+    ],
+    "desc": "The most-cited valuation teacher alive puts his entire course online. Use the data sets for any stock pitch."
+  },
+  {
+    "id": "khan-finance",
+    "title": "Finance and capital markets",
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/economics-finance-domain/core-finance",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "economics",
+      "real-estate",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "interest",
+      "stocks",
+      "bonds",
+      "mortgages",
+      "capital markets"
+    ],
+    "desc": "Interest, bonds, stocks and mortgages from zero. A gentle start before Yale or Wharton."
+  },
+  {
+    "id": "mcmaster-finance-everyone",
+    "title": "Finance for Everyone Specialization",
+    "provider": "McMaster · Coursera",
+    "url": "https://www.coursera.org/specializations/finance-for-everyone",
+    "hours": 40,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "entrepreneurship"
+    ],
+    "tags": [
+      "finance",
+      "time value of money",
+      "decision making",
+      "npv"
+    ],
+    "desc": "Decisions, markets, value and debt — finance explained from first principles, with no prerequisites."
+  },
+  {
+    "id": "cfa-sustainable-investing",
+    "title": "Sustainable Investing Certificate",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/sustainable-investing-certificate",
+    "hours": 100,
+    "cost": "paid",
+    "price": "USD 890, including the exam.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "risk"
+    ],
+    "tags": [
+      "finance",
+      "esg",
+      "sustainability",
+      "investing",
+      "credential"
+    ],
+    "desc": "CFA Institute’s ESG credential (formerly the Certificate in ESG Investing). Useful for asset-management and sustainability roles."
+  },
+  {
+    "id": "google-advanced-data-analytics",
+    "title": "Google Advanced Data Analytics Professional Certificate",
+    "provider": "Google · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-advanced-data-analytics",
+    "hours": 180,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-credential",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "data analytics",
+      "python",
+      "statistics",
+      "regression",
+      "machine learning",
+      "business analytics"
+    ],
+    "desc": "The step after Google Data Analytics: Python, statistics and regression models."
+  },
+  {
+    "id": "google-business-intelligence",
+    "title": "Google Business Intelligence Professional Certificate",
+    "provider": "Google · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+    "hours": 80,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-credential",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "business intelligence",
+      "dashboards",
+      "data modeling",
+      "etl",
+      "business analytics"
+    ],
+    "desc": "Dashboards, data models and pipelines — what a BI analyst builds all week."
+  },
+  {
+    "id": "ibm-data-analyst",
+    "title": "IBM Data Analyst Professional Certificate",
+    "provider": "IBM · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/ibm-data-analyst",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-credential",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics"
+    ],
+    "tags": [
+      "data analytics",
+      "excel",
+      "sql",
+      "python",
+      "dashboards",
+      "business analytics"
+    ],
+    "desc": "Excel, SQL, Python and Cognos in one track. A good alternative to the Google certificate."
+  },
+  {
+    "id": "dp-900",
+    "title": "DP-900: Azure Data Fundamentals",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-data-fundamentals/",
+    "hours": 15,
+    "cost": "paid",
+    "price": "Training free; exam ~$99, with student discounts.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "data",
+      "databases",
+      "cloud",
+      "azure",
+      "business analytics",
+      "certification"
+    ],
+    "desc": "Relational, non-relational and analytics data on Azure. A cheap named credential for analytics and MIS majors."
+  },
+  {
+    "id": "kaggle-advanced-sql",
+    "title": "Advanced SQL",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/advanced-sql",
+    "hours": 4,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "sql",
+      "joins",
+      "window functions",
+      "data",
+      "business analytics"
+    ],
+    "desc": "Joins, window functions and nested data. The SQL that interview case studies actually test."
+  },
+  {
+    "id": "kaggle-ml",
+    "title": "Intro to Machine Learning",
+    "provider": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+    "hours": 3,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics"
+    ],
+    "tags": [
+      "machine learning",
+      "python",
+      "models",
+      "data",
+      "business analytics"
+    ],
+    "desc": "Decision trees and validation in three hours. Enough to follow what the data scientists are talking about."
+  },
+  {
+    "id": "fcc-data-analysis",
+    "title": "Data Analysis with Python",
+    "provider": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/",
+    "hours": 60,
+    "cost": "free",
+    "price": "Free, including the certificate.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "economics"
+    ],
+    "tags": [
+      "python",
+      "pandas",
+      "numpy",
+      "data analysis",
+      "business analytics"
+    ],
+    "desc": "Five projects that end in a free, verifiable certificate — and a portfolio to show for it."
+  },
+  {
+    "id": "tableau-students",
+    "title": "Tableau for Students",
+    "provider": "Tableau / Salesforce",
+    "url": "https://www.tableau.com/academic/students",
+    "hours": 10,
+    "cost": "free",
+    "price": "Free one-year license for enrolled students.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "marketing"
+    ],
+    "tags": [
+      "tableau",
+      "data visualization",
+      "dashboards",
+      "business analytics"
+    ],
+    "desc": "A free license to build the portfolio before paying for the Tableau exam."
+  },
+  {
+    "id": "sas-students",
+    "title": "SAS Skill Builder for Students",
+    "provider": "SAS",
+    "url": "https://www.sas.com/en_us/learn/academic-programs/students.html",
+    "hours": 30,
+    "cost": "free",
+    "price": "Free training and software; certification exams discounted for students.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "economics",
+      "risk",
+      "actuarial-science"
+    ],
+    "tags": [
+      "sas",
+      "statistics",
+      "analytics",
+      "banking",
+      "insurance",
+      "business analytics"
+    ],
+    "desc": "SAS still runs a great deal of banking, insurance and pharma analytics. Free for students."
+  },
+  {
+    "id": "comptia-data-plus",
+    "title": "CompTIA Data+",
+    "provider": "CompTIA",
+    "url": "https://www.comptia.org/en-us/certifications/data/",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Exam ~$250+; academic pricing is available through many schools.",
+    "group": "biz-credential",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "data analytics",
+      "data governance",
+      "reporting",
+      "certification"
+    ],
+    "desc": "A vendor-neutral data analytics credential, recognized by employers that do not use one particular tool."
+  },
+  {
+    "id": "jhu-r-programming",
+    "title": "R Programming",
+    "provider": "Johns Hopkins · Coursera",
+    "url": "https://www.coursera.org/learn/r-programming",
+    "hours": 57,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-tooling",
+    "field": "economics",
+    "fields": [
+      "economics",
+      "business-analytics"
+    ],
+    "tags": [
+      "r",
+      "statistics",
+      "econometrics",
+      "programming",
+      "data"
+    ],
+    "desc": "The language most economics departments and research roles expect."
+  },
+  {
+    "id": "az-900",
+    "title": "AZ-900: Azure Fundamentals",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/",
+    "hours": 15,
+    "cost": "paid",
+    "price": "Training free; exam ~$99, with student discounts.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis"
+    ],
+    "tags": [
+      "cloud",
+      "azure",
+      "it",
+      "information systems",
+      "certification"
+    ],
+    "desc": "Cloud concepts and Azure services. Pairs with AWS Cloud Practitioner for consulting roles."
+  },
+  {
+    "id": "comptia-security-plus",
+    "title": "CompTIA Security+",
+    "provider": "CompTIA",
+    "url": "https://www.comptia.org/en-us/certifications/security/",
+    "hours": 100,
+    "cost": "paid",
+    "price": "Exam ~$400; academic pricing is available through many schools.",
+    "group": "biz-credential",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "risk"
+    ],
+    "tags": [
+      "cybersecurity",
+      "security",
+      "it",
+      "risk",
+      "information systems",
+      "certification"
+    ],
+    "desc": "The baseline security certification, required for many government and defense roles."
+  },
+  {
+    "id": "salesforce-platform-foundations",
+    "title": "Salesforce Certified Platform Foundations",
+    "provider": "Salesforce",
+    "url": "https://trailhead.salesforce.com/credentials/platformfoundations",
+    "hours": 20,
+    "cost": "paid",
+    "price": "Training free on Trailhead; the exam has a fee — check Trailhead.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "marketing",
+      "sales"
+    ],
+    "tags": [
+      "salesforce",
+      "crm",
+      "sales",
+      "information systems",
+      "certification"
+    ],
+    "desc": "The entry-level Salesforce credential (formerly Salesforce Associate) — a good first step before the Administrator exam."
+  },
+  {
+    "id": "sap-learning",
+    "title": "SAP Learning journeys",
+    "provider": "SAP",
+    "url": "https://learning.sap.com/",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free learning journeys; certification exams are paid.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "supply-chain",
+      "accounting",
+      "logistics"
+    ],
+    "tags": [
+      "sap",
+      "erp",
+      "supply chain",
+      "information systems",
+      "enterprise software"
+    ],
+    "desc": "SAP runs the finance and supply chain of most large companies. The learning journeys are free."
+  },
+  {
+    "id": "google-digital-marketing",
+    "title": "Google Digital Marketing & E-commerce Professional Certificate",
+    "provider": "Google · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-credential",
+    "field": "marketing",
+    "fields": [
+      "marketing",
+      "entrepreneurship",
+      "retail-management"
+    ],
+    "tags": [
+      "digital marketing",
+      "e-commerce",
+      "seo",
+      "email marketing",
+      "marketing"
+    ],
+    "desc": "Search, email, social and e-commerce in one track, with a Google name on the certificate."
+  },
+  {
+    "id": "hubspot-content-marketing",
+    "title": "Content Marketing Certification",
+    "provider": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/courses/content-marketing",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing"
+    ],
+    "tags": [
+      "content marketing",
+      "blogging",
+      "storytelling",
+      "marketing"
+    ],
+    "desc": "Planning, writing and repurposing content. Free, and the certificate is widely recognized."
+  },
+  {
+    "id": "hubspot-digital-marketing",
+    "title": "Digital Marketing Certification",
+    "provider": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/courses/digital-marketing",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing"
+    ],
+    "tags": [
+      "digital marketing",
+      "seo",
+      "social media",
+      "marketing"
+    ],
+    "desc": "A broad free survey of digital channels — a good first marketing certificate."
+  },
+  {
+    "id": "hubspot-social-media",
+    "title": "Social Media Marketing Certification",
+    "provider": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/courses/social-media",
+    "hours": 6,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing",
+      "hospitality",
+      "sport-management"
+    ],
+    "tags": [
+      "social media",
+      "marketing",
+      "content",
+      "engagement"
+    ],
+    "desc": "Strategy, listening and reporting for social channels."
+  },
+  {
+    "id": "ahrefs-academy",
+    "title": "Ahrefs Academy SEO courses",
+    "provider": "Ahrefs",
+    "url": "https://ahrefs.com/academy",
+    "hours": 8,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-tooling",
+    "field": "marketing",
+    "fields": [
+      "marketing"
+    ],
+    "tags": [
+      "seo",
+      "search",
+      "content marketing",
+      "marketing"
+    ],
+    "desc": "Practical SEO from the people who build the tool agencies use."
+  },
+  {
+    "id": "google-project-management",
+    "title": "Google Project Management Professional Certificate",
+    "provider": "Google · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/google-project-management",
+    "hours": 140,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "supply-chain",
+      "human-resources",
+      "business-administration",
+      "healthcare-management"
+    ],
+    "tags": [
+      "project management",
+      "agile",
+      "scrum",
+      "management",
+      "operations"
+    ],
+    "desc": "Traditional and agile project management. Its hours count toward PMI’s CAPM education requirement."
+  },
+  {
+    "id": "pspo-i",
+    "title": "PSPO I — Professional Scrum Product Owner",
+    "provider": "Scrum.org",
+    "url": "https://www.scrum.org/assessments/professional-scrum-product-owner-certification",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$200 assessment; no course required.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "mis"
+    ],
+    "tags": [
+      "product management",
+      "scrum",
+      "agile",
+      "management",
+      "credential"
+    ],
+    "desc": "The product-owner counterpart to PSM I. Worth having for product management internships."
+  },
+  {
+    "id": "asq-green-belt",
+    "title": "CSSGB — Certified Six Sigma Green Belt",
+    "provider": "ASQ",
+    "url": "https://www.asq.org/cert/six-sigma-green-belt",
+    "hours": 80,
+    "cost": "paid",
+    "price": "Several hundred dollars; ASQ members pay less.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "management"
+    ],
+    "tags": [
+      "six sigma",
+      "lean",
+      "quality",
+      "process improvement",
+      "operations",
+      "credential"
+    ],
+    "desc": "The recognized Six Sigma credential from the quality profession’s own body."
+  },
+  {
+    "id": "michigan-leading-teams",
+    "title": "Leading People and Teams Specialization",
+    "provider": "Michigan · Coursera",
+    "url": "https://www.coursera.org/specializations/leading-teams",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "management",
+    "fields": [
+      "management",
+      "human-resources"
+    ],
+    "tags": [
+      "leadership",
+      "management",
+      "teams",
+      "organizational behavior"
+    ],
+    "desc": "Motivation, team design and leading change. The management half of a business degree."
+  },
+  {
+    "id": "genai-for-everyone",
+    "title": "Generative AI for Everyone",
+    "provider": "DeepLearning.AI · Coursera",
+    "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+    "hours": 6,
+    "cost": "paid",
+    "price": "Paid on Coursera; financial aid available.",
+    "group": "biz-foundation",
+    "field": "management",
+    "fields": [
+      "management",
+      "marketing",
+      "business-analytics",
+      "entrepreneurship"
+    ],
+    "tags": [
+      "ai",
+      "generative ai",
+      "strategy",
+      "business",
+      "technology"
+    ],
+    "desc": "Andrew Ng on what generative AI can and cannot do for a business. Every interviewer is asking about it."
+  },
+  {
+    "id": "excel-skills-business",
+    "title": "Excel Skills for Business Specialization",
+    "provider": "Macquarie · Coursera",
+    "url": "https://www.coursera.org/specializations/excel",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-tooling",
+    "field": "management",
+    "fields": [
+      "management",
+      "accounting",
+      "finance",
+      "hospitality",
+      "real-estate"
+    ],
+    "tags": [
+      "excel",
+      "spreadsheets",
+      "formulas",
+      "pivot tables",
+      "business"
+    ],
+    "desc": "From first formula to lookups, pivot tables and dashboards. Pairs with the MOS exam."
+  },
+  {
+    "id": "mitx-scm",
+    "title": "MITx MicroMasters in Supply Chain Management",
+    "provider": "MIT · edX",
+    "url": "https://micromasters.mit.edu/scm/",
+    "hours": 400,
+    "cost": "audit",
+    "price": "Courses free to audit; verified certificates cost extra per course.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "logistics",
+      "operations",
+      "analytics",
+      "mit"
+    ],
+    "desc": "The most rigorous supply chain program available online, from MIT’s top-ranked center."
+  },
+  {
+    "id": "rutgers-scm",
+    "title": "Supply Chain Management Specialization",
+    "provider": "Rutgers · Coursera",
+    "url": "https://www.coursera.org/specializations/supply-chain-management",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "logistics",
+      "sourcing",
+      "operations",
+      "planning"
+    ],
+    "desc": "Logistics, operations, planning and sourcing, one course each."
+  },
+  {
+    "id": "ascm-cscp",
+    "title": "CSCP — Certified Supply Chain Professional",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cscp/",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Exam $1,390 for ASCM members with the certification upgrade or $1,940 otherwise; the bundle with the learning system is $2,515 or $3,505.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "operations",
+      "logistics",
+      "credential"
+    ],
+    "desc": "The end-to-end supply chain credential. Usually employer-funded once you are hired."
+  },
+  {
+    "id": "hrci-aphr",
+    "title": "aPHR — Associate Professional in Human Resources",
+    "provider": "HRCI",
+    "url": "https://www.hrci.org/",
+    "hours": 60,
+    "cost": "paid",
+    "price": "About $400 ($100 application fee plus $300 exam). No HR experience required.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources"
+    ],
+    "tags": [
+      "human resources",
+      "hr",
+      "employment law",
+      "credential"
+    ],
+    "desc": "The HR credential built for people with no experience yet — students included."
+  },
+  {
+    "id": "wharton-people-analytics",
+    "title": "People Analytics",
+    "provider": "Wharton · Coursera",
+    "url": "https://www.coursera.org/learn/wharton-people-analytics",
+    "hours": 10,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "business-analytics"
+    ],
+    "tags": [
+      "people analytics",
+      "human resources",
+      "hr analytics",
+      "data"
+    ],
+    "desc": "Using data for hiring, performance and retention decisions — the fastest-growing corner of HR."
+  },
+  {
+    "id": "shrm-students",
+    "title": "SHRM student membership and resources",
+    "provider": "SHRM",
+    "url": "https://www.shrm.org/membership/students",
+    "hours": 0,
+    "cost": "ref",
+    "price": "Student membership is heavily discounted.",
+    "group": "biz-foundation",
+    "field": "human-resources",
+    "fields": [
+      "human-resources"
+    ],
+    "tags": [
+      "human resources",
+      "hr",
+      "career planning",
+      "networking"
+    ],
+    "desc": "Student chapters, case competitions and the path to the SHRM-CP."
+  },
+  {
+    "id": "khan-macro",
+    "title": "Macroeconomics",
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/economics-finance-domain/macroeconomics",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "economics",
+    "fields": [
+      "economics",
+      "international-business"
+    ],
+    "tags": [
+      "economics",
+      "macroeconomics",
+      "gdp",
+      "inflation",
+      "monetary policy"
+    ],
+    "desc": "GDP, inflation, monetary and fiscal policy. The vocabulary every markets interview assumes."
+  },
+  {
+    "id": "khan-micro",
+    "title": "Microeconomics",
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/economics-finance-domain/microeconomics",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "economics",
+    "fields": [
+      "economics",
+      "entrepreneurship",
+      "agribusiness"
+    ],
+    "tags": [
+      "economics",
+      "microeconomics",
+      "supply and demand",
+      "pricing",
+      "markets"
+    ],
+    "desc": "Supply, demand, elasticity and market structure — the logic behind every pricing question."
+  },
+  {
+    "id": "mru-economics",
+    "title": "Marginal Revolution University",
+    "provider": "MRU",
+    "url": "https://mru.org/",
+    "hours": 25,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "economics",
+    "fields": [
+      "economics"
+    ],
+    "tags": [
+      "economics",
+      "development economics",
+      "macroeconomics",
+      "microeconomics"
+    ],
+    "desc": "Short, sharp economics videos from Tyler Cowen and Alex Tabarrok."
+  },
+  {
+    "id": "fed-education",
+    "title": "Federal Reserve Education",
+    "provider": "Federal Reserve",
+    "url": "https://www.federalreserveeducation.org/",
+    "hours": 0,
+    "cost": "ref",
+    "price": "Free.",
+    "group": "biz-markets",
+    "field": "economics",
+    "fields": [
+      "economics",
+      "finance"
+    ],
+    "tags": [
+      "economics",
+      "federal reserve",
+      "monetary policy",
+      "interest rates",
+      "banking"
+    ],
+    "desc": "How the Fed sets rates, straight from the Fed. Also runs the College Fed Challenge."
+  },
+  {
+    "id": "yc-startup-school",
+    "title": "Startup School",
+    "provider": "Y Combinator",
+    "url": "https://www.startupschool.org/",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "entrepreneurship",
+    "fields": [
+      "entrepreneurship"
+    ],
+    "tags": [
+      "entrepreneurship",
+      "startups",
+      "fundraising",
+      "product",
+      "founders"
+    ],
+    "desc": "Y Combinator’s free course on building a startup, plus a co-founder matching service."
+  },
+  {
+    "id": "sba-counseling",
+    "title": "Free small-business counseling (SBA, SCORE, SBDCs)",
+    "provider": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/counseling",
+    "hours": 10,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "entrepreneurship",
+    "fields": [
+      "entrepreneurship"
+    ],
+    "tags": [
+      "small business",
+      "entrepreneurship",
+      "business plan",
+      "funding",
+      "government"
+    ],
+    "desc": "Free one-on-one mentoring and workshops from SCORE, Small Business Development Centers and the SBA. Use it before you write a business plan alone."
+  },
+  {
+    "id": "maryland-entrepreneurship",
+    "title": "Entrepreneurship: Launching an Innovative Business",
+    "provider": "Maryland · Coursera",
+    "url": "https://www.coursera.org/specializations/business-entrepreneurship",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "entrepreneurship",
+    "fields": [
+      "entrepreneurship"
+    ],
+    "tags": [
+      "entrepreneurship",
+      "startups",
+      "venture capital",
+      "growth"
+    ],
+    "desc": "From idea to launch: design thinking, business models and startup financing."
+  },
+  {
+    "id": "trade-gov-exporting",
+    "title": "Learn How to Export",
+    "provider": "International Trade Administration",
+    "url": "https://www.trade.gov/learn-how-export",
+    "hours": 8,
+    "cost": "ref",
+    "price": "Free.",
+    "group": "biz-markets",
+    "field": "international-business",
+    "fields": [
+      "international-business",
+      "supply-chain",
+      "logistics",
+      "agribusiness"
+    ],
+    "tags": [
+      "international business",
+      "exporting",
+      "trade",
+      "logistics",
+      "customs"
+    ],
+    "desc": "The U.S. government’s own guide to exporting: markets, pricing, shipping and documentation."
+  },
+  {
+    "id": "nasbite-cgbp",
+    "title": "CGBP — Certified Global Business Professional",
+    "provider": "NASBITE International",
+    "url": "https://nasbite.org/",
+    "hours": 80,
+    "cost": "paid",
+    "price": "Exam in the low hundreds of dollars; check NASBITE for the current fee.",
+    "group": "biz-credential",
+    "field": "international-business",
+    "fields": [
+      "international-business",
+      "supply-chain",
+      "logistics"
+    ],
+    "tags": [
+      "international business",
+      "global trade",
+      "exporting",
+      "credential"
+    ],
+    "desc": "The recognized credential for international trade: management, marketing, supply chain and trade finance."
+  },
+  {
+    "id": "soa-exam-p",
+    "title": "Exam P — Probability",
+    "provider": "Society of Actuaries",
+    "url": "https://www.soa.org/education/exam-req/edu-exam-p-detail/",
+    "hours": 200,
+    "cost": "paid",
+    "price": "Exam ~$275; check SOA for the current fee.",
+    "group": "biz-credential",
+    "field": "risk",
+    "fields": [
+      "risk",
+      "finance",
+      "actuarial-science"
+    ],
+    "tags": [
+      "actuarial",
+      "probability",
+      "insurance",
+      "risk",
+      "credential"
+    ],
+    "desc": "The first actuarial exam. Passing it before graduation is close to a requirement for actuarial internships."
+  },
+  {
+    "id": "rims-crmp",
+    "title": "RIMS-CRMP",
+    "provider": "RIMS",
+    "url": "https://www.rims.org/certification/rims-crmp",
+    "hours": 80,
+    "cost": "paid",
+    "price": "Several hundred dollars; RIMS has student pricing.",
+    "group": "biz-credential",
+    "field": "risk",
+    "fields": [
+      "risk"
+    ],
+    "tags": [
+      "risk management",
+      "enterprise risk",
+      "insurance",
+      "credential"
+    ],
+    "desc": "The enterprise risk management credential from the risk managers’ professional body."
+  },
+  {
+    "id": "servsafe-manager",
+    "title": "ServSafe Manager",
+    "provider": "National Restaurant Association",
+    "url": "https://www.servsafe.com/ServSafe-Manager",
+    "hours": 16,
+    "cost": "paid",
+    "price": "About $179 for the online course and exam together; the exam alone is about $99.",
+    "group": "biz-credential",
+    "field": "hospitality",
+    "fields": [
+      "hospitality"
+    ],
+    "tags": [
+      "hospitality",
+      "food safety",
+      "restaurant",
+      "food and beverage",
+      "credential"
+    ],
+    "desc": "The food-safety certification most U.S. restaurants require of managers."
+  },
+  {
+    "id": "tips-cert",
+    "title": "TIPS responsible alcohol service",
+    "provider": "TIPS",
+    "url": "https://www.gettips.com/",
+    "hours": 3,
+    "cost": "paid",
+    "price": "About $40.",
+    "group": "biz-floor",
+    "field": "hospitality",
+    "fields": [
+      "hospitality"
+    ],
+    "tags": [
+      "hospitality",
+      "alcohol service",
+      "bartending",
+      "food and beverage",
+      "compliance"
+    ],
+    "desc": "Responsible alcohol service. Cheap, quick and asked for in hotel and restaurant jobs."
+  },
+  {
+    "id": "ahlei",
+    "title": "American Hotel & Lodging Educational Institute certifications",
+    "provider": "AHLEI",
+    "url": "https://ahlei.servsafebrands.com/",
+    "hours": 30,
+    "cost": "paid",
+    "price": "Varies by certification; many are under $100 for students.",
+    "group": "biz-credential",
+    "field": "hospitality",
+    "fields": [
+      "hospitality"
+    ],
+    "tags": [
+      "hospitality",
+      "hotel management",
+      "lodging",
+      "guest service",
+      "credential"
+    ],
+    "desc": "The hotel industry’s own certifications, from front-desk to revenue management."
+  },
+  {
+    "id": "arello-licence",
+    "title": "Real estate salesperson license",
+    "provider": "ARELLO (state regulators)",
+    "url": "https://www.arello.org/",
+    "hours": 75,
+    "cost": "ref",
+    "price": "Pre-license course plus state exam, usually a few hundred dollars. Rules vary by state.",
+    "group": "biz-credential",
+    "field": "real-estate",
+    "fields": [
+      "real-estate"
+    ],
+    "tags": [
+      "real estate",
+      "licensing",
+      "brokerage",
+      "property"
+    ],
+    "desc": "Every state licenses agents separately. ARELLO links to each state’s regulator and its requirements."
+  },
+  {
+    "id": "ccim",
+    "title": "CCIM Institute courses",
+    "provider": "CCIM Institute",
+    "url": "https://www.ccim.com/",
+    "hours": 40,
+    "cost": "paid",
+    "price": "Courses in the hundreds of dollars; student pricing exists.",
+    "group": "biz-credential",
+    "field": "real-estate",
+    "fields": [
+      "real-estate"
+    ],
+    "tags": [
+      "commercial real estate",
+      "real estate",
+      "investment analysis",
+      "credential"
+    ],
+    "desc": "Commercial real estate investment analysis. The full CCIM designation comes after experience; the courses do not need it."
+  },
+  {
+    "id": "pmp-cert",
+    "title": "PMP — Project Management Professional",
+    "provider": "PMI",
+    "url": "https://www.pmi.org/certifications/project-management-pmp",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Exam fee in the hundreds of dollars (PMI members pay less), plus 35 hours of required project management training.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "supply-chain",
+      "mis"
+    ],
+    "tags": [
+      "project management",
+      "pmp",
+      "pmi",
+      "management",
+      "operations",
+      "credential"
+    ],
+    "desc": "The best-known project management credential. It needs three years of project experience with a bachelor’s degree (two for graduates of PMI-accredited programs), so start with the CAPM as a student.",
+    "botBlocked": true,
+    "checkNote": "pmi.org returns 403 to all automated requests; page confirmed in a browser on 2026-09-25."
+  },
+  {
+    "id": "csm-cert",
+    "title": "CSM — Certified ScrumMaster",
+    "provider": "Scrum Alliance",
+    "url": "https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$250–$2,495 depending on the trainer; the price covers the 16-hour course and the test. Renew every two years.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "mis"
+    ],
+    "tags": [
+      "scrum",
+      "agile",
+      "project management",
+      "csm",
+      "mis",
+      "credential"
+    ],
+    "desc": "Scrum Alliance’s Scrum Master credential, earned through a live 16-hour course and a 50-question test. The PSM I is the self-study alternative."
+  },
+  {
+    "id": "prince2-foundation",
+    "title": "PRINCE2 Foundation",
+    "provider": "PeopleCert",
+    "url": "https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-foundation-3579",
+    "hours": 30,
+    "cost": "paid",
+    "price": "Bought from PeopleCert or an accredited trainer; the price varies by country and by training bundle.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "international-business"
+    ],
+    "tags": [
+      "project management",
+      "prince2",
+      "management",
+      "credential"
+    ],
+    "desc": "The project management method used widely in the UK, Europe and government work. The Foundation level has no prerequisites."
+  },
+  {
+    "id": "iiba-ecba",
+    "title": "ECBA — Entry Certificate in Business Analysis",
+    "provider": "IIBA",
+    "url": "https://www.iiba.org/business-analysis-certifications/ecba/",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$395 or less for IIBA’s package (membership, exam and a practice exam); students pay $315 or less depending on region.",
+    "group": "biz-credential",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis",
+      "management"
+    ],
+    "tags": [
+      "business analysis",
+      "requirements",
+      "ecba",
+      "iiba",
+      "analytics",
+      "mis",
+      "credential"
+    ],
+    "desc": "IIBA’s entry-level business analysis credential, built for students and career changers. No work experience needed."
+  },
+  {
+    "id": "iiba-cbap",
+    "title": "CBAP — Certified Business Analysis Professional",
+    "provider": "IIBA",
+    "url": "https://www.iiba.org/business-analysis-certifications/cbap/",
+    "hours": 150,
+    "cost": "paid",
+    "price": "$145 application fee plus a $350 exam for IIBA members or $450 for non-members.",
+    "group": "biz-credential",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "business analysis",
+      "requirements",
+      "cbap",
+      "iiba",
+      "analytics",
+      "mis",
+      "credential"
+    ],
+    "desc": "The senior business analysis credential. It needs 7,500 hours of business analysis work in the last ten years, so it is a goal for later; start with the ECBA."
+  },
+  {
+    "id": "chfc",
+    "title": "ChFC — Chartered Financial Consultant",
+    "provider": "The American College",
+    "url": "https://www.theamericancollege.edu/designations-degrees/ChFC",
+    "hours": 300,
+    "cost": "paid",
+    "price": "Eight courses from about $985 each; packages start at $6,545.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "financial planning",
+      "wealth management",
+      "personal finance",
+      "chfc",
+      "finance",
+      "credential"
+    ],
+    "desc": "A financial planning designation earned course by course, in as little as eight months. Using it requires three years of financial planning experience."
+  },
+  {
+    "id": "cmt-level-1",
+    "title": "CMT — Chartered Market Technician (Level I)",
+    "provider": "CMT Association",
+    "url": "https://cmtassociation.org/cmt-program/register/",
+    "hours": 120,
+    "cost": "paid",
+    "price": "$825 for the Level I exam at standard pricing, with the official curriculum included. Partner schools get reduced rates.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "technical analysis",
+      "trading",
+      "markets",
+      "cmt",
+      "investment",
+      "credential"
+    ],
+    "desc": "The technical analysis credential for trading and markets roles, earned over three exam levels.",
+    "botBlocked": true,
+    "checkNote": "cmtassociation.org shows a Cloudflare bot check to automated requests; URL taken from the CMT Association’s own site on 2026-09-25."
+  },
+  {
+    "id": "acams-cams",
+    "title": "CAMS — Certified Anti-Money Laundering Specialist",
+    "provider": "ACAMS",
+    "url": "https://www.acams.org/en/certifications/cams-certification",
+    "hours": 100,
+    "cost": "paid",
+    "price": "Sold as a package (study materials, courses and exam) that needs an ACAMS membership; ACAMS lists current pricing.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "risk",
+      "accounting"
+    ],
+    "tags": [
+      "compliance",
+      "anti-money laundering",
+      "aml",
+      "banking",
+      "risk",
+      "finance",
+      "credential"
+    ],
+    "desc": "The anti-money-laundering credential for compliance roles at banks and fintechs. It needs 40 eligibility credits from education, experience and ACAMS training.",
+    "botBlocked": true,
+    "checkNote": "acams.org shows a Cloudflare bot check to automated requests; URL taken from ACAMS’s own site on 2026-09-25."
+  },
+  {
+    "id": "afp-fpac",
+    "title": "FPAC — Certified Corporate FP&A Professional",
+    "provider": "Association for Financial Professionals",
+    "url": "https://fpacert.financialprofessionals.org/",
+    "hours": 150,
+    "cost": "paid",
+    "price": "$1,420–$1,520 for non-members (a year of membership included) or $1,025–$1,125 for AFP members, covering both exam parts.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting"
+    ],
+    "tags": [
+      "fp&a",
+      "financial planning and analysis",
+      "corporate finance",
+      "budgeting",
+      "forecasting",
+      "finance",
+      "credential"
+    ],
+    "desc": "Budgeting, forecasting and financial analysis for corporate finance teams. Students in a finance, business or accounting major within two years of graduating can enroll."
+  },
+  {
+    "id": "ascm-cltd",
+    "title": "CLTD — Certified in Logistics, Transportation and Distribution",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/cltd/",
+    "hours": 100,
+    "cost": "paid",
+    "price": "Exam $1,055 for ASCM members with the certification upgrade or $1,470 otherwise; the bundle with the learning system is $1,900 or $2,650.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "logistics"
+    ],
+    "tags": [
+      "supply chain",
+      "logistics",
+      "transportation",
+      "distribution",
+      "warehousing",
+      "cltd",
+      "credential"
+    ],
+    "desc": "ASCM’s logistics, transportation and distribution credential: one 150-question exam, about 100 hours of study."
+  },
+  {
+    "id": "asq-cssbb",
+    "title": "CSSBB — Certified Six Sigma Black Belt",
+    "provider": "ASQ",
+    "url": "https://www.asq.org/cert/six-sigma-black-belt",
+    "hours": 150,
+    "cost": "paid",
+    "price": "$585 for the exam; ASQ members pay $100 less.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "management"
+    ],
+    "tags": [
+      "six sigma",
+      "lean",
+      "quality",
+      "process improvement",
+      "operations",
+      "black belt",
+      "credential"
+    ],
+    "desc": "The advanced Six Sigma credential. It needs two completed projects, or one project plus three years of experience, in a full-time paid role; the Green Belt comes first."
+  },
+  {
+    "id": "ama-pcm",
+    "title": "AMA Professional Certified Marketer (PCM)",
+    "provider": "American Marketing Association",
+    "url": "https://www.ama.org/certifications/",
+    "hours": 60,
+    "cost": "paid",
+    "price": "The Digital Marketing exam is $249 for AMA members or $349 otherwise; other PCM programs start at $749.",
+    "group": "biz-credential",
+    "field": "marketing",
+    "fields": [
+      "marketing"
+    ],
+    "tags": [
+      "marketing",
+      "digital marketing",
+      "marketing management",
+      "ama",
+      "pcm",
+      "credential"
+    ],
+    "desc": "The American Marketing Association’s credential, in digital marketing and other specialties. There are no formal eligibility requirements."
+  },
+  {
+    "id": "institutes-arm",
+    "title": "ARM — Associate in Risk Management",
+    "provider": "The Institutes",
+    "url": "https://web.theinstitutes.org/designations/associate-risk-management",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Priced per course; four courses, usually finished in six to nine months.",
+    "group": "biz-credential",
+    "field": "risk",
+    "fields": [
+      "risk"
+    ],
+    "tags": [
+      "risk management",
+      "insurance",
+      "enterprise risk",
+      "arm",
+      "the institutes",
+      "credential"
+    ],
+    "desc": "The risk management designation from The Institutes. Its courses also count toward the CPCU."
+  },
+  {
+    "id": "hrci-phr",
+    "title": "PHR — Professional in Human Resources",
+    "provider": "HRCI",
+    "url": "https://www.hrci.org/certifications/individual-certifications/phr",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$395 exam fee plus a $100 application fee.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources"
+    ],
+    "tags": [
+      "human resources",
+      "hr",
+      "phr",
+      "hrci",
+      "employment law",
+      "credential"
+    ],
+    "desc": "HRCI’s professional HR credential. It needs one to four years of professional HR work depending on your degree, so students start with the aPHR."
+  },
+  {
+    "id": "eic-cmp",
+    "title": "CMP — Certified Meeting Professional",
+    "provider": "Events Industry Council",
+    "url": "https://eventscouncil.org/CMP/About-CMP",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$450 exam fee plus an application fee.",
+    "group": "biz-credential",
+    "field": "hospitality",
+    "fields": [
+      "hospitality",
+      "marketing",
+      "sport-management"
+    ],
+    "tags": [
+      "event planning",
+      "meetings",
+      "events",
+      "hospitality",
+      "cmp",
+      "credential"
+    ],
+    "desc": "The event-planning credential. It needs 24–36 months of industry work, and a 200-hour internship can meet its education requirement."
+  },
+  {
+    "id": "cfa-investment-foundations",
+    "title": "Investment Foundations Certificate",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/investment-foundations-certificate",
+    "hours": 50,
+    "cost": "paid",
+    "price": "$79 for full-time students ($350 standard).",
+    "group": "biz-markets",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "economics",
+      "accounting",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "investment",
+      "asset management",
+      "investment management",
+      "cfa institute",
+      "credential"
+    ],
+    "desc": "CFA Institute’s introduction to the investment industry: self-paced, 35–65 hours, with a 100-question online assessment and no prerequisites."
+  },
+  {
+    "id": "ascm-ctsc",
+    "title": "CTSC — Certified in Transformation for Supply Chain",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/learning-development/certifications-credentials/ctsc/",
+    "hours": 100,
+    "cost": "paid",
+    "price": "Sold only as a bundle for first-time test takers: $2,145 for ASCM members with the certification upgrade or $2,990 otherwise.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "management"
+    ],
+    "tags": [
+      "supply chain",
+      "transformation",
+      "strategy",
+      "digital supply chain",
+      "ctsc",
+      "ascm",
+      "credential"
+    ],
+    "desc": "ASCM’s certification on planning and leading supply chain transformation: one 150-question exam, about 100 hours of study."
+  },
+  {
+    "id": "ascm-procurement-certificate",
+    "title": "Supply Chain Procurement Certificate",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/procurement-certificate-program/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$495 for ASCM members or $695 otherwise, including the exam.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "procurement",
+      "purchasing",
+      "sourcing",
+      "ascm",
+      "certificate"
+    ],
+    "desc": "Sourcing, supplier management, negotiation and procurement metrics. About 20 hours online and one exam; it never expires."
+  },
+  {
+    "id": "ascm-warehousing-certificate",
+    "title": "Supply Chain Warehousing Certificate",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/warehousing-certificate-program/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$495 for ASCM members or $695 otherwise, including the exam.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "logistics"
+    ],
+    "tags": [
+      "supply chain",
+      "warehousing",
+      "logistics",
+      "distribution",
+      "ascm",
+      "certificate"
+    ],
+    "desc": "Warehousing and distribution: inventory control, order fulfillment and shipping, built with Prologis. About 20 hours online and one exam; it never expires."
+  },
+  {
+    "id": "ascm-planning-certificate",
+    "title": "Supply Chain Planning Certificate",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/planning-certificate-program/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$495 for ASCM members or $695 otherwise, including the exam.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "planning",
+      "demand planning",
+      "operations",
+      "ascm",
+      "certificate"
+    ],
+    "desc": "Demand planning, master scheduling, material requirements and S&OP. About 20 hours online and one exam; it never expires."
+  },
+  {
+    "id": "ascm-technology-certificate",
+    "title": "Supply Chain Technology Certificate",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/technology-certificate-program/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$495 for ASCM members or $695 otherwise, including the exam.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "technology",
+      "analytics",
+      "digital supply chain",
+      "ascm",
+      "certificate"
+    ],
+    "desc": "How blockchain, IoT, analytics and automation are used in supply chains. About 20 hours online and one exam; it never expires."
+  },
+  {
+    "id": "ascm-resilience-certificate",
+    "title": "Supply Chain Resilience Certificate",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/resilience-certificate-program/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$495 for ASCM members or $695 otherwise, including the exam.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "risk",
+      "resilience",
+      "risk management",
+      "ascm",
+      "certificate"
+    ],
+    "desc": "Supply chain risk management and planning for disruption. About 20 hours online and one exam; it never expires."
+  },
+  {
+    "id": "ascm-srm-certificate",
+    "title": "Supplier Relationship Management Certificate",
+    "provider": "ASCM",
+    "url": "https://www.ascm.org/supplier-relationship-management-program/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$495 for ASCM members or $695 otherwise, including the exam.",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain"
+    ],
+    "tags": [
+      "supply chain",
+      "procurement",
+      "supplier management",
+      "sourcing",
+      "ascm",
+      "certificate"
+    ],
+    "desc": "Building and managing long-term supplier relationships. About 20 hours online and one exam; it never expires."
+  },
+  {
+    "id": "cfa-cipm",
+    "title": "CIPM — Certificate in Investment Performance Measurement",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/cipm",
+    "hours": 310,
+    "cost": "paid",
+    "price": "Two exams, from $675 each. No prerequisites to enroll.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "performance measurement",
+      "asset management",
+      "portfolio analysis",
+      "cfa institute",
+      "credential"
+    ],
+    "desc": "Measuring and explaining investment performance, over two levels of about 155 study hours each; usually finished within 18 months."
+  },
+  {
+    "id": "cfa-private-markets",
+    "title": "Private Markets and Alternative Investments Certificate",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/private-markets-alternative-investments-certificate",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$890 standard price.",
+    "group": "biz-markets",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "private markets",
+      "alternative investments",
+      "private equity",
+      "cfa institute",
+      "certificate"
+    ],
+    "desc": "Self-paced online certificate, 70–90 hours with six months of access."
+  },
+  {
+    "id": "cfa-private-equity",
+    "title": "Private Equity Certificate",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/private-equity-certificate",
+    "hours": 125,
+    "cost": "paid",
+    "price": "$890 standard price.",
+    "group": "biz-markets",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "entrepreneurship"
+    ],
+    "tags": [
+      "finance",
+      "private equity",
+      "buyouts",
+      "valuation",
+      "cfa institute",
+      "certificate"
+    ],
+    "desc": "Self-paced, about 125 hours with 12 months of access. CFA Institute suggests the Private Markets certificate or CFA Level I first, but neither is required."
+  },
+  {
+    "id": "cfa-climate-investing",
+    "title": "Climate Risk, Valuation, and Investing Certificate",
+    "provider": "CFA Institute",
+    "url": "https://www.cfainstitute.org/programs/climate-investing-certificate",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$1,590 standard price.",
+    "group": "biz-markets",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "risk"
+    ],
+    "tags": [
+      "finance",
+      "climate",
+      "sustainable investing",
+      "esg",
+      "risk",
+      "cfa institute",
+      "certificate"
+    ],
+    "desc": "An intermediate, self-paced certificate of about 100 hours. The Sustainable Investing Certificate is the suggested starting point."
+  },
+  {
+    "id": "finra-series3",
+    "title": "Series 3 — National Commodities Futures Exam",
+    "provider": "NFA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series3",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$140 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "agribusiness"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 3",
+      "futures",
+      "commodities",
+      "trading",
+      "license",
+      "credential"
+    ],
+    "desc": "The futures and commodities exam for people who sell futures, set by the National Futures Association."
+  },
+  {
+    "id": "finra-series4",
+    "title": "Series 4 — Registered Options Principal Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series4",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$200 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 4",
+      "options",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For options principals, who supervise a firm’s options business. To register you must also pass the SIE and the Series 7. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series6",
+    "title": "Series 6 — Investment Company and Variable Contracts Products Representative Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series6",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 6",
+      "mutual funds",
+      "annuities",
+      "wealth management",
+      "license",
+      "credential"
+    ],
+    "desc": "For selling mutual funds, variable annuities and variable life insurance. To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series7",
+    "title": "Series 7 — General Securities Representative Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series7",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$395 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 7",
+      "wealth management",
+      "investment banking",
+      "brokerage",
+      "license",
+      "credential"
+    ],
+    "desc": "The exam for brokers, traders and many banking roles. It is paired with the SIE, which you can pass on your own first."
+  },
+  {
+    "id": "finra-series9-10",
+    "title": "Series 9 and 10 — General Securities Sales Supervisor Exams",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series9-10",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$175 (Series 9) and $235 (Series 10) exam fees. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 9",
+      "supervision",
+      "brokerage",
+      "license",
+      "credential"
+    ],
+    "desc": "For branch office sales supervisors (Series 9 and 10 together). To register you must also pass the SIE and the Series 7. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series14",
+    "title": "Series 14 — Compliance Officer Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series14",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$350 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "risk"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 14",
+      "compliance",
+      "regulation",
+      "license",
+      "credential"
+    ],
+    "desc": "For compliance officers at broker-dealers. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series16",
+    "title": "Series 16 — Supervisory Analyst Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series16",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$325 exam fee (Parts 1 and 2). A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 16",
+      "equity research",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For supervisory analysts, who review and approve research reports. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series22",
+    "title": "Series 22 — Direct Participation Programs Representative Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series22",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 22",
+      "direct participation programs",
+      "limited partnerships",
+      "license",
+      "credential"
+    ],
+    "desc": "For selling direct participation programs, such as limited partnerships. To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series23",
+    "title": "Series 23 — General Securities Principal Exam – Sales Supervisor Module",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series23",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$135 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 23",
+      "supervision",
+      "brokerage",
+      "license",
+      "credential"
+    ],
+    "desc": "The sales-supervisor module of the general securities principal exam. To register you must also pass the SIE, the Series 7 and the Series 9 and 10. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series24",
+    "title": "Series 24 — General Securities Principal Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series24",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$235 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 24",
+      "supervision",
+      "management",
+      "brokerage",
+      "license",
+      "credential"
+    ],
+    "desc": "For general securities principals, who supervise a broker-dealer’s business. To register you must also pass the SIE plus one of the Series 7, 57, 79, 82, 86/87 or 16. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series26",
+    "title": "Series 26 — Investment Company and Variable Contracts Products Principal Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series26",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$200 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 26",
+      "mutual funds",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For principals who supervise mutual fund and variable contract business. To register you must also pass the SIE plus the Series 6 or Series 7. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series27",
+    "title": "Series 27 — Financial and Operations Principal Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series27",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$235 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 27",
+      "financial reporting",
+      "operations",
+      "accounting",
+      "license",
+      "credential"
+    ],
+    "desc": "For financial and operations principals, who are responsible for a broker-dealer’s books and financial reporting. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series28",
+    "title": "Series 28 — Introducing Broker-Dealer Financial and Operations Principal Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series28",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$195 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "accounting"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 28",
+      "financial reporting",
+      "operations",
+      "accounting",
+      "license",
+      "credential"
+    ],
+    "desc": "For financial and operations principals at introducing broker-dealers. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series30",
+    "title": "Series 30 — NFA Branch Manager Exam",
+    "provider": "NFA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series30",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 30",
+      "futures",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For branch managers of NFA member firms in the futures industry. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series31",
+    "title": "Series 31 — Futures Managed Funds Exam",
+    "provider": "NFA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series31",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 31",
+      "futures",
+      "managed funds",
+      "license",
+      "credential"
+    ],
+    "desc": "For selling interests in futures managed funds."
+  },
+  {
+    "id": "finra-series32",
+    "title": "Series 32 — Limited Futures Exam - Regulations",
+    "provider": "NFA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series32",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 32",
+      "futures",
+      "regulation",
+      "license",
+      "credential"
+    ],
+    "desc": "A limited futures exam covering futures regulations."
+  },
+  {
+    "id": "finra-series34",
+    "title": "Series 34 — Retail Off-Exchange Forex Exam",
+    "provider": "NFA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series34",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$90 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 34",
+      "forex",
+      "currencies",
+      "trading",
+      "license",
+      "credential"
+    ],
+    "desc": "For retail off-exchange forex business."
+  },
+  {
+    "id": "finra-series39",
+    "title": "Series 39 — Direct Participation Programs Principal Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series39",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$200 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 39",
+      "direct participation programs",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For principals who supervise direct participation programs. To register you must also pass the SIE plus the Series 7 or Series 22. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series50",
+    "title": "Series 50 — Municipal Advisor Representative Exam",
+    "provider": "MSRB · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series50",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$265 exam fee.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 50",
+      "municipal bonds",
+      "public finance",
+      "license",
+      "credential"
+    ],
+    "desc": "For municipal advisor representatives, who advise state and local governments on municipal securities."
+  },
+  {
+    "id": "finra-series51",
+    "title": "Series 51 — Municipal Fund Securities Limited Principal Exam",
+    "provider": "MSRB · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series51",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$255 exam fee.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 51",
+      "municipal fund securities",
+      "529 plans",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For principals who supervise municipal fund securities, such as 529 college savings plans. To register you must also pass the Series 24 or Series 26. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series52",
+    "title": "Series 52 — Municipal Securities Representative Exam",
+    "provider": "MSRB · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series52",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$260 exam fee.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 52",
+      "municipal bonds",
+      "public finance",
+      "fixed income",
+      "license",
+      "credential"
+    ],
+    "desc": "For municipal securities representatives, who underwrite, trade and sell municipal bonds. To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series53",
+    "title": "Series 53 — Municipal Securities Principal Exam",
+    "provider": "MSRB · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series53",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$265 exam fee.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 53",
+      "municipal bonds",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For principals who supervise municipal securities business. To register you must also pass the SIE and the Series 52 (top-off). A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series54",
+    "title": "Series 54 — Municipal Advisor Principal Exam",
+    "provider": "MSRB · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series54",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$265 exam fee.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 54",
+      "municipal bonds",
+      "public finance",
+      "supervision",
+      "license",
+      "credential"
+    ],
+    "desc": "For municipal advisor principals. To register you must also pass the Series 50. A supervisor-level license, not a student credential."
+  },
+  {
+    "id": "finra-series57",
+    "title": "Series 57 — Securities Trader Representative Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series57",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$105 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 57",
+      "trading",
+      "sales and trading",
+      "markets",
+      "license",
+      "credential"
+    ],
+    "desc": "For securities traders. To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series63",
+    "title": "Series 63 — Uniform Securities Agent State Law Exam",
+    "provider": "NASAA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series63",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$147 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 63",
+      "state securities law",
+      "brokerage",
+      "license",
+      "credential"
+    ],
+    "desc": "The state securities law exam for agents. Most states require it along with the Series 7."
+  },
+  {
+    "id": "finra-series65",
+    "title": "Series 65 — Uniform Investment Adviser Law Exam",
+    "provider": "NASAA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series65",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$187 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 65",
+      "investment adviser",
+      "wealth management",
+      "financial planning",
+      "license",
+      "credential"
+    ],
+    "desc": "The investment adviser law exam, written by NASAA and run by FINRA."
+  },
+  {
+    "id": "finra-series66",
+    "title": "Series 66 — Uniform Combined State Law Exam",
+    "provider": "NASAA · run by FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series66",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$177 exam fee. No firm sponsorship needed.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 66",
+      "investment adviser",
+      "wealth management",
+      "state securities law",
+      "license",
+      "credential"
+    ],
+    "desc": "The combined state law exam for people who are both securities agents and investment adviser representatives. To register you must also pass the SIE and the Series 7 (top-off)."
+  },
+  {
+    "id": "finra-series79",
+    "title": "Series 79 — Investment Banking Representative Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series79",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$395 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 79",
+      "investment banking",
+      "mergers and acquisitions",
+      "capital markets",
+      "license",
+      "credential"
+    ],
+    "desc": "For investment banking representatives: mergers and acquisitions, underwriting and capital raising. To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series82",
+    "title": "Series 82 — Private Securities Offerings Representative Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series82",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 82",
+      "private placements",
+      "capital raising",
+      "license",
+      "credential"
+    ],
+    "desc": "For selling private placements of securities. To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series86-87",
+    "title": "Series 86 and 87 — Research Analyst Exams",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series86-87",
+    "hours": 100,
+    "cost": "paid",
+    "price": "$295 (Series 86) and $195 (Series 87) exam fees. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 86",
+      "equity research",
+      "research analyst",
+      "valuation",
+      "license",
+      "credential"
+    ],
+    "desc": "The research analyst exams (Series 86 and 87 together). To register you must also pass the SIE."
+  },
+  {
+    "id": "finra-series99",
+    "title": "Series 99 — Operations Professional Exam",
+    "provider": "FINRA",
+    "url": "https://www.finra.org/registration-exams-ce/qualification-exams/series99",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$100 exam fee. A FINRA member firm must sponsor you, so it is taken after you are hired.",
+    "group": "biz-credential",
+    "field": "finance",
+    "fields": [
+      "finance"
+    ],
+    "tags": [
+      "finance",
+      "securities",
+      "finra",
+      "series 99",
+      "operations",
+      "brokerage",
+      "license",
+      "credential"
+    ],
+    "desc": "For operations professionals at broker-dealers. To register you must also pass the SIE."
+  },
+  {
+    "id": "pmi-acp",
+    "title": "PMI-ACP — Agile Certified Practitioner",
+    "provider": "PMI",
+    "url": "https://www.pmi.org/certifications/agile-acp",
+    "hours": 80,
+    "cost": "paid",
+    "price": "Exam fee in the hundreds of dollars; PMI members pay less.",
+    "group": "biz-credential",
+    "field": "management",
+    "fields": [
+      "management",
+      "mis"
+    ],
+    "tags": [
+      "agile",
+      "scrum",
+      "project management",
+      "pmi",
+      "mis",
+      "credential"
+    ],
+    "desc": "PMI’s agile credential. It needs 21 hours of agile training, 12 months of project experience and 8 months of agile project experience.",
+    "botBlocked": true,
+    "checkNote": "pmi.org returns 403 to all automated requests; URL taken from PMI’s own site on 2026-09-25."
+  },
+  {
+    "id": "shrm-scp",
+    "title": "SHRM-SCP — SHRM Senior Certified Professional",
+    "provider": "SHRM",
+    "url": "https://www.shrm.org/credentials/certification/shrm-scp",
+    "hours": 120,
+    "cost": "paid",
+    "price": "Exam $350–$499 depending on SHRM membership and registration date.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "management"
+    ],
+    "tags": [
+      "human resources",
+      "hr",
+      "shrm",
+      "hr strategy",
+      "leadership",
+      "credential"
+    ],
+    "desc": "The senior HR credential. It needs three years of strategic-level HR work, or three years holding the SHRM-CP; start with the SHRM-CP."
+  },
+  {
+    "id": "hrci-sphr",
+    "title": "SPHR — Senior Professional in Human Resources",
+    "provider": "HRCI",
+    "url": "https://www.hrci.org/certifications/individual-certifications/sphr",
+    "hours": 120,
+    "cost": "paid",
+    "price": "$495 exam fee plus a $100 application fee.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources"
+    ],
+    "tags": [
+      "human resources",
+      "hr",
+      "sphr",
+      "hrci",
+      "hr strategy",
+      "credential"
+    ],
+    "desc": "HRCI’s senior HR credential. It needs four to seven years of professional HR work depending on your degree."
+  },
+  {
+    "id": "worldatwork-ccp",
+    "title": "CCP — Certified Compensation Professional",
+    "provider": "WorldatWork",
+    "url": "https://worldatwork.org/certifications/certified-compensation-professional-ccp",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Courses and exams are sold one at a time or as a bundle that includes two years of WorldatWork membership.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources"
+    ],
+    "tags": [
+      "compensation",
+      "total rewards",
+      "pay",
+      "human resources",
+      "worldatwork",
+      "credential"
+    ],
+    "desc": "The compensation and pay credential, earned through a series of course exams (75% to pass). No prerequisites to sit the exams."
+  },
+  {
+    "id": "payrollorg-fpc",
+    "title": "FPC — Fundamental Payroll Certification",
+    "provider": "PayrollOrg",
+    "url": "https://payroll.org/certification/certification/fundamental-payroll-certification-(fpc)",
+    "hours": 60,
+    "cost": "paid",
+    "price": "PayrollOrg lists the exam fee when you register; members save more than 20%.",
+    "group": "biz-credential",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "accounting"
+    ],
+    "tags": [
+      "payroll",
+      "human resources",
+      "accounting",
+      "compliance",
+      "credential"
+    ],
+    "desc": "The entry-level payroll credential: a 150-question, three-hour exam that is open to anyone, with no experience needed."
+  },
+  {
+    "id": "ima-csca",
+    "title": "CSCA — Certified in Strategy and Competitive Analysis",
+    "provider": "IMA",
+    "url": "https://www.imanet.org/IMA-Certifications/CSCA-Certification",
+    "hours": 60,
+    "cost": "paid",
+    "price": "About $600 for the exam, or about $1,295 with IMA’s learning series.",
+    "group": "biz-credential",
+    "field": "accounting",
+    "fields": [
+      "accounting",
+      "management",
+      "finance"
+    ],
+    "tags": [
+      "strategy",
+      "competitive analysis",
+      "management accounting",
+      "ima",
+      "credential"
+    ],
+    "desc": "IMA’s strategy credential. It needs a bachelor’s degree and two years of professional work, or a qualifying accounting or finance certification."
+  },
+  {
+    "id": "isaca-cism",
+    "title": "CISM — Certified Information Security Manager",
+    "provider": "ISACA",
+    "url": "https://www.isaca.org/credentialing/cism",
+    "hours": 120,
+    "cost": "paid",
+    "price": "$575 for ISACA members or $760 for non-members.",
+    "group": "biz-credential",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "risk"
+    ],
+    "tags": [
+      "information security",
+      "cybersecurity",
+      "security management",
+      "isaca",
+      "mis",
+      "credential"
+    ],
+    "desc": "Information security management. Certification needs five years of information security work; you have five years after passing the exam to apply."
+  },
+  {
+    "id": "isaca-crisc",
+    "title": "CRISC — Certified in Risk and Information Systems Control",
+    "provider": "ISACA",
+    "url": "https://www.isaca.org/credentialing/crisc",
+    "hours": 120,
+    "cost": "paid",
+    "price": "$575 for ISACA members or $760 for non-members.",
+    "group": "biz-credential",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "risk"
+    ],
+    "tags": [
+      "it risk",
+      "risk management",
+      "controls",
+      "isaca",
+      "mis",
+      "credential"
+    ],
+    "desc": "IT risk management and controls. Certification needs three years of IT risk and control work."
+  },
+  {
+    "id": "isc2-cissp",
+    "title": "CISSP — Certified Information Systems Security Professional",
+    "provider": "ISC2",
+    "url": "https://www.isc2.org/certifications/cissp",
+    "hours": 150,
+    "cost": "paid",
+    "price": "ISC2 prices the exam by the country you test in; see its exam pricing page.",
+    "group": "biz-credential",
+    "field": "mis",
+    "fields": [
+      "mis"
+    ],
+    "tags": [
+      "cybersecurity",
+      "information security",
+      "isc2",
+      "mis",
+      "credential"
+    ],
+    "desc": "The best-known cybersecurity credential. It needs five years of security work experience."
+  },
+  {
+    "id": "american-college-clu",
+    "title": "CLU — Chartered Life Underwriter",
+    "provider": "The American College",
+    "url": "https://www.theamericancollege.edu/learn/professional-designations-certifications/clu",
+    "hours": 200,
+    "cost": "paid",
+    "price": "Four required courses at $985 each (two for CFP professionals and ChFC holders).",
+    "group": "biz-credential",
+    "field": "risk",
+    "fields": [
+      "risk",
+      "finance",
+      "financial-planning"
+    ],
+    "tags": [
+      "life insurance",
+      "insurance",
+      "financial planning",
+      "clu",
+      "credential"
+    ],
+    "desc": "The life insurance planning designation, usually finished in 15 months or less. Using it requires financial services experience."
+  },
+  {
+    "id": "irem-cpm",
+    "title": "CPM — Certified Property Manager",
+    "provider": "IREM",
+    "url": "https://www.irem.org/certifications/for-individuals/cpm-certified-property-manager",
+    "hours": 200,
+    "cost": "paid",
+    "price": "Eight courses plus an ethics course and an exam, sold individually or as bundles.",
+    "group": "biz-credential",
+    "field": "real-estate",
+    "fields": [
+      "real-estate"
+    ],
+    "tags": [
+      "property management",
+      "real estate",
+      "asset management",
+      "irem",
+      "credential"
+    ],
+    "desc": "The property management credential. It needs 36 months of property management experience."
+  },
+  {
+    "id": "institutes-ains",
+    "title": "AINS — Associate in Insurance",
+    "provider": "The Institutes",
+    "url": "https://web.theinstitutes.org/designations/associate-insurance",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Priced per course; three core courses plus a free ethics course.",
+    "group": "biz-credential",
+    "field": "risk",
+    "fields": [
+      "risk"
+    ],
+    "tags": [
+      "insurance",
+      "personal insurance",
+      "commercial insurance",
+      "the institutes",
+      "credential"
+    ],
+    "desc": "The entry-level insurance designation: fully online, on-demand courses on how personal and commercial insurance work."
+  },
+  {
+    "id": "sas-base-programming",
+    "title": "SAS Certified Specialist: Base Programming",
+    "provider": "SAS",
+    "url": "https://www.sas.com/en_us/certification/credentials/foundation-tools/base-programming-specialist.html",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Exam priced by country; students get a steep discount and free training through SAS Skill Builder for Students.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "economics"
+    ],
+    "tags": [
+      "sas",
+      "programming",
+      "data analytics",
+      "statistics",
+      "analytics",
+      "credential"
+    ],
+    "desc": "SAS’s core programming certification, for data work in SAS."
+  },
+  {
+    "id": "cscmp-scpro-fundamentals",
+    "title": "SCPro Fundamentals",
+    "provider": "CSCMP",
+    "url": "https://cscmp.org/CSCMP/CSCMP/Certify/SCPro_Fundamentals_Certification.aspx",
+    "hours": 80,
+    "cost": "paid",
+    "price": "$300 per course ($360 for non-members), or $1,800 for all eight ($2,160 for non-members).",
+    "group": "biz-credential",
+    "field": "supply-chain",
+    "fields": [
+      "supply-chain",
+      "logistics"
+    ],
+    "tags": [
+      "supply chain",
+      "logistics",
+      "procurement",
+      "cscmp",
+      "credential"
+    ],
+    "desc": "Eight online courses on the cornerstones of supply chain management; each can be earned as its own certificate."
+  },
+  {
+    "id": "google-ai-essentials",
+    "title": "Google AI Essentials",
+    "provider": "Google · Coursera",
+    "url": "https://www.coursera.org/specializations/ai-essentials-google",
+    "hours": 10,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "management",
+    "fields": [
+      "management",
+      "marketing",
+      "entrepreneurship",
+      "business-analytics"
+    ],
+    "tags": [
+      "ai",
+      "generative ai",
+      "prompting",
+      "productivity",
+      "google",
+      "certificate"
+    ],
+    "desc": "Using generative AI tools at work and writing effective prompts. Self-paced; Google says it takes under 10 hours."
+  },
+  {
+    "id": "tableau-data-analyst",
+    "title": "Salesforce Certified Tableau Data Analyst",
+    "provider": "Tableau / Salesforce",
+    "url": "https://trailhead.salesforce.com/help?article=Salesforce-Certified-Tableau-Data-Analyst-Exam-Guide",
+    "hours": 60,
+    "cost": "paid",
+    "price": "$200 exam fee ($100 to retake).",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "marketing",
+      "finance",
+      "mis"
+    ],
+    "tags": [
+      "tableau",
+      "data visualization",
+      "dashboards",
+      "analytics",
+      "data analytics",
+      "credential"
+    ],
+    "desc": "Tableau’s analyst certification. No prerequisites, though Salesforce expects about six months of hands-on Tableau use; take the Desktop Foundations exam first."
+  },
+  {
+    "id": "python-institute-pcep",
+    "title": "PCEP — Certified Entry-Level Python Programmer",
+    "provider": "Python Institute",
+    "url": "https://pythoninstitute.org/pcep",
+    "hours": 30,
+    "cost": "paid",
+    "price": "Exam from $69.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis",
+      "economics"
+    ],
+    "tags": [
+      "python",
+      "programming",
+      "coding",
+      "data analytics",
+      "credential"
+    ],
+    "desc": "A short entry-level Python exam: 30 questions in 40 minutes, 70% to pass, no prerequisites."
+  },
+  {
+    "id": "python-institute-pcap",
+    "title": "PCAP — Certified Associate Python Programmer",
+    "provider": "Python Institute",
+    "url": "https://pythoninstitute.org/pcap",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Exam from $295 ($345 with a retake).",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "python",
+      "programming",
+      "coding",
+      "data analytics",
+      "credential"
+    ],
+    "desc": "The next Python level: 40 questions in 65 minutes, 70% to pass. No formal prerequisites; PCEP first is recommended."
+  },
+  {
+    "id": "py4e",
+    "title": "Python for Everybody",
+    "provider": "Charles Severance · py4e.com",
+    "url": "https://www.py4e.com/",
+    "hours": 40,
+    "cost": "free",
+    "price": "Free: lectures, book and exercises.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis",
+      "economics",
+      "finance",
+      "actuarial-science"
+    ],
+    "tags": [
+      "python",
+      "programming",
+      "coding",
+      "data analytics"
+    ],
+    "desc": "A beginner-friendly Python course with free lectures, a free book and auto-graded exercises."
+  },
+  {
+    "id": "oracle-sql-associate",
+    "title": "Oracle Database SQL Certified Associate (1Z0-071)",
+    "provider": "Oracle",
+    "url": "https://education.oracle.com/oracle-database-sql/pexam_1Z0-071",
+    "hours": 60,
+    "cost": "paid",
+    "price": "Oracle sets the exam price by country; it is shown when you register.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "mis"
+    ],
+    "tags": [
+      "sql",
+      "databases",
+      "oracle",
+      "data analytics",
+      "mis",
+      "credential"
+    ],
+    "desc": "A recognized SQL certification for querying and managing data. Oracle also offers a newer version, the AI Database SQL Associate (1Z0-171).",
+    "botBlocked": true,
+    "checkNote": "education.oracle.com returns 403 to automated requests; page confirmed in a browser on 2026-09-25."
+  },
+  {
+    "id": "ucdavis-sql-data-science",
+    "title": "SQL for Data Science",
+    "provider": "UC Davis · Coursera",
+    "url": "https://www.coursera.org/learn/sql-for-data-science",
+    "hours": 20,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "marketing",
+      "mis"
+    ],
+    "tags": [
+      "sql",
+      "databases",
+      "data analytics",
+      "analytics"
+    ],
+    "desc": "SQL for analysis, from basic queries to joins and subqueries; about two weeks at 10 hours a week."
+  },
+  {
+    "id": "oracle-java-se21",
+    "title": "Oracle Certified Professional: Java SE 21 Developer (1Z0-830)",
+    "provider": "Oracle",
+    "url": "https://education.oracle.com/java-se-21-developer-professional/pexam_1Z0-830",
+    "hours": 150,
+    "cost": "paid",
+    "price": "Oracle sets the exam price by country; it is shown when you register.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis"
+    ],
+    "tags": [
+      "java",
+      "programming",
+      "coding",
+      "software development",
+      "mis",
+      "credential"
+    ],
+    "desc": "Oracle’s Java developer certification. Most useful for MIS students heading into software or systems roles.",
+    "botBlocked": true,
+    "checkNote": "education.oracle.com returns 403 to automated requests; page confirmed in a browser on 2026-09-25."
+  },
+  {
+    "id": "coursera-ms-power-bi",
+    "title": "Microsoft Power BI Data Analyst Professional Certificate",
+    "provider": "Microsoft · Coursera",
+    "url": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst",
+    "hours": 188,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available. Finishing it earns 50% off the PL-300 exam.",
+    "group": "biz-tooling",
+    "field": "business-analytics",
+    "fields": [
+      "business-analytics",
+      "finance",
+      "accounting",
+      "marketing",
+      "mis"
+    ],
+    "tags": [
+      "power bi",
+      "data visualization",
+      "dashboards",
+      "excel",
+      "analytics",
+      "microsoft"
+    ],
+    "desc": "Eight courses (about 188 hours) that end with PL-300 exam preparation."
+  },
+  {
+    "id": "aws-ai-practitioner",
+    "title": "AWS Certified AI Practitioner",
+    "provider": "Amazon Web Services",
+    "url": "https://aws.amazon.com/certification/certified-ai-practitioner/",
+    "hours": 40,
+    "cost": "paid",
+    "price": "$100 exam fee.",
+    "group": "biz-tooling",
+    "field": "mis",
+    "fields": [
+      "mis",
+      "business-analytics",
+      "management"
+    ],
+    "tags": [
+      "ai",
+      "machine learning",
+      "generative ai",
+      "aws",
+      "cloud",
+      "credential"
+    ],
+    "desc": "Foundational AI and generative AI on AWS, open to business roles: 65 questions in 90 minutes."
+  },
+  {
+    "id": "google-cloud-genai-leader",
+    "title": "Google Cloud Generative AI Leader",
+    "provider": "Google Cloud",
+    "url": "https://cloud.google.com/learn/certification/generative-ai-leader",
+    "hours": 20,
+    "cost": "paid",
+    "price": "$99 exam fee; the learning path is free.",
+    "group": "biz-tooling",
+    "field": "management",
+    "fields": [
+      "management",
+      "mis",
+      "marketing",
+      "entrepreneurship"
+    ],
+    "tags": [
+      "ai",
+      "generative ai",
+      "google cloud",
+      "strategy",
+      "credential"
+    ],
+    "desc": "A non-technical certification on how generative AI can change a business: 50–60 questions in 90 minutes, no prerequisites."
+  },
+  {
+    "id": "ms-ai-business-professional",
+    "title": "Microsoft Certified: AI Business Professional (AB-730)",
+    "provider": "Microsoft",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/ai-business-professional/",
+    "hours": 20,
+    "cost": "paid",
+    "price": "Exam priced by country; a free practice assessment is on Microsoft Learn.",
+    "group": "biz-tooling",
+    "field": "management",
+    "fields": [
+      "management",
+      "marketing",
+      "mis",
+      "human-resources"
+    ],
+    "tags": [
+      "ai",
+      "generative ai",
+      "copilot",
+      "microsoft 365",
+      "productivity",
+      "credential"
+    ],
+    "desc": "A beginner certification in using Microsoft 365 Copilot and AI agents for business work, with no coding: a 45-minute exam."
+  },
+  {
+    "id": "ai-for-everyone",
+    "title": "AI For Everyone",
+    "provider": "DeepLearning.AI · Coursera",
+    "url": "https://www.coursera.org/learn/ai-for-everyone",
+    "hours": 7,
+    "cost": "paid",
+    "price": "Paid on Coursera; financial aid available.",
+    "group": "biz-foundation",
+    "field": "management",
+    "fields": [
+      "management",
+      "entrepreneurship",
+      "marketing",
+      "business-analytics"
+    ],
+    "tags": [
+      "ai",
+      "machine learning",
+      "strategy",
+      "non-technical"
+    ],
+    "desc": "Andrew Ng’s non-technical introduction to what AI can and cannot do for a business, in about 7 hours."
+  },
+  {
+    "id": "cbp-customs-broker-exam",
+    "title": "Customs Broker License Exam (CBLE)",
+    "provider": "U.S. Customs and Border Protection",
+    "url": "https://www.cbp.gov/trade/programs-administration/customs-brokers/license-examination-notice-examination",
+    "hours": 0,
+    "cost": "paid",
+    "price": "$390 exam fee. Given in April and October; open to U.S. citizens 18 or older.",
+    "group": "biz-credential",
+    "field": "logistics",
+    "fields": [
+      "logistics",
+      "international-business",
+      "supply-chain"
+    ],
+    "tags": [
+      "logistics",
+      "customs",
+      "import",
+      "international trade",
+      "tariff classification",
+      "license",
+      "credential"
+    ],
+    "desc": "The federal exam behind a U.S. customs broker license: 80 multiple-choice questions on entry, classification and trade rules. It has no degree or work requirement, so you can take it while still in school."
+  },
+  {
+    "id": "soa-exam-fm",
+    "title": "Exam FM — Financial Mathematics",
+    "provider": "Society of Actuaries",
+    "url": "https://www.soa.org/education/exam-req/edu-exam-fm-detail/",
+    "hours": 200,
+    "cost": "paid",
+    "price": "$275 exam fee in the U.S. and Canada.",
+    "group": "biz-credential",
+    "field": "actuarial-science",
+    "fields": [
+      "actuarial-science",
+      "risk",
+      "finance"
+    ],
+    "tags": [
+      "actuarial",
+      "financial mathematics",
+      "interest theory",
+      "bonds",
+      "insurance",
+      "credential"
+    ],
+    "desc": "The second early actuarial exam: interest, loans, bonds and the valuation of cash flows. Students often pass it alongside Exam P before applying for actuarial internships."
+  },
+  {
+    "id": "soa-vee",
+    "title": "VEE — Validation by Educational Experience",
+    "provider": "Society of Actuaries",
+    "url": "https://www.soa.org/education/exam-req/edu-vee/",
+    "hours": 0,
+    "cost": "ref",
+    "price": "$92 per topic to apply for credit, once you have passed two exams.",
+    "group": "biz-foundation",
+    "field": "actuarial-science",
+    "fields": [
+      "actuarial-science"
+    ],
+    "tags": [
+      "actuarial",
+      "vee",
+      "economics",
+      "accounting",
+      "statistics",
+      "degree planning"
+    ],
+    "desc": "Credit toward the ASA for college courses in economics, accounting and finance, and mathematical statistics. Check the approved-course list before you choose classes, so your degree covers it."
+  },
+  {
+    "id": "beanactuary-students",
+    "title": "Be An Actuary: college students",
+    "provider": "Society of Actuaries and Casualty Actuarial Society",
+    "url": "https://www.beanactuary.org/how-do-i-get-started/college-university-students/",
+    "hours": 0,
+    "cost": "ref",
+    "price": "Free.",
+    "group": "biz-foundation",
+    "field": "actuarial-science",
+    "fields": [
+      "actuarial-science",
+      "risk"
+    ],
+    "tags": [
+      "actuarial",
+      "exams",
+      "internships",
+      "career planning"
+    ],
+    "desc": "The two actuarial societies’ site for students: the exam pathways, sample problems, and how to find an actuarial internship."
+  },
+  {
+    "id": "hfma-crcr",
+    "title": "CRCR — Certified Revenue Cycle Representative",
+    "provider": "Healthcare Financial Management Association",
+    "url": "https://www.hfma.org/course/certified-revenue-cycle-representative-crcr/",
+    "hours": 14,
+    "cost": "paid",
+    "price": "Free for HFMA members (student membership is $50 for full-time students); $399 otherwise.",
+    "group": "biz-credential",
+    "field": "healthcare-management",
+    "fields": [
+      "healthcare-management"
+    ],
+    "tags": [
+      "healthcare",
+      "revenue cycle",
+      "billing",
+      "patient access",
+      "healthcare finance",
+      "credential"
+    ],
+    "desc": "An online course and exam on how hospitals get paid: patient access, billing, claims and collections. HFMA recommends a year of revenue-cycle experience, so it fits best after a healthcare finance job or internship."
+  },
+  {
+    "id": "ache-student",
+    "title": "ACHE Student Associate membership",
+    "provider": "American College of Healthcare Executives",
+    "url": "https://www.ache.org/Membership/Student-Associates",
+    "hours": 0,
+    "cost": "ref",
+    "price": "$75 a year, prorated by the month you join.",
+    "group": "biz-floor",
+    "field": "healthcare-management",
+    "fields": [
+      "healthcare-management"
+    ],
+    "tags": [
+      "healthcare",
+      "health administration",
+      "networking",
+      "career planning",
+      "fellowships"
+    ],
+    "desc": "Student membership in the professional body for healthcare leaders, open to students in health administration or a related program. Local chapters hold events, and ACHE lists postgraduate administrative fellowships."
+  },
+  {
+    "id": "nrf-retail-fundamentals",
+    "title": "Retail Industry Fundamentals",
+    "provider": "NRF Foundation · RISE Up",
+    "url": "https://nrffoundation.org/rise-up/credentials/retail-industry-fundamentals",
+    "hours": 0,
+    "cost": "paid",
+    "price": "Exams from $40; course and exam bundles from $104.",
+    "group": "biz-foundation",
+    "field": "retail-management",
+    "fields": [
+      "retail-management"
+    ],
+    "tags": [
+      "retail",
+      "customer service",
+      "retail math",
+      "inventory",
+      "store operations",
+      "credential"
+    ],
+    "desc": "The National Retail Federation Foundation’s entry credential: how stores, distribution centers and customer service fit together, with retail math and inventory basics."
+  },
+  {
+    "id": "nrf-business-of-retail",
+    "title": "Business of Retail",
+    "provider": "NRF Foundation · RISE Up",
+    "url": "https://nrffoundation.org/rise-up/credentials/business-of-retail",
+    "hours": 0,
+    "cost": "paid",
+    "price": "Exams from $80; course and exam bundles from $140.",
+    "group": "biz-credential",
+    "field": "retail-management",
+    "fields": [
+      "retail-management"
+    ],
+    "tags": [
+      "retail",
+      "merchandising",
+      "pricing",
+      "profit",
+      "store operations",
+      "credential"
+    ],
+    "desc": "Merchandising, pricing strategy, profit and discount math, promotions and store operations — the numbers behind a store’s results."
+  },
+  {
+    "id": "cme-institute",
+    "title": "CME Institute courses on futures and options",
+    "provider": "CME Group",
+    "url": "https://www.cmegroup.com/education/courses",
+    "hours": 0,
+    "cost": "free",
+    "price": "Free.",
+    "group": "biz-markets",
+    "field": "agribusiness",
+    "fields": [
+      "agribusiness",
+      "finance",
+      "economics"
+    ],
+    "tags": [
+      "futures",
+      "options",
+      "commodities",
+      "hedging",
+      "agriculture",
+      "markets"
+    ],
+    "desc": "Free courses from the exchange group where U.S. grain and livestock futures trade. Start with Introduction to Futures to see how futures are used to manage price risk."
+  },
+  {
+    "id": "hubspot-inbound-sales",
+    "title": "Inbound Sales Certification",
+    "provider": "HubSpot Academy",
+    "url": "https://academy.hubspot.com/courses/inbound-sales",
+    "hours": 3,
+    "cost": "free",
+    "price": "Free, certificate included.",
+    "group": "biz-tooling",
+    "field": "sales",
+    "fields": [
+      "sales",
+      "business-administration",
+      "sport-management",
+      "agribusiness"
+    ],
+    "tags": [
+      "sales",
+      "prospecting",
+      "discovery calls",
+      "presentations",
+      "crm",
+      "business development"
+    ],
+    "desc": "Finding active buyers, personalized outreach, discovery conversations and sales presentations — the work of a first sales job — in about three hours."
+  },
+  {
+    "id": "northwestern-sports-marketing",
+    "title": "Sports Marketing",
+    "provider": "Northwestern · Coursera",
+    "url": "https://www.coursera.org/learn/sports-marketing",
+    "hours": 20,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "sport-management",
+    "fields": [
+      "sport-management"
+    ],
+    "tags": [
+      "sports",
+      "sports marketing",
+      "sponsorship",
+      "ticketing",
+      "fan engagement",
+      "licensing"
+    ],
+    "desc": "Sponsorships, licensing, dynamic ticket pricing and fan engagement, from Northwestern’s Medill school with guests from sports media and the industry."
+  },
+  {
+    "id": "michigan-sports-analytics",
+    "title": "Sports Performance Analytics Specialization",
+    "provider": "Michigan · Coursera",
+    "url": "https://www.coursera.org/specializations/sports-analytics",
+    "hours": 160,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-tooling",
+    "field": "sport-management",
+    "fields": [
+      "sport-management"
+    ],
+    "tags": [
+      "sports",
+      "sports analytics",
+      "python",
+      "predictive modeling",
+      "data analysis"
+    ],
+    "desc": "Five intermediate courses on predicting team and player performance with Python and real sports data."
+  },
+  {
+    "id": "michigan-healthcare-management",
+    "title": "Healthcare Management and Finance Specialization",
+    "provider": "Michigan · Coursera",
+    "url": "https://www.coursera.org/specializations/healthcare-management-and-finance",
+    "hours": 40,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "healthcare-management",
+    "fields": [
+      "healthcare-management"
+    ],
+    "tags": [
+      "healthcare",
+      "health administration",
+      "healthcare finance",
+      "operations"
+    ],
+    "desc": "Three beginner courses on how healthcare managers handle both the administrative and the financial side of the system. No prior experience needed."
+  },
+  {
+    "id": "wharton-omnichannel-retail",
+    "title": "Omnichannel Retail Strategy Specialization",
+    "provider": "Wharton · Coursera",
+    "url": "https://www.coursera.org/specializations/wharton-retail-strategy",
+    "hours": 40,
+    "cost": "paid",
+    "price": "Paid on Coursera (included with Coursera Plus); financial aid available.",
+    "group": "biz-foundation",
+    "field": "retail-management",
+    "fields": [
+      "retail-management"
+    ],
+    "tags": [
+      "retail",
+      "omnichannel",
+      "retail strategy",
+      "e-commerce",
+      "marketing"
+    ],
+    "desc": "Three beginner courses from Wharton faculty on running a retail business across stores and online, including retail marketing strategy."
+  },
+  {
+    "id": "kaplan-fpqp",
+    "title": "FPQP — Financial Paraplanner Qualified Professional",
+    "provider": "College for Financial Planning (Kaplan)",
+    "url": "https://www.kaplanfinancial.com/wealth-management/fpqp",
+    "hours": 0,
+    "cost": "paid",
+    "price": "$1,495–$1,695 for the program, which takes about 120 days.",
+    "group": "biz-credential",
+    "field": "financial-planning",
+    "fields": [
+      "financial-planning"
+    ],
+    "tags": [
+      "financial planning",
+      "paraplanner",
+      "wealth management",
+      "credential"
+    ],
+    "desc": "An entry-level designation on the financial planning process. It does not replace the CFP, so check whether your degree already covers the same ground before paying for it."
+  },
+  {
+    "id": "saylor-bus301-hr",
+    "title": "Human Resource Management (BUS301)",
+    "provider": "Saylor Academy",
+    "url": "https://learn.saylor.org/course/BUS301",
+    "hours": 24,
+    "cost": "free",
+    "price": "Free, including the certificate when you pass the final exam. The certificate is not college credit.",
+    "group": "biz-foundation",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "management",
+      "business-administration"
+    ],
+    "tags": [
+      "human resources",
+      "hiring",
+      "recruiting",
+      "training",
+      "compensation",
+      "labor relations"
+    ],
+    "desc": "Job analysis, recruiting, training, performance reviews, pay, safety and labor relations, with a free certificate of completion."
+  },
+  {
+    "id": "saylor-bus209-ob",
+    "title": "Organizational Behavior (BUS209)",
+    "provider": "Saylor Academy",
+    "url": "https://learn.saylor.org/course/BUS209",
+    "hours": 48,
+    "cost": "free",
+    "price": "Free, including the certificate when you pass the final exam. The certificate is not college credit.",
+    "group": "biz-foundation",
+    "field": "human-resources",
+    "fields": [
+      "human-resources",
+      "management"
+    ],
+    "tags": [
+      "organizational behavior",
+      "teams",
+      "group dynamics",
+      "conflict",
+      "change management",
+      "human resources"
+    ],
+    "desc": "How people behave at work: individual behavior, group dynamics, conflict and organizational change. The people side of every HR and management role."
+  },
+  {
+    "id": "openlearn-risk-management",
+    "title": "Risk management",
+    "provider": "The Open University · OpenLearn",
+    "url": "https://www.open.edu/openlearn/money-business/risk-management/content-section-overview",
+    "hours": 24,
+    "cost": "free",
+    "price": "Free, with a free statement of participation and an Open University digital badge when you finish.",
+    "group": "biz-foundation",
+    "field": "risk",
+    "fields": [
+      "risk"
+    ],
+    "tags": [
+      "risk management",
+      "enterprise risk",
+      "erm",
+      "risk assessment"
+    ],
+    "desc": "Eight sessions on spotting the risks an organization faces, measuring their impact, and enterprise risk management (ERM). Introductory level.",
+    "botBlocked": true,
+    "checkNote": "open.edu answers 403 to automated requests; the course page, its hours and the free statement of participation were confirmed on 2026-10-13."
+  },
+  {
+    "id": "openlearn-managing-risk",
+    "title": "Understanding and managing risk",
+    "provider": "The Open University · OpenLearn",
+    "url": "https://www.open.edu/openlearn/money-business/understanding-and-managing-risk/content-section-overview",
+    "hours": 20,
+    "cost": "free",
+    "price": "Free, with a free statement of participation when you finish.",
+    "group": "biz-foundation",
+    "field": "risk",
+    "fields": [
+      "risk",
+      "finance"
+    ],
+    "tags": [
+      "financial risk",
+      "operational risk",
+      "reputational risk",
+      "behavioral finance",
+      "risk management"
+    ],
+    "desc": "Financial, operational and reputational risk: how each is identified, measured and reduced, and what behavioral finance says about risk-taking. Advanced level, so take it after an introductory finance course.",
+    "botBlocked": true,
+    "checkNote": "open.edu answers 403 to automated requests; the course page, its hours and the free statement of participation were confirmed on 2026-10-13."
+  },
+  {
+    "id": "cms-mln-wbt",
+    "title": "Medicare Learning Network web-based training",
+    "provider": "Centers for Medicare & Medicaid Services (CMS)",
+    "url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/resources-training/mln-web-based-training",
+    "hours": 3,
+    "cost": "ref",
+    "price": "Free to take. CMS does not give continuing education credit for these courses.",
+    "group": "biz-foundation",
+    "field": "healthcare-management",
+    "fields": [
+      "healthcare-management"
+    ],
+    "tags": [
+      "healthcare",
+      "medicare",
+      "billing",
+      "revenue cycle",
+      "medical coding",
+      "compliance"
+    ],
+    "desc": "Self-paced courses from CMS, 30 minutes to 2 hours each, on Medicare billing (Forms CMS-1450 and CMS-1500), diagnosis coding and fraud prevention. Useful background for revenue-cycle and compliance roles."
+  },
+  {
+    "id": "openlearn-healthcare-improvement",
+    "title": "Introducing healthcare improvement",
+    "provider": "The Open University · OpenLearn",
+    "url": "https://www.open.edu/openlearn/health-sports-psychology/health/introducing-healthcare-improvement/content-section-overview",
+    "hours": 3,
+    "cost": "free",
+    "price": "Free, with a free statement of participation when you finish.",
+    "group": "biz-foundation",
+    "field": "healthcare-management",
+    "fields": [
+      "healthcare-management"
+    ],
+    "tags": [
+      "healthcare",
+      "quality improvement",
+      "patient safety",
+      "operations"
+    ],
+    "desc": "What quality improvement means in healthcare, and its six aims: safe, effective, patient-centered, timely, efficient and equitable care.",
+    "botBlocked": true,
+    "checkNote": "open.edu answers 403 to automated requests; the course page, its hours and the free statement of participation were confirmed on 2026-10-13."
+  },
+  {
+    "id": "openlearn-healthcare-change",
+    "title": "Lead and manage change in health and social care",
+    "provider": "The Open University · OpenLearn",
+    "url": "https://www.open.edu/openlearn/health-sports-psychology/lead-and-manage-change-health-and-social-care/content-section-overview",
+    "hours": 7,
+    "cost": "free",
+    "price": "Free, with a free statement of participation when you finish.",
+    "group": "biz-foundation",
+    "field": "healthcare-management",
+    "fields": [
+      "healthcare-management"
+    ],
+    "tags": [
+      "healthcare",
+      "change management",
+      "leadership",
+      "health administration"
+    ],
+    "desc": "The manager's role in leading change in health and social care: why change matters there, the emotion and uncertainty it brings, and a plan for your own change project.",
+    "botBlocked": true,
+    "checkNote": "open.edu answers 403 to automated requests; the course page, its hours and the free statement of participation were confirmed on 2026-10-13."
+  }
+]

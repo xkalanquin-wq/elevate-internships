@@ -1,0 +1,4 @@
+{
+  "_note": "Affiliate programs the operator has been approved for, keyed by the provider's hostname. Use \"append\" to add query parameters to the course's own link, or \"template\" (https, containing {url}) to wrap it in the network's redirect link. Empty means every link is a plain link. See server/affiliates.js.",
+  "programs": {}
+}

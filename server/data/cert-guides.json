@@ -1,0 +1,532 @@
+{
+  "_note": "Per-major copy for /certifications/<major>: an intro, how to choose, and questions students ask. Shown by the app (MajorPage) and in the server-rendered HTML, so both say the same thing. Keep claims general and point to the provider for current rules and prices.",
+  "accounting": {
+    "intro": "Accounting is one of the few business fields with a license at the end of the road: the CPA. As a student you cannot sit for it yet, but you can show recruiters that you already work like an accountant. The certifications below are the ones that do that for the lowest cost — software skills firms use every day, tax and audit training you can use right away, and early steps toward the CPA itself.",
+    "choose": [
+      "Start with a free one you can finish in a weekend, such as QuickBooks ProAdvisor training or an Excel course, and put it on your resume before recruiting starts.",
+      "If you want public accounting, IRS VITA volunteer certification gives you real tax-return experience to talk about in interviews.",
+      "Plan for the CPA early: most states require 150 semester hours to be licensed, and some now offer a 120-hour path with extra work experience. Check your state board's current rule.",
+      "Pay for a credential only when a posting or a mentor in your target firm asks for it."
+    ],
+    "faqs": [
+      {
+        "q": "Do accounting students need a certification to get an internship?",
+        "a": "No. Firms hire accounting interns on coursework, GPA and interviews. A certification helps you stand out, especially a practical one like QuickBooks or a tax credential from volunteering."
+      },
+      {
+        "q": "When can I take the CPA exam?",
+        "a": "It depends on your state board. Many states let you sit for the exam before you finish all 150 hours, often once you have your degree or are close to it. Check your state's board of accountancy for the current rule."
+      },
+      {
+        "q": "Which free certification helps most for an accounting internship?",
+        "a": "QuickBooks ProAdvisor training and IRS VITA certification are both free and directly useful: one shows software skill, the other gives you real tax experience."
+      }
+    ]
+  },
+  "finance": {
+    "intro": "Finance recruiting starts early and moves fast, so a certification that proves you can already model, read markets or understand regulation is worth more here than in most fields. Most of the best options for students are free or low-cost and can be done in a few weeks — the few that cost real money are listed with their actual prices so you can decide if they are worth it.",
+    "choose": [
+      "Get Excel and financial modeling basics first; nearly every finance interview tests them.",
+      "If your school has a Bloomberg Terminal, Bloomberg Market Concepts is usually free through the library and widely recognized.",
+      "The FINRA Securities Industry Essentials (SIE) exam is one of the few licenses a student can take without an employer sponsor, and it shows commitment to markets roles.",
+      "Longer programs such as the CFA are for later: they are valuable but take years and are not expected of interns."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best certification for a finance internship?",
+        "a": "There is no single best one. For most students, a financial modeling course plus Bloomberg Market Concepts covers what interviews test. The SIE exam is a strong signal for trading, wealth management and brokerage roles."
+      },
+      {
+        "q": "Can a college student take the SIE exam?",
+        "a": "Yes. FINRA lets anyone 18 or older take the SIE without being sponsored by a firm, and a passing result stays valid for four years."
+      },
+      {
+        "q": "Should I start the CFA program in college?",
+        "a": "Only if you are sure about investment management and can commit hundreds of study hours. CFA Institute allows enrollment near the end of a bachelor's degree; check its current eligibility rule before registering."
+      }
+    ]
+  },
+  "business-analytics": {
+    "intro": "Business analytics internships ask for proof that you can turn data into a decision. Certifications are unusually useful here because they come with projects: a finished dashboard or SQL case study is something you can link on your resume and walk through in an interview. The list below favors free and low-cost options with hands-on work over theory-only courses.",
+    "choose": [
+      "Learn SQL and a spreadsheet tool first — they appear in almost every analytics posting.",
+      "Add one visualization tool, such as Tableau or Power BI, and build one dashboard with public data.",
+      "Kaggle Learn's free courses, or Google's paid data analytics certificate, give you structured practice.",
+      "Save your best project on GitHub or a portfolio page so recruiters can see the work, not just the certificate."
+    ],
+    "faqs": [
+      {
+        "q": "Which certification is best for a business analytics internship?",
+        "a": "One that makes you build something. A SQL course plus a Tableau or Power BI project usually matters more to recruiters than any single certificate name."
+      },
+      {
+        "q": "Do I need to learn Python for a business analytics internship?",
+        "a": "Not always. Many analyst internships only require SQL and Excel. Python helps for data science-leaning roles, and free courses on Kaggle Learn are a good start."
+      },
+      {
+        "q": "Is the Google Data Analytics certificate worth it for students?",
+        "a": "It is a structured, beginner-friendly program that covers spreadsheets, SQL, Tableau and R. It is paid through Coursera, and financial aid is available. Its value comes from the case-study project you finish, so make sure you do that part."
+      }
+    ]
+  },
+  "marketing": {
+    "intro": "Marketing teams hire interns who can use the tools on day one: analytics, ads platforms, email and social scheduling. The good news is that the companies that make those tools — Google, HubSpot, Meta and others — offer their own training, much of it free. A couple of these certifications show a recruiter you understand how campaigns are measured, not just how they look.",
+    "choose": [
+      "Start with Google Analytics and one free HubSpot certification; both are widely recognized and take a few hours each.",
+      "Pick an ads certification that matches the internship: Google Ads for search and performance roles, Meta for social media roles.",
+      "Pair every certification with a small real project, such as running social media for a club or a local business.",
+      "Keep a simple portfolio of screenshots and results; marketing interviews often ask what you have actually run."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications should a marketing student get?",
+        "a": "Google Analytics and a HubSpot certification are a strong free pair. Add Google Ads or Meta training depending on whether the role is search or social."
+      },
+      {
+        "q": "Are Google marketing certifications free?",
+        "a": "Google's Skillshop certifications for Analytics and Ads are free to take. Longer programs sold through Coursera are paid, with financial aid available."
+      },
+      {
+        "q": "Do marketing internships care about certifications?",
+        "a": "They help, especially for digital roles, but a small campaign you ran with real numbers is usually more convincing. Use certifications to fill skill gaps, then show the work."
+      }
+    ]
+  },
+  "management": {
+    "intro": "Management internships — operations, consulting, rotational programs — look for students who can organize work and keep projects on track. Project management and process-improvement certifications fit that exactly, and several have entry-level versions designed for people with no work experience. They also give you a shared vocabulary with the teams you will join.",
+    "choose": [
+      "If you want project work, the entry-level CAPM from PMI is designed for people without project experience.",
+      "Agile and Scrum certificates are useful for tech and product-adjacent teams; check whether the exam fee is worth it for your target roles.",
+      "A Lean Six Sigma Yellow Belt introduces process improvement and is common in operations and healthcare management.",
+      "Leadership roles in student organizations count as evidence too — describe them in the same project language."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best certification for a management major?",
+        "a": "For most students, an introductory project management credential such as PMI's CAPM, or a free Agile course, is the most useful. It shows you can plan and deliver work."
+      },
+      {
+        "q": "Can students get the CAPM?",
+        "a": "Yes. PMI designed the CAPM for people early in their careers; it requires 23 hours of project management education rather than work experience. Check PMI for the current fee and requirements."
+      },
+      {
+        "q": "Do consulting internships want certifications?",
+        "a": "Rarely. Consulting firms focus on case interviews and problem solving. A certification helps only if it builds a skill you can use in the case, such as Excel or data analysis."
+      }
+    ]
+  },
+  "supply-chain": {
+    "intro": "Supply chain and operations internships reward students who understand how goods, inventory and data move through a business. Industry bodies such as ASCM (formerly APICS) and ISM run the best-known professional certifications, but most are aimed at people with experience. For students, the smart path is foundational training now — Excel, process improvement and supply chain basics — and a professional credential after your first role.",
+    "choose": [
+      "Build Excel and data skills first; forecasting and inventory questions come up in almost every operations interview.",
+      "A Lean Six Sigma Yellow Belt or other lean training shows you understand process improvement.",
+      "ASCM's CPIM has no formal prerequisites, which makes it one of the few professional supply chain certifications a student can pursue; check current costs first.",
+      "Save CSCP, CPSM and similar credentials for later — they are designed for working professionals."
+    ],
+    "faqs": [
+      {
+        "q": "What certification should a supply chain student get first?",
+        "a": "Start with free or low-cost foundations: Excel, a lean or Six Sigma Yellow Belt, and an introductory supply chain course. Professional credentials such as CPIM are an option once you are sure of the field."
+      },
+      {
+        "q": "Is the CSCP worth it for a college student?",
+        "a": "Usually not yet. The CSCP is aimed at people with a degree or several years of experience, and employers do not expect interns to have it."
+      },
+      {
+        "q": "When do supply chain internships recruit?",
+        "a": "Large manufacturers and retailers often recruit in the fall for the following summer, while smaller companies hire into the spring. See the recruiting timeline on this page for typical timing."
+      }
+    ]
+  },
+  "human-resources": {
+    "intro": "Human resources internships cover recruiting, onboarding, benefits and people analytics, and employers look for students who understand employment basics and can handle confidential information carefully. HR has two main certifying bodies in the U.S., HRCI and SHRM, and one of their credentials is designed for people just starting out. The rest of the list builds practical skills such as recruiting tools and HR data.",
+    "choose": [
+      "HRCI's aPHR is designed for people new to HR and does not require HR work experience, which makes it a realistic student credential.",
+      "SHRM's certifications are well known; check SHRM's current eligibility rules, since they have changed over time.",
+      "Learn Excel and basic people-analytics skills; many HR teams now report on hiring and retention data.",
+      "Free courses on employment law basics and interviewing help you speak confidently in HR interviews."
+    ],
+    "faqs": [
+      {
+        "q": "What HR certification can a college student get?",
+        "a": "The aPHR from HRCI is built for people starting out in HR and does not require HR experience. Check HRCI for the current exam fee."
+      },
+      {
+        "q": "Do HR internships require a certification?",
+        "a": "No. Most HR internships hire on interest, communication skills and coursework. A certification shows commitment and gives you vocabulary for interviews."
+      },
+      {
+        "q": "Is SHRM-CP or aPHR better for students?",
+        "a": "For most students the aPHR is the more realistic first step. SHRM credentials are widely recognized; check SHRM's current eligibility rules before deciding."
+      }
+    ]
+  },
+  "mis": {
+    "intro": "Management Information Systems sits between business and technology, so MIS internships — IT consulting, systems analysis, cybersecurity, ERP — value certifications that prove technical basics. The good ones are vendor or industry credentials employers recognize immediately, and several entry-level exams from Microsoft, AWS and CompTIA are within reach of a motivated student.",
+    "choose": [
+      "Pick a direction: cloud (AWS or Microsoft Azure fundamentals), security (CompTIA Security+), or data (SQL and analytics).",
+      "Fundamentals-level exams are designed for beginners and are the best first step; check for student discounts before paying.",
+      "Free training from Microsoft Learn, AWS Skill Builder and freeCodeCamp covers most of what the entry exams test.",
+      "Build something small — a database, a dashboard, a cloud-hosted site — so you can show the skill, not just the badge."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best certification for an MIS student?",
+        "a": "An entry-level cloud certification such as AWS Cloud Practitioner or Microsoft Azure Fundamentals is a strong start, because so many MIS roles touch cloud systems. CompTIA Security+ suits students heading toward cybersecurity."
+      },
+      {
+        "q": "Are MIS certifications expensive?",
+        "a": "Exams usually cost money, but the training for most entry-level exams is free. Look for student discounts and free exam vouchers from campus programs and events."
+      },
+      {
+        "q": "Do MIS internships prefer certifications or projects?",
+        "a": "Both help, but projects are more convincing. A certification plus one small project you can explain is a strong combination."
+      }
+    ]
+  },
+  "economics": {
+    "intro": "Economics majors land internships in research, policy, consulting, banking and data analysis, and what connects those roles is the ability to work with data and explain what it means. Economics has no single professional license, so the most useful certifications here are skill-based: data tools, financial markets and economic data sources. Many of the best ones come from public institutions and cost nothing.",
+    "choose": [
+      "Learn one data tool well — Excel plus R, Python or Stata — since research and consulting roles test it.",
+      "Free courses from the International Monetary Fund, the Federal Reserve and MIT OpenCourseWare show real economics depth.",
+      "If you are leaning toward finance, Bloomberg Market Concepts and financial modeling basics bridge the gap.",
+      "Write up one short analysis using public data (FRED, BLS or Census) to show you can apply what you learned."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help economics students get internships?",
+        "a": "Data skills matter most: Excel plus a statistical tool such as R, Python or Stata. Free courses from the IMF or the Federal Reserve add economics credibility at no cost."
+      },
+      {
+        "q": "Do economics internships require coding?",
+        "a": "Research and data-focused roles often do; policy and consulting roles may not. Learning one language well is usually enough for an internship."
+      },
+      {
+        "q": "Is a finance certification useful for an economics major?",
+        "a": "Yes, if you are applying to banking or markets roles. Bloomberg Market Concepts and a financial modeling course are the most common choices."
+      }
+    ]
+  },
+  "entrepreneurship": {
+    "intro": "Entrepreneurship internships — at startups, accelerators, venture funds or small businesses — reward students who can do a bit of everything: talk to customers, run marketing, read a budget and ship something. Certifications matter less here than proof you have built or launched something, so the list focuses on free programs that teach the practical skills founders use and give you a project to point to.",
+    "choose": [
+      "Y Combinator's free Startup School and the U.S. Small Business Administration's free courses cover the basics of starting and running a company.",
+      "Add one growth skill — digital marketing, sales or financial modeling — that a small team will actually need.",
+      "Start something small: a campus service, an online store or a club project with real customers.",
+      "Keep simple metrics (users, revenue, sign-ups) so you can describe results in interviews."
+    ],
+    "faqs": [
+      {
+        "q": "Do startups care about certifications?",
+        "a": "Not much. Startups look for initiative and results. A certification helps if it gives you a skill they need right away, like digital marketing or basic financial modeling."
+      },
+      {
+        "q": "What free programs are good for entrepreneurship students?",
+        "a": "Y Combinator's Startup School and the SBA's free learning center are both free and practical. HubSpot's free marketing and sales training is also useful for small teams."
+      },
+      {
+        "q": "How do I get an internship at a startup?",
+        "a": "Reach out directly: many startups hire interns without posting on big job boards. Show you have built or run something, and be specific about how you could help."
+      }
+    ]
+  },
+  "international-business": {
+    "intro": "International business internships span trade, logistics, global marketing and multinational operations. Employers look for students who understand how goods and money cross borders — trade rules, export documentation, currency and culture. A few specialized certifications cover international trade directly, and free courses from government trade agencies are among the most practical ways to learn the basics.",
+    "choose": [
+      "Start with the free export and trade training from the U.S. International Trade Administration.",
+      "The Certified Global Business Professional (CGBP) from NASBITE covers international trade; check its cost and whether employers in your target industry value it.",
+      "Language skills and study abroad count as strong evidence — list your proficiency level clearly.",
+      "Add a general business skill, such as Excel or supply chain basics, that international teams use daily."
+    ],
+    "faqs": [
+      {
+        "q": "What certification is best for an international business major?",
+        "a": "For most students, free trade and export courses from the International Trade Administration are the best first step. The CGBP is a more formal credential for students committed to trade careers."
+      },
+      {
+        "q": "Do international business internships require a second language?",
+        "a": "Not always, but it helps a lot for global marketing and regional roles. State your level honestly and mention any study abroad or international experience."
+      },
+      {
+        "q": "What kinds of companies hire international business interns?",
+        "a": "Freight forwarders and logistics firms, exporters, multinational manufacturers and retailers, banks with global operations, and government trade offices all hire international business interns."
+      }
+    ]
+  },
+  "risk": {
+    "intro": "Risk management and insurance is a specialist field that recruits heavily from business schools, and it has its own professional designations. Insurers, brokers and risk departments look for students who understand how risk is priced, transferred and managed. Several respected credentials offer student-friendly entry points, and actuarial exams can be started while you are still in college.",
+    "choose": [
+      "The Institutes offer introductory designations and courses in risk management and insurance that suit students exploring the field.",
+      "If you are leaning actuarial, the Society of Actuaries' first exams (Probability and Financial Mathematics) can be taken in college and are highly valued.",
+      "Brush up on Excel and data skills; underwriting and analytics roles use them daily.",
+      "Many insurers run structured internship programs — apply early in the fall for the following summer."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help with risk management and insurance internships?",
+        "a": "Introductory courses and designations from The Institutes are the most directly relevant. For actuarial roles, passing one of the first Society of Actuaries exams is a strong signal."
+      },
+      {
+        "q": "Can college students take actuarial exams?",
+        "a": "Yes. Many students take Exam P (Probability) or Exam FM (Financial Mathematics) during college, and some employers expect at least one passed exam for actuarial internships."
+      },
+      {
+        "q": "Do I need an insurance license for an internship?",
+        "a": "Usually not. Some sales-focused roles encourage or pay for a state license after you join, but most internships do not require one to apply."
+      }
+    ]
+  },
+  "hospitality": {
+    "intro": "Hospitality and tourism management internships run from hotels and resorts to restaurants, events and travel companies. Many of the certifications that matter in this industry are practical safety and service credentials that employers require for certain roles, and they are quick and inexpensive to earn. Adding one before you apply shows you understand how operations actually run.",
+    "choose": [
+      "ServSafe Food Handler or Manager certification is widely used in restaurants and food-and-beverage roles; check your state's requirements.",
+      "Responsible alcohol service training such as TIPS is often required for bar and banquet work.",
+      "AHLEI (American Hotel & Lodging Educational Institute) offers hotel-specific credentials, some aimed at students and entry-level staff.",
+      "Customer service and revenue-management basics help for front office and sales internships."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help hospitality students get internships?",
+        "a": "ServSafe food safety and TIPS alcohol training are practical and quick, and some employers require them. Hotel-focused students can look at AHLEI's entry-level credentials."
+      },
+      {
+        "q": "Do hotel internships require certifications?",
+        "a": "Most do not require one to apply, but food safety or alcohol service training can be required for specific roles, and having it already makes you easier to place."
+      },
+      {
+        "q": "When do hospitality internships recruit?",
+        "a": "Large hotel companies often recruit for summer internships in the fall and winter, while restaurants and seasonal resorts hire closer to the season. See the timeline on this page."
+      }
+    ]
+  },
+  "real-estate": {
+    "intro": "Real estate internships cover brokerage, development, property management, lending and investment. The field has one well-known license — the state salesperson license — plus professional designations for later in a career. For students, the most useful preparation is financial modeling for property deals, an understanding of how your state licenses agents, and one practical credential you can finish before recruiting.",
+    "choose": [
+      "Learn real estate financial modeling in Excel; development and investment interviews often test it.",
+      "A state salesperson license is useful for brokerage roles. Requirements (pre-licensing hours, age, exam) vary by state, so check your state's real estate commission.",
+      "Designations such as CCIM are aimed at working professionals; they are good to know about but not expected of interns.",
+      "Visit properties and read local market reports so you can talk about your market in interviews."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a real estate license for a real estate internship?",
+        "a": "Not for most development, finance or property management internships. Some brokerage roles prefer or require a state salesperson license, and requirements vary by state."
+      },
+      {
+        "q": "What certification helps most for a real estate internship?",
+        "a": "Real estate financial modeling training is the most useful for investment and development roles. For brokerage, a state license shows commitment."
+      },
+      {
+        "q": "Can college students get a real estate license?",
+        "a": "In many states, yes, once you meet the minimum age and complete the required pre-licensing coursework. Check your state's real estate commission for current rules."
+      }
+    ]
+  },
+  "business-administration": {
+    "intro": "Business administration is the broadest business major, so a certification’s job is to show employers where you fit. The best ones are free or inexpensive and prove a skill every team uses: Excel, accounting basics, project management, and the sales and marketing platforms companies run on.",
+    "choose": [
+      "Start with Excel; it comes up in interviews for operations, finance and marketing internships alike.",
+      "Add an accounting fundamentals course so you can read the financial statements every department is judged by.",
+      "A free Forage job simulation gives you a real project to talk about when your experience is thin.",
+      "The CAPM is the student-friendly project management credential; it needs no work experience."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications should a business administration student get?",
+        "a": "Excel first, then one that points toward the area you want: a HubSpot certification for marketing or sales, accounting fundamentals for finance, or the CAPM for operations and project work."
+      },
+      {
+        "q": "Is the CAPM worth it for a business student?",
+        "a": "It can be, especially for operations, consulting or project roles. It needs project management education hours but no work experience, which makes it one of the few professional credentials open to students."
+      },
+      {
+        "q": "Do employers care about free certificates?",
+        "a": "They care more about the skill than the certificate. A free certificate helps when you can explain what you learned and show it in an interview or project."
+      }
+    ]
+  },
+  "sport-management": {
+    "intro": "Sport management has few formal certifications, and none is required for an internship. What employers notice is evidence that you can sell, run events and understand fans. The useful credentials are sales and CRM training, digital marketing and analytics, and a sports-specific course that shows you understand how the industry makes money.",
+    "choose": [
+      "Learn the sales basics first: ticket and partnership sales are where many sports careers start.",
+      "A free Google Analytics or HubSpot social media certification helps for marketing and content internships.",
+      "Take a sports marketing or sports analytics course if you want proof of interest in the industry itself.",
+      "Work events. Game-day experience at your school or a local team often matters more than any certificate."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help with sports internships?",
+        "a": "Sales and CRM training, digital marketing certifications from Google and HubSpot, and a sports marketing or analytics course. None is required, but each gives you something concrete to discuss."
+      },
+      {
+        "q": "Is a sport management degree enough to work in sports?",
+        "a": "It helps, but sports employers hire heavily on experience. Event work, ticket sales and internships during college matter as much as the major."
+      },
+      {
+        "q": "Do sports analytics jobs need programming?",
+        "a": "Usually. Team analytics roles commonly ask for SQL plus Python or R, so pair a sports analytics course with programming practice."
+      }
+    ]
+  },
+  "logistics": {
+    "intro": "Logistics and transportation employers look for students who understand how freight moves and what it costs, and who are comfortable with numbers and negotiation. Professional credentials from ASCM and CSCMP are aimed at people already in the field, so for students the best investments are Excel, an ERP system and real experience.",
+    "choose": [
+      "Build Excel skills first; rate comparisons, lane analysis and shipment tracking all live in spreadsheets.",
+      "SAP’s free learning journeys show how orders, inventory and shipping connect in an ERP.",
+      "If you are interested in international freight or customs, the Customs Broker License Exam is open to U.S. citizens 18 or older and can be taken while you are in school.",
+      "Save CLTD and other professional certifications for after your first role; employers do not expect interns to have them."
+    ],
+    "faqs": [
+      {
+        "q": "What certification should a logistics student get first?",
+        "a": "Start with Excel and a free introduction to ERP systems. Professional credentials such as ASCM’s CLTD are better after you have worked in the field."
+      },
+      {
+        "q": "Is the customs broker exam worth taking as a student?",
+        "a": "It can be if you want to work in importing, freight forwarding or customs brokerage. It costs $390, is given in April and October, and passing it is a clear signal to those employers."
+      },
+      {
+        "q": "Are logistics internships paid?",
+        "a": "Most are. Carriers, 3PLs and freight brokers usually pay hourly, and co-ops are typically paid full-time roles for a semester."
+      }
+    ]
+  },
+  "healthcare-management": {
+    "intro": "Healthcare management students have few certifications made for them, and none is required for an internship. Employers look for an understanding of how care is delivered and paid for, plus solid Excel and data skills. A revenue-cycle credential, a healthcare management course and student membership in ACHE are the most relevant steps before your first role.",
+    "choose": [
+      "Learn how healthcare is financed: billing, insurance and the revenue cycle come up in most operations and finance internships.",
+      "HFMA’s CRCR is free for HFMA members, and student membership is $50 for full-time students. HFMA recommends some revenue-cycle experience first, so it suits students who have worked in billing or patient access.",
+      "Join ACHE as a Student Associate if your program qualifies; local chapters connect you with health system leaders.",
+      "Build Excel and SQL skills for quality, finance and analytics roles."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help healthcare administration students?",
+        "a": "HFMA’s CRCR for revenue-cycle and finance roles, project management training for operations, and data skills such as Excel and SQL. None is required for an internship."
+      },
+      {
+        "q": "What is an administrative fellowship?",
+        "a": "A paid program of one or two years after graduation, usually after a master’s degree, where you rotate through a hospital or health system’s leadership team. ACHE lists fellowships."
+      },
+      {
+        "q": "Do I need clinical experience?",
+        "a": "No. Healthcare management roles are on the business side, though time spent in a hospital or clinic, even as a volunteer, helps you understand the work."
+      }
+    ]
+  },
+  "sales": {
+    "intro": "Sales employers hire for skills they can test in an interview: prospecting, listening and handling objections. Certifications help most when they prove you know the tools, so the most useful ones for students are the free CRM and sales-method certifications from HubSpot and Salesforce.",
+    "choose": [
+      "Earn HubSpot’s free Inbound Sales certification to learn the prospecting and discovery process.",
+      "Complete the free Salesforce Admin Beginner trail on Trailhead; B2B sales teams work in a CRM all day.",
+      "Practice in a sales competition or role-play lab if your school has one; it is the closest thing to a real call.",
+      "Add Excel so you can track your own pipeline and numbers."
+    ],
+    "faqs": [
+      {
+        "q": "Do I need a certification to get a sales internship?",
+        "a": "No. Sales interviews often include a role-play, so practice matters more. A free CRM certification still helps you stand out."
+      },
+      {
+        "q": "Is the Salesforce Platform Foundations certification worth it for sales?",
+        "a": "It is the entry-level Salesforce credential. For a sales internship the free Trailhead trails are usually enough; the paid exam makes more sense for sales operations roles."
+      },
+      {
+        "q": "What do sales interns get measured on?",
+        "a": "Usually activity and results: calls and emails, meetings booked and sometimes revenue. Keep your numbers so you can put them on your resume."
+      }
+    ]
+  },
+  "actuarial-science": {
+    "intro": "Actuarial science is built around exams set by the Society of Actuaries and the Casualty Actuarial Society. The first two, Exam P and Exam FM, can be taken in college, and employers hiring actuarial interns look for them. Plan VEE-approved courses into your degree, and learn Excel plus a programming language such as R, Python or SQL.",
+    "choose": [
+      "Pass Exam P first, then FM; each costs $275 in the U.S. and Canada.",
+      "Check the SOA’s list of VEE-approved courses before you choose classes in economics, accounting and finance, and statistics.",
+      "Build Excel skills alongside the exams; actuarial interns use it every day.",
+      "Learn R, Python or SQL for the modeling and data work in today’s actuarial roles."
+    ],
+    "faqs": [
+      {
+        "q": "What exams should an actuarial student take first?",
+        "a": "Exam P (Probability) and Exam FM (Financial Mathematics). Both count toward the SOA and CAS paths and can be taken while you are in college."
+      },
+      {
+        "q": "Do I need VEE credit before an internship?",
+        "a": "No. VEE credit is required for the ASA designation, and you can only apply after passing two exams, but taking approved courses now saves time later."
+      },
+      {
+        "q": "Who pays for actuarial exams after I am hired?",
+        "a": "Most insurers and consulting firms pay exam fees for their actuarial staff and give paid study time. Ask about the study program when you compare offers."
+      }
+    ]
+  },
+  "financial-planning": {
+    "intro": "Financial planning has a clear credential path: the CFP at the top, and licensing exams such as the SIE and Series 65 along the way. Students can take the SIE and the Series 65 without an employer sponsor, and a CFP Board-registered degree covers the CFP’s coursework requirement.",
+    "choose": [
+      "Find out whether your program is CFP Board-registered; if it is, you will not pay for separate CFP coursework.",
+      "Pass the SIE before you graduate; it costs $100 and needs no sponsor.",
+      "Consider the Series 65 if you want to work at a registered investment adviser firm.",
+      "Volunteer with IRS VITA to prepare tax returns — it is real client experience."
+    ],
+    "faqs": [
+      {
+        "q": "When can I take the CFP exam?",
+        "a": "Once your CFP coursework is complete, which a CFP Board-registered program covers. The degree and work-experience requirements can be finished afterward, within CFP Board’s time limits."
+      },
+      {
+        "q": "Is the SIE worth it for a financial planning student?",
+        "a": "Yes, if you are aiming for wealth management. It needs no sponsor, costs $100 and shows employers you are serious."
+      },
+      {
+        "q": "Do financial planning internships count toward CFP experience?",
+        "a": "They can. CFP Board counts some internship and apprenticeship hours; check its experience rules for what qualifies."
+      }
+    ]
+  },
+  "retail-management": {
+    "intro": "Retail employers hire for retail math, product sense and leadership on the floor. The NRF Foundation’s RISE Up credentials are the industry’s own and inexpensive. Pair one with Excel, and with an analytics or digital marketing certification if you are interested in e-commerce.",
+    "choose": [
+      "Learn retail math — margin, markup and sell-through — before buying and planning interviews; many include a numbers question.",
+      "NRF’s Retail Industry Fundamentals and Business of Retail credentials cover store operations, pricing and profit, with exams from $40 and $80.",
+      "For e-commerce roles, add Google Analytics and a digital marketing certification.",
+      "Store experience counts: list it with numbers."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help retail management students?",
+        "a": "The NRF Foundation’s RISE Up credentials are made for the industry; Excel and Google Analytics help for planning and e-commerce roles."
+      },
+      {
+        "q": "What is sell-through?",
+        "a": "The share of the stock you received that you sold in a period. Buyers and planners use it to decide what to reorder and what to mark down."
+      },
+      {
+        "q": "Do I need retail experience for a buying internship?",
+        "a": "It is not required, but it helps: store or e-commerce work shows you understand customers and how products sell."
+      }
+    ]
+  },
+  "agribusiness": {
+    "intro": "Agribusiness employers look for students who understand farm economics, commodity markets and selling to growers. Few certifications are aimed at agribusiness students, but free courses on futures and hedging, a commodities exam and solid Excel skills are directly useful in merchandising, sales and lending roles.",
+    "choose": [
+      "Start with microeconomics and CME Group’s free courses on futures; grain merchandising runs on futures and hedging.",
+      "The Series 3 is the commodity futures exam. It costs $140 and needs no firm sponsor; take it if you are headed for commodity trading or brokerage.",
+      "Build Excel skills for farm financial analysis and lending roles.",
+      "Sales training helps for seed, crop protection and equipment internships, which often involve visiting growers."
+    ],
+    "faqs": [
+      {
+        "q": "What certifications help agribusiness students?",
+        "a": "Free CME Group courses on futures and options, the Series 3 if you want to trade commodities, and Excel. Employers usually teach their own products on the job."
+      },
+      {
+        "q": "What is grain merchandising?",
+        "a": "Buying grain from farmers and selling it to processors, exporters or feeders, while using futures to manage price risk. It is a common internship at grain companies and co-ops."
+      },
+      {
+        "q": "When do agribusiness internships recruit?",
+        "a": "Large companies recruit at fall career fairs; co-ops, grain companies and lenders often hire in the spring for the summer."
+      }
+    ]
+  }
+}
